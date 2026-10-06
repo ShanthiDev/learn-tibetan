@@ -164,6 +164,17 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - Tonale Paare (ཞ/ཤ, ཟ/ས, འ/ཨ) bleiben im Hörquiz unterscheidbar (Owner-Entscheidung);
   `audio_equivalent` bleibt leer.
 
+## D-019 — Zwei Aussprachevarianten für ག ཇ ད བ (2026-10-06, Owner-Vorschlag)
+
+- Owner nimmt beide Varianten auf: A (Lhasa/Exil: wie ཁ ཆ ཐ ཕ, tiefer Ton) und B (weich g, dsch, d, b).
+- Manifest: optionales Feld `variant = "A" | "B"`; Schlüssel `item#variant`. Content-Build legt
+  `audioVariants` neben `audio` (Standard ohne Variante). Laufzeit: Einstellung `variant` wählt den
+  Clip, fehlt er, wird der Standardclip gespielt. Engine/Distraktoren unverändert (ein Item bleibt ein Item).
+- Die TZ-Umschrift (ga, dscha, da, ba) sagt nichts über die gesprochene Variante: Das TZ-Methodik-
+  dokument nennt sie selbst „eher ein tiefes, weiches k/t/p“ und schreibt g/d/b nur zum Wiedererkennen.
+- Versuch, die Variante der vorhandenen Aufnahmen per Voice-Onset-Time zu messen: zu unzuverlässig
+  (Atem vor der Silbe verfälscht den Lautbeginn, z. B. པ 235 ms) → nicht verwendet.
+
 ## Sackgassen
 
 - **Fontsource-CSS direkt importieren** → Tofu beim ersten Rendern (siehe D-009).
@@ -171,4 +182,6 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - **MMS-TTS für Einzelbuchstaben/-silben** → 0,1-s-Schnipsel, Tsheg = Pad-Token (D-013). Nicht erneut mit
   anderen Eingabetricks versuchen, ohne die Ergebnisse anhören zu können.
 - **`pkill -f <muster>` mit dem Muster im eigenen Befehl** beendet die eigene Shell → `[v]ite`-Trick.
+- **Variante (behaucht/weich) automatisch aus den Aufnahmen messen** (VOT mit Energie-/Autokorrelations-
+  Heuristik) → widersprüchliche Werte; nur mit sauberen, atemfreien Aufnahmen oder per Ohr entscheidbar.
 - **Headless-Screenshots ohne Interaktion** reichen für Quiz-Zustände nicht → `tools/shot.mjs` (CDP).

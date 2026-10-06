@@ -36,7 +36,7 @@ export function AudioButton({ it, big = false, any = false, file }: { it?: Item;
   const play = (e: MouseEvent) => {
     e.stopPropagation()
     if (file) playFile(file, settings.volume)
-    else playItem(it!, settings.volume)
+    else playItem(it!, settings.volume, settings.variant)
   }
   return (
     <button className={`audio-btn ${big ? 'big' : ''}`} onClick={play} aria-label="Anhören">

@@ -13,6 +13,7 @@ export type Analysis = {
   postsuffix: string | null
 }
 
+export type Variant = 'A' | 'B'
 export type AudioRef = { file: string; source: string; dialect: string; status: 'candidate' | 'approved' }
 
 export type Phonology = { aspiration?: 'unbehaucht' | 'behaucht' | 'je nach Aussprache'; tone: 'hoch' | 'tief'; hintDe: string }
@@ -42,6 +43,7 @@ export type Item = {
   phonology?: Phonology
   analysis: Analysis
   audio?: AudioRef
+  audioVariants?: Partial<Record<Variant, AudioRef>> // ག ཇ ད བ: A = wie ཁ ཆ ཐ ཕ, tiefer Ton; B = weich
 }
 
 export type Group = { id: string; order: number; labelDe: string; linguistic?: string; itemIds: string[] }
@@ -73,7 +75,9 @@ export const itemsById = new Map(curriculum.items.map((it) => [it.id, it]))
 export const groupsById = new Map(curriculum.groups.map((g) => [g.id, g]))
 export const item = (id: string): Item => itemsById.get(id)!
 /** Only curated clips are used for learning; candidates are heard in the review screen only. */
-export const hasAudio = (it: Item) => it.audio?.status === 'approved'
+export const clipOf = (it: Item, variant: Variant): AudioRef | undefined => it.audioVariants?.[variant] ?? it.audio
+export const hasAudio = (it: Item) =>
+  [it.audio, ...Object.values(it.audioVariants ?? {})].some((a) => a?.status === 'approved')
 
 export const vowelOf = (it: Item) => curriculum.vowels.find((v) => v.id === it.vowel)!
 

@@ -91,9 +91,13 @@ def build(content_dir: Path = CONTENT) -> dict:
 
     by_id = {it["id"]: it for it in items}
     for clip in audio:
-        if clip.get("status") != "rejected":
-            by_id[clip["item"]]["audio"] = {k: clip.get(k) for k in ("file", "source", "dialect", "status")}
-            by_id[clip["item"]]["audio"]["file"] = versioned(clip["file"])
+        if clip.get("status") == "rejected":
+            continue
+        ref = {k: clip.get(k) for k in ("file", "source", "dialect", "status")} | {"file": versioned(clip["file"])}
+        if clip.get("variant"):  # ག ཇ ད བ pronunciation variants (D-019)
+            by_id[clip["item"]].setdefault("audioVariants", {})[clip["variant"]] = ref
+        else:
+            by_id[clip["item"]]["audio"] = ref
 
     lessons = []
     for r, g in enumerate(groups, 1):

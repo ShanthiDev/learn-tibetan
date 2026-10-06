@@ -258,3 +258,10 @@ einzelne Vokalzeichen ohne Träger rendern als ◌/Tofu → im Text auf ཀ gese
 Hinweise für ག ཇ ད བ und das Thema „ག ཇ ད བ: zwei Aussprachen“ neu formuliert: (A) wie der behauchte
 Nachbar mit tiefem Ton, (B) weich mit deutschen Beispielwörtern; Behauchung = „je nach Aussprache“.
 Lehre: Varianten immer mit beiden Seiten und konkretem Klangbeispiel benennen.
+
+## 2026-10-06 — Sitzung 4 (Forts.): Varianten A/B für ག ཇ ད བ
+
+Owner schlägt zwei Varianten vor und nimmt neu auf; die bisherigen Aufnahmen hat er „mit tiefem Ton“
+gesprochen (unterscheidet A/B nicht, beide sind tief). VOT-Messung an den 12 Plosiv-Clips
+widersprüchlich (Sackgasse, D-019). Umsetzung D-019: Varianten im Manifest, `audioVariants` im
+Content, Einstellung, `clipOf()` zur Laufzeit, `curate.py split --variant`. Tests grün.

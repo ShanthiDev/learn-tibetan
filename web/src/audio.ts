@@ -1,10 +1,11 @@
-import type { Item } from './content'
+import { clipOf, type Item, type Variant } from './content'
 
 /** Static, bundled clips only (no runtime TTS). One cached element per file. */
 const cache = new Map<string, HTMLAudioElement>()
 
-export function playItem(it: Item, volume: number): void {
-  if (it.audio) playFile(it.audio.file, volume)
+export function playItem(it: Item, volume: number, variant: Variant = 'A'): void {
+  const clip = clipOf(it, variant)
+  if (clip) playFile(clip.file, volume)
 }
 
 /** `file` is relative to web/public and carries a content hash (?v=…), so replaced clips reload. */

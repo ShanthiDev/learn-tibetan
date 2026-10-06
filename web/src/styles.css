@@ -283,3 +283,4 @@ main { flex: 1; }
 .topics p { margin: 8px 0 0; font-size: 0.92rem; }
 .topics .btn { margin-top: 14px; }
 .tib-inline { font-size: 1.45em; line-height: 1; }
+.row select { min-height: 40px; padding: 4px 8px; border: 1.5px solid var(--line); border-radius: 8px; background: var(--paper); font: inherit; }

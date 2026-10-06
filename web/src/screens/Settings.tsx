@@ -12,6 +12,16 @@ export function SettingsScreen({ onReset }: { onReset: () => void }) {
         <Toggle label="Devanagari-Parallelen zeigen" checked={s.showDevanagari} onChange={(v) => update({ showDevanagari: v })} />
         <Toggle label="TZ-Aussprache in Referenzansichten" checked={s.showTz} onChange={(v) => update({ showTz: v })} />
         <Toggle label="Audio automatisch abspielen" checked={s.autoplayAudio} onChange={(v) => update({ autoplayAudio: v })} />
+        <label className="row">
+          <span>
+            Aussprache von <span className="tib tib-inline">ག ཇ ད བ</span>
+            <small className="block">A: wie ཁ ཆ ཐ ཕ mit tiefem Ton · B: weich g, dsch, d, b</small>
+          </span>
+          <select value={s.variant} onChange={(e) => update({ variant: e.target.value as 'A' | 'B' })}>
+            <option value="A">A (Lhasa)</option>
+            <option value="B">B (weich)</option>
+          </select>
+        </label>
         <Toggle label="Feedback-Töne" checked={s.sfx} onChange={(v) => update({ sfx: v })} />
         <label className="row">
           <span>Lautstärke</span>

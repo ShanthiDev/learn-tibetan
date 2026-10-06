@@ -60,7 +60,7 @@ export function Quiz({ session }: { session: SessionKind }) {
   }, [phase, q, advance, progress])
   useEffect(() => () => clearTimeout(timer.current), [])
   useEffect(() => {
-    if (q?.mode === 'audio-tib' && settings.autoplayAudio) playItem(q.target, settings.volume)
+    if (q?.mode === 'audio-tib' && settings.autoplayAudio) playItem(q.target, settings.volume, settings.variant)
   }, [q]) // only when a new question appears
 
   const answer = (i: number) => {
@@ -78,7 +78,7 @@ export function Quiz({ session }: { session: SessionKind }) {
     navigator.vibrate?.(correct ? 12 : [30, 40, 30])
     if (settings.sfx) sfx(correct ? 'correct' : 'wrong', settings.volume)
     if (q.mode !== 'audio-tib' && settings.autoplayAudio && hasAudio(q.target))
-      window.setTimeout(() => playItem(q.target, settings.volume), settings.sfx ? 380 : 0)
+      window.setTimeout(() => playItem(q.target, settings.volume, settings.variant), settings.sfx ? 380 : 0)
     // correct: move on by itself; wrong: stop until the learner presses "Weiter"
     if (correct)
       timer.current = window.setTimeout(() => (justMastered ? setPhase('done') : advance(p)), CONFIG.correctDelayMs)
@@ -96,7 +96,7 @@ export function Quiz({ session }: { session: SessionKind }) {
       if (e.key === 'Escape') return go('home')
       if (e.key === ' ' && phase === 'ask' && q?.mode === 'audio-tib') {
         e.preventDefault()
-        playItem(q.target, settings.volume)
+        playItem(q.target, settings.volume, settings.variant)
       } else if (phase === 'ask' && /^[1-4]$/.test(e.key)) answer(+e.key - 1)
       else if (phase === 'feedback' && (e.key === 'Enter' || e.key === ' ')) {
         e.preventDefault()

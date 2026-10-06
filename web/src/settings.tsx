@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
+import type { Variant } from './content'
 import { load, save } from './storage'
 
 export type Settings = {
@@ -6,12 +7,13 @@ export type Settings = {
   showTz: boolean
   autoplayAudio: boolean
   sfx: boolean
+  variant: Variant // pronunciation of ག ཇ ད བ for audio
   volume: number
   unlockAll: boolean
 }
 
 const KEY = 'lt.v1.settings'
-const DEFAULTS: Settings = { showDevanagari: false, showTz: true, autoplayAudio: true, sfx: true, volume: 0.8, unlockAll: false }
+const DEFAULTS: Settings = { showDevanagari: false, showTz: true, autoplayAudio: true, sfx: true, variant: 'A', volume: 0.8, unlockAll: false }
 
 type Ctx = [Settings, (patch: Partial<Settings>) => void]
 const SettingsContext = createContext<Ctx>([DEFAULTS, () => {}])

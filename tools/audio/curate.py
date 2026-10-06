@@ -5,6 +5,7 @@
 
     # one recording with several syllables separated by pauses (e.g. a whole alphabet row)
     uv run python tools/audio/curate.py split Ka.m4a l-ka l-kha l-ga l-nga
+    uv run python tools/audio/curate.py split GaJaDaBa-B.m4a l-ga l-ja l-da l-ba --variant B
 
     # review results copied from the app (#/audio-review → "Status kopieren"), one "item status" per line
     uv run python tools/audio/curate.py status review.txt
@@ -33,18 +34,23 @@ HEADER = """# Audio-Manifest. Ein Eintrag pro Clip; der Content-Build hängt ihn
 # status: "candidate" | "approved" | "rejected". Quiz und Referenz nutzen nur "approved".
 # Pflege: tools/audio/curate.py (Import eigener Aufnahmen, Prüfergebnisse) · Prüfansicht: #/audio-review
 """
-FIELDS = ("item", "file", "source", "dialect", "status", "note")
+FIELDS = ("item", "variant", "file", "source", "dialect", "status", "note")
+
+
+def key(c: dict) -> str:
+    """Manifest key: item id, plus the pronunciation variant for ག ཇ ད བ clips (D-019)."""
+    return f"{c['item']}#{c['variant']}" if c.get("variant") else c["item"]
 
 
 def load() -> dict[str, dict]:
-    return {c["item"]: c for c in tomllib.loads(MANIFEST.read_text(encoding="utf-8")).get("clips", [])}
+    return {key(c): c for c in tomllib.loads(MANIFEST.read_text(encoding="utf-8")).get("clips", [])}
 
 
 def save(clips: dict[str, dict]) -> None:
     curriculum = json.loads((ROOT / "web/src/content/curriculum.json").read_text(encoding="utf-8"))
     order = {it["id"]: it["order"] for it in curriculum["items"]}
     entries = []
-    for c in sorted(clips.values(), key=lambda c: order.get(c["item"], 1e9)):
+    for c in sorted(clips.values(), key=lambda c: (order.get(c["item"], 1e9), c.get("variant", ""))):
         entries.append("\n".join(["[[clips]]"] + [f"{k} = {json.dumps(c[k], ensure_ascii=False)}" for k in FIELDS if k in c]))
     MANIFEST.write_text(HEADER + "\n" + "\n\n".join(entries) + "\n", encoding="utf-8")
 
@@ -92,7 +98,7 @@ def find_segments(f: Path, win: float = 0.02, rel_db: float = -30, min_gap: floa
     return segs
 
 
-def split(src: Path, items: list[str], dialect: str) -> None:
+def split(src: Path, items: list[str], dialect: str, variant: str | None = None) -> None:
     segs = find_segments(src)
     if len(segs) < len(items):
         raise SystemExit(f"{src.name}: only {len(segs)} syllables found for {len(items)} items")
@@ -102,13 +108,16 @@ def split(src: Path, items: list[str], dialect: str) -> None:
     (PUBLIC / "audio").mkdir(parents=True, exist_ok=True)
     for item, (a, b, loud) in zip(items, keep):
         a, b = max(0.0, a - 0.08), b + 0.12
-        rel = f"audio/{item}.mp3"
+        rel = f"audio/{item}{'-' + variant if variant else ''}.mp3"
         filt = f"afade=t=in:d=0.01,afade=t=out:st={b - a - 0.04:.3f}:d=0.04,dynaudnorm=p=0.89:m=10"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a:.3f}", "-to", f"{b:.3f}", "-i", str(src),
                         "-af", filt, "-ac", "1", "-ar", "44100", "-codec:a", "libmp3lame", "-b:a", "64k",
                         str(PUBLIC / rel)], check=True)
-        clips[item] = {"item": item, "file": rel, "source": "manual", "dialect": dialect, "status": "approved",
-                       "note": f"{src.name} {a:.2f}-{b:.2f} s"}
+        clip = {"item": item, "file": rel, "source": "manual", "dialect": dialect, "status": "approved",
+                "note": f"{src.name} {a:.2f}-{b:.2f} s"}
+        if variant:
+            clip["variant"] = variant
+        clips[key(clip)] = clip
         print(f"{item:8} {a:5.2f}-{b:5.2f}s  {loud:5.1f} dB")
     for a, b, loud in dropped:
         print(f"  dropped {a:5.2f}-{b:5.2f}s  {loud:5.1f} dB")
@@ -134,13 +143,14 @@ def main() -> None:
     sp.add_argument("file", type=Path)
     sp.add_argument("items", nargs="+")
     sp.add_argument("--dialect", default="Zentraltibetisch (Lhasa)")
+    sp.add_argument("--variant", choices=["A", "B"], help="ག ཇ ད བ: A = wie ཁ ཆ ཐ ཕ mit tiefem Ton, B = weich g dsch d b")
     st = sub.add_parser("status")
     st.add_argument("file", type=Path)
     args = ap.parse_args()
     if args.cmd == "import":
         import_dir(args.dir, args.dialect)
     elif args.cmd == "split":
-        split(args.file, args.items, args.dialect)
+        split(args.file, args.items, args.dialect, args.variant)
     else:
         apply_status(args.file)
 
