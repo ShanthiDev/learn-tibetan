@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { curriculum, groupsById, item, type Item } from '../content'
 import { useSettings } from '../settings'
-import { Tib, TopBar } from '../ui'
+import { AudioButton, Tib, TopBar } from '../ui'
 
 export function Alphabet() {
   const [settings] = useSettings()
@@ -74,7 +74,10 @@ function Detail({ it, onClose }: { it: Item; onClose: () => void }) {
   return (
     <div className="sheet-backdrop" onClick={onClose}>
       <div className="sheet" role="dialog" aria-modal="true" aria-label={it.wylie} onClick={(e) => e.stopPropagation()}>
-        <Tib className="sheet-glyph">{it.tibetan}</Tib>
+        <div className="sheet-head">
+          <Tib className="sheet-glyph">{it.tibetan}</Tib>
+          <AudioButton it={it} big />
+        </div>
         <dl className="facts">
           <dt>Wylie</dt>
           <dd className="wylie">{it.wylie}</dd>

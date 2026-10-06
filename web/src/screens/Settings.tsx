@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { go } from '../router'
 import { useSettings } from '../settings'
 import { TopBar } from '../ui'
 
@@ -16,6 +17,11 @@ export function SettingsScreen({ onReset }: { onReset: () => void }) {
           <input type="range" min={0} max={1} step={0.1} value={s.volume} onChange={(e) => update({ volume: +e.target.value })} />
         </label>
         <Toggle label="Alle Lektionen freischalten" checked={s.unlockAll} onChange={(v) => update({ unlockAll: v })} />
+        <Row>
+          <button className="btn" onClick={() => go('audio-review')}>
+            Audio-Clips prüfen
+          </button>
+        </Row>
         <Row>
           <button
             className="btn danger"

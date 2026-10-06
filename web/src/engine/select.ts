@@ -1,4 +1,4 @@
-import type { Curriculum, Item, Lesson, QuizMode } from '../content'
+import { hasAudio, type Curriculum, type Item, type Lesson, type QuizMode } from '../content'
 import { CONFIG } from './config'
 import { keyOf, statOf, type Progress } from './progress'
 import type { Scope } from './question'
@@ -12,7 +12,7 @@ const scopeOf = (l: Lesson): Scope => (l.chapter === 4 || l.id === 'a3' ? 'sylla
 function entries(l: Lesson, isNew: boolean, item: (id: string) => Item): Entry[] {
   return l.newItemIds.flatMap((itemId) =>
     l.modes
-      .filter((mode) => mode !== 'audio-tib' || item(itemId).audio)
+      .filter((mode) => mode !== 'audio-tib' || hasAudio(item(itemId)))
       .map((mode) => ({ key: keyOf(itemId, mode), itemId, mode, scope: scopeOf(l), isNew })),
   )
 }

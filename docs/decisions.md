@@ -102,8 +102,32 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
   Überschriften). Dank `unicode-range` (nur U+0F00–0FFF) kann Jomolhari gefahrlos an erster Stelle
   stehen: Latein kommt weiter aus der Systemschrift.
 
+## D-013 — MMS-TTS nur als Kandidatenquelle; Einzelbuchstaben untauglich (2026-10-06)
+
+- **Geprüft:** `facebook/mms-tts-bod` (Rev. `e5767a9`), verfügbar, nicht gated, Lizenz
+  **CC-BY-NC-4.0** (privat ok, nicht veröffentlichen), VITS, Eingabe direkt in tibetischer Schrift
+  (`is_uroman: false`), 16 kHz.
+- **Befund (gemessen, nicht gehört):** Einzelbuchstaben ergeben 0,08–0,16 s, Vokalformen 0,13–0,19 s,
+  auch mit Tsheg, Shad, Leerzeichen, Wiederholung (ཀ་ཀ་ཀ་ 0,19 s), langsamer `speaking_rate`
+  (0,4 → 0,18 s) oder echtem Wort (ཀ་བ 0,16 s). Ein Satz (བཀྲ་ཤིས་བདེ་ལེགས།) ergibt normale
+  ~0,45 s/Silbe. Ursache u. a.: Der Tsheg ist im Tokenizer das **Pad-Token** → Silbengrenzen gehen verloren.
+- **Entscheidung:** Kandidaten werden erzeugt und mitgeliefert (34 Clips, winzig), aber Lernen und
+  Referenz verwenden **nur freigegebene** Clips. Kuratiert wird in der Prüfansicht. Echte Clips
+  kommen voraussichtlich aus eigenen Aufnahmen (Owner/Lehrer) über `curate.py import`.
+- **Nicht weiter verfolgt:** Silbe aus einem Trägersatz herausschneiden (ohne Abhören nicht
+  validierbar), Wikimedia Commons (keine tibetischen Buchstaben-Aufnahmen gefunden).
+
+## D-014 — Audio-Kuration über Prüfansicht + Skript statt In-App-Recorder (2026-10-06)
+
+- Prüfansicht speichert Markierungen lokal und kopiert sie als `item status`-Zeilen;
+  `curate.py status <datei>` schreibt sie ins Manifest. Eigene Aufnahmen (beliebiges Format,
+  Dateiname = Item-ID) importiert `curate.py import <ordner>`.
+- Ein In-App-Recorder wäre bequemer, ist aber Scope-Erweiterung (Dateien müssten trotzdem ins Repo).
+
 ## Sackgassen
 
 - **Fontsource-CSS direkt importieren** → Tofu beim ersten Rendern (siehe D-009).
 - **Jomolhari als letzter Fallback nach `sans-serif`** → greift nicht (D-012).
+- **MMS-TTS für Einzelbuchstaben/-silben** → 0,1-s-Schnipsel, Tsheg = Pad-Token (D-013). Nicht erneut mit
+  anderen Eingabetricks versuchen, ohne die Ergebnisse anhören zu können.
 - **Headless-Screenshots ohne Interaktion** reichen für Quiz-Zustände nicht → `tools/shot.mjs` (CDP).

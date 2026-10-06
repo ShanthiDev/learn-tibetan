@@ -58,6 +58,8 @@ export const curriculum = raw as unknown as Curriculum
 export const itemsById = new Map(curriculum.items.map((it) => [it.id, it]))
 export const groupsById = new Map(curriculum.groups.map((g) => [g.id, g]))
 export const item = (id: string): Item => itemsById.get(id)!
+/** Only curated clips are used for learning; candidates are heard in the review screen only. */
+export const hasAudio = (it: Item) => it.audio?.status === 'approved'
 
 export const CHAPTERS: Record<number, string> = {
   1: 'Das Alphabet als System',

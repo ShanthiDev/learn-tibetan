@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { curriculum, item, type Item, type Lesson } from '../content'
+import { playItem } from '../audio'
+import { curriculum, hasAudio, item, type Item, type Lesson } from '../content'
 import { CONFIG } from '../engine/config'
 import { applyAnswer, lessonMastered, lessonScore, lessonStarted, type Progress } from '../engine/progress'
 import { makeQuestion, type Question } from '../engine/question'
@@ -8,7 +9,7 @@ import { pathState } from '../lessons'
 import { useProgress } from '../progress'
 import { go } from '../router'
 import { useSettings } from '../settings'
-import { Tib } from '../ui'
+import { AudioButton, Tib } from '../ui'
 
 type Phase = 'intro' | 'ask' | 'feedback' | 'done' | 'empty'
 const rng = Math.random
@@ -57,6 +58,9 @@ export function Quiz({ session }: { session: SessionKind }) {
     if (phase === 'ask' && !q) advance(progress)
   }, [phase, q, advance, progress])
   useEffect(() => () => clearTimeout(timer.current), [])
+  useEffect(() => {
+    if (q?.mode === 'audio-tib' && settings.autoplayAudio) playItem(q.target, settings.volume)
+  }, [q]) // only when a new question appears
 
   const answer = (i: number) => {
     if (phase !== 'ask' || !q) return
@@ -71,6 +75,7 @@ export function Quiz({ session }: { session: SessionKind }) {
     setPhase('feedback')
     setTally((t) => ({ right: t.right + (correct ? 1 : 0), total: t.total + 1 }))
     navigator.vibrate?.(correct ? 12 : [30, 40, 30])
+    if (q.mode !== 'audio-tib' && settings.autoplayAudio && hasAudio(q.target)) playItem(q.target, settings.volume)
     timer.current = window.setTimeout(
       () => (justMastered ? setPhase('done') : advance(p)),
       correct ? CONFIG.correctDelayMs : CONFIG.wrongDelayMs,
@@ -87,7 +92,10 @@ export function Quiz({ session }: { session: SessionKind }) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') return go('home')
-      if (phase === 'ask' && /^[1-4]$/.test(e.key)) answer(+e.key - 1)
+      if (e.key === ' ' && phase === 'ask' && q?.mode === 'audio-tib') {
+        e.preventDefault()
+        playItem(q.target, settings.volume)
+      } else if (phase === 'ask' && /^[1-4]$/.test(e.key)) answer(+e.key - 1)
       else if (phase === 'feedback' && (e.key === 'Enter' || e.key === ' ')) {
         e.preventDefault()
         skipWait()
@@ -136,6 +144,7 @@ function Ask({ q, chosen, onAnswer }: { q: Question; chosen: number | null; onAn
       <div className="prompt" aria-live="polite">
         {q.mode === 'tib-wylie' && <Tib className="prompt-glyph">{q.target.tibetan}</Tib>}
         {q.mode === 'wylie-tib' && <span className="prompt-wylie wylie">{q.target.wylie}</span>}
+        {q.mode === 'audio-tib' && <AudioButton it={q.target} big />}
         <p className={`reveal ${wrong ? 'show' : ''}`}>
           {wrong && (
             <>
@@ -187,6 +196,7 @@ function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
               {settings.showTz && <span className="cell-sub">{it.tz}</span>}
               {settings.showDevanagari && it.devanagari && <span className="cell-sub deva">{it.devanagari}</span>}
               {vowels && <span className="cell-sub">{curriculum.vowels.find((v) => v.id === it.vowel)?.nameDe}</span>}
+              <AudioButton it={it} />
             </span>
           </div>
         ))}

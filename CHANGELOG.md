@@ -6,7 +6,20 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-10-06
+
+Kapitel 4 (Vokale) und 5 (Hören, Infrastruktur).
+
 ### Added
+
+- Audio (Kapitel 5): statische Clips (`web/public/audio/`), precacht; Audio-Modul, Play-Buttons in
+  Detailansicht und Intro, Modus „Hören → Zeichen“ (Lektionen a1–a3) mit Auto-Play und Leertaste,
+  Vorspielen der richtigen Antwort nach dem Antippen (Einstellung „Audio automatisch“).
+- Gelernt wird nur mit freigegebenen Clips (`status = "approved"`); KI-Kandidaten sind nur in der
+  Prüfansicht (`#/audio-review`, verlinkt in den Einstellungen) hörbar und dort markierbar.
+- `tools/audio/generate.py` (MMS-TTS `facebook/mms-tts-bod`, optionale uv-Gruppe `audio`, CPU-Torch)
+  und `tools/audio/curate.py` (Import eigener Aufnahmen mit Trim/Loudness/mp3, Übernahme der Prüfergebnisse).
+- 34 MMS-Kandidaten-Clips (alle Buchstaben + Vokale auf ཀ), Status `candidate`.
 
 - Kapitel 4 (Vokale): Vokal-Intro (ཀ ཀི ཀུ ཀེ ཀོ mit tibetischen Vokalnamen), Lektion „Vokale auf ཀ“
   in beiden Richtungen, Verallgemeinerung auf Reihen 1–4 und alle Buchstaben (Leserichtung).

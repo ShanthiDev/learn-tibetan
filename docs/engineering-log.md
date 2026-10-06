@@ -153,3 +153,28 @@ letzter Fallback hinter `sans-serif` wird nicht genutzt; Lösung D-012. Label-B�
 hoch, wenn eine Zeile umbricht („inhärentes a“) → `flex: 1` im Band.
 
 **Nächster Schritt:** M5 Audio, beginnend mit dem MMS-TTS-Spike.
+
+## 2026-10-06 — Sitzung 2: M5 Audio → v0.2.0
+
+**Spike MMS-TTS:** HF-API: Modell verfügbar, CC-BY-NC-4.0, Tokenizer mit tibetischen Zeichen
+(kein uroman), Tsheg = Pad-Token (id 0). uv-Gruppe `audio` mit CPU-Torch-Index (vermeidet CUDA-
+Pakete), `transformers` 5.18. Erste Generierung: alle Clips 0,08–0,53 s. Messreihe mit Varianten
+(Tsheg, Shad, Leerzeichen, Wiederholung, `speaking_rate` 0,6/0,4, Trägerwort ཀ་བ, Satz) → nur
+ganze Sätze haben natürliche Silbenlängen. Ich kann Audio nicht anhören; Messung = Dauer + Anzahl
+stimmhafter Segmente. Fazit D-013. Wikimedia-Commons-Suche: nichts Passendes.
+
+**Umsetzung:**
+- `tools/audio/curate.py` (stdlib): Manifest lesen/schreiben, `import` (ffmpeg: Stille trimmen,
+  `loudnorm`, mono mp3 48 kbit/s, `source = manual`, `status = approved`), `status` (Prüfergebnisse).
+  `generate.py` nutzt dessen Helfer, schützt approved/rejected/manual vor Überschreiben.
+- App: `hasAudio()` = nur `approved` (Engine: Pool, Lektionen, Distraktoren), `audio.ts`
+  (gecachte `HTMLAudioElement`s), `AudioButton`, Audio-Prompt im Quiz (Auto-Play, Leertaste),
+  Vorspielen nach Antwort, Prüfansicht `#/audio-review` mit ✓/✗ und „Änderungen kopieren“
+  (Fallback: Text anzeigen, falls Clipboard nicht verfügbar, z. B. http auf dem Handy).
+- Verifikation: vier Clips temporär freigegeben → Lektion a1 spielbar (Play-Button, Glyphen-Antworten),
+  Prüfansicht korrekt; danach Manifest zurückgesetzt. PWA precacht jetzt 46 Einträge (717 KiB).
+
+**Offen für den Owner:** Clips in der Prüfansicht anhören (vermutlich alle verwerfen), eigene
+Aufnahmen machen bzw. besorgen, `audio_equivalent` nach dem Anhören füllen.
+
+**Nächster Schritt:** M6 README/Abschlussdoku.

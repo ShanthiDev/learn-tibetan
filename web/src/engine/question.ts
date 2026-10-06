@@ -1,4 +1,4 @@
-import type { Curriculum, Item, QuizMode } from '../content'
+import { hasAudio, type Curriculum, type Item, type QuizMode } from '../content'
 import { shuffle, type Rng } from './rng'
 
 /** Which items may serve as distractors: single letters, or letters + vowel forms. */
@@ -51,7 +51,7 @@ export function makeQuestion(
   const a = answerOf(target, mode)
   // Ambiguity rule (Spec §6.4): a distractor must differ from the target in prompt AND answer.
   const valid = universe.filter(
-    (d) => d.id !== target.id && (mode !== 'audio-tib' || d.audio) && promptOf(d, mode, c) !== p && answerOf(d, mode) !== a,
+    (d) => d.id !== target.id && (mode !== 'audio-tib' || hasAudio(d)) && promptOf(d, mode, c) !== p && answerOf(d, mode) !== a,
   )
   const ranked = shuffle(valid, rng)
     .map((d) => ({ d, t: tier(target, d, mode, scope, c, known) }))

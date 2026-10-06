@@ -1,4 +1,4 @@
-import type { Item, Lesson, QuizMode } from '../content'
+import { hasAudio, type Item, type Lesson, type QuizMode } from '../content'
 import { CONFIG } from './config'
 import type { Rng } from './rng'
 
@@ -40,7 +40,7 @@ export function applyAnswer(p: Progress, key: string, correct: boolean, rng: Rng
 
 /** Items of a lesson that can actually be asked (audio lessons need a clip). */
 export const playableItems = (lesson: Lesson, items: (id: string) => Item) =>
-  lesson.newItemIds.filter((id) => !lesson.modes.includes('audio-tib') || items(id).audio)
+  lesson.newItemIds.filter((id) => !lesson.modes.includes('audio-tib') || hasAudio(items(id)))
 
 /** 0..1: how close the lesson is to mastery. Each item/mode counts up to the lesson's mastery box;
  *  1 is reached when the required share of the lesson's item/modes is fully there. */

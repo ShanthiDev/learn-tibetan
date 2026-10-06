@@ -1,6 +1,7 @@
 import { useProgress } from './progress'
 import { useRoute } from './router'
 import { Alphabet } from './screens/Alphabet'
+import { AudioReview } from './screens/AudioReview'
 import { Home } from './screens/Home'
 import { Quiz } from './screens/Quiz'
 import { SettingsScreen } from './screens/Settings'
@@ -13,6 +14,8 @@ export function App() {
       return <Alphabet />
     case 'settings':
       return <SettingsScreen onReset={reset} />
+    case 'audio-review':
+      return <AudioReview />
     case 'learn':
       return <Quiz key={`learn-${arg}`} session={{ kind: 'learn', lessonId: arg ?? '' }} />
     case 'practice':

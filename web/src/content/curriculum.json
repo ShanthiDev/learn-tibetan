@@ -150,7 +150,13 @@
     "postsuffix": null
    },
    "baseId": "l-ka",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ka.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-kha",
@@ -171,7 +177,13 @@
     "postsuffix": null
    },
    "baseId": "l-kha",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-kha.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ga",
@@ -192,7 +204,13 @@
     "postsuffix": null
    },
    "baseId": "l-ga",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ga.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-nga",
@@ -213,7 +231,13 @@
     "postsuffix": null
    },
    "baseId": "l-nga",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-nga.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ca",
@@ -234,7 +258,13 @@
     "postsuffix": null
    },
    "baseId": "l-ca",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ca.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-cha",
@@ -255,7 +285,13 @@
     "postsuffix": null
    },
    "baseId": "l-cha",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-cha.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ja",
@@ -276,7 +312,13 @@
     "postsuffix": null
    },
    "baseId": "l-ja",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ja.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-nya",
@@ -297,7 +339,13 @@
     "postsuffix": null
    },
    "baseId": "l-nya",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-nya.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ta",
@@ -318,7 +366,13 @@
     "postsuffix": null
    },
    "baseId": "l-ta",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ta.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-tha",
@@ -339,7 +393,13 @@
     "postsuffix": null
    },
    "baseId": "l-tha",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-tha.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-da",
@@ -360,7 +420,13 @@
     "postsuffix": null
    },
    "baseId": "l-da",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-da.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-na",
@@ -381,7 +447,13 @@
     "postsuffix": null
    },
    "baseId": "l-na",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-na.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-pa",
@@ -402,7 +474,13 @@
     "postsuffix": null
    },
    "baseId": "l-pa",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-pa.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-pha",
@@ -423,7 +501,13 @@
     "postsuffix": null
    },
    "baseId": "l-pha",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-pha.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ba",
@@ -444,7 +528,13 @@
     "postsuffix": null
    },
    "baseId": "l-ba",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ba.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ma",
@@ -465,7 +555,13 @@
     "postsuffix": null
    },
    "baseId": "l-ma",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ma.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-tsa",
@@ -486,7 +582,13 @@
     "postsuffix": null
    },
    "baseId": "l-tsa",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-tsa.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-tsha",
@@ -507,7 +609,13 @@
     "postsuffix": null
    },
    "baseId": "l-tsha",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-tsha.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-dza",
@@ -528,7 +636,13 @@
     "postsuffix": null
    },
    "baseId": "l-dza",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-dza.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-wa",
@@ -549,7 +663,13 @@
     "postsuffix": null
    },
    "baseId": "l-wa",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-wa.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-zha",
@@ -570,7 +690,13 @@
     "postsuffix": null
    },
    "baseId": "l-zha",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-zha.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-za",
@@ -591,7 +717,13 @@
     "postsuffix": null
    },
    "baseId": "l-za",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-za.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-_a",
@@ -612,7 +744,13 @@
     "postsuffix": null
    },
    "baseId": "l-_a",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-_a.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ya",
@@ -633,7 +771,13 @@
     "postsuffix": null
    },
    "baseId": "l-ya",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ya.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ra",
@@ -654,7 +798,13 @@
     "postsuffix": null
    },
    "baseId": "l-ra",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ra.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-la",
@@ -675,7 +825,13 @@
     "postsuffix": null
    },
    "baseId": "l-la",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-la.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-sha",
@@ -696,7 +852,13 @@
     "postsuffix": null
    },
    "baseId": "l-sha",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-sha.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-sa",
@@ -717,7 +879,13 @@
     "postsuffix": null
    },
    "baseId": "l-sa",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-sa.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-ha",
@@ -738,7 +906,13 @@
     "postsuffix": null
    },
    "baseId": "l-ha",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-ha.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "l-a",
@@ -759,7 +933,13 @@
     "postsuffix": null
    },
    "baseId": "l-a",
-   "vowel": "a"
+   "vowel": "a",
+   "audio": {
+    "file": "audio/l-a.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
+   }
   },
   {
    "id": "v-ki",
@@ -779,6 +959,12 @@
     "vowel": "i",
     "suffix": null,
     "postsuffix": null
+   },
+   "audio": {
+    "file": "audio/v-ki.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
    }
   },
   {
@@ -799,6 +985,12 @@
     "vowel": "u",
     "suffix": null,
     "postsuffix": null
+   },
+   "audio": {
+    "file": "audio/v-ku.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
    }
   },
   {
@@ -819,6 +1011,12 @@
     "vowel": "e",
     "suffix": null,
     "postsuffix": null
+   },
+   "audio": {
+    "file": "audio/v-ke.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
    }
   },
   {
@@ -839,6 +1037,12 @@
     "vowel": "o",
     "suffix": null,
     "postsuffix": null
+   },
+   "audio": {
+    "file": "audio/v-ko.mp3",
+    "source": "mms-tts-bod@e5767a9",
+    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
+    "status": "candidate"
    }
   },
   {

@@ -33,7 +33,7 @@ describe('makeQuestion', () => {
     const withAudio: Curriculum = {
       ...c,
       audioEquivalent: [['ཅ', 'ཆ']],
-      items: c.items.map((it) => (it.kind === 'letter' ? { ...it, audio: { file: `${it.id}.mp3`, source: 't', dialect: 't', status: 'candidate' } } : it)),
+      items: c.items.map((it) => (it.kind === 'letter' ? { ...it, audio: { file: `${it.id}.mp3`, source: 't', dialect: 't', status: 'approved' } } : it)),
     }
     const ca = withAudio.items.find((x) => x.id === 'l-ca')!
     for (let s = 0; s < 20; s++) {
