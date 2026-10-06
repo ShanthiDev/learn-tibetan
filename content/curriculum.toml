@@ -1,0 +1,137 @@
+# Learn Tibetan — Quell-Curriculum (von Hand gepflegt).
+#
+# Hier steht nur, was NICHT generierbar ist. Wylie, TZ-Aussprache und Silbenanalyse erzeugt
+# `uv run learn-tibetan build-content` mit der Referenz-Engine (src/learn_tibetan/phonetics/).
+# Fachlich unsichere Angaben sind mit Kommentar markiert und dürfen jederzeit korrigiert werden.
+
+[alphabet]
+note_de = """Die tibetische Schrift entstand im 7. Jahrhundert nach indischem Vorbild. Die ersten vier \
+Reihen folgen der Ordnung der indischen Grammatiker (Artikulationsort, je unbehaucht – behaucht – \
+ursprünglich stimmhaft – nasal), wie im Devanagari. Heutiges Tibetisch klingt nicht wie \
+klassisches Sanskrit: ཅ ཆ ཇ etwa werden als tsch/dsch gesprochen, ག ད བ eher tief und weich."""
+
+[[groups]]
+id = "velar"
+label_de = "Kehllaute"
+linguistic = "velar · Hintergaumen (traditionell „guttural“)"
+letters = [
+  { tibetan = "ཀ", devanagari = "क" },
+  { tibetan = "ཁ", devanagari = "ख" },
+  { tibetan = "ག", devanagari = "ग" },
+  { tibetan = "ང", devanagari = "ङ" },
+]
+
+[[groups]]
+id = "palatal"
+label_de = "Gaumenlaute"
+linguistic = "palatal · heute als Affrikaten tsch/dsch gesprochen"
+letters = [
+  { tibetan = "ཅ", devanagari = "च" },
+  { tibetan = "ཆ", devanagari = "छ" },
+  { tibetan = "ཇ", devanagari = "ज" },
+  { tibetan = "ཉ", devanagari = "ञ" },
+]
+
+[[groups]]
+id = "dental"
+label_de = "Zahn-/Zahndammlaute"
+linguistic = "dental/alveolar"
+letters = [
+  { tibetan = "ཏ", devanagari = "त" },
+  { tibetan = "ཐ", devanagari = "थ" },
+  { tibetan = "ད", devanagari = "द" },
+  { tibetan = "ན", devanagari = "न" },
+]
+
+[[groups]]
+id = "labial"
+label_de = "Lippenlaute"
+linguistic = "labial"
+letters = [
+  { tibetan = "པ", devanagari = "प" },
+  { tibetan = "ཕ", devanagari = "फ" },
+  { tibetan = "བ", devanagari = "ब" },
+  { tibetan = "མ", devanagari = "म" },
+]
+
+[[groups]]
+id = "sibilant-affricates"
+label_de = "Zischlaute (tibetische Ergänzung)"
+linguistic = "dentale Affrikaten ts – tsh – dz, dazu w"
+# ཙ ཚ ཛ sind tibetische Neubildungen ohne eigene Devanagari-Entsprechung; in Sanskrit-Umschrift
+# schreibt man mit ihnen च छ ज (z. B. བཛྲ vajra). Daher nur als Notiz, nicht als Parallele.
+letters = [
+  { tibetan = "ཙ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit च" },
+  { tibetan = "ཚ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit छ" },
+  { tibetan = "ཛ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit ज" },
+  { tibetan = "ཝ", devanagari = "व" },
+]
+
+[[groups]]
+id = "row6"
+label_de = "Weiche Reibelaute, a-chung, ya"
+linguistic = "stimmhafte Frikative zh/z, a-chung (stumm, Vokalträger), Halbvokal y"
+letters = [
+  { tibetan = "ཞ", devanagari_note = "keine Entsprechung" },
+  { tibetan = "ཟ", devanagari_note = "keine Entsprechung" },
+  { tibetan = "འ", devanagari_note = "keine Entsprechung (tibetischer Vokalträger)" },
+  { tibetan = "ཡ", devanagari = "य" },
+]
+
+[[groups]]
+id = "row7"
+label_de = "Fließ- und Zischlaute"
+linguistic = "Liquide r/l, Sibilanten sh/s"
+letters = [
+  { tibetan = "ར", devanagari = "र" },
+  { tibetan = "ལ", devanagari = "ल" },
+  { tibetan = "ཤ", devanagari = "श" },
+  { tibetan = "ས", devanagari = "स" },
+]
+
+[[groups]]
+id = "row8"
+label_de = "Hauchlaut und Vokalträger"
+linguistic = "h, Vokalträger a"
+letters = [
+  { tibetan = "ཧ", devanagari = "ह" },
+  { tibetan = "ཨ", devanagari = "अ" },
+]
+
+# Vokalzeichen. "" = inhärentes a (der Buchstabe selbst).
+[[vowels]]
+id = "a"
+sign = ""
+name_de = "inhärentes a"
+[[vowels]]
+id = "i"
+sign = "ི"
+name_de = "gi gu"
+[[vowels]]
+id = "u"
+sign = "ུ"
+name_de = "zhabs kyu"
+[[vowels]]
+id = "e"
+sign = "ེ"
+name_de = "'greng bu"
+[[vowels]]
+id = "o"
+sign = "ོ"
+name_de = "na ro"
+
+# Distraktor-Hinweise. VORLÄUFIG, nach Augenschein; bitte korrigieren, wo unpassend.
+[confusables]
+visual = [
+  ["ཅ", "ཙ"], ["ཆ", "ཚ"], ["ཇ", "ཛ"],   # tsa-Zeichen: gleiche Grundform mit Haken
+  ["པ", "ཕ", "བ"], ["ད", "ང"], ["ཏ", "ན"], ["ཐ", "ཝ"], ["ག", "ཤ"], ["ཞ", "ཟ"],
+]
+wylie = [
+  ["ca", "tsa"], ["cha", "tsha"], ["ja", "dza"], ["zha", "sha"], ["za", "sa"],
+  ["na", "nya", "nga"], ["'a", "a"],
+]
+
+# Laute, die im Audio nicht sicher unterscheidbar sind. Wird beim Anhören der Clips gefüllt (M5).
+# Format: Listen tibetischer Buchstaben/Silben, z. B. ["ཅ", "ཆ"].
+[audio_equivalent]
+groups = []

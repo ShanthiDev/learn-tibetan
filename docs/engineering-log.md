@@ -58,3 +58,32 @@ die wir vermeiden wollen), Palette statt Schwarz, Gruppen-Header. Spec 01_02 §8
 **DNS:** Ursache bestätigt per Roh-DNS-Abfrage aus Python: `1.1.1.1` antwortet, der WSL-Resolver
 `10.255.255.254` (DNS-Tunneling) läuft in einen Timeout. Zum Umstellen von `/etc/resolv.conf` braucht
 es sudo mit Passwort; das macht der Owner. Befehle siehe Antwort an den Owner bzw. Memory.
+
+## 2026-10-06 — Sitzung 2: M1 Content-Pipeline
+
+**Ziel:** Quell-Curriculum + Build → statisches JSON für die App (Spec §3–§5).
+
+**Vorgehen:**
+- DNS vom Owner auf Cloudflare umgestellt (`/etc/resolv.conf`, `generateResolvConf = false`);
+  npm/pypi wieder erreichbar.
+- `content/curriculum.toml`: 8 Gruppen (Labels/Zweitlabels nach Spec), Devanagari sicher für Reihen
+  1–4, ཝ, ཡ–ཨ; ཙ ཚ ཛ nur mit Notiz („schreibt in Sanskrit च/छ/ज“), ཞ ཟ འ ohne Entsprechung.
+  Vokale a/i/u/e/o mit tibetischen Namen. Verwechslungslisten visuell/Wylie als vorläufig markiert.
+  `content/audio.toml` leer (Format im Kommentar).
+- `src/learn_tibetan/content.py`: Buchstaben + Vokalformen (Buchstabe + Vokalzeichen, NFC) →
+  `wylie.syllable`, `tz.render(…, "tz-aktuell")`, `tz.analyse` → Items. Lektionen nach Spec §5.
+  CLI `learn-tibetan build-content` ersetzt das uv-Hello-World.
+- `tests/test_content.py`: Reihenfolge/Gruppen, Stichproben ཅ = ca/tscha/च, ཀི, 'a vs a,
+  Lektionen referenzieren existierende Items. 3 passed.
+
+**Entscheidungen im Kleinen:**
+- IDs `l-<wylie>` / `v-<wylie>`, Apostroph → `_` (འ = `l-_a`, ཨ = `l-a`).
+- Buchstaben tragen `vowel = "a"` und `baseId = self`, damit Vokallektionen Buchstabe + Vokalformen
+  als eine Familie behandeln können (Distraktoren „gleicher Grundbuchstabe“).
+- Kein `generatedAt` in `meta` (abweichend von Spec §4): deterministische Ausgabe, keine
+  Diff-Rauschen bei jedem Build. Stattdessen Engine-Versionen.
+- `wylie.py` hat keine eigene Version → `wylie: "transfer-2026-10-06"`.
+
+**Ergebnis:** `curriculum.json` 66 KB, 150 Items, 22 Lektionen.
+
+**Nächster Schritt:** M2 Web-Gerüst.

@@ -1,0 +1,3846 @@
+{
+ "meta": {
+  "engine": {
+   "tz": "1.0.0",
+   "wylie": "transfer-2026-10-06",
+   "tzVariant": "tz-aktuell"
+  }
+ },
+ "alphabetNoteDe": "Die tibetische Schrift entstand im 7. Jahrhundert nach indischem Vorbild. Die ersten vier Reihen folgen der Ordnung der indischen Grammatiker (Artikulationsort, je unbehaucht – behaucht – ursprünglich stimmhaft – nasal), wie im Devanagari. Heutiges Tibetisch klingt nicht wie klassisches Sanskrit: ཅ ཆ ཇ etwa werden als tsch/dsch gesprochen, ག ད བ eher tief und weich.",
+ "vowels": [
+  {
+   "id": "a",
+   "sign": "",
+   "nameDe": "inhärentes a"
+  },
+  {
+   "id": "i",
+   "sign": "ི",
+   "nameDe": "gi gu"
+  },
+  {
+   "id": "u",
+   "sign": "ུ",
+   "nameDe": "zhabs kyu"
+  },
+  {
+   "id": "e",
+   "sign": "ེ",
+   "nameDe": "'greng bu"
+  },
+  {
+   "id": "o",
+   "sign": "ོ",
+   "nameDe": "na ro"
+  }
+ ],
+ "groups": [
+  {
+   "id": "velar",
+   "order": 1,
+   "labelDe": "Kehllaute",
+   "linguistic": "velar · Hintergaumen (traditionell „guttural“)",
+   "itemIds": [
+    "l-ka",
+    "l-kha",
+    "l-ga",
+    "l-nga"
+   ]
+  },
+  {
+   "id": "palatal",
+   "order": 2,
+   "labelDe": "Gaumenlaute",
+   "linguistic": "palatal · heute als Affrikaten tsch/dsch gesprochen",
+   "itemIds": [
+    "l-ca",
+    "l-cha",
+    "l-ja",
+    "l-nya"
+   ]
+  },
+  {
+   "id": "dental",
+   "order": 3,
+   "labelDe": "Zahn-/Zahndammlaute",
+   "linguistic": "dental/alveolar",
+   "itemIds": [
+    "l-ta",
+    "l-tha",
+    "l-da",
+    "l-na"
+   ]
+  },
+  {
+   "id": "labial",
+   "order": 4,
+   "labelDe": "Lippenlaute",
+   "linguistic": "labial",
+   "itemIds": [
+    "l-pa",
+    "l-pha",
+    "l-ba",
+    "l-ma"
+   ]
+  },
+  {
+   "id": "sibilant-affricates",
+   "order": 5,
+   "labelDe": "Zischlaute (tibetische Ergänzung)",
+   "linguistic": "dentale Affrikaten ts – tsh – dz, dazu w",
+   "itemIds": [
+    "l-tsa",
+    "l-tsha",
+    "l-dza",
+    "l-wa"
+   ]
+  },
+  {
+   "id": "row6",
+   "order": 6,
+   "labelDe": "Weiche Reibelaute, a-chung, ya",
+   "linguistic": "stimmhafte Frikative zh/z, a-chung (stumm, Vokalträger), Halbvokal y",
+   "itemIds": [
+    "l-zha",
+    "l-za",
+    "l-_a",
+    "l-ya"
+   ]
+  },
+  {
+   "id": "row7",
+   "order": 7,
+   "labelDe": "Fließ- und Zischlaute",
+   "linguistic": "Liquide r/l, Sibilanten sh/s",
+   "itemIds": [
+    "l-ra",
+    "l-la",
+    "l-sha",
+    "l-sa"
+   ]
+  },
+  {
+   "id": "row8",
+   "order": 8,
+   "labelDe": "Hauchlaut und Vokalträger",
+   "linguistic": "h, Vokalträger a",
+   "itemIds": [
+    "l-ha",
+    "l-a"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "l-ka",
+   "kind": "letter",
+   "tibetan": "ཀ",
+   "wylie": "ka",
+   "tz": "ka",
+   "order": 1,
+   "groupId": "velar",
+   "devanagari": "क",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཀ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ka",
+   "vowel": "a"
+  },
+  {
+   "id": "l-kha",
+   "kind": "letter",
+   "tibetan": "ཁ",
+   "wylie": "kha",
+   "tz": "kha",
+   "order": 2,
+   "groupId": "velar",
+   "devanagari": "ख",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཁ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-kha",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ga",
+   "kind": "letter",
+   "tibetan": "ག",
+   "wylie": "ga",
+   "tz": "ga",
+   "order": 3,
+   "groupId": "velar",
+   "devanagari": "ग",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ག",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ga",
+   "vowel": "a"
+  },
+  {
+   "id": "l-nga",
+   "kind": "letter",
+   "tibetan": "ང",
+   "wylie": "nga",
+   "tz": "nga",
+   "order": 4,
+   "groupId": "velar",
+   "devanagari": "ङ",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ང",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-nga",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ca",
+   "kind": "letter",
+   "tibetan": "ཅ",
+   "wylie": "ca",
+   "tz": "tscha",
+   "order": 5,
+   "groupId": "palatal",
+   "devanagari": "च",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཅ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ca",
+   "vowel": "a"
+  },
+  {
+   "id": "l-cha",
+   "kind": "letter",
+   "tibetan": "ཆ",
+   "wylie": "cha",
+   "tz": "tscha",
+   "order": 6,
+   "groupId": "palatal",
+   "devanagari": "छ",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཆ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-cha",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ja",
+   "kind": "letter",
+   "tibetan": "ཇ",
+   "wylie": "ja",
+   "tz": "dscha",
+   "order": 7,
+   "groupId": "palatal",
+   "devanagari": "ज",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཇ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ja",
+   "vowel": "a"
+  },
+  {
+   "id": "l-nya",
+   "kind": "letter",
+   "tibetan": "ཉ",
+   "wylie": "nya",
+   "tz": "nya",
+   "order": 8,
+   "groupId": "palatal",
+   "devanagari": "ञ",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཉ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-nya",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ta",
+   "kind": "letter",
+   "tibetan": "ཏ",
+   "wylie": "ta",
+   "tz": "ta",
+   "order": 9,
+   "groupId": "dental",
+   "devanagari": "त",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཏ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ta",
+   "vowel": "a"
+  },
+  {
+   "id": "l-tha",
+   "kind": "letter",
+   "tibetan": "ཐ",
+   "wylie": "tha",
+   "tz": "tha",
+   "order": 10,
+   "groupId": "dental",
+   "devanagari": "थ",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཐ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-tha",
+   "vowel": "a"
+  },
+  {
+   "id": "l-da",
+   "kind": "letter",
+   "tibetan": "ད",
+   "wylie": "da",
+   "tz": "da",
+   "order": 11,
+   "groupId": "dental",
+   "devanagari": "द",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ད",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-da",
+   "vowel": "a"
+  },
+  {
+   "id": "l-na",
+   "kind": "letter",
+   "tibetan": "ན",
+   "wylie": "na",
+   "tz": "na",
+   "order": 12,
+   "groupId": "dental",
+   "devanagari": "न",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ན",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-na",
+   "vowel": "a"
+  },
+  {
+   "id": "l-pa",
+   "kind": "letter",
+   "tibetan": "པ",
+   "wylie": "pa",
+   "tz": "pa",
+   "order": 13,
+   "groupId": "labial",
+   "devanagari": "प",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "པ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-pa",
+   "vowel": "a"
+  },
+  {
+   "id": "l-pha",
+   "kind": "letter",
+   "tibetan": "ཕ",
+   "wylie": "pha",
+   "tz": "pha",
+   "order": 14,
+   "groupId": "labial",
+   "devanagari": "फ",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཕ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-pha",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ba",
+   "kind": "letter",
+   "tibetan": "བ",
+   "wylie": "ba",
+   "tz": "ba",
+   "order": 15,
+   "groupId": "labial",
+   "devanagari": "ब",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "བ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ba",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ma",
+   "kind": "letter",
+   "tibetan": "མ",
+   "wylie": "ma",
+   "tz": "ma",
+   "order": 16,
+   "groupId": "labial",
+   "devanagari": "म",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "མ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ma",
+   "vowel": "a"
+  },
+  {
+   "id": "l-tsa",
+   "kind": "letter",
+   "tibetan": "ཙ",
+   "wylie": "tsa",
+   "tz": "tsa",
+   "order": 17,
+   "groupId": "sibilant-affricates",
+   "devanagariNote": "kein eigenes Devanagari; schreibt in Sanskrit च",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཙ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-tsa",
+   "vowel": "a"
+  },
+  {
+   "id": "l-tsha",
+   "kind": "letter",
+   "tibetan": "ཚ",
+   "wylie": "tsha",
+   "tz": "tsha",
+   "order": 18,
+   "groupId": "sibilant-affricates",
+   "devanagariNote": "kein eigenes Devanagari; schreibt in Sanskrit छ",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཚ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-tsha",
+   "vowel": "a"
+  },
+  {
+   "id": "l-dza",
+   "kind": "letter",
+   "tibetan": "ཛ",
+   "wylie": "dza",
+   "tz": "dza",
+   "order": 19,
+   "groupId": "sibilant-affricates",
+   "devanagariNote": "kein eigenes Devanagari; schreibt in Sanskrit ज",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཛ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-dza",
+   "vowel": "a"
+  },
+  {
+   "id": "l-wa",
+   "kind": "letter",
+   "tibetan": "ཝ",
+   "wylie": "wa",
+   "tz": "wa",
+   "order": 20,
+   "groupId": "sibilant-affricates",
+   "devanagari": "व",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཝ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-wa",
+   "vowel": "a"
+  },
+  {
+   "id": "l-zha",
+   "kind": "letter",
+   "tibetan": "ཞ",
+   "wylie": "zha",
+   "tz": "scha",
+   "order": 21,
+   "groupId": "row6",
+   "devanagariNote": "keine Entsprechung",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཞ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-zha",
+   "vowel": "a"
+  },
+  {
+   "id": "l-za",
+   "kind": "letter",
+   "tibetan": "ཟ",
+   "wylie": "za",
+   "tz": "sa",
+   "order": 22,
+   "groupId": "row6",
+   "devanagariNote": "keine Entsprechung",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཟ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-za",
+   "vowel": "a"
+  },
+  {
+   "id": "l-_a",
+   "kind": "letter",
+   "tibetan": "འ",
+   "wylie": "'a",
+   "tz": "a",
+   "order": 23,
+   "groupId": "row6",
+   "devanagariNote": "keine Entsprechung (tibetischer Vokalträger)",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "འ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-_a",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ya",
+   "kind": "letter",
+   "tibetan": "ཡ",
+   "wylie": "ya",
+   "tz": "ya",
+   "order": 24,
+   "groupId": "row6",
+   "devanagari": "य",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཡ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ya",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ra",
+   "kind": "letter",
+   "tibetan": "ར",
+   "wylie": "ra",
+   "tz": "ra",
+   "order": 25,
+   "groupId": "row7",
+   "devanagari": "र",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ར",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ra",
+   "vowel": "a"
+  },
+  {
+   "id": "l-la",
+   "kind": "letter",
+   "tibetan": "ལ",
+   "wylie": "la",
+   "tz": "la",
+   "order": 26,
+   "groupId": "row7",
+   "devanagari": "ल",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ལ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-la",
+   "vowel": "a"
+  },
+  {
+   "id": "l-sha",
+   "kind": "letter",
+   "tibetan": "ཤ",
+   "wylie": "sha",
+   "tz": "scha",
+   "order": 27,
+   "groupId": "row7",
+   "devanagari": "श",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཤ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-sha",
+   "vowel": "a"
+  },
+  {
+   "id": "l-sa",
+   "kind": "letter",
+   "tibetan": "ས",
+   "wylie": "sa",
+   "tz": "sa",
+   "order": 28,
+   "groupId": "row7",
+   "devanagari": "स",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ས",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-sa",
+   "vowel": "a"
+  },
+  {
+   "id": "l-ha",
+   "kind": "letter",
+   "tibetan": "ཧ",
+   "wylie": "ha",
+   "tz": "ha",
+   "order": 29,
+   "groupId": "row8",
+   "devanagari": "ह",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཧ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-ha",
+   "vowel": "a"
+  },
+  {
+   "id": "l-a",
+   "kind": "letter",
+   "tibetan": "ཨ",
+   "wylie": "a",
+   "tz": "a",
+   "order": 30,
+   "groupId": "row8",
+   "devanagari": "अ",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཨ",
+    "subscripts": [],
+    "vowel": "a",
+    "suffix": null,
+    "postsuffix": null
+   },
+   "baseId": "l-a",
+   "vowel": "a"
+  },
+  {
+   "id": "v-ki",
+   "kind": "vowel-form",
+   "tibetan": "ཀི",
+   "wylie": "ki",
+   "tz": "ki",
+   "order": 31,
+   "groupId": "velar",
+   "baseId": "l-ka",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཀ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ku",
+   "kind": "vowel-form",
+   "tibetan": "ཀུ",
+   "wylie": "ku",
+   "tz": "ku",
+   "order": 32,
+   "groupId": "velar",
+   "baseId": "l-ka",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཀ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ke",
+   "kind": "vowel-form",
+   "tibetan": "ཀེ",
+   "wylie": "ke",
+   "tz": "ke",
+   "order": 33,
+   "groupId": "velar",
+   "baseId": "l-ka",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཀ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ko",
+   "kind": "vowel-form",
+   "tibetan": "ཀོ",
+   "wylie": "ko",
+   "tz": "ko",
+   "order": 34,
+   "groupId": "velar",
+   "baseId": "l-ka",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཀ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-khi",
+   "kind": "vowel-form",
+   "tibetan": "ཁི",
+   "wylie": "khi",
+   "tz": "khi",
+   "order": 35,
+   "groupId": "velar",
+   "baseId": "l-kha",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཁ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-khu",
+   "kind": "vowel-form",
+   "tibetan": "ཁུ",
+   "wylie": "khu",
+   "tz": "khu",
+   "order": 36,
+   "groupId": "velar",
+   "baseId": "l-kha",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཁ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-khe",
+   "kind": "vowel-form",
+   "tibetan": "ཁེ",
+   "wylie": "khe",
+   "tz": "khe",
+   "order": 37,
+   "groupId": "velar",
+   "baseId": "l-kha",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཁ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-kho",
+   "kind": "vowel-form",
+   "tibetan": "ཁོ",
+   "wylie": "kho",
+   "tz": "kho",
+   "order": 38,
+   "groupId": "velar",
+   "baseId": "l-kha",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཁ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-gi",
+   "kind": "vowel-form",
+   "tibetan": "གི",
+   "wylie": "gi",
+   "tz": "gi",
+   "order": 39,
+   "groupId": "velar",
+   "baseId": "l-ga",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ག",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-gu",
+   "kind": "vowel-form",
+   "tibetan": "གུ",
+   "wylie": "gu",
+   "tz": "gu",
+   "order": 40,
+   "groupId": "velar",
+   "baseId": "l-ga",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ག",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ge",
+   "kind": "vowel-form",
+   "tibetan": "གེ",
+   "wylie": "ge",
+   "tz": "ge",
+   "order": 41,
+   "groupId": "velar",
+   "baseId": "l-ga",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ག",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-go",
+   "kind": "vowel-form",
+   "tibetan": "གོ",
+   "wylie": "go",
+   "tz": "go",
+   "order": 42,
+   "groupId": "velar",
+   "baseId": "l-ga",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ག",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ngi",
+   "kind": "vowel-form",
+   "tibetan": "ངི",
+   "wylie": "ngi",
+   "tz": "ngi",
+   "order": 43,
+   "groupId": "velar",
+   "baseId": "l-nga",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ང",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ngu",
+   "kind": "vowel-form",
+   "tibetan": "ངུ",
+   "wylie": "ngu",
+   "tz": "ngu",
+   "order": 44,
+   "groupId": "velar",
+   "baseId": "l-nga",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ང",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-nge",
+   "kind": "vowel-form",
+   "tibetan": "ངེ",
+   "wylie": "nge",
+   "tz": "nge",
+   "order": 45,
+   "groupId": "velar",
+   "baseId": "l-nga",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ང",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ngo",
+   "kind": "vowel-form",
+   "tibetan": "ངོ",
+   "wylie": "ngo",
+   "tz": "ngo",
+   "order": 46,
+   "groupId": "velar",
+   "baseId": "l-nga",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ང",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ci",
+   "kind": "vowel-form",
+   "tibetan": "ཅི",
+   "wylie": "ci",
+   "tz": "tschi",
+   "order": 47,
+   "groupId": "palatal",
+   "baseId": "l-ca",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཅ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-cu",
+   "kind": "vowel-form",
+   "tibetan": "ཅུ",
+   "wylie": "cu",
+   "tz": "tschu",
+   "order": 48,
+   "groupId": "palatal",
+   "baseId": "l-ca",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཅ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ce",
+   "kind": "vowel-form",
+   "tibetan": "ཅེ",
+   "wylie": "ce",
+   "tz": "tsche",
+   "order": 49,
+   "groupId": "palatal",
+   "baseId": "l-ca",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཅ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-co",
+   "kind": "vowel-form",
+   "tibetan": "ཅོ",
+   "wylie": "co",
+   "tz": "tscho",
+   "order": 50,
+   "groupId": "palatal",
+   "baseId": "l-ca",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཅ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-chi",
+   "kind": "vowel-form",
+   "tibetan": "ཆི",
+   "wylie": "chi",
+   "tz": "tschi",
+   "order": 51,
+   "groupId": "palatal",
+   "baseId": "l-cha",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཆ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-chu",
+   "kind": "vowel-form",
+   "tibetan": "ཆུ",
+   "wylie": "chu",
+   "tz": "tschu",
+   "order": 52,
+   "groupId": "palatal",
+   "baseId": "l-cha",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཆ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-che",
+   "kind": "vowel-form",
+   "tibetan": "ཆེ",
+   "wylie": "che",
+   "tz": "tsche",
+   "order": 53,
+   "groupId": "palatal",
+   "baseId": "l-cha",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཆ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-cho",
+   "kind": "vowel-form",
+   "tibetan": "ཆོ",
+   "wylie": "cho",
+   "tz": "tscho",
+   "order": 54,
+   "groupId": "palatal",
+   "baseId": "l-cha",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཆ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ji",
+   "kind": "vowel-form",
+   "tibetan": "ཇི",
+   "wylie": "ji",
+   "tz": "dschi",
+   "order": 55,
+   "groupId": "palatal",
+   "baseId": "l-ja",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཇ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ju",
+   "kind": "vowel-form",
+   "tibetan": "ཇུ",
+   "wylie": "ju",
+   "tz": "dschu",
+   "order": 56,
+   "groupId": "palatal",
+   "baseId": "l-ja",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཇ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-je",
+   "kind": "vowel-form",
+   "tibetan": "ཇེ",
+   "wylie": "je",
+   "tz": "dsche",
+   "order": 57,
+   "groupId": "palatal",
+   "baseId": "l-ja",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཇ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-jo",
+   "kind": "vowel-form",
+   "tibetan": "ཇོ",
+   "wylie": "jo",
+   "tz": "dscho",
+   "order": 58,
+   "groupId": "palatal",
+   "baseId": "l-ja",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཇ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-nyi",
+   "kind": "vowel-form",
+   "tibetan": "ཉི",
+   "wylie": "nyi",
+   "tz": "nyi",
+   "order": 59,
+   "groupId": "palatal",
+   "baseId": "l-nya",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཉ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-nyu",
+   "kind": "vowel-form",
+   "tibetan": "ཉུ",
+   "wylie": "nyu",
+   "tz": "nyu",
+   "order": 60,
+   "groupId": "palatal",
+   "baseId": "l-nya",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཉ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-nye",
+   "kind": "vowel-form",
+   "tibetan": "ཉེ",
+   "wylie": "nye",
+   "tz": "nye",
+   "order": 61,
+   "groupId": "palatal",
+   "baseId": "l-nya",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཉ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-nyo",
+   "kind": "vowel-form",
+   "tibetan": "ཉོ",
+   "wylie": "nyo",
+   "tz": "nyo",
+   "order": 62,
+   "groupId": "palatal",
+   "baseId": "l-nya",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཉ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ti",
+   "kind": "vowel-form",
+   "tibetan": "ཏི",
+   "wylie": "ti",
+   "tz": "ti",
+   "order": 63,
+   "groupId": "dental",
+   "baseId": "l-ta",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཏ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tu",
+   "kind": "vowel-form",
+   "tibetan": "ཏུ",
+   "wylie": "tu",
+   "tz": "tu",
+   "order": 64,
+   "groupId": "dental",
+   "baseId": "l-ta",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཏ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-te",
+   "kind": "vowel-form",
+   "tibetan": "ཏེ",
+   "wylie": "te",
+   "tz": "te",
+   "order": 65,
+   "groupId": "dental",
+   "baseId": "l-ta",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཏ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-to",
+   "kind": "vowel-form",
+   "tibetan": "ཏོ",
+   "wylie": "to",
+   "tz": "to",
+   "order": 66,
+   "groupId": "dental",
+   "baseId": "l-ta",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཏ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-thi",
+   "kind": "vowel-form",
+   "tibetan": "ཐི",
+   "wylie": "thi",
+   "tz": "thi",
+   "order": 67,
+   "groupId": "dental",
+   "baseId": "l-tha",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཐ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-thu",
+   "kind": "vowel-form",
+   "tibetan": "ཐུ",
+   "wylie": "thu",
+   "tz": "thu",
+   "order": 68,
+   "groupId": "dental",
+   "baseId": "l-tha",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཐ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-the",
+   "kind": "vowel-form",
+   "tibetan": "ཐེ",
+   "wylie": "the",
+   "tz": "the",
+   "order": 69,
+   "groupId": "dental",
+   "baseId": "l-tha",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཐ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tho",
+   "kind": "vowel-form",
+   "tibetan": "ཐོ",
+   "wylie": "tho",
+   "tz": "tho",
+   "order": 70,
+   "groupId": "dental",
+   "baseId": "l-tha",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཐ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-di",
+   "kind": "vowel-form",
+   "tibetan": "དི",
+   "wylie": "di",
+   "tz": "di",
+   "order": 71,
+   "groupId": "dental",
+   "baseId": "l-da",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ད",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-du",
+   "kind": "vowel-form",
+   "tibetan": "དུ",
+   "wylie": "du",
+   "tz": "du",
+   "order": 72,
+   "groupId": "dental",
+   "baseId": "l-da",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ད",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-de",
+   "kind": "vowel-form",
+   "tibetan": "དེ",
+   "wylie": "de",
+   "tz": "de",
+   "order": 73,
+   "groupId": "dental",
+   "baseId": "l-da",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ད",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-do",
+   "kind": "vowel-form",
+   "tibetan": "དོ",
+   "wylie": "do",
+   "tz": "do",
+   "order": 74,
+   "groupId": "dental",
+   "baseId": "l-da",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ད",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ni",
+   "kind": "vowel-form",
+   "tibetan": "ནི",
+   "wylie": "ni",
+   "tz": "ni",
+   "order": 75,
+   "groupId": "dental",
+   "baseId": "l-na",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ན",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-nu",
+   "kind": "vowel-form",
+   "tibetan": "ནུ",
+   "wylie": "nu",
+   "tz": "nu",
+   "order": 76,
+   "groupId": "dental",
+   "baseId": "l-na",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ན",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ne",
+   "kind": "vowel-form",
+   "tibetan": "ནེ",
+   "wylie": "ne",
+   "tz": "ne",
+   "order": 77,
+   "groupId": "dental",
+   "baseId": "l-na",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ན",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-no",
+   "kind": "vowel-form",
+   "tibetan": "ནོ",
+   "wylie": "no",
+   "tz": "no",
+   "order": 78,
+   "groupId": "dental",
+   "baseId": "l-na",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ན",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-pi",
+   "kind": "vowel-form",
+   "tibetan": "པི",
+   "wylie": "pi",
+   "tz": "pi",
+   "order": 79,
+   "groupId": "labial",
+   "baseId": "l-pa",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "པ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-pu",
+   "kind": "vowel-form",
+   "tibetan": "པུ",
+   "wylie": "pu",
+   "tz": "pu",
+   "order": 80,
+   "groupId": "labial",
+   "baseId": "l-pa",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "པ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-pe",
+   "kind": "vowel-form",
+   "tibetan": "པེ",
+   "wylie": "pe",
+   "tz": "pe",
+   "order": 81,
+   "groupId": "labial",
+   "baseId": "l-pa",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "པ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-po",
+   "kind": "vowel-form",
+   "tibetan": "པོ",
+   "wylie": "po",
+   "tz": "po",
+   "order": 82,
+   "groupId": "labial",
+   "baseId": "l-pa",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "པ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-phi",
+   "kind": "vowel-form",
+   "tibetan": "ཕི",
+   "wylie": "phi",
+   "tz": "phi",
+   "order": 83,
+   "groupId": "labial",
+   "baseId": "l-pha",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཕ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-phu",
+   "kind": "vowel-form",
+   "tibetan": "ཕུ",
+   "wylie": "phu",
+   "tz": "phu",
+   "order": 84,
+   "groupId": "labial",
+   "baseId": "l-pha",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཕ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-phe",
+   "kind": "vowel-form",
+   "tibetan": "ཕེ",
+   "wylie": "phe",
+   "tz": "phe",
+   "order": 85,
+   "groupId": "labial",
+   "baseId": "l-pha",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཕ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-pho",
+   "kind": "vowel-form",
+   "tibetan": "ཕོ",
+   "wylie": "pho",
+   "tz": "pho",
+   "order": 86,
+   "groupId": "labial",
+   "baseId": "l-pha",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཕ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-bi",
+   "kind": "vowel-form",
+   "tibetan": "བི",
+   "wylie": "bi",
+   "tz": "bi",
+   "order": 87,
+   "groupId": "labial",
+   "baseId": "l-ba",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "བ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-bu",
+   "kind": "vowel-form",
+   "tibetan": "བུ",
+   "wylie": "bu",
+   "tz": "bu",
+   "order": 88,
+   "groupId": "labial",
+   "baseId": "l-ba",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "བ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-be",
+   "kind": "vowel-form",
+   "tibetan": "བེ",
+   "wylie": "be",
+   "tz": "be",
+   "order": 89,
+   "groupId": "labial",
+   "baseId": "l-ba",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "བ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-bo",
+   "kind": "vowel-form",
+   "tibetan": "བོ",
+   "wylie": "bo",
+   "tz": "bo",
+   "order": 90,
+   "groupId": "labial",
+   "baseId": "l-ba",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "བ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-mi",
+   "kind": "vowel-form",
+   "tibetan": "མི",
+   "wylie": "mi",
+   "tz": "mi",
+   "order": 91,
+   "groupId": "labial",
+   "baseId": "l-ma",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "མ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-mu",
+   "kind": "vowel-form",
+   "tibetan": "མུ",
+   "wylie": "mu",
+   "tz": "mu",
+   "order": 92,
+   "groupId": "labial",
+   "baseId": "l-ma",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "མ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-me",
+   "kind": "vowel-form",
+   "tibetan": "མེ",
+   "wylie": "me",
+   "tz": "me",
+   "order": 93,
+   "groupId": "labial",
+   "baseId": "l-ma",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "མ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-mo",
+   "kind": "vowel-form",
+   "tibetan": "མོ",
+   "wylie": "mo",
+   "tz": "mo",
+   "order": 94,
+   "groupId": "labial",
+   "baseId": "l-ma",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "མ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tsi",
+   "kind": "vowel-form",
+   "tibetan": "ཙི",
+   "wylie": "tsi",
+   "tz": "tsi",
+   "order": 95,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-tsa",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཙ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tsu",
+   "kind": "vowel-form",
+   "tibetan": "ཙུ",
+   "wylie": "tsu",
+   "tz": "tsu",
+   "order": 96,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-tsa",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཙ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tse",
+   "kind": "vowel-form",
+   "tibetan": "ཙེ",
+   "wylie": "tse",
+   "tz": "tse",
+   "order": 97,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-tsa",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཙ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tso",
+   "kind": "vowel-form",
+   "tibetan": "ཙོ",
+   "wylie": "tso",
+   "tz": "tso",
+   "order": 98,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-tsa",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཙ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tshi",
+   "kind": "vowel-form",
+   "tibetan": "ཚི",
+   "wylie": "tshi",
+   "tz": "tshi",
+   "order": 99,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-tsha",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཚ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tshu",
+   "kind": "vowel-form",
+   "tibetan": "ཚུ",
+   "wylie": "tshu",
+   "tz": "tshu",
+   "order": 100,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-tsha",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཚ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tshe",
+   "kind": "vowel-form",
+   "tibetan": "ཚེ",
+   "wylie": "tshe",
+   "tz": "tshe",
+   "order": 101,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-tsha",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཚ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-tsho",
+   "kind": "vowel-form",
+   "tibetan": "ཚོ",
+   "wylie": "tsho",
+   "tz": "tsho",
+   "order": 102,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-tsha",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཚ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-dzi",
+   "kind": "vowel-form",
+   "tibetan": "ཛི",
+   "wylie": "dzi",
+   "tz": "dzi",
+   "order": 103,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-dza",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཛ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-dzu",
+   "kind": "vowel-form",
+   "tibetan": "ཛུ",
+   "wylie": "dzu",
+   "tz": "dzu",
+   "order": 104,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-dza",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཛ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-dze",
+   "kind": "vowel-form",
+   "tibetan": "ཛེ",
+   "wylie": "dze",
+   "tz": "dze",
+   "order": 105,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-dza",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཛ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-dzo",
+   "kind": "vowel-form",
+   "tibetan": "ཛོ",
+   "wylie": "dzo",
+   "tz": "dzo",
+   "order": 106,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-dza",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཛ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-wi",
+   "kind": "vowel-form",
+   "tibetan": "ཝི",
+   "wylie": "wi",
+   "tz": "wi",
+   "order": 107,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-wa",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཝ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-wu",
+   "kind": "vowel-form",
+   "tibetan": "ཝུ",
+   "wylie": "wu",
+   "tz": "wu",
+   "order": 108,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-wa",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཝ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-we",
+   "kind": "vowel-form",
+   "tibetan": "ཝེ",
+   "wylie": "we",
+   "tz": "we",
+   "order": 109,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-wa",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཝ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-wo",
+   "kind": "vowel-form",
+   "tibetan": "ཝོ",
+   "wylie": "wo",
+   "tz": "wo",
+   "order": 110,
+   "groupId": "sibilant-affricates",
+   "baseId": "l-wa",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཝ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-zhi",
+   "kind": "vowel-form",
+   "tibetan": "ཞི",
+   "wylie": "zhi",
+   "tz": "schi",
+   "order": 111,
+   "groupId": "row6",
+   "baseId": "l-zha",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཞ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-zhu",
+   "kind": "vowel-form",
+   "tibetan": "ཞུ",
+   "wylie": "zhu",
+   "tz": "schu",
+   "order": 112,
+   "groupId": "row6",
+   "baseId": "l-zha",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཞ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-zhe",
+   "kind": "vowel-form",
+   "tibetan": "ཞེ",
+   "wylie": "zhe",
+   "tz": "sche",
+   "order": 113,
+   "groupId": "row6",
+   "baseId": "l-zha",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཞ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-zho",
+   "kind": "vowel-form",
+   "tibetan": "ཞོ",
+   "wylie": "zho",
+   "tz": "scho",
+   "order": 114,
+   "groupId": "row6",
+   "baseId": "l-zha",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཞ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-zi",
+   "kind": "vowel-form",
+   "tibetan": "ཟི",
+   "wylie": "zi",
+   "tz": "si",
+   "order": 115,
+   "groupId": "row6",
+   "baseId": "l-za",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཟ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-zu",
+   "kind": "vowel-form",
+   "tibetan": "ཟུ",
+   "wylie": "zu",
+   "tz": "su",
+   "order": 116,
+   "groupId": "row6",
+   "baseId": "l-za",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཟ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ze",
+   "kind": "vowel-form",
+   "tibetan": "ཟེ",
+   "wylie": "ze",
+   "tz": "se",
+   "order": 117,
+   "groupId": "row6",
+   "baseId": "l-za",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཟ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-zo",
+   "kind": "vowel-form",
+   "tibetan": "ཟོ",
+   "wylie": "zo",
+   "tz": "so",
+   "order": 118,
+   "groupId": "row6",
+   "baseId": "l-za",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཟ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-_i",
+   "kind": "vowel-form",
+   "tibetan": "འི",
+   "wylie": "'i",
+   "tz": "i",
+   "order": 119,
+   "groupId": "row6",
+   "baseId": "l-_a",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "འ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-_u",
+   "kind": "vowel-form",
+   "tibetan": "འུ",
+   "wylie": "'u",
+   "tz": "u",
+   "order": 120,
+   "groupId": "row6",
+   "baseId": "l-_a",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "འ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-_e",
+   "kind": "vowel-form",
+   "tibetan": "འེ",
+   "wylie": "'e",
+   "tz": "e",
+   "order": 121,
+   "groupId": "row6",
+   "baseId": "l-_a",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "འ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-_o",
+   "kind": "vowel-form",
+   "tibetan": "འོ",
+   "wylie": "'o",
+   "tz": "o",
+   "order": 122,
+   "groupId": "row6",
+   "baseId": "l-_a",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "འ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-yi",
+   "kind": "vowel-form",
+   "tibetan": "ཡི",
+   "wylie": "yi",
+   "tz": "yi",
+   "order": 123,
+   "groupId": "row6",
+   "baseId": "l-ya",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཡ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-yu",
+   "kind": "vowel-form",
+   "tibetan": "ཡུ",
+   "wylie": "yu",
+   "tz": "yu",
+   "order": 124,
+   "groupId": "row6",
+   "baseId": "l-ya",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཡ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ye",
+   "kind": "vowel-form",
+   "tibetan": "ཡེ",
+   "wylie": "ye",
+   "tz": "ye",
+   "order": 125,
+   "groupId": "row6",
+   "baseId": "l-ya",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཡ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-yo",
+   "kind": "vowel-form",
+   "tibetan": "ཡོ",
+   "wylie": "yo",
+   "tz": "yo",
+   "order": 126,
+   "groupId": "row6",
+   "baseId": "l-ya",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཡ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ri",
+   "kind": "vowel-form",
+   "tibetan": "རི",
+   "wylie": "ri",
+   "tz": "ri",
+   "order": 127,
+   "groupId": "row7",
+   "baseId": "l-ra",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ར",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ru",
+   "kind": "vowel-form",
+   "tibetan": "རུ",
+   "wylie": "ru",
+   "tz": "ru",
+   "order": 128,
+   "groupId": "row7",
+   "baseId": "l-ra",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ར",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-re",
+   "kind": "vowel-form",
+   "tibetan": "རེ",
+   "wylie": "re",
+   "tz": "re",
+   "order": 129,
+   "groupId": "row7",
+   "baseId": "l-ra",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ར",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ro",
+   "kind": "vowel-form",
+   "tibetan": "རོ",
+   "wylie": "ro",
+   "tz": "ro",
+   "order": 130,
+   "groupId": "row7",
+   "baseId": "l-ra",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ར",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-li",
+   "kind": "vowel-form",
+   "tibetan": "ལི",
+   "wylie": "li",
+   "tz": "li",
+   "order": 131,
+   "groupId": "row7",
+   "baseId": "l-la",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ལ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-lu",
+   "kind": "vowel-form",
+   "tibetan": "ལུ",
+   "wylie": "lu",
+   "tz": "lu",
+   "order": 132,
+   "groupId": "row7",
+   "baseId": "l-la",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ལ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-le",
+   "kind": "vowel-form",
+   "tibetan": "ལེ",
+   "wylie": "le",
+   "tz": "le",
+   "order": 133,
+   "groupId": "row7",
+   "baseId": "l-la",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ལ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-lo",
+   "kind": "vowel-form",
+   "tibetan": "ལོ",
+   "wylie": "lo",
+   "tz": "lo",
+   "order": 134,
+   "groupId": "row7",
+   "baseId": "l-la",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ལ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-shi",
+   "kind": "vowel-form",
+   "tibetan": "ཤི",
+   "wylie": "shi",
+   "tz": "schi",
+   "order": 135,
+   "groupId": "row7",
+   "baseId": "l-sha",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཤ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-shu",
+   "kind": "vowel-form",
+   "tibetan": "ཤུ",
+   "wylie": "shu",
+   "tz": "schu",
+   "order": 136,
+   "groupId": "row7",
+   "baseId": "l-sha",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཤ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-she",
+   "kind": "vowel-form",
+   "tibetan": "ཤེ",
+   "wylie": "she",
+   "tz": "sche",
+   "order": 137,
+   "groupId": "row7",
+   "baseId": "l-sha",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཤ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-sho",
+   "kind": "vowel-form",
+   "tibetan": "ཤོ",
+   "wylie": "sho",
+   "tz": "scho",
+   "order": 138,
+   "groupId": "row7",
+   "baseId": "l-sha",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཤ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-si",
+   "kind": "vowel-form",
+   "tibetan": "སི",
+   "wylie": "si",
+   "tz": "si",
+   "order": 139,
+   "groupId": "row7",
+   "baseId": "l-sa",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ས",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-su",
+   "kind": "vowel-form",
+   "tibetan": "སུ",
+   "wylie": "su",
+   "tz": "su",
+   "order": 140,
+   "groupId": "row7",
+   "baseId": "l-sa",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ས",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-se",
+   "kind": "vowel-form",
+   "tibetan": "སེ",
+   "wylie": "se",
+   "tz": "se",
+   "order": 141,
+   "groupId": "row7",
+   "baseId": "l-sa",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ས",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-so",
+   "kind": "vowel-form",
+   "tibetan": "སོ",
+   "wylie": "so",
+   "tz": "so",
+   "order": 142,
+   "groupId": "row7",
+   "baseId": "l-sa",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ས",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-hi",
+   "kind": "vowel-form",
+   "tibetan": "ཧི",
+   "wylie": "hi",
+   "tz": "hi",
+   "order": 143,
+   "groupId": "row8",
+   "baseId": "l-ha",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཧ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-hu",
+   "kind": "vowel-form",
+   "tibetan": "ཧུ",
+   "wylie": "hu",
+   "tz": "hu",
+   "order": 144,
+   "groupId": "row8",
+   "baseId": "l-ha",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཧ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-he",
+   "kind": "vowel-form",
+   "tibetan": "ཧེ",
+   "wylie": "he",
+   "tz": "he",
+   "order": 145,
+   "groupId": "row8",
+   "baseId": "l-ha",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཧ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-ho",
+   "kind": "vowel-form",
+   "tibetan": "ཧོ",
+   "wylie": "ho",
+   "tz": "ho",
+   "order": 146,
+   "groupId": "row8",
+   "baseId": "l-ha",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཧ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-i",
+   "kind": "vowel-form",
+   "tibetan": "ཨི",
+   "wylie": "i",
+   "tz": "i",
+   "order": 147,
+   "groupId": "row8",
+   "baseId": "l-a",
+   "vowel": "i",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཨ",
+    "subscripts": [],
+    "vowel": "i",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-u",
+   "kind": "vowel-form",
+   "tibetan": "ཨུ",
+   "wylie": "u",
+   "tz": "u",
+   "order": 148,
+   "groupId": "row8",
+   "baseId": "l-a",
+   "vowel": "u",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཨ",
+    "subscripts": [],
+    "vowel": "u",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-e",
+   "kind": "vowel-form",
+   "tibetan": "ཨེ",
+   "wylie": "e",
+   "tz": "e",
+   "order": 149,
+   "groupId": "row8",
+   "baseId": "l-a",
+   "vowel": "e",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཨ",
+    "subscripts": [],
+    "vowel": "e",
+    "suffix": null,
+    "postsuffix": null
+   }
+  },
+  {
+   "id": "v-o",
+   "kind": "vowel-form",
+   "tibetan": "ཨོ",
+   "wylie": "o",
+   "tz": "o",
+   "order": 150,
+   "groupId": "row8",
+   "baseId": "l-a",
+   "vowel": "o",
+   "analysis": {
+    "prefix": null,
+    "superscript": null,
+    "root": "ཨ",
+    "subscripts": [],
+    "vowel": "o",
+    "suffix": null,
+    "postsuffix": null
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "r1-tw",
+   "chapter": 2,
+   "titleDe": "Kehllaute: Zeichen → Wylie",
+   "introItemIds": [
+    "l-ka",
+    "l-kha",
+    "l-ga",
+    "l-nga"
+   ],
+   "newItemIds": [
+    "l-ka",
+    "l-kha",
+    "l-ga",
+    "l-nga"
+   ],
+   "modes": [
+    "tib-wylie"
+   ]
+  },
+  {
+   "id": "r1-wt",
+   "chapter": 3,
+   "titleDe": "Kehllaute: Wylie → Zeichen",
+   "newItemIds": [
+    "l-ka",
+    "l-kha",
+    "l-ga",
+    "l-nga"
+   ],
+   "modes": [
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "r2-tw",
+   "chapter": 2,
+   "titleDe": "Gaumenlaute: Zeichen → Wylie",
+   "introItemIds": [
+    "l-ca",
+    "l-cha",
+    "l-ja",
+    "l-nya"
+   ],
+   "newItemIds": [
+    "l-ca",
+    "l-cha",
+    "l-ja",
+    "l-nya"
+   ],
+   "modes": [
+    "tib-wylie"
+   ]
+  },
+  {
+   "id": "r2-wt",
+   "chapter": 3,
+   "titleDe": "Gaumenlaute: Wylie → Zeichen",
+   "newItemIds": [
+    "l-ca",
+    "l-cha",
+    "l-ja",
+    "l-nya"
+   ],
+   "modes": [
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "r3-tw",
+   "chapter": 2,
+   "titleDe": "Zahn-/Zahndammlaute: Zeichen → Wylie",
+   "introItemIds": [
+    "l-ta",
+    "l-tha",
+    "l-da",
+    "l-na"
+   ],
+   "newItemIds": [
+    "l-ta",
+    "l-tha",
+    "l-da",
+    "l-na"
+   ],
+   "modes": [
+    "tib-wylie"
+   ]
+  },
+  {
+   "id": "r3-wt",
+   "chapter": 3,
+   "titleDe": "Zahn-/Zahndammlaute: Wylie → Zeichen",
+   "newItemIds": [
+    "l-ta",
+    "l-tha",
+    "l-da",
+    "l-na"
+   ],
+   "modes": [
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "r4-tw",
+   "chapter": 2,
+   "titleDe": "Lippenlaute: Zeichen → Wylie",
+   "introItemIds": [
+    "l-pa",
+    "l-pha",
+    "l-ba",
+    "l-ma"
+   ],
+   "newItemIds": [
+    "l-pa",
+    "l-pha",
+    "l-ba",
+    "l-ma"
+   ],
+   "modes": [
+    "tib-wylie"
+   ]
+  },
+  {
+   "id": "r4-wt",
+   "chapter": 3,
+   "titleDe": "Lippenlaute: Wylie → Zeichen",
+   "newItemIds": [
+    "l-pa",
+    "l-pha",
+    "l-ba",
+    "l-ma"
+   ],
+   "modes": [
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "r5-tw",
+   "chapter": 2,
+   "titleDe": "Zischlaute (tibetische Ergänzung): Zeichen → Wylie",
+   "introItemIds": [
+    "l-tsa",
+    "l-tsha",
+    "l-dza",
+    "l-wa"
+   ],
+   "newItemIds": [
+    "l-tsa",
+    "l-tsha",
+    "l-dza",
+    "l-wa"
+   ],
+   "modes": [
+    "tib-wylie"
+   ]
+  },
+  {
+   "id": "r5-wt",
+   "chapter": 3,
+   "titleDe": "Zischlaute (tibetische Ergänzung): Wylie → Zeichen",
+   "newItemIds": [
+    "l-tsa",
+    "l-tsha",
+    "l-dza",
+    "l-wa"
+   ],
+   "modes": [
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "r6-tw",
+   "chapter": 2,
+   "titleDe": "Weiche Reibelaute, a-chung, ya: Zeichen → Wylie",
+   "introItemIds": [
+    "l-zha",
+    "l-za",
+    "l-_a",
+    "l-ya"
+   ],
+   "newItemIds": [
+    "l-zha",
+    "l-za",
+    "l-_a",
+    "l-ya"
+   ],
+   "modes": [
+    "tib-wylie"
+   ]
+  },
+  {
+   "id": "r6-wt",
+   "chapter": 3,
+   "titleDe": "Weiche Reibelaute, a-chung, ya: Wylie → Zeichen",
+   "newItemIds": [
+    "l-zha",
+    "l-za",
+    "l-_a",
+    "l-ya"
+   ],
+   "modes": [
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "r7-tw",
+   "chapter": 2,
+   "titleDe": "Fließ- und Zischlaute: Zeichen → Wylie",
+   "introItemIds": [
+    "l-ra",
+    "l-la",
+    "l-sha",
+    "l-sa"
+   ],
+   "newItemIds": [
+    "l-ra",
+    "l-la",
+    "l-sha",
+    "l-sa"
+   ],
+   "modes": [
+    "tib-wylie"
+   ]
+  },
+  {
+   "id": "r7-wt",
+   "chapter": 3,
+   "titleDe": "Fließ- und Zischlaute: Wylie → Zeichen",
+   "newItemIds": [
+    "l-ra",
+    "l-la",
+    "l-sha",
+    "l-sa"
+   ],
+   "modes": [
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "r8-tw",
+   "chapter": 2,
+   "titleDe": "Hauchlaut und Vokalträger: Zeichen → Wylie",
+   "introItemIds": [
+    "l-ha",
+    "l-a"
+   ],
+   "newItemIds": [
+    "l-ha",
+    "l-a"
+   ],
+   "modes": [
+    "tib-wylie"
+   ]
+  },
+  {
+   "id": "r8-wt",
+   "chapter": 3,
+   "titleDe": "Hauchlaut und Vokalträger: Wylie → Zeichen",
+   "newItemIds": [
+    "l-ha",
+    "l-a"
+   ],
+   "modes": [
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "v1",
+   "chapter": 4,
+   "titleDe": "Vokale auf ཀ",
+   "introItemIds": [
+    "l-ka",
+    "v-ki",
+    "v-ku",
+    "v-ke",
+    "v-ko"
+   ],
+   "newItemIds": [
+    "l-ka",
+    "v-ki",
+    "v-ku",
+    "v-ke",
+    "v-ko"
+   ],
+   "modes": [
+    "tib-wylie",
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "v2",
+   "chapter": 4,
+   "titleDe": "Vokale: erste vier Reihen",
+   "newItemIds": [
+    "l-ka",
+    "l-kha",
+    "l-ga",
+    "l-nga",
+    "l-ca",
+    "l-cha",
+    "l-ja",
+    "l-nya",
+    "l-ta",
+    "l-tha",
+    "l-da",
+    "l-na",
+    "l-pa",
+    "l-pha",
+    "l-ba",
+    "l-ma",
+    "v-ki",
+    "v-ku",
+    "v-ke",
+    "v-ko",
+    "v-khi",
+    "v-khu",
+    "v-khe",
+    "v-kho",
+    "v-gi",
+    "v-gu",
+    "v-ge",
+    "v-go",
+    "v-ngi",
+    "v-ngu",
+    "v-nge",
+    "v-ngo",
+    "v-ci",
+    "v-cu",
+    "v-ce",
+    "v-co",
+    "v-chi",
+    "v-chu",
+    "v-che",
+    "v-cho",
+    "v-ji",
+    "v-ju",
+    "v-je",
+    "v-jo",
+    "v-nyi",
+    "v-nyu",
+    "v-nye",
+    "v-nyo",
+    "v-ti",
+    "v-tu",
+    "v-te",
+    "v-to",
+    "v-thi",
+    "v-thu",
+    "v-the",
+    "v-tho",
+    "v-di",
+    "v-du",
+    "v-de",
+    "v-do",
+    "v-ni",
+    "v-nu",
+    "v-ne",
+    "v-no",
+    "v-pi",
+    "v-pu",
+    "v-pe",
+    "v-po",
+    "v-phi",
+    "v-phu",
+    "v-phe",
+    "v-pho",
+    "v-bi",
+    "v-bu",
+    "v-be",
+    "v-bo",
+    "v-mi",
+    "v-mu",
+    "v-me",
+    "v-mo"
+   ],
+   "modes": [
+    "tib-wylie",
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "v3",
+   "chapter": 4,
+   "titleDe": "Vokale: alle Buchstaben",
+   "newItemIds": [
+    "l-ka",
+    "l-kha",
+    "l-ga",
+    "l-nga",
+    "l-ca",
+    "l-cha",
+    "l-ja",
+    "l-nya",
+    "l-ta",
+    "l-tha",
+    "l-da",
+    "l-na",
+    "l-pa",
+    "l-pha",
+    "l-ba",
+    "l-ma",
+    "l-tsa",
+    "l-tsha",
+    "l-dza",
+    "l-wa",
+    "l-zha",
+    "l-za",
+    "l-_a",
+    "l-ya",
+    "l-ra",
+    "l-la",
+    "l-sha",
+    "l-sa",
+    "l-ha",
+    "l-a",
+    "v-ki",
+    "v-ku",
+    "v-ke",
+    "v-ko",
+    "v-khi",
+    "v-khu",
+    "v-khe",
+    "v-kho",
+    "v-gi",
+    "v-gu",
+    "v-ge",
+    "v-go",
+    "v-ngi",
+    "v-ngu",
+    "v-nge",
+    "v-ngo",
+    "v-ci",
+    "v-cu",
+    "v-ce",
+    "v-co",
+    "v-chi",
+    "v-chu",
+    "v-che",
+    "v-cho",
+    "v-ji",
+    "v-ju",
+    "v-je",
+    "v-jo",
+    "v-nyi",
+    "v-nyu",
+    "v-nye",
+    "v-nyo",
+    "v-ti",
+    "v-tu",
+    "v-te",
+    "v-to",
+    "v-thi",
+    "v-thu",
+    "v-the",
+    "v-tho",
+    "v-di",
+    "v-du",
+    "v-de",
+    "v-do",
+    "v-ni",
+    "v-nu",
+    "v-ne",
+    "v-no",
+    "v-pi",
+    "v-pu",
+    "v-pe",
+    "v-po",
+    "v-phi",
+    "v-phu",
+    "v-phe",
+    "v-pho",
+    "v-bi",
+    "v-bu",
+    "v-be",
+    "v-bo",
+    "v-mi",
+    "v-mu",
+    "v-me",
+    "v-mo",
+    "v-tsi",
+    "v-tsu",
+    "v-tse",
+    "v-tso",
+    "v-tshi",
+    "v-tshu",
+    "v-tshe",
+    "v-tsho",
+    "v-dzi",
+    "v-dzu",
+    "v-dze",
+    "v-dzo",
+    "v-wi",
+    "v-wu",
+    "v-we",
+    "v-wo",
+    "v-zhi",
+    "v-zhu",
+    "v-zhe",
+    "v-zho",
+    "v-zi",
+    "v-zu",
+    "v-ze",
+    "v-zo",
+    "v-_i",
+    "v-_u",
+    "v-_e",
+    "v-_o",
+    "v-yi",
+    "v-yu",
+    "v-ye",
+    "v-yo",
+    "v-ri",
+    "v-ru",
+    "v-re",
+    "v-ro",
+    "v-li",
+    "v-lu",
+    "v-le",
+    "v-lo",
+    "v-shi",
+    "v-shu",
+    "v-she",
+    "v-sho",
+    "v-si",
+    "v-su",
+    "v-se",
+    "v-so",
+    "v-hi",
+    "v-hu",
+    "v-he",
+    "v-ho",
+    "v-i",
+    "v-u",
+    "v-e",
+    "v-o"
+   ],
+   "modes": [
+    "tib-wylie",
+    "wylie-tib"
+   ]
+  },
+  {
+   "id": "a1",
+   "chapter": 5,
+   "titleDe": "Hören: erste vier Reihen",
+   "newItemIds": [
+    "l-ka",
+    "l-kha",
+    "l-ga",
+    "l-nga",
+    "l-ca",
+    "l-cha",
+    "l-ja",
+    "l-nya",
+    "l-ta",
+    "l-tha",
+    "l-da",
+    "l-na",
+    "l-pa",
+    "l-pha",
+    "l-ba",
+    "l-ma"
+   ],
+   "modes": [
+    "audio-tib"
+   ]
+  },
+  {
+   "id": "a2",
+   "chapter": 5,
+   "titleDe": "Hören: restliche Buchstaben",
+   "newItemIds": [
+    "l-tsa",
+    "l-tsha",
+    "l-dza",
+    "l-wa",
+    "l-zha",
+    "l-za",
+    "l-_a",
+    "l-ya",
+    "l-ra",
+    "l-la",
+    "l-sha",
+    "l-sa",
+    "l-ha",
+    "l-a"
+   ],
+   "modes": [
+    "audio-tib"
+   ]
+  },
+  {
+   "id": "a3",
+   "chapter": 5,
+   "titleDe": "Hören: Vokale auf ཀ",
+   "newItemIds": [
+    "l-ka",
+    "v-ki",
+    "v-ku",
+    "v-ke",
+    "v-ko"
+   ],
+   "modes": [
+    "audio-tib"
+   ]
+  }
+ ],
+ "confusables": {
+  "visual": [
+   [
+    "ཅ",
+    "ཙ"
+   ],
+   [
+    "ཆ",
+    "ཚ"
+   ],
+   [
+    "ཇ",
+    "ཛ"
+   ],
+   [
+    "པ",
+    "ཕ",
+    "བ"
+   ],
+   [
+    "ད",
+    "ང"
+   ],
+   [
+    "ཏ",
+    "ན"
+   ],
+   [
+    "ཐ",
+    "ཝ"
+   ],
+   [
+    "ག",
+    "ཤ"
+   ],
+   [
+    "ཞ",
+    "ཟ"
+   ]
+  ],
+  "wylie": [
+   [
+    "ca",
+    "tsa"
+   ],
+   [
+    "cha",
+    "tsha"
+   ],
+   [
+    "ja",
+    "dza"
+   ],
+   [
+    "zha",
+    "sha"
+   ],
+   [
+    "za",
+    "sa"
+   ],
+   [
+    "na",
+    "nya",
+    "nga"
+   ],
+   [
+    "'a",
+    "a"
+   ]
+  ]
+ },
+ "audioEquivalent": []
+}

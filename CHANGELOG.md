@@ -8,6 +8,10 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ### Added
 
+- Content-Pipeline: `content/curriculum.toml` (8 traditionelle Reihen, 30 Buchstaben,
+  Devanagari-Parallelen/-Notizen, Vokalzeichen, vorläufige Verwechslungslisten) und
+  `content/audio.toml` → `uv run learn-tibetan build-content` → `web/src/content/curriculum.json`
+  (150 Items mit generiertem Wylie/TZ/Silbenanalyse, 22 Lektionen).
 - Projektgerüst (uv-Python-Projekt für die Content-Pipeline).
 - Transliterations-Referenzpaket (Transfer 2026-10-06) entpackt und einsortiert
   (`references/transliteration/`, Index in dessen `README.md`).

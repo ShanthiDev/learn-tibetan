@@ -1,0 +1,13 @@
+# Audio-Manifest. Ein Eintrag pro Clip; der Content-Build hängt ihn an das Item.
+# file: Pfad relativ zu web/public/ · source: z. B. "mms-tts-bod@<rev>" oder "manual"
+# status: "candidate" | "approved" | "rejected" (rejected wird nicht ausgeliefert)
+#
+# [[clips]]
+# item = "l-ka"
+# file = "audio/l-ka.mp3"
+# source = "manual"
+# dialect = "Zentraltibetisch (Lhasa)"
+# status = "candidate"
+# note = ""
+
+# (noch keine Clips)
