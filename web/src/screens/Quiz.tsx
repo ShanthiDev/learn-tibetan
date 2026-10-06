@@ -37,7 +37,8 @@ export function Quiz({ session }: { session: SessionKind }) {
     lesson?.introItemIds && !lessonStarted(progress, lesson) ? 'intro' : 'ask',
   )
   const [q, setQ] = useState<Question | null>(null)
-  const [chosen, setChosen] = useState<number | null>(null)
+  const [selected, setSelected] = useState<number | null>(null) // step 1: tapped, not yet checked
+  const [chosen, setChosen] = useState<number | null>(null) // step 2: confirmed answer
   const [tally, setTally] = useState({ right: 0, total: 0 })
   const timer = useRef<number | undefined>(undefined)
   const pending = useRef<Progress>(progress)
@@ -48,6 +49,7 @@ export function Quiz({ session }: { session: SessionKind }) {
       clearTimeout(timer.current)
       const next = nextQuestion(session, p, unlocked)
       setQ(next)
+      setSelected(null)
       setChosen(null)
       setPhase(next ? 'ask' : 'empty')
     },
@@ -77,11 +79,20 @@ export function Quiz({ session }: { session: SessionKind }) {
     setTally((t) => ({ right: t.right + (correct ? 1 : 0), total: t.total + 1 }))
     navigator.vibrate?.(correct ? 12 : [30, 40, 30])
     if (settings.sfx) sfx(correct ? 'correct' : 'wrong', settings.volume)
-    if (q.mode !== 'audio-tib' && settings.autoplayAudio && hasAudio(q.target))
+    // the options were already heard while choosing; after a mistake, play the right one once more
+    if (!correct && q.mode !== 'audio-tib' && settings.autoplayAudio && hasAudio(q.target))
       window.setTimeout(() => playItem(q.target, settings.volume, settings.variant), settings.sfx ? 380 : 0)
     // correct: move on by itself; wrong: stop until the learner presses "Weiter"
     if (correct)
       timer.current = window.setTimeout(() => (justMastered ? setPhase('done') : advance(p)), CONFIG.correctDelayMs)
+  }
+
+  /** Step 1: select an option and hear it (not in listening questions: that would give it away). */
+  const select = (i: number) => {
+    if (phase !== 'ask' || !q) return
+    setSelected(i)
+    const o = q.options[i]
+    if (q.mode !== 'audio-tib' && hasAudio(o)) playItem(o, settings.volume, settings.variant)
   }
 
   const proceed = () => {
@@ -97,8 +108,11 @@ export function Quiz({ session }: { session: SessionKind }) {
       if (e.key === ' ' && phase === 'ask' && q?.mode === 'audio-tib') {
         e.preventDefault()
         playItem(q.target, settings.volume, settings.variant)
-      } else if (phase === 'ask' && /^[1-4]$/.test(e.key)) answer(+e.key - 1)
-      else if (phase === 'feedback' && (e.key === 'Enter' || e.key === ' ')) {
+      } else if (phase === 'ask' && /^[1-4]$/.test(e.key)) select(+e.key - 1)
+      else if (phase === 'ask' && e.key === 'Enter' && selected !== null) {
+        e.preventDefault()
+        answer(selected)
+      } else if (phase === 'feedback' && (e.key === 'Enter' || e.key === ' ')) {
         e.preventDefault()
         proceed()
       }
@@ -108,19 +122,24 @@ export function Quiz({ session }: { session: SessionKind }) {
   })
 
   const score = lesson ? lessonScore(progress, lesson, item) : null
+  const title = lesson?.titleDe ?? (session.kind === 'practice' ? 'Alles üben' : 'Schwieriges wiederholen')
+  const wrong = phase === 'feedback' && q !== null && chosen !== null && chosen !== q.correctIndex
 
   return (
     <div className="screen quiz">
       <header className="quiz-bar">
-        <button className="icon-btn" onClick={() => go('home')} aria-label="Beenden">
-          ×
-        </button>
-        <span className="meter wide" aria-label="Fortschritt">
-          <span style={{ width: `${(score ?? 0) * 100}%` }} />
-        </span>
-        <span className="tally" aria-label="richtig von gesamt">
-          {tally.right}/{tally.total}
-        </span>
+        <div className="quiz-bar-row">
+          <button className="icon-btn" onClick={() => go('home')} aria-label="Beenden">
+            ×
+          </button>
+          <span className="meter wide" aria-label="Fortschritt">
+            <span style={{ width: `${(score ?? 0) * 100}%` }} />
+          </span>
+          <span className="tally" aria-label="richtig von gesamt">
+            {tally.right}/{tally.total}
+          </span>
+        </div>
+        <p className="quiz-title">{title}</p>
       </header>
 
       {phase === 'intro' && lesson && <Intro lesson={lesson} onStart={() => setPhase('ask')} />}
@@ -133,15 +152,26 @@ export function Quiz({ session }: { session: SessionKind }) {
           </button>
         </div>
       )}
-      {(phase === 'ask' || phase === 'feedback') && q && <Ask q={q} chosen={chosen} onAnswer={answer} />}
-      {phase === 'feedback' && q && chosen !== null && chosen !== q.correctIndex && (
-        <Oops q={q} chosen={q.options[chosen]} onNext={proceed} />
+      {(phase === 'ask' || phase === 'feedback') && q && (
+        <Ask q={q} selected={selected} chosen={chosen} onSelect={select} />
+      )}
+      {wrong && <Oops q={q!} chosen={q!.options[chosen!]} onNext={proceed} />}
+      {(phase === 'ask' || phase === 'feedback') && q && !wrong && (
+        <div className="confirm-bar">
+          <button
+            className={`btn confirm ${phase === 'feedback' ? 'ok' : ''}`}
+            disabled={selected === null && phase === 'ask'}
+            onClick={() => selected !== null && answer(selected)}
+          >
+            {phase === 'feedback' ? '✓ Richtig' : 'Prüfen'}
+          </button>
+        </div>
       )}
     </div>
   )
 }
 
-function Ask({ q, chosen, onAnswer }: { q: Question; chosen: number | null; onAnswer: (i: number) => void }) {
+function Ask({ q, selected, chosen, onSelect }: { q: Question; selected: number | null; chosen: number | null; onSelect: (i: number) => void }) {
   const tibAnswers = q.mode !== 'tib-wylie'
   return (
     <>
@@ -153,16 +183,25 @@ function Ask({ q, chosen, onAnswer }: { q: Question; chosen: number | null; onAn
       <div className={`options ${tibAnswers ? 'tib-options' : ''}`}>
         {q.options.map((o: Item, i) => {
           const state =
-            chosen === null ? '' : i === q.correctIndex ? 'correct' : i === chosen ? 'wrong' : 'dim'
+            chosen === null
+              ? i === selected
+                ? 'selected'
+                : ''
+              : i === q.correctIndex
+                ? 'correct'
+                : i === chosen
+                  ? 'wrong'
+                  : 'dim'
           return (
             <button
               key={o.id}
               className={`opt ${state}`}
               onClick={(e) => {
                 e.stopPropagation()
-                onAnswer(i)
+                onSelect(i)
               }}
               aria-label={tibAnswers ? `Antwort ${i + 1}` : o.wylie}
+              aria-pressed={i === selected}
               aria-disabled={chosen !== null}
             >
               {tibAnswers ? <Tib>{o.tibetan}</Tib> : <span className="wylie">{o.wylie}</span>}

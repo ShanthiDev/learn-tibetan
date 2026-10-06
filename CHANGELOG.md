@@ -8,6 +8,10 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ### Added
 
+- Zweistufiges Antworten: Antippen wählt aus und spielt die Aussprache dieser Option (nicht bei
+  Hörfragen), „Prüfen“ (Safran, ganz unten) wertet aus; Tastatur 1–4 wählen, Enter prüfen.
+- Übungsseiten mit roter Kopfleiste (Fortschritt in Safran, Lektionstitel) und gerahmtem Prompt-Feld
+  (feine goldene Doppellinie, angelehnt an Pecha-Seiten).
 - Ausspracheinfos hinter ⓘ: pro Buchstabe Behauchung, Ton und deutscher Aussprachehinweis
   (Detailansicht, Intro-Karte, Oops-Panel mit Vergleich richtige/gewählte Antwort).
 - Vokale: Klangbeschreibung, Zeichenname (mit Aufnahme) und Beispielwort (མེ ཆུ རི སོ, mit Aufnahme).

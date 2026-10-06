@@ -3,15 +3,20 @@
 // Each js-step is evaluated in the page, then a screenshot <out-prefix>-<n>.png is taken.
 // A step "click:<css selector>" performs a trusted mouse click (counts as a user gesture).
 import { spawn } from 'node:child_process'
-import { writeFileSync } from 'node:fs'
-import { homedir } from 'node:os'
+import { mkdtempSync, rmSync, writeFileSync } from 'node:fs'
+import { homedir, tmpdir } from 'node:os'
+import { join } from 'node:path'
 
 const [url, out, ...steps] = process.argv.slice(2)
 const bin = `${homedir()}/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell`
-const port = 9333
-const chrome = spawn(bin, ['--no-sandbox', `--remote-debugging-port=${port}`, '--window-size=390,760', '--hide-scrollbars', 'about:blank'])
+const port = 9300 + Math.floor(Math.random() * 600) // never attach to a leftover browser
+// fresh profile per run: no service worker / localStorage left over from earlier runs
+const profile = mkdtempSync(join(tmpdir(), 'shot-'))
+const chrome = spawn(bin, ['--no-sandbox', `--user-data-dir=${profile}`, `--remote-debugging-port=${port}`, '--window-size=390,760', '--hide-scrollbars', 'about:blank'])
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 let target
+const cleanup = () => { chrome.kill(); rmSync(profile, { recursive: true, force: true }) }
+process.on('uncaughtException', (e) => { console.error(e.message); cleanup(); process.exit(1) })
 for (let i = 0; i < 50 && !target; i++) {
   await sleep(100)
   try { target = (await (await fetch(`http://127.0.0.1:${port}/json/list`)).json()).find((t) => t.type === 'page') } catch {}
@@ -43,4 +48,6 @@ for (const [i, step] of steps.entries()) {
   await shot(i + 1)
 }
 chrome.kill()
+await sleep(200)
+rmSync(profile, { recursive: true, force: true })
 process.exit(0)

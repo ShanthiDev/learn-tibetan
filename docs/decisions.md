@@ -186,6 +186,16 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - **Lehre:** Bei „hört nichts“ zuerst den echten Nutzerpfad nachspielen (hier: alle freigeschaltet,
   Einstieg über Home) statt die Technik isoliert zu prüfen.
 
+## D-021 — Zweistufiges Antworten und Übungs-Layout (2026-10-06, Owner-Wunsch)
+
+- **Ablauf:** Option antippen = auswählen + Aussprache der Option hören; „Prüfen“ wertet. Bei
+  Hörfragen kein Anhören der Optionen (würde die Antwort verraten). Richtig: „✓ Richtig“ im Button,
+  Auto-Weiter; falsch: Oops-Panel mit „Weiter“ (D-015), dort wird die richtige Aussprache gespielt.
+  Änderung gegenüber 01_01 („tap → feedback“): bewusst, weil das Anhören vor dem Festlegen Lernwert hat.
+- **Design:** Rot für Struktur (Kopfleiste wie im Rest der App), Safran für die Aktion („Prüfen“,
+  Auswahlrahmen), Gold-Doppellinie um das Prompt-Feld. Kein Rahmen um die ganze Seite (auf dem Handy
+  zu eng, zu viel Rot). Rot als Prüfen-Farbe verworfen: zu laut neben der roten Kopfleiste.
+
 ## Sackgassen
 
 - **Fontsource-CSS direkt importieren** → Tofu beim ersten Rendern (siehe D-009).
@@ -196,4 +206,7 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - **Variante (behaucht/weich) automatisch aus den Aufnahmen messen** (VOT mit Energie-/Autokorrelations-
   Heuristik) → widersprüchliche Werte; nur mit sauberen, atemfreien Aufnahmen oder per Ohr entscheidbar.
 - **„Kein Ton“ als Cache-Problem behandelt** (D-017), ohne den Nutzerpfad nachzuspielen → falsche Spur (D-020).
+- **`shot.mjs` mit festem Debug-Port**: Nach einem Absturz lief der alte Browser weiter, spätere Läufe
+  hingen sich an ihn (alter Build per Service Worker, alter Fortschritt) → zufälliger Port, frisches
+  Profil, Aufräumen bei Fehlern. Ergebnisse aus solchen Läufen nie als Beleg werten.
 - **Headless-Screenshots ohne Interaktion** reichen für Quiz-Zustände nicht → `tools/shot.mjs` (CDP).

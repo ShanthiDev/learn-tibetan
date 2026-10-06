@@ -275,3 +275,20 @@ Fix D-020 (`reviewShare` 0,2), neuer Test (1000 Ziehungen, 74–86 % aus der Lek
 CDP mit echtem Klick über Home bei freigeschalteten Lektionen: erste Frage = Hörfrage, Auto-Play ok.
 Zweimal `pkill`-Selbsttreffer: Das Muster stand als Text im selben Befehl (auch im `npx vite preview`-
 Teil!) → pkill nur noch als eigener Befehl.
+
+## 2026-10-06 — Sitzung 5: Zweistufiges Antworten, rote Kopfleiste
+
+**Owner:** Beim Üben erst auswählen und dabei die Aussprache hören, dann mit einem langen Button
+bestätigen; Farbe nicht unbedingt Rot; Übungsseiten zu öde → rote Kopfleiste, evtl. Rahmen.
+
+**Umsetzung (D-021):** `selected` (Stufe 1) vs. `chosen` (Stufe 2) im Quiz; `select()` spielt den
+Clip der Option (außer bei Hörfragen); Prüfen-Leiste unten; Kopfleiste rot mit Lektionstitel; Prompt-
+Karte mit goldener Doppellinie (Border + Inset-Shadow). Nach falscher Antwort wird die richtige
+Aussprache gespielt, nach richtiger nicht mehr (schon beim Auswählen gehört).
+
+**Werkzeug-Panne:** Screenshots zeigten plötzlich das alte UI mit altem Fortschritt. Ursache: Ein bei
+einem Fehler nicht beendeter Headless-Chrome blockierte Port 9333; neue Läufe verbanden sich mit
+ihm (inkl. Service Worker mit altem Build). `shot.mjs`: zufälliger Port, frisches `--user-data-dir`,
+Aufräumen bei Exceptions. Folge: Die Hörübungs-Verifikation der letzten Sitzung war nicht belastbar →
+wiederholt mit frischem Browser: Lektion a1 bei „Alle freischalten“, 16 Fragen, 12 Hörfragen, 4
+Wiederholungen. Engine-Probe (Vitest, temporär): 169/200 Hörfragen, keine leeren Fragen.
