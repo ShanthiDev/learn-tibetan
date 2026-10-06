@@ -122,24 +122,20 @@ export function Quiz({ session }: { session: SessionKind }) {
   })
 
   const score = lesson ? lessonScore(progress, lesson, item) : null
-  const title = lesson?.titleDe ?? (session.kind === 'practice' ? 'Alles üben' : 'Schwieriges wiederholen')
   const wrong = phase === 'feedback' && q !== null && chosen !== null && chosen !== q.correctIndex
 
   return (
     <div className="screen quiz">
       <header className="quiz-bar">
-        <div className="quiz-bar-row">
-          <button className="icon-btn" onClick={() => go('home')} aria-label="Beenden">
-            ×
-          </button>
-          <span className="meter wide" aria-label="Fortschritt">
-            <span style={{ width: `${(score ?? 0) * 100}%` }} />
-          </span>
-          <span className="tally" aria-label="richtig von gesamt">
-            {tally.right}/{tally.total}
-          </span>
-        </div>
-        <p className="quiz-title">{title}</p>
+        <button className="icon-btn" onClick={() => go('home')} aria-label="Beenden">
+          ×
+        </button>
+        <span className="meter wide" aria-label="Fortschritt">
+          <span style={{ width: `${(score ?? 0) * 100}%` }} />
+        </span>
+        <span className="tally" aria-label="richtig von gesamt">
+          {tally.right}/{tally.total}
+        </span>
       </header>
 
       {phase === 'intro' && lesson && <Intro lesson={lesson} onStart={() => setPhase('ask')} />}

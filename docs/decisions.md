@@ -192,9 +192,10 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
   Hörfragen kein Anhören der Optionen (würde die Antwort verraten). Richtig: „✓ Richtig“ im Button,
   Auto-Weiter; falsch: Oops-Panel mit „Weiter“ (D-015), dort wird die richtige Aussprache gespielt.
   Änderung gegenüber 01_01 („tap → feedback“): bewusst, weil das Anhören vor dem Festlegen Lernwert hat.
-- **Design:** Rot für Struktur (Kopfleiste wie im Rest der App), Safran für die Aktion („Prüfen“,
-  Auswahlrahmen), Gold-Doppellinie um das Prompt-Feld. Kein Rahmen um die ganze Seite (auf dem Handy
-  zu eng, zu viel Rot). Rot als Prüfen-Farbe verworfen: zu laut neben der roten Kopfleiste.
+- **Design:** Erst rote Kopfleiste + gerahmtes Prompt-Feld + Safran-Button gebaut; vom Owner nach
+  Ansicht verworfen („Kommando zurück“). Gültig: ursprüngliches ruhiges Layout; Auswahl und aktiver
+  Prüfen-Button nur als leicht dunklerer Eierschalenton (`#ebdfcb`), gleiche Randstärke, kein Safran.
+  Lehre: Der Owner schätzt das ruhige Layout; Farbe sparsam einsetzen, Änderungen am Look klein halten.
 
 ## Sackgassen
 
