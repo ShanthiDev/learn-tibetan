@@ -46,17 +46,22 @@ export function buildPool(
   return session.kind === 'practice' ? all : all.filter((e) => isDifficult(p, e.key))
 }
 
-/** Next question: due mistakes first, otherwise weighted by weakness (not uniform). */
+/** Next question: due mistakes first; otherwise the lesson's own items, with earlier lessons as a
+ *  fixed review share (so a lesson stays on topic however many lessons came before it), each
+ *  weighted by weakness (not uniform). */
 export function pickNext(pool: Entry[], p: Progress, rng: Rng): Entry | null {
   if (!pool.length) return null
   const byKey = new Map(pool.map((e) => [e.key, e]))
   const due = p.retry.filter((r) => r.due <= p.counter + 1 && byKey.has(r.key)).sort((a, b) => a.due - b.due)[0]
   if (due && p.recent[p.recent.length - 1] !== due.key) return byKey.get(due.key)!
   const fresh = pool.length > CONFIG.recentExclude + 1 ? pool.filter((e) => !p.recent.includes(e.key)) : pool
-  const weights = fresh.map((e) => (CONFIG.maxBox + 1 - statOf(p, e.key).box) ** 2 * (e.isNew ? CONFIG.newWeight : 1))
+  const lesson = fresh.filter((e) => e.isNew)
+  const review = fresh.filter((e) => !e.isNew)
+  const group = !lesson.length ? review : !review.length || rng() >= CONFIG.reviewShare ? lesson : review
+  const weights = group.map((e) => (CONFIG.maxBox + 1 - statOf(p, e.key).box) ** 2)
   let r = rng() * weights.reduce((a, b) => a + b, 0)
-  for (let i = 0; i < fresh.length; i++) if ((r -= weights[i]) < 0) return fresh[i]
-  return fresh[fresh.length - 1]
+  for (let i = 0; i < group.length; i++) if ((r -= weights[i]) < 0) return group[i]
+  return group[group.length - 1]
 }
 
 export const difficultCount = (p: Progress, c: Curriculum, unlocked: number, item: (id: string) => Item) =>

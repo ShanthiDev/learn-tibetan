@@ -265,3 +265,13 @@ Owner schlägt zwei Varianten vor und nimmt neu auf; die bisherigen Aufnahmen ha
 gesprochen (unterscheidet A/B nicht, beide sind tief). VOT-Messung an den 12 Plosiv-Clips
 widersprüchlich (Sackgasse, D-019). Umsetzung D-019: Varianten im Manifest, `audioVariants` im
 Content, Einstellung, `clipOf()` zur Laufzeit, `curate.py split --variant`. Tests grün.
+
+## 2026-10-06 — Sitzung 4 (Forts.): Hörlektionen wirklich repariert
+
+Owner: Im Alphabet hört man die Clips, in den Hörübungen nicht. → Cache-These (D-017) widerlegt.
+Analyse der Auswahl: Lern-Session-Pool = Lektion + alle früheren Lektionen; mit „Alle freischalten“
+und ohne Fortschritt ~300 Lese-Einträge à Gewicht 36 gegen 16 Hörfragen à 72 → ~10 % Hörfragen.
+Fix D-020 (`reviewShare` 0,2), neuer Test (1000 Ziehungen, 74–86 % aus der Lektion). Nachgespielt per
+CDP mit echtem Klick über Home bei freigeschalteten Lektionen: erste Frage = Hörfrage, Auto-Play ok.
+Zweimal `pkill`-Selbsttreffer: Das Muster stand als Text im selben Befehl (auch im `npx vite preview`-
+Teil!) → pkill nur noch als eigener Befehl.

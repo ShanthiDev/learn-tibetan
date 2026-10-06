@@ -51,4 +51,13 @@ describe('progress', () => {
     p = applyAnswer(p, keyOf(ids[ids.length - 1], 'tib-wylie'), true, rng)
     expect(lessonMastered(p, v3, item)).toBe(true)
   })
+  it('keeps a lesson on topic: earlier lessons only as a ~20 % review share', () => {
+    const rng = seeded(7)
+    const entry = (itemId: string, isNew: boolean): Entry => ({ key: keyOf(itemId, isNew ? 'audio-tib' : 'tib-wylie'), itemId, mode: isNew ? 'audio-tib' : 'tib-wylie', scope: 'letters', isNew })
+    const pool = [...c.items.map((it) => entry(it.id, false)), ...c.items.slice(0, 16).map((it) => entry(it.id, true))]
+    let fresh = 0
+    for (let i = 0; i < 1000; i++) if (pickNext(pool, emptyProgress(), rng)!.isNew) fresh++
+    expect(fresh).toBeGreaterThan(740)
+    expect(fresh).toBeLessThan(860)
+  })
 })

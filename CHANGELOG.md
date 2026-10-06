@@ -37,6 +37,8 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ### Fixed
 
+- Hörlektionen bestanden meist aus stummen Lesefragen: Wiederholung früherer Lektionen ist jetzt auf
+  20 % der Fragen begrenzt (vorher Gewichtung ohne Obergrenze → bei „Alle freischalten“ ~90 % Wiederholung).
 - Hörübungen stumm/kaum hörbar: ersetzte Clips mit gleichem Dateinamen kamen aus dem Cache
   (Speicher-Cache des Audio-Elements bzw. Service Worker). Audio-URLs tragen jetzt einen Inhalts-Hash.
 

@@ -143,7 +143,7 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - „Me chu ri so“ enthält wirklich *me chu ri so* (Zischlaut-Anlaute an Pos. 2 und 4). Vokalnamen und
   diese Wörter liegen als Segmente in `references/audio_files/segments/` (für Kapitel 7, nicht ausgeliefert).
 
-## D-017 — Audio-URLs mit Inhalts-Hash (2026-10-06)
+## D-017 — Audio-URLs mit Inhalts-Hash (2026-10-06) — *war nicht die Ursache, siehe D-020*
 
 - **Problem:** Owner hörte in den Hörübungen nichts, obwohl die Clips korrekt sind (Pegel geprüft,
   Wiedergabe per echtem CDP-Klick verifiziert). Ursache sehr wahrscheinlich: Die Owner-Aufnahmen
@@ -175,6 +175,17 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - Versuch, die Variante der vorhandenen Aufnahmen per Voice-Onset-Time zu messen: zu unzuverlässig
   (Atem vor der Silbe verfälscht den Lautbeginn, z. B. པ 235 ms) → nicht verwendet.
 
+## D-020 — Wiederholungsanteil in Lektionen fest begrenzt (2026-10-06)
+
+- **Problem:** Owner hörte in „Hören“ nichts, im Alphabet aber schon. Ursache: Der Pool einer Lektion
+  enthielt alle früheren Lektionen (bei „Alle freischalten“ ~300 Lese-Einträge) mit gleichem Gewicht
+  wie die 16 Hörfragen (neue ×2 half kaum) → ~90 % stumme Lesefragen. D-017 (Cache) war eine
+  plausible, aber falsche Vermutung; der Hash bleibt trotzdem sinnvoll.
+- **Entscheidung:** `pickNext` wählt mit Wahrscheinlichkeit `reviewShare = 0.2` aus der Wiederholung,
+  sonst aus den Items der Lektion; innerhalb jeweils nach Schwäche gewichtet. `newWeight` entfällt.
+- **Lehre:** Bei „hört nichts“ zuerst den echten Nutzerpfad nachspielen (hier: alle freigeschaltet,
+  Einstieg über Home) statt die Technik isoliert zu prüfen.
+
 ## Sackgassen
 
 - **Fontsource-CSS direkt importieren** → Tofu beim ersten Rendern (siehe D-009).
@@ -184,4 +195,5 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - **`pkill -f <muster>` mit dem Muster im eigenen Befehl** beendet die eigene Shell → `[v]ite`-Trick.
 - **Variante (behaucht/weich) automatisch aus den Aufnahmen messen** (VOT mit Energie-/Autokorrelations-
   Heuristik) → widersprüchliche Werte; nur mit sauberen, atemfreien Aufnahmen oder per Ohr entscheidbar.
+- **„Kein Ton“ als Cache-Problem behandelt** (D-017), ohne den Nutzerpfad nachzuspielen → falsche Spur (D-020).
 - **Headless-Screenshots ohne Interaktion** reichen für Quiz-Zustände nicht → `tools/shot.mjs` (CDP).
