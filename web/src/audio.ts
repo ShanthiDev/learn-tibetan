@@ -4,8 +4,12 @@ import type { Item } from './content'
 const cache = new Map<string, HTMLAudioElement>()
 
 export function playItem(it: Item, volume: number): void {
-  if (!it.audio) return
-  const src = `${import.meta.env.BASE_URL}${it.audio.file}`
+  if (it.audio) playFile(it.audio.file, volume)
+}
+
+/** `file` is relative to web/public and carries a content hash (?v=…), so replaced clips reload. */
+export function playFile(file: string, volume: number): void {
+  const src = `${import.meta.env.BASE_URL}${file}`
   let el = cache.get(src)
   if (!el) {
     el = new Audio(src)

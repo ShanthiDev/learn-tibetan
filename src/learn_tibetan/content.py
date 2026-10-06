@@ -6,6 +6,7 @@ syllable analysis are generated here with the reference engine, never maintained
 
 from __future__ import annotations
 
+import hashlib
 import json
 import tomllib
 import unicodedata
@@ -22,6 +23,12 @@ WYLIE_VERSION = "transfer-2026-10-06"  # wylie.py carries no version of its own
 
 def item_id(prefix: str, w: str) -> str:
     return f"{prefix}-{w.replace(chr(39), '_')}"  # 'a -> l-_a
+
+
+def versioned(rel: str) -> str:
+    """Audio URL with a content hash, so a replaced recording is never served from a cache (D-017)."""
+    data = (ROOT / "web/public" / rel).read_bytes()
+    return f"{rel}?v={hashlib.sha1(data).hexdigest()[:8]}"
 
 
 def analysis(tibetan: str) -> dict:
@@ -41,6 +48,18 @@ def make_item(kind: str, tibetan: str, order: int, **extra) -> dict:
     return item
 
 
+def vowel(v: dict) -> dict:
+    out = {"id": v["id"], "sign": v["sign"], "nameDe": v["name_de"], "soundDe": v["sound_de"]}
+    if "name_spoken" in v:
+        out.update(nameSpoken=v["name_spoken"], nameAudio=versioned(v["name_audio"]))
+    if "example" in v:
+        ex = v["example"]
+        out["example"] = {"tibetan": ex["tibetan"], "wylie": wylie.syllable(ex["tibetan"]),
+                          "tz": tz.render(ex["tibetan"], TZ_VARIANT), "meaningDe": ex["meaning_de"],
+                          "audio": versioned(ex["audio"])}
+    return out
+
+
 def build(content_dir: Path = CONTENT) -> dict:
     src = tomllib.loads((content_dir / "curriculum.toml").read_text(encoding="utf-8"))
     audio = tomllib.loads((content_dir / "audio.toml").read_text(encoding="utf-8")).get("clips", [])
@@ -50,7 +69,9 @@ def build(content_dir: Path = CONTENT) -> dict:
         ids = []
         for entry in g["letters"]:
             it = make_item("letter", entry["tibetan"], len(letters) + 1, groupId=g["id"],
-                           devanagari=entry.get("devanagari"), devanagariNote=entry.get("devanagari_note"))
+                           devanagari=entry.get("devanagari"), devanagariNote=entry.get("devanagari_note"),
+                           phonology={k: v for k, v in (("aspiration", entry.get("aspiration")), ("tone", entry["tone"]),
+                                                        ("hintDe", entry["hint_de"])) if v})
             it["baseId"], it["vowel"] = it["id"], "a"
             letters.append(it)
             ids.append(it["id"])
@@ -72,6 +93,7 @@ def build(content_dir: Path = CONTENT) -> dict:
     for clip in audio:
         if clip.get("status") != "rejected":
             by_id[clip["item"]]["audio"] = {k: clip.get(k) for k in ("file", "source", "dialect", "status")}
+            by_id[clip["item"]]["audio"]["file"] = versioned(clip["file"])
 
     lessons = []
     for r, g in enumerate(groups, 1):
@@ -105,7 +127,8 @@ def build(content_dir: Path = CONTENT) -> dict:
     return {
         "meta": {"engine": {"tz": tz.VERSION, "wylie": WYLIE_VERSION, "tzVariant": TZ_VARIANT}},
         "alphabetNoteDe": src["alphabet"]["note_de"],
-        "vowels": [{"id": v["id"], "sign": v["sign"], "nameDe": v["name_de"]} for v in vowels],
+        "vowels": [vowel(v) for v in vowels],
+        "topics": [{"id": t["id"], "titleDe": t["title_de"], "textDe": t["text_de"]} for t in src["topics"]],
         "groups": groups,
         "items": items,
         "lessons": lessons,

@@ -1,6 +1,6 @@
-import type { MouseEvent, ReactNode } from 'react'
-import { playItem } from './audio'
-import { hasAudio, type Item } from './content'
+import { useState, type MouseEvent, type ReactNode } from 'react'
+import { playFile, playItem } from './audio'
+import { hasAudio, phonologyOf, vowelOf, type Item } from './content'
 import { go } from './router'
 import { useSettings } from './settings'
 
@@ -30,12 +30,13 @@ export function Tib({ children, tsheg, className = '' }: { children: string; tsh
   )
 }
 
-export function AudioButton({ it, big = false, any = false }: { it: Item; big?: boolean; any?: boolean }) {
+export function AudioButton({ it, big = false, any = false, file }: { it?: Item; big?: boolean; any?: boolean; file?: string }) {
   const [settings] = useSettings()
-  if (!(any ? it.audio : hasAudio(it))) return null
+  if (!file && !(it && (any ? it.audio : hasAudio(it)))) return null
   const play = (e: MouseEvent) => {
     e.stopPropagation()
-    playItem(it, settings.volume)
+    if (file) playFile(file, settings.volume)
+    else playItem(it!, settings.volume)
   }
   return (
     <button className={`audio-btn ${big ? 'big' : ''}`} onClick={play} aria-label="Anhören">
@@ -44,5 +45,56 @@ export function AudioButton({ it, big = false, any = false }: { it: Item; big?: 
         <path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       </svg>
     </button>
+  )
+}
+
+/** Small ⓘ toggle: extra knowledge stays hidden until asked for. */
+export function Info({ children, label = 'Mehr Info' }: { children: ReactNode; label?: string }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <>
+      <button className={`info-btn ${open ? 'open' : ''}`} aria-expanded={open} aria-label={label} onClick={(e) => { e.stopPropagation(); setOpen(!open) }}>
+        i
+      </button>
+      {open && <div className="info-box">{children}</div>}
+    </>
+  )
+}
+
+/** One line about how a letter (or the vowel of a vowel form) sounds. */
+export function SoundFacts({ it, hint = true }: { it: Item; hint?: boolean }) {
+  const ph = phonologyOf(it)
+  const v = vowelOf(it)
+  return (
+    <span className="sound-facts">
+      {ph && (
+        <span>
+          {[ph.aspiration, ph.tone === 'hoch' ? 'hoher Ton' : 'tiefer Ton'].filter(Boolean).join(' · ')}
+          {hint && it.kind === 'letter' && <small> – <Rich text={ph.hintDe} /></small>}
+        </span>
+      )}
+      {it.kind === 'vowel-form' && (
+        <small>
+          Vokal {v.id}: {v.soundDe}
+        </small>
+      )}
+    </span>
+  )
+}
+
+/** Plain text with Tibetan runs enlarged (Jomolhari is small on the em; Latin text stays as is). */
+export function Rich({ text }: { text: string }) {
+  return (
+    <>
+      {text.split(/([\u0F00-\u0FFF]+)/).map((part, i) =>
+        i % 2 ? (
+          <span key={i} className="tib tib-inline" lang="bo">
+            {part}
+          </span>
+        ) : (
+          part
+        ),
+      )}
+    </>
   )
 }

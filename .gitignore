@@ -29,3 +29,6 @@ references/transliteration/reference_phonetics/*.json
 # Audio generation scratch (candidate clips before curation)
 tools/audio/.cache/
 tools/audio/candidates/
+
+# Owner text references (templates only, third-party content)
+references/texts/

@@ -143,6 +143,27 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - „Me chu ri so“ enthält wirklich *me chu ri so* (Zischlaut-Anlaute an Pos. 2 und 4). Vokalnamen und
   diese Wörter liegen als Segmente in `references/audio_files/segments/` (für Kapitel 7, nicht ausgeliefert).
 
+## D-017 — Audio-URLs mit Inhalts-Hash (2026-10-06)
+
+- **Problem:** Owner hörte in den Hörübungen nichts, obwohl die Clips korrekt sind (Pegel geprüft,
+  Wiedergabe per echtem CDP-Klick verifiziert). Ursache sehr wahrscheinlich: Die Owner-Aufnahmen
+  ersetzten die MMS-Schnipsel (0,1 s) unter **gleichem Dateinamen**; ein offener Tab behielt die
+  gecachten `HTMLAudioElement`s bzw. der Service Worker die alte Precache-Version.
+- **Entscheidung:** Der Content-Build hängt `?v=<sha1[:8]>` an jede Audio-URL; Workbox ignoriert
+  den Parameter `v` beim Precache-Matching (`ignoreURLParametersMatching`), offline bleibt intakt.
+
+## D-018 — Ausspracheinfos als Daten, sichtbar nur auf Nachfrage (2026-10-06)
+
+- Pro Buchstabe `aspiration`, `tone`, `hint_de` in `content/curriculum.toml`; Vokale mit
+  `sound_de`, gesprochenem Namen, Beispielwort; allgemeine `[[topics]]`. Alles in eigenen Worten;
+  die Vorlage (`references/texts/`, Webseite eines Tibetisch-Kurses) ist gitignored.
+- Fachliche Basis: Lhasa-/Exil-Aussprache („Kha-Aussprache“: ག ཇ ད བ behaucht, tiefer Ton), mit
+  Hinweis auf die verbreitete g/dsch/d/b-Aussprache, die auch Wylie und TZ abbilden.
+- UI: ⓘ-Toggles (Pflaume als Akzentfarbe), nie dauerhaft sichtbar. Im Oops-Panel vergleicht ⓘ
+  richtige und gewählte Antwort, denn dort entsteht die Frage „Was ist der Unterschied?“.
+- Tonale Paare (ཞ/ཤ, ཟ/ས, འ/ཨ) bleiben im Hörquiz unterscheidbar (Owner-Entscheidung);
+  `audio_equivalent` bleibt leer.
+
 ## Sackgassen
 
 - **Fontsource-CSS direkt importieren** → Tofu beim ersten Rendern (siehe D-009).

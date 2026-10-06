@@ -1,6 +1,7 @@
 // Minimal headless-Chrome driver (CDP over Node's built-in WebSocket) for UI checks without deps.
 // Usage: node tools/shot.mjs <url> <out-prefix> [js-step ...]
 // Each js-step is evaluated in the page, then a screenshot <out-prefix>-<n>.png is taken.
+// A step "click:<css selector>" performs a trusted mouse click (counts as a user gesture).
 import { spawn } from 'node:child_process'
 import { writeFileSync } from 'node:fs'
 import { homedir } from 'node:os'
@@ -27,7 +28,15 @@ await send('Emulation.setDeviceMetricsOverride', { width: 390, height: 760, devi
 await send('Page.navigate', { url })
 await sleep(1500)
 await shot(0)
-for (const [i, js] of steps.entries()) {
+for (const [i, step] of steps.entries()) {
+  let js = step
+  if (step.startsWith('click:')) {
+    const sel = JSON.stringify(step.slice(6))
+    const box = (await send('Runtime.evaluate', { expression: `(() => { const r = document.querySelector(${sel}).getBoundingClientRect(); return [r.x + r.width / 2, r.y + r.height / 2] })()`, returnByValue: true })).result.value
+    for (const type of ['mousePressed', 'mouseReleased'])
+      await send('Input.dispatchMouseEvent', { type, x: box[0], y: box[1], button: 'left', clickCount: 1 })
+    js = `'clicked ' + ${sel}`
+  }
   const r = await send('Runtime.evaluate', { expression: js, awaitPromise: true, returnByValue: true })
   if (r?.result?.value !== undefined) console.log(`step ${i + 1}:`, JSON.stringify(r.result.value))
   await sleep(250)

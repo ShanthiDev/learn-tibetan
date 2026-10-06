@@ -16,6 +16,8 @@ def test_generated_fields_and_unique_ids():
     assert (ITEMS["l-ca"]["wylie"], ITEMS["l-ca"]["tz"], ITEMS["l-ca"]["devanagari"]) == ("ca", "tscha", "च")
     assert ITEMS["v-ki"]["tibetan"] == "ཀི" and ITEMS["v-ki"]["baseId"] == "l-ka"
     assert ITEMS["l-_a"]["wylie"] == "'a" and ITEMS["l-a"]["wylie"] == "a"
+    assert ITEMS["l-ka"]["phonology"] == {"aspiration": "unbehaucht", "tone": "hoch", "hintDe": ITEMS["l-ka"]["phonology"]["hintDe"]}
+    assert all(it["phonology"]["tone"] in {"hoch", "tief"} for it in C["items"] if it["kind"] == "letter")
 
 
 def test_lessons_reference_existing_items():

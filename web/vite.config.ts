@@ -27,6 +27,7 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,png,svg,woff2,mp3}'],
+        ignoreURLParametersMatching: [/^v$/], // audio cache-busting hash (?v=…) must still hit the precache
       },
     }),
   ],

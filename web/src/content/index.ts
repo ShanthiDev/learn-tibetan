@@ -15,6 +15,18 @@ export type Analysis = {
 
 export type AudioRef = { file: string; source: string; dialect: string; status: 'candidate' | 'approved' }
 
+export type Phonology = { aspiration?: 'unbehaucht' | 'behaucht'; tone: 'hoch' | 'tief'; hintDe: string }
+
+export type Vowel = {
+  id: VowelId
+  sign: string
+  nameDe: string
+  soundDe: string
+  nameSpoken?: string
+  nameAudio?: string
+  example?: { tibetan: string; wylie: string; tz: string; meaningDe: string; audio: string }
+}
+
 export type Item = {
   id: string
   kind: 'letter' | 'vowel-form'
@@ -27,6 +39,7 @@ export type Item = {
   vowel: VowelId
   devanagari?: string
   devanagariNote?: string
+  phonology?: Phonology
   analysis: Analysis
   audio?: AudioRef
 }
@@ -46,7 +59,8 @@ export type Lesson = {
 export type Curriculum = {
   meta: { engine: { tz: string; wylie: string; tzVariant: string } }
   alphabetNoteDe: string
-  vowels: { id: VowelId; sign: string; nameDe: string }[]
+  vowels: Vowel[]
+  topics: { id: string; titleDe: string; textDe: string }[]
   groups: Group[]
   items: Item[]
   lessons: Lesson[]
@@ -60,6 +74,13 @@ export const groupsById = new Map(curriculum.groups.map((g) => [g.id, g]))
 export const item = (id: string): Item => itemsById.get(id)!
 /** Only curated clips are used for learning; candidates are heard in the review screen only. */
 export const hasAudio = (it: Item) => it.audio?.status === 'approved'
+
+export const vowelOf = (it: Item) => curriculum.vowels.find((v) => v.id === it.vowel)!
+
+/** "unbehaucht · hoher Ton" for a letter, or for the base letter of a vowel form. */
+export function phonologyOf(it: Item): Phonology | undefined {
+  return (it.kind === 'letter' ? it : itemsById.get(it.baseId))?.phonology
+}
 
 export const CHAPTERS: Record<number, string> = {
   1: 'Das Alphabet als System',

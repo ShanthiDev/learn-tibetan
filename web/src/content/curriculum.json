@@ -11,27 +11,95 @@
   {
    "id": "a",
    "sign": "",
-   "nameDe": "inhärentes a"
+   "nameDe": "inhärentes a",
+   "soundDe": "kurzes a, eher wie in „Ball“"
   },
   {
    "id": "i",
    "sign": "ི",
-   "nameDe": "gi gu"
+   "nameDe": "gi gu",
+   "soundDe": "wie ie in „Liebe“",
+   "nameSpoken": "khi khu",
+   "nameAudio": "audio/extra/vowelname-gigu.mp3?v=7d25c351",
+   "example": {
+    "tibetan": "རི",
+    "wylie": "ri",
+    "tz": "ri",
+    "meaningDe": "Berg",
+    "audio": "audio/extra/word-ri.mp3?v=5157c70b"
+   }
   },
   {
    "id": "u",
    "sign": "ུ",
-   "nameDe": "zhabs kyu"
+   "nameDe": "zhabs kyu",
+   "soundDe": "wie u in „gut“",
+   "nameSpoken": "shab kyu",
+   "nameAudio": "audio/extra/vowelname-zhabskyu.mp3?v=73cd7d3c",
+   "example": {
+    "tibetan": "ཆུ",
+    "wylie": "chu",
+    "tz": "tschu",
+    "meaningDe": "Wasser",
+    "audio": "audio/extra/word-chu.mp3?v=beee3cdd"
+   }
   },
   {
    "id": "e",
    "sign": "ེ",
-   "nameDe": "'greng bu"
+   "nameDe": "'greng bu",
+   "soundDe": "wie e in „See“",
+   "nameSpoken": "dreng bu",
+   "nameAudio": "audio/extra/vowelname-drengbu.mp3?v=820e2ab4",
+   "example": {
+    "tibetan": "མེ",
+    "wylie": "me",
+    "tz": "me",
+    "meaningDe": "Feuer",
+    "audio": "audio/extra/word-me.mp3?v=ebcc72d7"
+   }
   },
   {
    "id": "o",
    "sign": "ོ",
-   "nameDe": "na ro"
+   "nameDe": "na ro",
+   "soundDe": "wie o in „so“",
+   "nameSpoken": "na ro",
+   "nameAudio": "audio/extra/vowelname-naro.mp3?v=825d1afd",
+   "example": {
+    "tibetan": "སོ",
+    "wylie": "so",
+    "tz": "so",
+    "meaningDe": "Zahn",
+    "audio": "audio/extra/word-so.mp3?v=7a354d10"
+   }
+  }
+ ],
+ "topics": [
+  {
+   "id": "default-a",
+   "titleDe": "Das inhärente a und der Tsheg",
+   "textDe": "Jeder Konsonant wird mit einem kurzen a gesprochen, obwohl dafür kein Zeichen geschrieben wird: ཀ ist „ka“. Erst ein Vokalzeichen ersetzt dieses a (ཀི ཀུ ཀེ ཀོ).\n\nDer Punkt ་ nach jeder Silbe heißt Tsheg. Er trennt Silben, ähnlich wie ein Leerzeichen, und wird nicht gesprochen. Tibetisch hat keine Groß- und Kleinbuchstaben, und die Konsonanten haben keine eigenen Namen: Man liest sie einfach, wie sie klingen."
+  },
+  {
+   "id": "aspiration",
+   "titleDe": "Behauchung",
+   "textDe": "Manche Konsonanten werden mit einem kleinen Luftstoß gesprochen (behaucht), andere ohne (unbehaucht). Im Deutschen gibt es beides, nur achtet niemand darauf: Das k in „Kahn“ ist behaucht, das k in „Skat“ nicht. Halte die Hand vor den Mund und sprich beide Wörter, dann spürst du den Unterschied.\n\nIm Tibetischen unterscheidet die Behauchung Wörter: ཀ་བ (Säule) und ཁ་བ (Schnee) unterscheiden sich nur darin. In jeder der ersten Reihen steht deshalb ein unbehauchter und ein behauchter Buchstabe nebeneinander: ཀ/ཁ, ཅ/ཆ, ཏ/ཐ, པ/ཕ, ཙ/ཚ. Wylie markiert die Behauchung mit h (kha, tha), „TZ aktuell“ ebenfalls."
+  },
+  {
+   "id": "tone",
+   "titleDe": "Ton",
+   "textDe": "Zentraltibetisch kennt zwei Töne. Der hohe Ton ist kurz, klar und fällt oft leicht ab. Der tiefe Ton ist länger, ruhiger und steigt oft leicht an. Welcher Ton eine Silbe hat, bestimmt der Buchstabe; hörbar wird er am Vokal.\n\nSo unterscheiden sich ཆ „Paar“ (hoch) und ཇ „Tee“ (tief) nur im Ton, ebenso ཤ/ཞ (sch), ས/ཟ (s) und ཨ/འ (a). Weder Wylie noch die TZ-Umschrift schreiben den Ton. Man muss ihn also am Buchstaben erkennen, und dabei hilft das Hören."
+  },
+  {
+   "id": "ga-kha",
+   "titleDe": "ག ཇ ད བ: g oder kh?",
+   "textDe": "Die dritten Buchstaben der ersten Reihen waren im Sanskrit stimmhaft (g, j, d, b). Im heutigen Zentraltibetisch klingen sie je nach Sprecher verschieden: In der Lhasa- und Exil-Aussprache meist wie die behauchten Nachbarn (kh, tsch, th, ph), aber mit tiefem Ton; in vielen anderen Aussprachen eher wie ein weiches g, dsch, d, b.\n\nWylie und die TZ-Umschrift schreiben g, dsch/j, d, b. Das bildet die Schreibung ab und hilft beim Wiedererkennen, auch wenn du es anders hörst."
+  },
+  {
+   "id": "representations",
+   "titleDe": "Schrift, Wylie, TZ und Klang",
+   "textDe": "Die App zeigt bewusst vier Dinge getrennt: die tibetische Schrift, die Wylie-Umschrift (gibt die Buchstaben wieder, z. B. ca), die TZ-Umschrift (eine deutsche Lesehilfe für die Aussprache, z. B. tscha) und den Klang.\n\nAbgefragt wird Wylie, weil es eindeutig ist: Jeder Buchstabe hat genau eine Wylie-Form. In der TZ-Umschrift fallen manche Buchstaben zusammen (ཅ und ཆ sind beide „tscha“), und Ton sowie Behauchung fehlen ganz."
   }
  ],
  "groups": [
@@ -140,6 +208,11 @@
    "order": 1,
    "groupId": "velar",
    "devanagari": "क",
+   "phonology": {
+    "aspiration": "unbehaucht",
+    "tone": "hoch",
+    "hintDe": "k ohne Hauchstoß, wie in „Skat“"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -152,7 +225,7 @@
    "baseId": "l-ka",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ka.mp3",
+    "file": "audio/l-ka.mp3?v=a7789646",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -167,6 +240,11 @@
    "order": 2,
    "groupId": "velar",
    "devanagari": "ख",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "hoch",
+    "hintDe": "k mit deutlichem Hauch, wie in „Kahn“"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -179,7 +257,7 @@
    "baseId": "l-kha",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-kha.mp3",
+    "file": "audio/l-kha.mp3?v=86719685",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -194,6 +272,11 @@
    "order": 3,
    "groupId": "velar",
    "devanagari": "ग",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "tief",
+    "hintDe": "In Lhasa-/Exil-Aussprache wie ཁ, aber mit tiefem Ton; in anderen Aussprachen ein weiches g (so schreiben es auch Wylie und TZ)"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -206,7 +289,7 @@
    "baseId": "l-ga",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ga.mp3",
+    "file": "audio/l-ga.mp3?v=b35f9c2a",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -221,6 +304,10 @@
    "order": 4,
    "groupId": "velar",
    "devanagari": "ङ",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "ng wie in „singen“, auch am Silbenanfang"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -233,7 +320,7 @@
    "baseId": "l-nga",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-nga.mp3",
+    "file": "audio/l-nga.mp3?v=4fbf7211",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -248,6 +335,11 @@
    "order": 5,
    "groupId": "palatal",
    "devanagari": "च",
+   "phonology": {
+    "aspiration": "unbehaucht",
+    "tone": "hoch",
+    "hintDe": "tsch ohne Hauch"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -260,7 +352,7 @@
    "baseId": "l-ca",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ca.mp3",
+    "file": "audio/l-ca.mp3?v=07027203",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -275,6 +367,11 @@
    "order": 6,
    "groupId": "palatal",
    "devanagari": "छ",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "hoch",
+    "hintDe": "tsch mit Hauch"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -287,7 +384,7 @@
    "baseId": "l-cha",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-cha.mp3",
+    "file": "audio/l-cha.mp3?v=4ca9c6fe",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -302,6 +399,11 @@
    "order": 7,
    "groupId": "palatal",
    "devanagari": "ज",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "tief",
+    "hintDe": "In Lhasa-/Exil-Aussprache wie ཆ mit tiefem Ton, sonst eher dsch. ཆ „Paar“ und ཇ „Tee“ unterscheidet nur der Ton"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -314,7 +416,7 @@
    "baseId": "l-ja",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ja.mp3",
+    "file": "audio/l-ja.mp3?v=a3cadf71",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -329,6 +431,10 @@
    "order": 8,
    "groupId": "palatal",
    "devanagari": "ञ",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "nj wie in „Cognac“ oder spanisch ñ"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -341,7 +447,7 @@
    "baseId": "l-nya",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-nya.mp3",
+    "file": "audio/l-nya.mp3?v=1a3a9a74",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -356,6 +462,11 @@
    "order": 9,
    "groupId": "dental",
    "devanagari": "त",
+   "phonology": {
+    "aspiration": "unbehaucht",
+    "tone": "hoch",
+    "hintDe": "t ohne Hauch, wie in „Stall“"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -368,7 +479,7 @@
    "baseId": "l-ta",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ta.mp3",
+    "file": "audio/l-ta.mp3?v=2aee4476",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -383,6 +494,11 @@
    "order": 10,
    "groupId": "dental",
    "devanagari": "थ",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "hoch",
+    "hintDe": "t mit Hauch, wie in „Tal“"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -395,7 +511,7 @@
    "baseId": "l-tha",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-tha.mp3",
+    "file": "audio/l-tha.mp3?v=86433801",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -410,6 +526,11 @@
    "order": 11,
    "groupId": "dental",
    "devanagari": "द",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "tief",
+    "hintDe": "In Lhasa-/Exil-Aussprache wie ཐ mit tiefem Ton, sonst eher d"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -422,7 +543,7 @@
    "baseId": "l-da",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-da.mp3",
+    "file": "audio/l-da.mp3?v=165e10d7",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -437,6 +558,10 @@
    "order": 12,
    "groupId": "dental",
    "devanagari": "न",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "n"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -449,7 +574,7 @@
    "baseId": "l-na",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-na.mp3",
+    "file": "audio/l-na.mp3?v=7f78c8f7",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -464,6 +589,11 @@
    "order": 13,
    "groupId": "labial",
    "devanagari": "प",
+   "phonology": {
+    "aspiration": "unbehaucht",
+    "tone": "hoch",
+    "hintDe": "p ohne Hauch, wie in „Spiel“"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -476,7 +606,7 @@
    "baseId": "l-pa",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-pa.mp3",
+    "file": "audio/l-pa.mp3?v=77b9bdd1",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -491,6 +621,11 @@
    "order": 14,
    "groupId": "labial",
    "devanagari": "फ",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "hoch",
+    "hintDe": "p mit Hauch, wie in „Paar“"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -503,7 +638,7 @@
    "baseId": "l-pha",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-pha.mp3",
+    "file": "audio/l-pha.mp3?v=0a6c676c",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -518,6 +653,11 @@
    "order": 15,
    "groupId": "labial",
    "devanagari": "ब",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "tief",
+    "hintDe": "In Lhasa-/Exil-Aussprache wie ཕ mit tiefem Ton, sonst eher b; nach anderen Silben oft w (Kap. Silben)"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -530,7 +670,7 @@
    "baseId": "l-ba",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ba.mp3",
+    "file": "audio/l-ba.mp3?v=e12d9e86",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -545,6 +685,10 @@
    "order": 16,
    "groupId": "labial",
    "devanagari": "म",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "m"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -557,7 +701,7 @@
    "baseId": "l-ma",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ma.mp3",
+    "file": "audio/l-ma.mp3?v=0e553700",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -572,6 +716,11 @@
    "order": 17,
    "groupId": "sibilant-affricates",
    "devanagariNote": "kein eigenes Devanagari; schreibt in Sanskrit च",
+   "phonology": {
+    "aspiration": "unbehaucht",
+    "tone": "hoch",
+    "hintDe": "ts ohne Hauch. Wie ཅ, aber mit kleiner Fahne oben rechts"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -584,7 +733,7 @@
    "baseId": "l-tsa",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-tsa.mp3",
+    "file": "audio/l-tsa.mp3?v=ee719e83",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -599,6 +748,11 @@
    "order": 18,
    "groupId": "sibilant-affricates",
    "devanagariNote": "kein eigenes Devanagari; schreibt in Sanskrit छ",
+   "phonology": {
+    "aspiration": "behaucht",
+    "tone": "hoch",
+    "hintDe": "ts mit Hauch. Wie ཆ, aber mit Fahne"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -611,7 +765,7 @@
    "baseId": "l-tsha",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-tsha.mp3",
+    "file": "audio/l-tsha.mp3?v=944bac85",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -626,6 +780,11 @@
    "order": 19,
    "groupId": "sibilant-affricates",
    "devanagariNote": "kein eigenes Devanagari; schreibt in Sanskrit ज",
+   "phonology": {
+    "aspiration": "unbehaucht",
+    "tone": "tief",
+    "hintDe": "dz mit tiefem Ton; manche sprechen ein behauchtes ts. Wie ཇ, aber mit Fahne"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -638,7 +797,7 @@
    "baseId": "l-dza",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-dza.mp3",
+    "file": "audio/l-dza.mp3?v=09c6a595",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -653,6 +812,10 @@
    "order": 20,
    "groupId": "sibilant-affricates",
    "devanagari": "व",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "w, eher wie englisch „water“"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -665,7 +828,7 @@
    "baseId": "l-wa",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-wa.mp3",
+    "file": "audio/l-wa.mp3?v=8e5d002b",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -680,6 +843,10 @@
    "order": 21,
    "groupId": "row6",
    "devanagariNote": "keine Entsprechung",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "sch mit tiefem Ton; Gegenstück zu ཤ"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -692,7 +859,7 @@
    "baseId": "l-zha",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-zha.mp3",
+    "file": "audio/l-zha.mp3?v=4e88044f",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -707,6 +874,10 @@
    "order": 22,
    "groupId": "row6",
    "devanagariNote": "keine Entsprechung",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "s mit tiefem Ton; Gegenstück zu ས"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -719,7 +890,7 @@
    "baseId": "l-za",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-za.mp3",
+    "file": "audio/l-za.mp3?v=da150b46",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -734,6 +905,10 @@
    "order": 23,
    "groupId": "row6",
    "devanagariNote": "keine Entsprechung (tibetischer Vokalträger)",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "Kaum ein Konsonant: der Vokal mit weichem, leicht gehauchtem Einsatz, tiefer Ton; Gegenstück zu ཨ"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -746,7 +921,7 @@
    "baseId": "l-_a",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-_a.mp3",
+    "file": "audio/l-_a.mp3?v=7b897fe0",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -761,6 +936,10 @@
    "order": 24,
    "groupId": "row6",
    "devanagari": "य",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "j wie in „ja“"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -773,7 +952,7 @@
    "baseId": "l-ya",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ya.mp3",
+    "file": "audio/l-ya.mp3?v=3bc15b64",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -788,6 +967,10 @@
    "order": 25,
    "groupId": "row7",
    "devanagari": "र",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "r, leicht gerollt oder getippt"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -800,7 +983,7 @@
    "baseId": "l-ra",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ra.mp3",
+    "file": "audio/l-ra.mp3?v=fb529e6e",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -815,6 +998,10 @@
    "order": 26,
    "groupId": "row7",
    "devanagari": "ल",
+   "phonology": {
+    "tone": "tief",
+    "hintDe": "l"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -827,7 +1014,7 @@
    "baseId": "l-la",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-la.mp3",
+    "file": "audio/l-la.mp3?v=f1db59a4",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -842,6 +1029,10 @@
    "order": 27,
    "groupId": "row7",
    "devanagari": "श",
+   "phonology": {
+    "tone": "hoch",
+    "hintDe": "sch mit hohem Ton"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -854,7 +1045,7 @@
    "baseId": "l-sha",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-sha.mp3",
+    "file": "audio/l-sha.mp3?v=5f1a56eb",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -869,6 +1060,10 @@
    "order": 28,
    "groupId": "row7",
    "devanagari": "स",
+   "phonology": {
+    "tone": "hoch",
+    "hintDe": "stimmloses s mit hohem Ton"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -881,7 +1076,7 @@
    "baseId": "l-sa",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-sa.mp3",
+    "file": "audio/l-sa.mp3?v=81914942",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -896,6 +1091,10 @@
    "order": 29,
    "groupId": "row8",
    "devanagari": "ह",
+   "phonology": {
+    "tone": "hoch",
+    "hintDe": "h"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -908,7 +1107,7 @@
    "baseId": "l-ha",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-ha.mp3",
+    "file": "audio/l-ha.mp3?v=4df53281",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -923,6 +1122,10 @@
    "order": 30,
    "groupId": "row8",
    "devanagari": "अ",
+   "phonology": {
+    "tone": "hoch",
+    "hintDe": "Nur der Vokal, hoher Ton. Träger für Vokalzeichen (ཨི ཨུ ཨེ ཨོ)"
+   },
    "analysis": {
     "prefix": null,
     "superscript": null,
@@ -935,7 +1138,7 @@
    "baseId": "l-a",
    "vowel": "a",
    "audio": {
-    "file": "audio/l-a.mp3",
+    "file": "audio/l-a.mp3?v=a002c6f7",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -3281,7 +3484,7 @@
     "postsuffix": null
    },
    "audio": {
-    "file": "audio/v-i.mp3",
+    "file": "audio/v-i.mp3?v=54f754b1",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -3307,7 +3510,7 @@
     "postsuffix": null
    },
    "audio": {
-    "file": "audio/v-u.mp3",
+    "file": "audio/v-u.mp3?v=5ede6351",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -3333,7 +3536,7 @@
     "postsuffix": null
    },
    "audio": {
-    "file": "audio/v-e.mp3",
+    "file": "audio/v-e.mp3?v=62bf838d",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"
@@ -3359,7 +3562,7 @@
     "postsuffix": null
    },
    "audio": {
-    "file": "audio/v-o.mp3",
+    "file": "audio/v-o.mp3?v=a4b0bcee",
     "source": "manual",
     "dialect": "Owner-Aufnahme (TZ-Aussprache)",
     "status": "approved"

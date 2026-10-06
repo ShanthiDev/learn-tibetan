@@ -15,10 +15,10 @@ id = "velar"
 label_de = "Kehllaute"
 linguistic = "velar · Hintergaumen (traditionell „guttural“)"
 letters = [
-  { tibetan = "ཀ", devanagari = "क" },
-  { tibetan = "ཁ", devanagari = "ख" },
-  { tibetan = "ག", devanagari = "ग" },
-  { tibetan = "ང", devanagari = "ङ" },
+  { tibetan = "ཀ", devanagari = "क", aspiration = "unbehaucht", tone = "hoch", hint_de = "k ohne Hauchstoß, wie in „Skat“" },
+  { tibetan = "ཁ", devanagari = "ख", aspiration = "behaucht", tone = "hoch", hint_de = "k mit deutlichem Hauch, wie in „Kahn“" },
+  { tibetan = "ག", devanagari = "ग", aspiration = "behaucht", tone = "tief", hint_de = "In Lhasa-/Exil-Aussprache wie ཁ, aber mit tiefem Ton; in anderen Aussprachen ein weiches g (so schreiben es auch Wylie und TZ)" },
+  { tibetan = "ང", devanagari = "ङ", tone = "tief", hint_de = "ng wie in „singen“, auch am Silbenanfang" },
 ]
 
 [[groups]]
@@ -26,10 +26,10 @@ id = "palatal"
 label_de = "Gaumenlaute"
 linguistic = "palatal · heute als Affrikaten tsch/dsch gesprochen"
 letters = [
-  { tibetan = "ཅ", devanagari = "च" },
-  { tibetan = "ཆ", devanagari = "छ" },
-  { tibetan = "ཇ", devanagari = "ज" },
-  { tibetan = "ཉ", devanagari = "ञ" },
+  { tibetan = "ཅ", devanagari = "च", aspiration = "unbehaucht", tone = "hoch", hint_de = "tsch ohne Hauch" },
+  { tibetan = "ཆ", devanagari = "छ", aspiration = "behaucht", tone = "hoch", hint_de = "tsch mit Hauch" },
+  { tibetan = "ཇ", devanagari = "ज", aspiration = "behaucht", tone = "tief", hint_de = "In Lhasa-/Exil-Aussprache wie ཆ mit tiefem Ton, sonst eher dsch. ཆ „Paar“ und ཇ „Tee“ unterscheidet nur der Ton" },
+  { tibetan = "ཉ", devanagari = "ञ", tone = "tief", hint_de = "nj wie in „Cognac“ oder spanisch ñ" },
 ]
 
 [[groups]]
@@ -37,10 +37,10 @@ id = "dental"
 label_de = "Zahn-/Zahndammlaute"
 linguistic = "dental/alveolar"
 letters = [
-  { tibetan = "ཏ", devanagari = "त" },
-  { tibetan = "ཐ", devanagari = "थ" },
-  { tibetan = "ད", devanagari = "द" },
-  { tibetan = "ན", devanagari = "न" },
+  { tibetan = "ཏ", devanagari = "त", aspiration = "unbehaucht", tone = "hoch", hint_de = "t ohne Hauch, wie in „Stall“" },
+  { tibetan = "ཐ", devanagari = "थ", aspiration = "behaucht", tone = "hoch", hint_de = "t mit Hauch, wie in „Tal“" },
+  { tibetan = "ད", devanagari = "द", aspiration = "behaucht", tone = "tief", hint_de = "In Lhasa-/Exil-Aussprache wie ཐ mit tiefem Ton, sonst eher d" },
+  { tibetan = "ན", devanagari = "न", tone = "tief", hint_de = "n" },
 ]
 
 [[groups]]
@@ -48,10 +48,10 @@ id = "labial"
 label_de = "Lippenlaute"
 linguistic = "labial"
 letters = [
-  { tibetan = "པ", devanagari = "प" },
-  { tibetan = "ཕ", devanagari = "फ" },
-  { tibetan = "བ", devanagari = "ब" },
-  { tibetan = "མ", devanagari = "म" },
+  { tibetan = "པ", devanagari = "प", aspiration = "unbehaucht", tone = "hoch", hint_de = "p ohne Hauch, wie in „Spiel“" },
+  { tibetan = "ཕ", devanagari = "फ", aspiration = "behaucht", tone = "hoch", hint_de = "p mit Hauch, wie in „Paar“" },
+  { tibetan = "བ", devanagari = "ब", aspiration = "behaucht", tone = "tief", hint_de = "In Lhasa-/Exil-Aussprache wie ཕ mit tiefem Ton, sonst eher b; nach anderen Silben oft w (Kap. Silben)" },
+  { tibetan = "མ", devanagari = "म", tone = "tief", hint_de = "m" },
 ]
 
 [[groups]]
@@ -61,10 +61,10 @@ linguistic = "dentale Affrikaten ts – tsh – dz, dazu w"
 # ཙ ཚ ཛ sind tibetische Neubildungen ohne eigene Devanagari-Entsprechung; in Sanskrit-Umschrift
 # schreibt man mit ihnen च छ ज (z. B. བཛྲ vajra). Daher nur als Notiz, nicht als Parallele.
 letters = [
-  { tibetan = "ཙ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit च" },
-  { tibetan = "ཚ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit छ" },
-  { tibetan = "ཛ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit ज" },
-  { tibetan = "ཝ", devanagari = "व" },
+  { tibetan = "ཙ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit च", aspiration = "unbehaucht", tone = "hoch", hint_de = "ts ohne Hauch. Wie ཅ, aber mit kleiner Fahne oben rechts" },
+  { tibetan = "ཚ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit छ", aspiration = "behaucht", tone = "hoch", hint_de = "ts mit Hauch. Wie ཆ, aber mit Fahne" },
+  { tibetan = "ཛ", devanagari_note = "kein eigenes Devanagari; schreibt in Sanskrit ज", aspiration = "unbehaucht", tone = "tief", hint_de = "dz mit tiefem Ton; manche sprechen ein behauchtes ts. Wie ཇ, aber mit Fahne" },
+  { tibetan = "ཝ", devanagari = "व", tone = "tief", hint_de = "w, eher wie englisch „water“" },
 ]
 
 [[groups]]
@@ -72,10 +72,10 @@ id = "row6"
 label_de = "Weiche Reibelaute, a-chung, ya"
 linguistic = "stimmhafte Frikative zh/z, a-chung (stumm, Vokalträger), Halbvokal y"
 letters = [
-  { tibetan = "ཞ", devanagari_note = "keine Entsprechung" },
-  { tibetan = "ཟ", devanagari_note = "keine Entsprechung" },
-  { tibetan = "འ", devanagari_note = "keine Entsprechung (tibetischer Vokalträger)" },
-  { tibetan = "ཡ", devanagari = "य" },
+  { tibetan = "ཞ", devanagari_note = "keine Entsprechung", tone = "tief", hint_de = "sch mit tiefem Ton; Gegenstück zu ཤ" },
+  { tibetan = "ཟ", devanagari_note = "keine Entsprechung", tone = "tief", hint_de = "s mit tiefem Ton; Gegenstück zu ས" },
+  { tibetan = "འ", devanagari_note = "keine Entsprechung (tibetischer Vokalträger)", tone = "tief", hint_de = "Kaum ein Konsonant: der Vokal mit weichem, leicht gehauchtem Einsatz, tiefer Ton; Gegenstück zu ཨ" },
+  { tibetan = "ཡ", devanagari = "य", tone = "tief", hint_de = "j wie in „ja“" },
 ]
 
 [[groups]]
@@ -83,10 +83,10 @@ id = "row7"
 label_de = "Fließ- und Zischlaute"
 linguistic = "Liquide r/l, Sibilanten sh/s"
 letters = [
-  { tibetan = "ར", devanagari = "र" },
-  { tibetan = "ལ", devanagari = "ल" },
-  { tibetan = "ཤ", devanagari = "श" },
-  { tibetan = "ས", devanagari = "स" },
+  { tibetan = "ར", devanagari = "र", tone = "tief", hint_de = "r, leicht gerollt oder getippt" },
+  { tibetan = "ལ", devanagari = "ल", tone = "tief", hint_de = "l" },
+  { tibetan = "ཤ", devanagari = "श", tone = "hoch", hint_de = "sch mit hohem Ton" },
+  { tibetan = "ས", devanagari = "स", tone = "hoch", hint_de = "stimmloses s mit hohem Ton" },
 ]
 
 [[groups]]
@@ -94,8 +94,8 @@ id = "row8"
 label_de = "Hauchlaut und Vokalträger"
 linguistic = "h, Vokalträger a"
 letters = [
-  { tibetan = "ཧ", devanagari = "ह" },
-  { tibetan = "ཨ", devanagari = "अ" },
+  { tibetan = "ཧ", devanagari = "ह", tone = "hoch", hint_de = "h" },
+  { tibetan = "ཨ", devanagari = "अ", tone = "hoch", hint_de = "Nur der Vokal, hoher Ton. Träger für Vokalzeichen (ཨི ཨུ ཨེ ཨོ)" },
 ]
 
 # Vokalzeichen. "" = inhärentes a (der Buchstabe selbst).
@@ -103,22 +103,39 @@ letters = [
 id = "a"
 sign = ""
 name_de = "inhärentes a"
+sound_de = "kurzes a, eher wie in „Ball“"
 [[vowels]]
 id = "i"
 sign = "ི"
 name_de = "gi gu"
+sound_de = "wie ie in „Liebe“"
+name_spoken = "khi khu"
+name_audio = "audio/extra/vowelname-gigu.mp3"
+example = { tibetan = "རི", meaning_de = "Berg", audio = "audio/extra/word-ri.mp3" }
 [[vowels]]
 id = "u"
 sign = "ུ"
 name_de = "zhabs kyu"
+sound_de = "wie u in „gut“"
+name_spoken = "shab kyu"
+name_audio = "audio/extra/vowelname-zhabskyu.mp3"
+example = { tibetan = "ཆུ", meaning_de = "Wasser", audio = "audio/extra/word-chu.mp3" }
 [[vowels]]
 id = "e"
 sign = "ེ"
 name_de = "'greng bu"
+sound_de = "wie e in „See“"
+name_spoken = "dreng bu"
+name_audio = "audio/extra/vowelname-drengbu.mp3"
+example = { tibetan = "མེ", meaning_de = "Feuer", audio = "audio/extra/word-me.mp3" }
 [[vowels]]
 id = "o"
 sign = "ོ"
 name_de = "na ro"
+sound_de = "wie o in „so“"
+name_spoken = "na ro"
+name_audio = "audio/extra/vowelname-naro.mp3"
+example = { tibetan = "སོ", meaning_de = "Zahn", audio = "audio/extra/word-so.mp3" }
 
 # Distraktor-Hinweise. VORLÄUFIG, nach Augenschein; bitte korrigieren, wo unpassend.
 [confusables]
@@ -135,3 +152,54 @@ wylie = [
 # Format: Listen tibetischer Buchstaben/Silben, z. B. ["ཅ", "ཆ"].
 [audio_equivalent]
 groups = []
+
+# Hintergrundwissen, in der App hinter ⓘ (Alphabet). Eigene Formulierungen; Inhalt angelehnt an
+# gängige Lehrwerke (Vorlage: references/texts/, nicht im Repo). Absätze mit Leerzeile trennen.
+[[topics]]
+id = "default-a"
+title_de = "Das inhärente a und der Tsheg"
+text_de = """Jeder Konsonant wird mit einem kurzen a gesprochen, obwohl dafür kein Zeichen geschrieben wird: ཀ ist „ka“. \
+Erst ein Vokalzeichen ersetzt dieses a (ཀི ཀུ ཀེ ཀོ).
+
+Der Punkt ་ nach jeder Silbe heißt Tsheg. Er trennt Silben, ähnlich wie ein Leerzeichen, und wird nicht gesprochen. \
+Tibetisch hat keine Groß- und Kleinbuchstaben, und die Konsonanten haben keine eigenen Namen: Man liest sie einfach, \
+wie sie klingen."""
+
+[[topics]]
+id = "aspiration"
+title_de = "Behauchung"
+text_de = """Manche Konsonanten werden mit einem kleinen Luftstoß gesprochen (behaucht), andere ohne (unbehaucht). \
+Im Deutschen gibt es beides, nur achtet niemand darauf: Das k in „Kahn“ ist behaucht, das k in „Skat“ nicht. \
+Halte die Hand vor den Mund und sprich beide Wörter, dann spürst du den Unterschied.
+
+Im Tibetischen unterscheidet die Behauchung Wörter: ཀ་བ (Säule) und ཁ་བ (Schnee) unterscheiden sich nur darin. \
+In jeder der ersten Reihen steht deshalb ein unbehauchter und ein behauchter Buchstabe nebeneinander: ཀ/ཁ, ཅ/ཆ, ཏ/ཐ, པ/ཕ, ཙ/ཚ. \
+Wylie markiert die Behauchung mit h (kha, tha), „TZ aktuell“ ebenfalls."""
+
+[[topics]]
+id = "tone"
+title_de = "Ton"
+text_de = """Zentraltibetisch kennt zwei Töne. Der hohe Ton ist kurz, klar und fällt oft leicht ab. Der tiefe Ton ist länger, \
+ruhiger und steigt oft leicht an. Welcher Ton eine Silbe hat, bestimmt der Buchstabe; hörbar wird er am Vokal.
+
+So unterscheiden sich ཆ „Paar“ (hoch) und ཇ „Tee“ (tief) nur im Ton, ebenso ཤ/ཞ (sch), ས/ཟ (s) und ཨ/འ (a). \
+Weder Wylie noch die TZ-Umschrift schreiben den Ton. Man muss ihn also am Buchstaben erkennen, und dabei hilft das Hören."""
+
+[[topics]]
+id = "ga-kha"
+title_de = "ག ཇ ད བ: g oder kh?"
+text_de = """Die dritten Buchstaben der ersten Reihen waren im Sanskrit stimmhaft (g, j, d, b). Im heutigen \
+Zentraltibetisch klingen sie je nach Sprecher verschieden: In der Lhasa- und Exil-Aussprache meist wie die behauchten \
+Nachbarn (kh, tsch, th, ph), aber mit tiefem Ton; in vielen anderen Aussprachen eher wie ein weiches g, dsch, d, b.
+
+Wylie und die TZ-Umschrift schreiben g, dsch/j, d, b. Das bildet die Schreibung ab und hilft beim Wiedererkennen, \
+auch wenn du es anders hörst."""
+
+[[topics]]
+id = "representations"
+title_de = "Schrift, Wylie, TZ und Klang"
+text_de = """Die App zeigt bewusst vier Dinge getrennt: die tibetische Schrift, die Wylie-Umschrift (gibt die Buchstaben \
+wieder, z. B. ca), die TZ-Umschrift (eine deutsche Lesehilfe für die Aussprache, z. B. tscha) und den Klang.
+
+Abgefragt wird Wylie, weil es eindeutig ist: Jeder Buchstabe hat genau eine Wylie-Form. In der TZ-Umschrift fallen \
+manche Buchstaben zusammen (ཅ und ཆ sind beide „tscha“), und Ton sowie Behauchung fehlen ganz."""

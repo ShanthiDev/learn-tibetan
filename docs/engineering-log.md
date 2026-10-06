@@ -232,3 +232,24 @@ Panel steht nach 2,5 s noch, „Weiter“ → nächste Frage.
 
 **Offen / Frage an den Owner:** Sollen tonale Paare (ཞ/ཤ, ཟ/ས, འ/ཨ) als Audio-Gleichklang gelten
 (nie gemeinsam in einer Hörfrage)?
+
+## 2026-10-06 — Sitzung 4: Stumme Hörübungen, Ausspracheinfos
+
+**Owner:** In den Hörübungen nichts zu hören (Feedback-Töne schon). Tonpaare im Hörquiz behalten.
+Textreferenz (gespeicherte Kurs-Webseite „Unit 1: The alphabet“) als Vorlage, gitignoren. Wunsch:
+Beschreibung der Buchstaben (Behauchung, Ton) hinter einem kleinen Info-Button, gern mehr Infos.
+
+**Stummes Audio:** Clips geprüft (ffprobe/volumedetect: −17 bis −23 dB mean, Spitzen ~−1,5 dB) →
+Dateien ok. Headless: programmatischer `click()` → `NotAllowedError` (keine Nutzergeste, erwartet).
+`tools/shot.mjs` um `click:<selector>` erweitert (CDP `Input.dispatchMouseEvent` = echte Geste) →
+`play()` ok, `currentTime` läuft. Ursache daher Cache alter MMS-Dateien mit gleichem Namen → D-017
+(Hash an Audio-URLs). Owner sollte einmal neu laden.
+
+**Ausspracheinfos (D-018):** Vorlage gelesen (25 kB Text extrahiert). Daten in TOML (30 Buchstaben
+mit Behauchung/Ton/Hinweis, Vokale mit Klang, Namen und Beispielwort, 5 Themen). Die vorher als
+„Extras“ geschnittenen Owner-Segmente (Vokalnamen, me/chu/ri/so) werden jetzt ausgeliefert
+(`web/public/audio/extra/`). UI: `Info`-Toggle, `SoundFacts`, `Rich` (vergrößert tibetische
+Abschnitte in Fließtext), Themen-Sheet im Alphabet, ⓘ in Intro und Oops-Panel. Screenshots:
+einzelne Vokalzeichen ohne Träger rendern als ◌/Tofu → im Text auf ཀ gesetzt.
+
+**Tests:** Content-Test um Phonologie ergänzt; Vitest 9 grün.

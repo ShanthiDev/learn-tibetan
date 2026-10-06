@@ -8,6 +8,11 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ### Added
 
+- Ausspracheinfos hinter ⓘ: pro Buchstabe Behauchung, Ton und deutscher Aussprachehinweis
+  (Detailansicht, Intro-Karte, Oops-Panel mit Vergleich richtige/gewählte Antwort).
+- Vokale: Klangbeschreibung, Zeichenname (mit Aufnahme) und Beispielwort (མེ ཆུ རི སོ, mit Aufnahme).
+- „Hintergrundwissen“ im Alphabet (ⓘ oben rechts): inhärentes a & Tsheg, Behauchung, Ton,
+  ག ཇ ད བ (g oder kh?), Schrift/Wylie/TZ/Klang.
 - Eigene Aufnahmen des Owners für alle 30 Buchstaben und ཨི ཨུ ཨེ ཨོ, geschnitten und freigegeben;
   Hörlektionen a1–a3 (a3: Vokale auf ཨ) vollständig spielbar.
 - `curate.py split`: zerlegt eine Aufnahme mit mehreren Silben (z. B. eine ganze Reihe) an den
@@ -19,6 +24,11 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 - Falsche Antwort: Duolingo-artiges Panel „Oops, nicht ganz.“ mit richtiger Lösung, eigener Wahl,
   TZ-Aussprache und Anhören; weiter **nur per „Weiter“** (oder Enter), kein Timer mehr.
 - Hörlektion a3: Vokale auf ཨ statt auf ཀ (passend zu den Aufnahmen).
+
+### Fixed
+
+- Hörübungen stumm/kaum hörbar: ersetzte Clips mit gleichem Dateinamen kamen aus dem Cache
+  (Speicher-Cache des Audio-Elements bzw. Service Worker). Audio-URLs tragen jetzt einen Inhalts-Hash.
 
 ### Removed
 

@@ -10,7 +10,7 @@ import { sfx } from '../sfx'
 import { useProgress } from '../progress'
 import { go } from '../router'
 import { useSettings } from '../settings'
-import { AudioButton, Tib } from '../ui'
+import { AudioButton, Info, SoundFacts, Tib } from '../ui'
 
 type Phase = 'intro' | 'ask' | 'feedback' | 'done' | 'empty'
 const rng = Math.random
@@ -197,6 +197,15 @@ function Oops({ q, chosen, onNext }: { q: Question; chosen: Item; onNext: () => 
         {settings.showTz && t.tz !== t.wylie && <small> · gesprochen „{t.tz}“</small>}
       </p>
       <p className="oops-chosen">Deine Wahl: {pair(chosen)}</p>
+      <div className="oops-info">
+        <Info label="Unterschied erklären">
+          {[t, chosen].map((it) => (
+            <p key={it.id}>
+              <Tib>{it.tibetan}</Tib> <SoundFacts it={it} />
+            </p>
+          ))}
+        </Info>
+      </div>
       <button className="btn oops-next" onClick={onNext} autoFocus>
         Weiter
       </button>
@@ -225,6 +234,31 @@ function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
             </span>
           </div>
         ))}
+      </div>
+      <div className="intro-info">
+        <Info label="Aussprache der neuen Zeichen">
+          {vowels
+            ? curriculum.vowels
+                .filter((v) => v.sign)
+                .map((v) => (
+                  <p key={v.id}>
+                    <Tib>{`ཀ${v.sign}`}</Tib> <b>{v.id}</b> {v.soundDe}
+                    {v.nameSpoken && <small> · Name: {v.nameDe} („{v.nameSpoken}“)</small>}
+                    {v.nameAudio && <AudioButton file={v.nameAudio} />}
+                    {v.example && (
+                      <small className="block">
+                        z. B. <Tib>{v.example.tibetan}</Tib> {v.example.wylie} „{v.example.meaningDe}“
+                        <AudioButton file={v.example.audio} />
+                      </small>
+                    )}
+                  </p>
+                ))
+            : items.map((it) => (
+                <p key={it.id}>
+                  <Tib>{it.tibetan}</Tib> <b>{it.wylie}</b> <SoundFacts it={it} />
+                </p>
+              ))}
+        </Info>
       </div>
       <p className="note">
         Abgefragt wird die Wylie-Umschrift (Buchstaben), nicht die Aussprache.
