@@ -40,6 +40,7 @@ export type Lesson = {
   introItemIds?: string[]
   newItemIds: string[]
   modes: QuizMode[]
+  mastery?: { box: number; share: number } // default: every item/mode at CONFIG.masteredBox
 }
 
 export type Curriculum = {

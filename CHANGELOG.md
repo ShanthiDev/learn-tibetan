@@ -6,6 +6,18 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ## [Unreleased]
 
+### Added
+
+- Kapitel 4 (Vokale): Vokal-Intro (ཀ ཀི ཀུ ཀེ ཀོ mit tibetischen Vokalnamen), Lektion „Vokale auf ཀ“
+  in beiden Richtungen, Verallgemeinerung auf Reihen 1–4 und alle Buchstaben (Leserichtung).
+- Pro Lektion einstellbare Meisterungsschwelle (`mastery: {box, share}`).
+
+### Fixed
+
+- Tibetisch in UI-Texten (Überschriften, Buttons) wurde als Tofu dargestellt; Jomolhari steht jetzt
+  per `unicode-range` vorne in der UI-Font-Kette.
+- Ungleich hohe Label-Bänder im Raster.
+
 ## [0.1.0] — 2026-10-06
 
 Erste spielbare Version: Kernerlebnis Zeichen ↔ Wylie (Kapitel 1–3).

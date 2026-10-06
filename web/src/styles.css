@@ -22,7 +22,7 @@
   --bad-line: #6f2634;
   --radius: 14px;
   --tib: 'Jomolhari', 'Noto Serif Tibetan', serif;
-  --ui: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif, 'Jomolhari';
+  --ui: 'Jomolhari', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; /* unicode-range: Jomolhari only for Tibetan */
     color-scheme: light;
 }
 
@@ -91,8 +91,8 @@ main { flex: 1; }
 }
 .cell-glyph.small { font-size: min(15vw, 76px); }
 .cell-band {
-  display: flex; flex-direction: column; align-items: center; gap: 1px;
-  padding: 7px 2px 8px; background: var(--brown); color: var(--cream);
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 1px;
+  padding: 7px 2px 8px; text-align: center; background: var(--brown); color: var(--cream);
 }
 .cell-band .wylie { font-size: 1rem; font-weight: 600; }
 .cell-sub { font-size: 0.78rem; opacity: 0.75; }

@@ -3539,9 +3539,12 @@
     "v-mo"
    ],
    "modes": [
-    "tib-wylie",
-    "wylie-tib"
-   ]
+    "tib-wylie"
+   ],
+   "mastery": {
+    "box": 2,
+    "share": 0.8
+   }
   },
   {
    "id": "v3",
@@ -3700,9 +3703,12 @@
     "v-o"
    ],
    "modes": [
-    "tib-wylie",
-    "wylie-tib"
-   ]
+    "tib-wylie"
+   ],
+   "mastery": {
+    "box": 1,
+    "share": 0.8
+   }
   },
   {
    "id": "a1",

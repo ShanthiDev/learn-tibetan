@@ -139,3 +139,17 @@ es sudo mit Passwort; das macht der Owner. Befehle siehe Antwort an den Owner bz
 
 **Nächster Schritt:** M4 Vokale (Lektionen 17–19 sind dank generischer Engine bereits spielbar;
 es fehlen Feinschliff und ein Testfall).
+
+## 2026-10-06 — Sitzung 2: M4 Vokale
+
+**Vorgehen:** Vokallektionen waren mit M3 bereits spielbar (generische Engine, Scope `syllables`,
+Distraktoren gleicher Grundbuchstabe; Test aus M3 deckt das ab). Beim Durchrechnen der
+Meisterungsschwelle fiel der Aufwand von v2/v3 auf (480/900 richtige Antworten) → D-011: optionales
+`mastery {box, share}` je Lektion (Python-Content + `lessonScore`), v2/v3 nur Leserichtung. Neuer
+Test für die Share-Schwelle (9 Vitest-Tests grün).
+
+**Befunde (Screenshots):** Vokal-Intro zeigte ཀ in der Überschrift als Tofu → Ursache: Jomolhari als
+letzter Fallback hinter `sans-serif` wird nicht genutzt; Lösung D-012. Label-Bänder unterschiedlich
+hoch, wenn eine Zeile umbricht („inhärentes a“) → `flex: 1` im Band.
+
+**Nächster Schritt:** M5 Audio, beginnend mit dem MMS-TTS-Spike.

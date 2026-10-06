@@ -41,4 +41,14 @@ describe('progress', () => {
     expect(lessonMastered(p, c.lessons[0], item)).toBe(true)
     expect(unlockedCount(p, c.lessons, item, false)).toBe(2)
   })
+  it('honours a lighter per-lesson mastery bar (share of items)', () => {
+    const v3 = c.lessons.find((l) => l.id === 'v3')!
+    const rng = seeded(6)
+    let p = emptyProgress()
+    const ids = v3.newItemIds
+    for (const id of ids.slice(0, Math.ceil(ids.length * 0.8) - 1)) p = applyAnswer(p, keyOf(id, 'tib-wylie'), true, rng)
+    expect(lessonMastered(p, v3, item)).toBe(false)
+    p = applyAnswer(p, keyOf(ids[ids.length - 1], 'tib-wylie'), true, rng)
+    expect(lessonMastered(p, v3, item)).toBe(true)
+  })
 })

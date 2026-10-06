@@ -86,7 +86,24 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - „Schwieriges“ = Fehler in den letzten 200 Fragen oder Trefferquote < 70 % bei ≥ 2 Versuchen.
 - Wylie in der UI-Sans statt Monospace (Monospace wirkte klobig, Apostroph bleibt gut sichtbar).
 
+## D-011 — Vokal-Verallgemeinerung: nur Leserichtung, leichtere Meisterung (2026-10-06)
+
+- **Kontext:** Spec sah v2 (80 Formen) und v3 (150 Formen) in beiden Richtungen mit Box 3 vor →
+  480 bzw. 900 richtige Antworten bis zur Freischaltung; Kapitel 5 wäre dahinter blockiert.
+- **Entscheidung:** v1 (Vokale auf ཀ) beide Richtungen, Box 3, alle Items. v2 nur Zeichen→Wylie,
+  Box 2 für 80 % der Formen (~130 Antworten). v3 nur Zeichen→Wylie, Box 1 für 80 % (~60–120
+  Antworten, da v2-Formen schon zählen). Umsetzung als optionales `mastery` je Lektion.
+- **Begründung:** Ziel ist Lesen; das Vokalsystem ist nach v1 verstanden, v2/v3 festigen die
+  Übertragung auf andere Buchstaben. Zurück in beide Richtungen ist trivial (Content-Zeile ändern).
+
+## D-012 — Jomolhari vorn in der UI-Font-Kette (2026-10-06)
+
+- Als letzter Fallback hinter dem generischen `sans-serif` griff Jomolhari in Chrome nicht (Tofu in
+  Überschriften). Dank `unicode-range` (nur U+0F00–0FFF) kann Jomolhari gefahrlos an erster Stelle
+  stehen: Latein kommt weiter aus der Systemschrift.
+
 ## Sackgassen
 
 - **Fontsource-CSS direkt importieren** → Tofu beim ersten Rendern (siehe D-009).
+- **Jomolhari als letzter Fallback nach `sans-serif`** → greift nicht (D-012).
 - **Headless-Screenshots ohne Interaktion** reichen für Quiz-Zustände nicht → `tools/shot.mjs` (CDP).

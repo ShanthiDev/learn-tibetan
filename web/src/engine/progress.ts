@@ -42,13 +42,15 @@ export function applyAnswer(p: Progress, key: string, correct: boolean, rng: Rng
 export const playableItems = (lesson: Lesson, items: (id: string) => Item) =>
   lesson.newItemIds.filter((id) => !lesson.modes.includes('audio-tib') || items(id).audio)
 
-/** 0..1: how close the lesson is to mastery (each item/mode counts up to masteredBox). */
+/** 0..1: how close the lesson is to mastery. Each item/mode counts up to the lesson's mastery box;
+ *  1 is reached when the required share of the lesson's item/modes is fully there. */
 export function lessonScore(p: Progress, lesson: Lesson, items: (id: string) => Item): number {
   const ids = playableItems(lesson, items)
   if (!ids.length) return 0
+  const { box, share } = lesson.mastery ?? { box: CONFIG.masteredBox, share: 1 }
   let sum = 0
-  for (const id of ids) for (const m of lesson.modes) sum += Math.min(CONFIG.masteredBox, statOf(p, keyOf(id, m)).box)
-  return sum / (ids.length * lesson.modes.length * CONFIG.masteredBox)
+  for (const id of ids) for (const m of lesson.modes) sum += Math.min(box, statOf(p, keyOf(id, m)).box) / box
+  return Math.min(1, sum / (ids.length * lesson.modes.length * share))
 }
 
 export const lessonMastered = (p: Progress, lesson: Lesson, items: (id: string) => Item) =>

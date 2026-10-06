@@ -90,8 +90,12 @@ def build(content_dir: Path = CONTENT) -> dict:
     lessons += [
         {"id": "v1", "chapter": 4, "titleDe": "Vokale auf ཀ", "introItemIds": family(["l-ka"]),
          "newItemIds": family(["l-ka"]), "modes": both},
-        {"id": "v2", "chapter": 4, "titleDe": "Vokale: erste vier Reihen", "newItemIds": family(first4), "modes": both},
-        {"id": "v3", "chapter": 4, "titleDe": "Vokale: alle Buchstaben", "newItemIds": family(all_letters), "modes": both},
+        # Generalisation lessons: reading direction only and a lighter mastery bar (D-011),
+        # otherwise 80/150 forms x 2 directions x box 3 would take many hundred answers.
+        {"id": "v2", "chapter": 4, "titleDe": "Vokale: erste vier Reihen", "newItemIds": family(first4),
+         "modes": ["tib-wylie"], "mastery": {"box": 2, "share": 0.8}},
+        {"id": "v3", "chapter": 4, "titleDe": "Vokale: alle Buchstaben", "newItemIds": family(all_letters),
+         "modes": ["tib-wylie"], "mastery": {"box": 1, "share": 0.8}},
         {"id": "a1", "chapter": 5, "titleDe": "Hören: erste vier Reihen", "newItemIds": first4, "modes": ["audio-tib"]},
         {"id": "a2", "chapter": 5, "titleDe": "Hören: restliche Buchstaben",
          "newItemIds": [i for i in all_letters if i not in first4], "modes": ["audio-tib"]},
