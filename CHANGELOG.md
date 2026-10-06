@@ -25,6 +25,11 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
   TZ-Aussprache und Anhören; weiter **nur per „Weiter“** (oder Enter), kein Timer mehr.
 - Hörlektion a3: Vokale auf ཨ statt auf ཀ (passend zu den Aufnahmen).
 
+### Changed
+
+- ག ཇ ད བ: Infotexte erklären die zwei verbreiteten Aussprachen konkret (A: wie ཁ/ཆ/ཐ/ཕ mit
+  tiefem Ton; B: weich g/dsch/d/b) statt „behaucht“ pauschal; Behauchung dort „je nach Aussprache“.
+
 ### Fixed
 
 - Hörübungen stumm/kaum hörbar: ersetzte Clips mit gleichem Dateinamen kamen aus dem Cache

@@ -253,3 +253,8 @@ Abschnitte in Fließtext), Themen-Sheet im Alphabet, ⓘ in Intro und Oops-Panel
 einzelne Vokalzeichen ohne Träger rendern als ◌/Tofu → im Text auf ཀ gesetzt.
 
 **Tests:** Content-Test um Phonologie ergänzt; Vitest 9 grün.
+
+**Nachtrag:** Owner verstand den Hinweis „viele sagen g/dsch/d/b“ nicht (Vergleichsgröße fehlte).
+Hinweise für ག ཇ ད བ und das Thema „ག ཇ ད བ: zwei Aussprachen“ neu formuliert: (A) wie der behauchte
+Nachbar mit tiefem Ton, (B) weich mit deutschen Beispielwörtern; Behauchung = „je nach Aussprache“.
+Lehre: Varianten immer mit beiden Seiten und konkretem Klangbeispiel benennen.

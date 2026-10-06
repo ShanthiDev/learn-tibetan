@@ -15,7 +15,7 @@ export type Analysis = {
 
 export type AudioRef = { file: string; source: string; dialect: string; status: 'candidate' | 'approved' }
 
-export type Phonology = { aspiration?: 'unbehaucht' | 'behaucht'; tone: 'hoch' | 'tief'; hintDe: string }
+export type Phonology = { aspiration?: 'unbehaucht' | 'behaucht' | 'je nach Aussprache'; tone: 'hoch' | 'tief'; hintDe: string }
 
 export type Vowel = {
   id: VowelId

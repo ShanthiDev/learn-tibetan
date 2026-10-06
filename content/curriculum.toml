@@ -17,7 +17,7 @@ linguistic = "velar · Hintergaumen (traditionell „guttural“)"
 letters = [
   { tibetan = "ཀ", devanagari = "क", aspiration = "unbehaucht", tone = "hoch", hint_de = "k ohne Hauchstoß, wie in „Skat“" },
   { tibetan = "ཁ", devanagari = "ख", aspiration = "behaucht", tone = "hoch", hint_de = "k mit deutlichem Hauch, wie in „Kahn“" },
-  { tibetan = "ག", devanagari = "ग", aspiration = "behaucht", tone = "tief", hint_de = "In Lhasa-/Exil-Aussprache wie ཁ, aber mit tiefem Ton; in anderen Aussprachen ein weiches g (so schreiben es auch Wylie und TZ)" },
+  { tibetan = "ག", devanagari = "ग", aspiration = "je nach Aussprache", tone = "tief", hint_de = "Zwei Aussprachen sind verbreitet: (A) wie ཁ „kha“ mit Hauch, nur mit tiefem Ton (Lhasa, Exil); (B) weich: g wie in „gut“. Wylie und TZ schreiben „ga“." },
   { tibetan = "ང", devanagari = "ङ", tone = "tief", hint_de = "ng wie in „singen“, auch am Silbenanfang" },
 ]
 
@@ -28,7 +28,7 @@ linguistic = "palatal · heute als Affrikaten tsch/dsch gesprochen"
 letters = [
   { tibetan = "ཅ", devanagari = "च", aspiration = "unbehaucht", tone = "hoch", hint_de = "tsch ohne Hauch" },
   { tibetan = "ཆ", devanagari = "छ", aspiration = "behaucht", tone = "hoch", hint_de = "tsch mit Hauch" },
-  { tibetan = "ཇ", devanagari = "ज", aspiration = "behaucht", tone = "tief", hint_de = "In Lhasa-/Exil-Aussprache wie ཆ mit tiefem Ton, sonst eher dsch. ཆ „Paar“ und ཇ „Tee“ unterscheidet nur der Ton" },
+  { tibetan = "ཇ", devanagari = "ज", aspiration = "je nach Aussprache", tone = "tief", hint_de = "Zwei Aussprachen sind verbreitet: (A) wie ཆ „tscha“ mit Hauch, nur mit tiefem Ton (Lhasa, Exil); (B) weich: dsch wie in „Dschungel“. Wylie und TZ schreiben „dscha“. ཆ „Paar“ und ཇ „Tee“ unterscheidet dann nur der Ton." },
   { tibetan = "ཉ", devanagari = "ञ", tone = "tief", hint_de = "nj wie in „Cognac“ oder spanisch ñ" },
 ]
 
@@ -39,7 +39,7 @@ linguistic = "dental/alveolar"
 letters = [
   { tibetan = "ཏ", devanagari = "त", aspiration = "unbehaucht", tone = "hoch", hint_de = "t ohne Hauch, wie in „Stall“" },
   { tibetan = "ཐ", devanagari = "थ", aspiration = "behaucht", tone = "hoch", hint_de = "t mit Hauch, wie in „Tal“" },
-  { tibetan = "ད", devanagari = "द", aspiration = "behaucht", tone = "tief", hint_de = "In Lhasa-/Exil-Aussprache wie ཐ mit tiefem Ton, sonst eher d" },
+  { tibetan = "ད", devanagari = "द", aspiration = "je nach Aussprache", tone = "tief", hint_de = "Zwei Aussprachen sind verbreitet: (A) wie ཐ „tha“ mit Hauch, nur mit tiefem Ton (Lhasa, Exil); (B) weich: d wie in „Dach“. Wylie und TZ schreiben „da“." },
   { tibetan = "ན", devanagari = "न", tone = "tief", hint_de = "n" },
 ]
 
@@ -50,7 +50,7 @@ linguistic = "labial"
 letters = [
   { tibetan = "པ", devanagari = "प", aspiration = "unbehaucht", tone = "hoch", hint_de = "p ohne Hauch, wie in „Spiel“" },
   { tibetan = "ཕ", devanagari = "फ", aspiration = "behaucht", tone = "hoch", hint_de = "p mit Hauch, wie in „Paar“" },
-  { tibetan = "བ", devanagari = "ब", aspiration = "behaucht", tone = "tief", hint_de = "In Lhasa-/Exil-Aussprache wie ཕ mit tiefem Ton, sonst eher b; nach anderen Silben oft w (Kap. Silben)" },
+  { tibetan = "བ", devanagari = "ब", aspiration = "je nach Aussprache", tone = "tief", hint_de = "Zwei Aussprachen sind verbreitet: (A) wie ཕ „pha“ mit Hauch, nur mit tiefem Ton (Lhasa, Exil); (B) weich: b wie in „Bach“. Wylie und TZ schreiben „ba“. Nach einer anderen Silbe oft w (später im Kapitel Silben)." },
   { tibetan = "མ", devanagari = "म", tone = "tief", hint_de = "m" },
 ]
 
@@ -187,13 +187,15 @@ Weder Wylie noch die TZ-Umschrift schreiben den Ton. Man muss ihn also am Buchst
 
 [[topics]]
 id = "ga-kha"
-title_de = "ག ཇ ད བ: g oder kh?"
-text_de = """Die dritten Buchstaben der ersten Reihen waren im Sanskrit stimmhaft (g, j, d, b). Im heutigen \
-Zentraltibetisch klingen sie je nach Sprecher verschieden: In der Lhasa- und Exil-Aussprache meist wie die behauchten \
-Nachbarn (kh, tsch, th, ph), aber mit tiefem Ton; in vielen anderen Aussprachen eher wie ein weiches g, dsch, d, b.
+title_de = "ག ཇ ད བ: zwei Aussprachen"
+text_de = """Die vier Buchstaben ག ཇ ད བ (jeweils der dritte in den ersten Reihen) werden heute auf zwei Arten gesprochen.
 
-Wylie und die TZ-Umschrift schreiben g, dsch/j, d, b. Das bildet die Schreibung ab und hilft beim Wiedererkennen, \
-auch wenn du es anders hörst."""
+(A) Lhasa- und Exil-Aussprache: Sie klingen wie ihr behauchter Nachbar, nur mit tiefem Ton. ག klingt wie ཁ „kha“, ཇ wie ཆ „tscha“, ད wie ཐ „tha“, བ wie ཕ „pha“. Von ཁ unterscheidet sich ག dann nur durch den Ton.
+
+(B) Weiche Aussprache, älter und weit verbreitet: ག wie g in „gut“, ཇ wie dsch in „Dschungel“, ད wie d in „Dach“, བ wie b in „Bach“. So waren sie im Sanskrit gemeint (ग ज द ब).
+
+Wylie (ga, ja, da, ba) und die TZ-Umschrift (ga, dscha, da, ba) schreiben sie wie in (B). Hörst du bei einem \
+Lehrer ein tiefes „kha“, kann das trotzdem ག sein."""
 
 [[topics]]
 id = "representations"
