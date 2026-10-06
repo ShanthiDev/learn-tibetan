@@ -172,10 +172,6 @@ main { flex: 1; }
 .prompt { flex: 1; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 16px; }
 .prompt-glyph { font-size: clamp(120px, 42vw, 200px); line-height: 1.25; }
 .prompt-wylie { font-size: clamp(48px, 15vw, 72px); font-weight: 600; color: var(--robe); }
-.reveal { min-height: 2.6em; margin: 4px 0 0; text-align: center; font-size: 1.15rem; visibility: hidden; }
-.reveal.show { visibility: visible; }
-.reveal .tib { font-size: 1.9rem; vertical-align: middle; }
-.reveal small { display: block; font-size: 0.8rem; color: var(--brown-soft); }
 .options {
   display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
   padding: 8px 12px calc(16px + env(safe-area-inset-bottom));
@@ -235,3 +231,24 @@ main { flex: 1; }
 .mark.no[aria-pressed='true'] { background: var(--bad-bg); border-color: var(--bad-line); }
 .review-foot { position: sticky; bottom: 0; padding: 12px 0; background: var(--cream); }
 .copied { white-space: pre-wrap; font-size: 0.8rem; user-select: text; }
+
+/* wrong-answer panel (Duolingo-style stop) */
+.oops {
+  padding: 14px 16px calc(14px + env(safe-area-inset-bottom));
+  background: var(--bad-bg); border-top: 3px solid var(--robe); color: var(--robe-dark);
+  animation: rise 0.18s ease-out;
+}
+.oops-head { display: flex; align-items: center; gap: 10px; }
+.oops-head h2 { flex: 1; margin: 0; font-size: 1.2rem; }
+.oops-x {
+  display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%;
+  background: var(--robe); color: var(--cream); font-size: 0.9rem; font-weight: 700;
+}
+.oops p { margin: 6px 0 0; font-size: 1.05rem; }
+.oops .tib { font-size: 1.9rem; line-height: 1.1; vertical-align: middle; }
+.oops .eq { opacity: 0.6; }
+.oops small { color: var(--brown-soft); }
+.oops-chosen { opacity: 0.75; font-size: 0.95rem !important; }
+.oops-next { margin-top: 12px; min-height: 56px; background: var(--robe); border-color: var(--robe); color: var(--cream); font-size: 1.1rem; }
+.quiz:has(.oops) .options { padding-bottom: 10px; }
+.quiz:has(.oops) .prompt-glyph { font-size: clamp(96px, 30vw, 160px); }

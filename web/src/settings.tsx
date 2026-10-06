@@ -5,12 +5,13 @@ export type Settings = {
   showDevanagari: boolean
   showTz: boolean
   autoplayAudio: boolean
+  sfx: boolean
   volume: number
   unlockAll: boolean
 }
 
 const KEY = 'lt.v1.settings'
-const DEFAULTS: Settings = { showDevanagari: false, showTz: true, autoplayAudio: true, volume: 0.8, unlockAll: false }
+const DEFAULTS: Settings = { showDevanagari: false, showTz: true, autoplayAudio: true, sfx: true, volume: 0.8, unlockAll: false }
 
 type Ctx = [Settings, (patch: Partial<Settings>) => void]
 const SettingsContext = createContext<Ctx>([DEFAULTS, () => {}])

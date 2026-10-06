@@ -12,6 +12,7 @@ export function SettingsScreen({ onReset }: { onReset: () => void }) {
         <Toggle label="Devanagari-Parallelen zeigen" checked={s.showDevanagari} onChange={(v) => update({ showDevanagari: v })} />
         <Toggle label="TZ-Aussprache in Referenzansichten" checked={s.showTz} onChange={(v) => update({ showTz: v })} />
         <Toggle label="Audio automatisch abspielen" checked={s.autoplayAudio} onChange={(v) => update({ autoplayAudio: v })} />
+        <Toggle label="Feedback-Töne" checked={s.sfx} onChange={(v) => update({ sfx: v })} />
         <label className="row">
           <span>Lautstärke</span>
           <input type="range" min={0} max={1} step={0.1} value={s.volume} onChange={(e) => update({ volume: +e.target.value })} />

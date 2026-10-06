@@ -204,3 +204,31 @@ passed, Build ok (46 Precache-Einträge, 717 KiB). Roadmap 01_03 um den Stand er
    Distraktor-Scope `syllables` erweitern (gleiche Wurzel/anderer Präfix usw.).
 5. Kapitel 7: einfache Wörter mit Kontrast Schreibung / Wylie / TZ; hier wird die TZ-Anzeige im
    Quiz relevant (TZ → Zeichen nur mit der Mehrdeutigkeitsregel).
+
+## 2026-10-06 — Sitzung 3: Owner-Aufnahmen, Halt nach Fehler
+
+**Owner-Feedback nach dem ersten PC-Test:** „sieht super aus“; MMS-Clips weitgehend unbrauchbar
+(bestätigt D-013); eigene Aufnahmen geliefert; nach falscher Antwort soll das Quiz anhalten
+(Weiter per Knopf), Vorbild Duolingo, gern mit Ton.
+
+**Audio:**
+- Zip: 10 m4a (AAC, 44,1 kHz mono), pro Datei eine Reihe: Ka, Ca, Ta, Tsa, Sha (= ཞ-Reihe), Ra, Ha,
+  „Ii uu ee oo“, „Khikhu shapkyu drengbu naro“ (Vokalnamen), „Me chu ri so“. Die Pa-Reihe fehlte und
+  kam als `Pa.m4a` nach.
+- Segmentierung (eigener Energie-Detektor, stdlib + ffmpeg): überall 4 Silben (Ha 2), plus Klicks/Atmer
+  in Ca, Tsa, Pa. Plausibilisierung per Nulldurchgangsrate am Silbenanfang: Zischlaute genau dort, wo
+  erwartet (Ra: sa 10800/s; Sha: zha/za; Ca: cha/ja); „Me chu ri so“ = me/chu/ri/so (Pos. 2, 4 zischend).
+- `curate.py split` gebaut und angewandt: 34 Clips (30 Buchstaben + ཨི ཨུ ཨེ ཨོ), Störgeräusche korrekt
+  verworfen. MMS-Reste samt Dateien entfernt. Lektion a3 → Vokale auf ཨ. Extras als Segmente (D-016).
+- Panne: `pkill -f "vite preview …"` traf die eigene Shell (Muster stand in deren Befehlszeile) →
+  Abbruch vor Doku/Commit. Richtig: `pkill -f "[v]ite preview …"`.
+
+**Fehler-Feedback (D-015):** Panel „Oops, nicht ganz.“ unter den Antworten (Layout schrumpft die
+Glyphe statt zu überdecken, damit die markierte richtige Antwort sichtbar bleibt), richtige Lösung +
+eigene Wahl + TZ + Anhören, „Weiter“ mit Autofokus (Enter/Leertaste). Kein Timer mehr bei Fehlern,
+Tippen auf den Hintergrund überspringt nichts mehr. `sfx.ts`: zwei synthetisierte Töne (G5→D6 für
+richtig, B♭3→F3 Dreieck für falsch); Aussprache folgt 380 ms nach dem Ton. Headless verifiziert:
+Panel steht nach 2,5 s noch, „Weiter“ → nächste Frage.
+
+**Offen / Frage an den Owner:** Sollen tonale Paare (ཞ/ཤ, ཟ/ས, འ/ཨ) als Audio-Gleichklang gelten
+(nie gemeinsam in einer Hörfrage)?

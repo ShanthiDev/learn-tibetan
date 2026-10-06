@@ -3,9 +3,14 @@
     # own recordings: files named by item id (l-ka.m4a, v-ki.wav, ...) in any ffmpeg-readable format
     uv run python tools/audio/curate.py import ~/aufnahmen [--dialect "Zentraltibetisch (Lhasa)"]
 
+    # one recording with several syllables separated by pauses (e.g. a whole alphabet row)
+    uv run python tools/audio/curate.py split Ka.m4a l-ka l-kha l-ga l-nga
+
     # review results copied from the app (#/audio-review → "Status kopieren"), one "item status" per line
     uv run python tools/audio/curate.py status review.txt
 
+Split finds the syllables by short-time energy, drops extra blips (clicks, breath: the quietest
+segments) and exports each syllable with a little padding, short fades and peak normalisation.
 Import trims silence, normalises loudness, encodes mp3 into web/public/audio/ and marks the clip
 `source = "manual"`, `status = "approved"`. Run `uv run learn-tibetan build-content` afterwards.
 """
@@ -13,7 +18,9 @@ Import trims silence, normalises loudness, encodes mp3 into web/public/audio/ an
 from __future__ import annotations
 
 import argparse
+import array
 import json
+import math
 import subprocess
 import tomllib
 from pathlib import Path
@@ -58,6 +65,56 @@ def import_dir(src: Path, dialect: str) -> None:
     save(clips)
 
 
+def _pcm(f: Path, sr: int) -> array.array:
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(f), "-ac", "1", "-ar", str(sr), "-f", "s16le", "-"],
+                         capture_output=True, check=True).stdout
+    return array.array("h", raw)
+
+
+def find_segments(f: Path, win: float = 0.02, rel_db: float = -30, min_gap: float = 0.18,
+                  min_len: float = 0.12) -> list[tuple[float, float, float]]:
+    """Voiced regions as (start, end, loudness dB): frames within rel_db of the loud end of the file."""
+    sr = 16000
+    x = _pcm(f, sr)
+    n = int(win * sr)
+    env = [10 * math.log10(sum(v * v for v in x[i:i + n]) / n + 1e-9) for i in range(0, len(x) - n, n)]
+    th = sorted(env)[int(len(env) * 0.95)] + rel_db
+    segs, start, end, gap = [], None, 0, 0
+    for i, e in enumerate(env + [-999.0] * int(min_gap / win + 1)):
+        if e > th:
+            start, end, gap = (i if start is None else start), i, 0
+        elif start is not None:
+            gap += 1
+            if gap * win >= min_gap:
+                if (end + 1 - start) * win >= min_len:
+                    segs.append((start * win, (end + 1) * win, max(env[start:end + 1])))
+                start = None
+    return segs
+
+
+def split(src: Path, items: list[str], dialect: str) -> None:
+    segs = find_segments(src)
+    if len(segs) < len(items):
+        raise SystemExit(f"{src.name}: only {len(segs)} syllables found for {len(items)} items")
+    keep = sorted(sorted(segs, key=lambda s: -s[2])[:len(items)])  # drop the quietest extras, keep order
+    dropped = [s for s in segs if s not in keep]
+    clips = load()
+    (PUBLIC / "audio").mkdir(parents=True, exist_ok=True)
+    for item, (a, b, loud) in zip(items, keep):
+        a, b = max(0.0, a - 0.08), b + 0.12
+        rel = f"audio/{item}.mp3"
+        filt = f"afade=t=in:d=0.01,afade=t=out:st={b - a - 0.04:.3f}:d=0.04,dynaudnorm=p=0.89:m=10"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a:.3f}", "-to", f"{b:.3f}", "-i", str(src),
+                        "-af", filt, "-ac", "1", "-ar", "44100", "-codec:a", "libmp3lame", "-b:a", "64k",
+                        str(PUBLIC / rel)], check=True)
+        clips[item] = {"item": item, "file": rel, "source": "manual", "dialect": dialect, "status": "approved",
+                       "note": f"{src.name} {a:.2f}-{b:.2f} s"}
+        print(f"{item:8} {a:5.2f}-{b:5.2f}s  {loud:5.1f} dB")
+    for a, b, loud in dropped:
+        print(f"  dropped {a:5.2f}-{b:5.2f}s  {loud:5.1f} dB")
+    save(clips)
+
+
 def apply_status(review: Path) -> None:
     clips = load()
     for line in review.read_text(encoding="utf-8").splitlines():
@@ -73,10 +130,19 @@ def main() -> None:
     imp = sub.add_parser("import")
     imp.add_argument("dir", type=Path)
     imp.add_argument("--dialect", default="Zentraltibetisch (Lhasa)")
+    sp = sub.add_parser("split")
+    sp.add_argument("file", type=Path)
+    sp.add_argument("items", nargs="+")
+    sp.add_argument("--dialect", default="Zentraltibetisch (Lhasa)")
     st = sub.add_parser("status")
     st.add_argument("file", type=Path)
     args = ap.parse_args()
-    import_dir(args.dir, args.dialect) if args.cmd == "import" else apply_status(args.file)
+    if args.cmd == "import":
+        import_dir(args.dir, args.dialect)
+    elif args.cmd == "split":
+        split(args.file, args.items, args.dialect)
+    else:
+        apply_status(args.file)
 
 
 if __name__ == "__main__":

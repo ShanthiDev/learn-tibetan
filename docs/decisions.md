@@ -124,10 +124,30 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
   Dateiname = Item-ID) importiert `curate.py import <ordner>`.
 - Ein In-App-Recorder wäre bequemer, ist aber Scope-Erweiterung (Dateien müssten trotzdem ins Repo).
 
+## D-015 — Nach falscher Antwort Halt bis „Weiter“ (2026-10-06, Owner-Wunsch)
+
+- **Änderung gegenüber 01_01/01_02:** Dort hieß es „kein Weiter-Button“. Für **richtige** Antworten
+  bleibt das so (Auto-Weiter nach 350 ms). Bei **falschen** Antworten stoppt das Quiz: Panel unten
+  (Duolingo-Vorbild) mit richtiger Lösung, eigener Wahl, TZ und Audio, Weiter nur per Button/Enter.
+- **Begründung (Owner):** Ein Fehler braucht einen bewussten Moment; Auto-Weiter war zu schnell.
+- Töne per Web Audio synthetisiert (keine Dateien, kein Precache-Ballast), abschaltbar.
+
+## D-016 — Owner-Aufnahmen als Audioquelle, Reihen-Aufnahmen werden automatisch geschnitten (2026-10-06)
+
+- Rohaufnahmen in `references/audio_files/` (Zip + `Pa.m4a`, committed, ~1,2 MB, eigenes Material).
+  Pro Datei eine Reihe; Zuordnung per Dateiname, akustisch plausibilisiert (Nulldurchgangsrate am
+  Silbenanfang: Zischlaute an den erwarteten Positionen).
+- `curate.py split`: Energie-Segmentierung (20-ms-Fenster, Schwelle 30 dB unter dem lauten Ende,
+  Pause ≥ 180 ms), überzählige Segmente = die leisesten (Klicks/Atmer 44–58 dB vs. Silben 70–81 dB),
+  80 ms Vorlauf, 120 ms Nachlauf, Fades, `dynaudnorm`, mp3 64 kbit/s.
+- „Me chu ri so“ enthält wirklich *me chu ri so* (Zischlaut-Anlaute an Pos. 2 und 4). Vokalnamen und
+  diese Wörter liegen als Segmente in `references/audio_files/segments/` (für Kapitel 7, nicht ausgeliefert).
+
 ## Sackgassen
 
 - **Fontsource-CSS direkt importieren** → Tofu beim ersten Rendern (siehe D-009).
 - **Jomolhari als letzter Fallback nach `sans-serif`** → greift nicht (D-012).
 - **MMS-TTS für Einzelbuchstaben/-silben** → 0,1-s-Schnipsel, Tsheg = Pad-Token (D-013). Nicht erneut mit
   anderen Eingabetricks versuchen, ohne die Ergebnisse anhören zu können.
+- **`pkill -f <muster>` mit dem Muster im eigenen Befehl** beendet die eigene Shell → `[v]ite`-Trick.
 - **Headless-Screenshots ohne Interaktion** reichen für Quiz-Zustände nicht → `tools/shot.mjs` (CDP).

@@ -7,6 +7,5 @@ export const CONFIG = {
   newWeight: 2, // weight multiplier for the current lesson's items
   recentExclude: 2, // do not repeat any of the last N questions (if the pool allows)
   mistakeMemory: 5, // remembered recent mistakes per item/mode
-  correctDelayMs: 350,
-  wrongDelayMs: 1500,
+  correctDelayMs: 350, // after a wrong answer the learner continues by button (no timer)
 }

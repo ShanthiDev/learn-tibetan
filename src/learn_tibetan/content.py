@@ -99,7 +99,7 @@ def build(content_dir: Path = CONTENT) -> dict:
         {"id": "a1", "chapter": 5, "titleDe": "Hören: erste vier Reihen", "newItemIds": first4, "modes": ["audio-tib"]},
         {"id": "a2", "chapter": 5, "titleDe": "Hören: restliche Buchstaben",
          "newItemIds": [i for i in all_letters if i not in first4], "modes": ["audio-tib"]},
-        {"id": "a3", "chapter": 5, "titleDe": "Hören: Vokale auf ཀ", "newItemIds": family(["l-ka"]), "modes": ["audio-tib"]},
+        {"id": "a3", "chapter": 5, "titleDe": "Hören: Vokale auf ཨ", "newItemIds": family(["l-a"]), "modes": ["audio-tib"]},
     ]
 
     return {

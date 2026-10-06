@@ -8,6 +8,22 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ### Added
 
+- Eigene Aufnahmen des Owners für alle 30 Buchstaben und ཨི ཨུ ཨེ ཨོ, geschnitten und freigegeben;
+  Hörlektionen a1–a3 (a3: Vokale auf ཨ) vollständig spielbar.
+- `curate.py split`: zerlegt eine Aufnahme mit mehreren Silben (z. B. eine ganze Reihe) an den
+  Pausen, verwirft Klicks/Atmer, exportiert normalisierte Einzelclips.
+- Feedback-Töne (synthetisiert, Einstellung „Feedback-Töne“).
+
+### Changed
+
+- Falsche Antwort: Duolingo-artiges Panel „Oops, nicht ganz.“ mit richtiger Lösung, eigener Wahl,
+  TZ-Aussprache und Anhören; weiter **nur per „Weiter“** (oder Enter), kein Timer mehr.
+- Hörlektion a3: Vokale auf ཨ statt auf ཀ (passend zu den Aufnahmen).
+
+### Removed
+
+- MMS-TTS-Kandidatenclips (vom Owner als unbrauchbar bestätigt).
+
 - README: Starten, Tests, Content-Repräsentation, Transliteration, Audio, PWA-Installation.
 
 ## [0.2.0] — 2026-10-06

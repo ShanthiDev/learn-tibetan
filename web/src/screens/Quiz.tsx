@@ -6,6 +6,7 @@ import { applyAnswer, lessonMastered, lessonScore, lessonStarted, type Progress 
 import { makeQuestion, type Question } from '../engine/question'
 import { buildPool, pickNext, type SessionKind } from '../engine/select'
 import { pathState } from '../lessons'
+import { sfx } from '../sfx'
 import { useProgress } from '../progress'
 import { go } from '../router'
 import { useSettings } from '../settings'
@@ -75,14 +76,15 @@ export function Quiz({ session }: { session: SessionKind }) {
     setPhase('feedback')
     setTally((t) => ({ right: t.right + (correct ? 1 : 0), total: t.total + 1 }))
     navigator.vibrate?.(correct ? 12 : [30, 40, 30])
-    if (q.mode !== 'audio-tib' && settings.autoplayAudio && hasAudio(q.target)) playItem(q.target, settings.volume)
-    timer.current = window.setTimeout(
-      () => (justMastered ? setPhase('done') : advance(p)),
-      correct ? CONFIG.correctDelayMs : CONFIG.wrongDelayMs,
-    )
+    if (settings.sfx) sfx(correct ? 'correct' : 'wrong', settings.volume)
+    if (q.mode !== 'audio-tib' && settings.autoplayAudio && hasAudio(q.target))
+      window.setTimeout(() => playItem(q.target, settings.volume), settings.sfx ? 380 : 0)
+    // correct: move on by itself; wrong: stop until the learner presses "Weiter"
+    if (correct)
+      timer.current = window.setTimeout(() => (justMastered ? setPhase('done') : advance(p)), CONFIG.correctDelayMs)
   }
 
-  const skipWait = () => {
+  const proceed = () => {
     if (phase !== 'feedback') return
     clearTimeout(timer.current)
     if (mastered.current) setPhase('done')
@@ -98,7 +100,7 @@ export function Quiz({ session }: { session: SessionKind }) {
       } else if (phase === 'ask' && /^[1-4]$/.test(e.key)) answer(+e.key - 1)
       else if (phase === 'feedback' && (e.key === 'Enter' || e.key === ' ')) {
         e.preventDefault()
-        skipWait()
+        proceed()
       }
     }
     addEventListener('keydown', onKey)
@@ -108,7 +110,7 @@ export function Quiz({ session }: { session: SessionKind }) {
   const score = lesson ? lessonScore(progress, lesson, item) : null
 
   return (
-    <div className="screen quiz" onClick={phase === 'feedback' ? skipWait : undefined}>
+    <div className="screen quiz">
       <header className="quiz-bar">
         <button className="icon-btn" onClick={() => go('home')} aria-label="Beenden">
           ×
@@ -132,27 +134,21 @@ export function Quiz({ session }: { session: SessionKind }) {
         </div>
       )}
       {(phase === 'ask' || phase === 'feedback') && q && <Ask q={q} chosen={chosen} onAnswer={answer} />}
+      {phase === 'feedback' && q && chosen !== null && chosen !== q.correctIndex && (
+        <Oops q={q} chosen={q.options[chosen]} onNext={proceed} />
+      )}
     </div>
   )
 }
 
 function Ask({ q, chosen, onAnswer }: { q: Question; chosen: number | null; onAnswer: (i: number) => void }) {
   const tibAnswers = q.mode !== 'tib-wylie'
-  const wrong = chosen !== null && chosen !== q.correctIndex
   return (
     <>
       <div className="prompt" aria-live="polite">
         {q.mode === 'tib-wylie' && <Tib className="prompt-glyph">{q.target.tibetan}</Tib>}
         {q.mode === 'wylie-tib' && <span className="prompt-wylie wylie">{q.target.wylie}</span>}
         {q.mode === 'audio-tib' && <AudioButton it={q.target} big />}
-        <p className={`reveal ${wrong ? 'show' : ''}`}>
-          {wrong && (
-            <>
-              <Tib>{q.target.tibetan}</Tib> = <span className="wylie">{q.target.wylie}</span>
-              <small>Tippen für weiter</small>
-            </>
-          )}
-        </p>
       </div>
       <div className={`options ${tibAnswers ? 'tib-options' : ''}`}>
         {q.options.map((o: Item, i) => {
@@ -176,6 +172,35 @@ function Ask({ q, chosen, onAnswer }: { q: Question; chosen: number | null; onAn
         })}
       </div>
     </>
+  )
+}
+
+function Oops({ q, chosen, onNext }: { q: Question; chosen: Item; onNext: () => void }) {
+  const [settings] = useSettings()
+  const t = q.target
+  const pair = (it: Item) => (
+    <>
+      <Tib>{it.tibetan}</Tib> <span className="eq">=</span> <span className="wylie">{it.wylie}</span>
+    </>
+  )
+  return (
+    <section className="oops" role="alert">
+      <div className="oops-head">
+        <span className="oops-x" aria-hidden>
+          ✕
+        </span>
+        <h2>Oops, nicht ganz.</h2>
+        <AudioButton it={t} />
+      </div>
+      <p className="oops-right">
+        Richtig: {pair(t)}
+        {settings.showTz && t.tz !== t.wylie && <small> · gesprochen „{t.tz}“</small>}
+      </p>
+      <p className="oops-chosen">Deine Wahl: {pair(chosen)}</p>
+      <button className="btn oops-next" onClick={onNext} autoFocus>
+        Weiter
+      </button>
+    </section>
   )
 }
 

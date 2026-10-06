@@ -153,9 +153,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ka.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -180,9 +180,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-kha.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -207,9 +207,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ga.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -234,9 +234,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-nga.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -261,9 +261,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ca.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -288,9 +288,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-cha.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -315,9 +315,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ja.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -342,9 +342,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-nya.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -369,9 +369,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ta.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -396,9 +396,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-tha.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -423,9 +423,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-da.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -450,9 +450,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-na.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -477,9 +477,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-pa.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -504,9 +504,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-pha.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -531,9 +531,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ba.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -558,9 +558,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ma.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -585,9 +585,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-tsa.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -612,9 +612,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-tsha.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -639,9 +639,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-dza.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -666,9 +666,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-wa.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -693,9 +693,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-zha.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -720,9 +720,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-za.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -747,9 +747,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-_a.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -774,9 +774,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ya.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -801,9 +801,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ra.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -828,9 +828,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-la.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -855,9 +855,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-sha.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -882,9 +882,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-sa.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -909,9 +909,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-ha.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -936,9 +936,9 @@
    "vowel": "a",
    "audio": {
     "file": "audio/l-a.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -959,12 +959,6 @@
     "vowel": "i",
     "suffix": null,
     "postsuffix": null
-   },
-   "audio": {
-    "file": "audio/v-ki.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
    }
   },
   {
@@ -985,12 +979,6 @@
     "vowel": "u",
     "suffix": null,
     "postsuffix": null
-   },
-   "audio": {
-    "file": "audio/v-ku.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
    }
   },
   {
@@ -1011,12 +999,6 @@
     "vowel": "e",
     "suffix": null,
     "postsuffix": null
-   },
-   "audio": {
-    "file": "audio/v-ke.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
    }
   },
   {
@@ -1037,12 +1019,6 @@
     "vowel": "o",
     "suffix": null,
     "postsuffix": null
-   },
-   "audio": {
-    "file": "audio/v-ko.mp3",
-    "source": "mms-tts-bod@e5767a9",
-    "dialect": "Zentraltibetisch (MMS bod; Varietät nicht verifiziert)",
-    "status": "candidate"
    }
   },
   {
@@ -3303,6 +3279,12 @@
     "vowel": "i",
     "suffix": null,
     "postsuffix": null
+   },
+   "audio": {
+    "file": "audio/v-i.mp3",
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -3323,6 +3305,12 @@
     "vowel": "u",
     "suffix": null,
     "postsuffix": null
+   },
+   "audio": {
+    "file": "audio/v-u.mp3",
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -3343,6 +3331,12 @@
     "vowel": "e",
     "suffix": null,
     "postsuffix": null
+   },
+   "audio": {
+    "file": "audio/v-e.mp3",
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   },
   {
@@ -3363,6 +3357,12 @@
     "vowel": "o",
     "suffix": null,
     "postsuffix": null
+   },
+   "audio": {
+    "file": "audio/v-o.mp3",
+    "source": "manual",
+    "dialect": "Owner-Aufnahme (TZ-Aussprache)",
+    "status": "approved"
    }
   }
  ],
@@ -3967,13 +3967,13 @@
   {
    "id": "a3",
    "chapter": 5,
-   "titleDe": "Hören: Vokale auf ཀ",
+   "titleDe": "Hören: Vokale auf ཨ",
    "newItemIds": [
-    "l-ka",
-    "v-ki",
-    "v-ku",
-    "v-ke",
-    "v-ko"
+    "l-a",
+    "v-i",
+    "v-u",
+    "v-e",
+    "v-o"
    ],
    "modes": [
     "audio-tib"

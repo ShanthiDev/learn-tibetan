@@ -4,7 +4,7 @@ Privater Prototyp einer mobilen Web-App (PWA) zum **Lesenlernen der tibetischen 
 Zeichen sehen → eine von vier Antworten antippen → sofortiges Feedback → nächste Frage.
 
 Umfang (v0.2): Alphabet als System in traditionellen Reihen (mit optionalen Devanagari-Parallelen),
-Zeichen ↔ Wylie, Vokale, Hören → Zeichen (Infrastruktur; echte Clips stehen noch aus).
+Zeichen ↔ Wylie, Vokale, Hören → Zeichen (eigene Aufnahmen).
 Vision und Planung: [`specs_plans_prompts/`](specs_plans_prompts/), Arbeitsregeln: [`AGENTS.md`](AGENTS.md).
 
 ## Schnellstart
@@ -68,10 +68,17 @@ Erzeugt wird die Variante `tz-aktuell`. Regeländerungen nur mit Test und Eintra
 ## Audio hinzufügen oder ersetzen
 
 Gelernt wird ausschließlich mit **freigegebenen** Clips (`status = "approved"` in
-`content/audio.toml`). Zurzeit liegen nur KI-Kandidaten vor, die für Einzelbuchstaben vermutlich
-unbrauchbar sind (siehe `docs/decisions.md`, D-013).
+`content/audio.toml`). Zurzeit: eigene Aufnahmen für alle 30 Buchstaben und ཨི ཨུ ཨེ ཨོ (Rohdaten in
+`references/audio_files/`). KI-TTS war für Einzelbuchstaben unbrauchbar (D-013).
 
-**Eigene Aufnahmen (empfohlen):**
+**Eine ganze Reihe in einer Datei** (Silben mit kurzen Pausen dazwischen):
+
+```bash
+uv run python tools/audio/curate.py split Pa.m4a l-pa l-pha l-ba l-ma --dialect "Owner-Aufnahme (TZ-Aussprache)"
+cd web && npm run content
+```
+
+**Einzeldateien pro Zeichen:**
 
 1. Pro Zeichen eine Datei aufnehmen, Dateiname = Item-ID, Format egal: `l-ka.m4a`, `l-kha.m4a`, …,
    `v-ki.m4a` (IDs: Wylie mit Präfix `l-` für Buchstaben, `v-` für Vokalformen; འ = `l-_a`, ཨ = `l-a`).
