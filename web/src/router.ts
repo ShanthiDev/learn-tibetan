@@ -1,19 +1,23 @@
 import { useEffect, useState } from 'react'
 
 export type Route = 'home' | 'alphabet' | 'settings' | 'learn' | 'practice' | 'review' | 'audio-review'
+export type Location = { route: Route; arg?: string }
 
-const parse = (): Route => (location.hash.replace(/^#\/?/, '') || 'home') as Route
+const parse = (): Location => {
+  const [route, arg] = location.hash.replace(/^#\/?/, '').split('/')
+  return { route: (route || 'home') as Route, arg }
+}
 
-export function useRoute(): Route {
-  const [route, setRoute] = useState<Route>(parse)
+export function useRoute(): Location {
+  const [loc, setLoc] = useState<Location>(parse)
   useEffect(() => {
-    const on = () => setRoute(parse())
+    const on = () => setLoc(parse())
     addEventListener('hashchange', on)
     return () => removeEventListener('hashchange', on)
   }, [])
-  return route
+  return loc
 }
 
-export const go = (route: Route) => {
-  location.hash = route === 'home' ? '' : `/${route}`
+export const go = (route: Route, arg?: string) => {
+  location.hash = route === 'home' ? '' : `/${route}${arg ? `/${arg}` : ''}`
 }

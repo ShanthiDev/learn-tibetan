@@ -6,7 +6,21 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ## [Unreleased]
 
+## [0.1.0] — 2026-10-06
+
+Erste spielbare Version: Kernerlebnis Zeichen ↔ Wylie (Kapitel 1–3).
+
 ### Added
+
+- Quiz-Engine (`web/src/engine/`): Box-Modell pro Item und Richtung, Fehler kehren nach 2–3 Fragen
+  zurück, gewichtete statt gleichverteilte Auswahl, kumulative Wiederholung, Distraktoren nach Reihe /
+  Verwechslungslisten / Bekanntem, allgemeine Mehrdeutigkeitsregel, seeded RNG; Vitest-Tests.
+- Quiz-Screen: große Glyphe, vier Daumen-Antworten, Auto-Weiter nach richtig (350 ms) bzw. falsch
+  (1,5 s, Tippen überspringt), Lösung bei Fehlern, Tastatur 1–4/Enter/Esc, Haptik, kein Doppel-Submit.
+- Intro-Karte pro neuer Reihe, Abschlusskarte mit „Weiter“, lineare Freischaltung (16 Konsonanten-Lektionen).
+- Home mit Lernpfad pro Reihe (beide Richtungen), „Alles üben“, „Schwieriges wiederholen“.
+- Fortschritt in localStorage (`lt.v1.progress`), Reset in den Einstellungen.
+- `tools/shot.mjs`: abhängigkeitsfreier Headless-Chrome-Treiber (CDP) für UI-Checks.
 
 - Web-App-Gerüst (`web/`): Vite + React + TypeScript, PWA (Manifest, Icons, Service Worker mit
   Precache inkl. Font), Theme in Roben-/Safran-Palette, Font Jomolhari.

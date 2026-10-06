@@ -69,6 +69,24 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
   gerendert, ohne zusätzliche npm-Abhängigkeit. Aufruf:
   `chrome-headless-shell --no-sandbox --window-size=390,700 --virtual-time-budget=3000 --screenshot=out.png URL`.
 
+## D-009 — Font selbst gehostet statt Fontsource-CSS (2026-10-06)
+
+- **Kontext:** Fontsource setzt `font-display: swap`. Systemfonts haben meist kein Tibetisch → beim
+  ersten Rendern Tofu-Kästchen statt Glyphe (im Screenshot sichtbar).
+- **Entscheidung:** `web/public/fonts/jomolhari-tibetan.woff2` + OFL-Text daneben, eigene
+  `@font-face` mit `font-display: block` und `unicode-range` Tibetisch, `<link rel="preload">` in
+  `index.html`. Jomolhari zusätzlich am Ende der UI-Font-Kette, damit Tibetisch in UI-Texten
+  (Buttons, Labels) nie Tofu wird. Fontsource-Paket entfernt.
+
+## D-010 — Lernpfad-Details (2026-10-06)
+
+- Lektionen sind auch per URL erreichbar (`#/learn/<id>`), gesperrte nur über die Home-Buttons
+  verhindert. Kein Guard: privater Prototyp.
+- Pool einer Lern-Session = neue Items (Gewicht ×2) + alle Items früherer *freigeschalteter* Lektionen.
+- „Schwieriges“ = Fehler in den letzten 200 Fragen oder Trefferquote < 70 % bei ≥ 2 Versuchen.
+- Wylie in der UI-Sans statt Monospace (Monospace wirkte klobig, Apostroph bleibt gut sichtbar).
+
 ## Sackgassen
 
-- *(noch keine)*
+- **Fontsource-CSS direkt importieren** → Tofu beim ersten Rendern (siehe D-009).
+- **Headless-Screenshots ohne Interaktion** reichen für Quiz-Zustände nicht → `tools/shot.mjs` (CDP).

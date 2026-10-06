@@ -110,3 +110,32 @@ es sudo mit Passwort; das macht der Owner. Befehle siehe Antwort an den Owner bz
   **manuelle Bestätigung auf dem Handy steht aus** (Owner).
 
 **Nächster Schritt:** M3 Quiz-Engine + Kapitel 2/3.
+
+## 2026-10-06 — Sitzung 2: M3 Quiz-Engine + Kapitel 2/3 → v0.1.0
+
+**Vorgehen:**
+- Engine als pure Funktionen: `config.ts` (alle Stellschrauben), `rng.ts` (mulberry32 + shuffle),
+  `progress.ts` (Box 0–5, falsch −2 + Retry nach 2–3 Fragen, Lektionsscore/-meisterung, lineare
+  Freischaltung), `question.ts` (Distraktoren mit Prioritätsstufen je Modus/Scope, P/A-Mehrdeutigkeitsregel,
+  Audio-Schlüssel mit `audioEquivalent`), `select.ts` (Pool je Session-Art, gewichtete Auswahl
+  `(6−box)²`, neue ×2, letzte 2 ausgeschlossen, fällige Fehler zuerst).
+- Tests (8, auf Anhieb grün): 4 eindeutige/unzweideutige Antworten für alle 150 Items × 2 Richtungen,
+  Reihen-Priorität (ཅ → ca/cha/ja/nya), Vokal-Distraktoren gleicher Grundbuchstabe, Audio-Äquivalenz
+  schließt ཆ aus, Box-Update/Retry, Wiederkehr nach 2–3 Fragen, Freischaltung, Storage-Roundtrip.
+- UI: Progress-Context, Router mit Parameter, `lessons.ts` (abgeleiteter Pfadstatus), Home mit
+  Lernpfad, Quiz mit Intro-/Frage-/Feedback-/Abschluss-/Leer-Phase.
+
+**Befunde/Probleme (per Screenshot gefunden):**
+1. Tofu bei der großen Prompt-Glyphe → Font selbst gehostet, `font-display: block`, Preload (D-009).
+2. Lernpfad als Liste von 22 langen Titeln unübersichtlich → pro Reihe eine Zeile mit Glyphen und
+   zwei kompakten Richtungs-Buttons („ཀ → ka“, „ka → ཀ“) inkl. Mini-Fortschritt.
+3. 🔒-Emoji im Headless ohne Emoji-Font → kleines Inline-SVG.
+4. Tibetisch in UI-Labels als Tofu → Jomolhari als letzter Fallback der UI-Font-Kette.
+5. Interaktion verifiziert mit neuem `tools/shot.mjs` (CDP über Node-24-WebSocket, keine
+   Abhängigkeit): Intro → falsche Antwort (rot, richtige gold, „ཀ = ka“) → Auto-Weiter → richtige
+   Antwort (gold), Zähler 1/2, Fortschrittsbalken wächst.
+
+**Offen:** Offline-Test auf dem Handy (Owner). Haptik nur auf echten Geräten prüfbar.
+
+**Nächster Schritt:** M4 Vokale (Lektionen 17–19 sind dank generischer Engine bereits spielbar;
+es fehlen Feinschliff und ein Testfall).
