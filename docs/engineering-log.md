@@ -297,3 +297,4 @@ Wiederholungen. Engine-Probe (Vitest, temporär): 169/200 Hörfragen, keine leer
 altes Layout wiederhergestellt, nur Prüfen-Button bleibt. Auswahl/aktiver Button dezent `#ebdfcb`
 ohne Rahmen; der dickere Safran-Auswahlrahmen war tatsächlich neu (Inset-Shadow) und ist wieder weg.
 Tastenzahlen: nur `(hover: hover) and (pointer: fine)`, Opazität 0,35. Screenshot-Kontrolle ok.
+Owner-Wunsch: Auswahl = Optik der richtigen Lösung im Oops-Feedback (Ocker + Goldrand), Prüfen-Button im selben Ocker ohne Rand.

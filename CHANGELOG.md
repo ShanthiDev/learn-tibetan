@@ -8,7 +8,7 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ### Added
 
-- Zweistufiges Antworten: Antippen wählt aus (dezent dunklerer Eierschalenton) und spielt die
+- Zweistufiges Antworten: Antippen wählt aus (gleiche Optik wie die markierte richtige Lösung: Ocker mit Goldrand) und spielt die
   Aussprache dieser Option (nicht bei Hörfragen), „Prüfen“ ganz unten wertet aus; Tastatur 1–4, Enter.
 - Tastenzahlen auf den Antworten nur noch auf Geräten mit Maus (PC) und dezenter.
 - Ausspracheinfos hinter ⓘ: pro Buchstabe Behauchung, Ton und deutscher Aussprachehinweis

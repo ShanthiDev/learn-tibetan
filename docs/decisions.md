@@ -194,7 +194,8 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
   Änderung gegenüber 01_01 („tap → feedback“): bewusst, weil das Anhören vor dem Festlegen Lernwert hat.
 - **Design:** Erst rote Kopfleiste + gerahmtes Prompt-Feld + Safran-Button gebaut; vom Owner nach
   Ansicht verworfen („Kommando zurück“). Gültig: ursprüngliches ruhiges Layout; Auswahl und aktiver
-  Prüfen-Button nur als leicht dunklerer Eierschalenton (`#ebdfcb`), gleiche Randstärke, kein Safran.
+  Prüfen-Button im Ocker der markierten richtigen Lösung (`--ok-bg`; Auswahl mit `--ok-line`-Rand,
+  Button ohne Rand), konsistent mit dem Feedback; kein Safran.
   Lehre: Der Owner schätzt das ruhige Layout; Farbe sparsam einsetzen, Änderungen am Look klein halten.
 
 ## Sackgassen

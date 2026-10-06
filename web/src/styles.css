@@ -285,9 +285,9 @@ main { flex: 1; }
 .tib-inline { font-size: 1.45em; line-height: 1; }
 .row select { min-height: 40px; padding: 4px 8px; border: 1.5px solid var(--line); border-radius: 8px; background: var(--paper); font: inherit; }
 
-/* two-step answering: select (hear) → confirm. Deliberately quiet: a slightly darker eggshell. */
-.opt.selected { background: #ebdfcb; }
+/* two-step answering: select (hear) → confirm. Selection looks like the highlighted right answer. */
+.opt.selected { background: var(--ok-bg); border-color: var(--ok-line); }
 .confirm-bar { padding: 2px 12px calc(14px + env(safe-area-inset-bottom)); }
-.btn.confirm { min-height: 56px; font-size: 1.05rem; border: 0; background: #ebdfcb; color: var(--brown); }
+.btn.confirm { min-height: 56px; font-size: 1.05rem; border: 0; background: var(--ok-bg); color: var(--brown); }
 .btn.confirm:disabled { background: var(--paper); color: var(--brown-soft); opacity: 0.6; }
 .btn.confirm.ok { background: var(--ok-bg); color: var(--gold); }
