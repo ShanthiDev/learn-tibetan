@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Node / web app
+node_modules/
+web/dist/
+web/dev-dist/
+*.local
+
+# Editors / OS
+.DS_Store
+.idea/
+
+# Large or rights-restricted reference material (kept locally, never committed)
+references/transliteration/*.zip
+references/transliteration/primary_sources/
+references/transliteration/data/reference_resources/index/
+references/transliteration/reference_phonetics/*.xlsx
+references/transliteration/reference_phonetics/*.json
+
+# Audio generation scratch (candidate clips before curation)
+tools/audio/.cache/
+tools/audio/candidates/

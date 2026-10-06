@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taranatha-atp"
+version = "0.1.0"
+description = "Auditable Translation Profile tooling for the Tāranātha OCR Golden Slice"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["Pillow>=10", "pydantic>=2.7", "pydantic-ai-slim>=2.36,<3"]
+license = { text = "Proprietary" }
+authors = [
+  { name = "ATP contributors" },
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+dev = ["pytest>=8"]
+modal = ["modal==1.5.5"]
+openai = ["pydantic-ai-slim[openai]>=2.36,<3"]
+anthropic = ["pydantic-ai-slim[anthropic]>=2.36,<3"]
+google = ["pydantic-ai-slim[google]>=2.36,<3"]
+bdrc-benchmark = ["botok>=0.8,<0.9", "pyarrow>=18,<20"]
+
+[project.scripts]
+atp = "atp.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

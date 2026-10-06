@@ -1,0 +1,30 @@
+{
+ "audit_observed_entries": 582,
+ "audit_decisions": {
+  "confirmed": 485,
+  "skipped_sanskrit": 21,
+  "observed_TZ": 9,
+  "rule_contested": 67
+ },
+ "audit_changed_vs_mapping_resolved": 150,
+ "corpus_passages": 192,
+ "corpus_tokens": 11875,
+ "corpus_types": 1432,
+ "token_origin": {
+  "mantra_exception": 729,
+  "confirmed": 7903,
+  "rule_tibetan": 2446,
+  "rule_contested": 176,
+  "rule_sanskrit": 558,
+  "observed_TZ": 63
+ },
+ "type_origin": {
+  "mantra_exception": 52,
+  "confirmed": 433,
+  "rule_tibetan": 737,
+  "rule_contested": 21,
+  "rule_sanskrit": 185,
+  "observed_TZ": 4
+ },
+ "types_in_mapping": 577
+}

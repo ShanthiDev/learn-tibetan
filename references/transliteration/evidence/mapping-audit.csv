@@ -1,0 +1,583 @@
+tibetan,variants,mapping_resolved,hayagriva_mode,rule,rule_origin,decision,decision_origin,note,mapping_changed,inventory_total
+པ,pa:46,pa,pa,pa,rule_tibetan,pa,confirmed,,False,92
+དང,dang:30,dang,dang,dang,rule_tibetan,dang,confirmed,,False,66
+བ,wa:28; ba:2; pa:1,wa,wa,wa,rule_tibetan,wa,confirmed,,False,64
+ལ,la:23,la,la,la,rule_tibetan,la,confirmed,,False,61
+པའི,pa:15; pä:5; pd:2; pad:1; pda:1,pa,pa,pä,rule_tibetan,pä,confirmed,"OCR-like variants ignored: pd, pad",True,55
+པར,par:12,par,par,par,rule_tibetan,par,confirmed,,False,42
+མ,ma:7,ma,,ma,rule_tibetan,ma,confirmed,,False,36
+དུ,du:11,du,du,du,rule_tibetan,du,confirmed,,False,31
+ཅན,tschän:14; tchän:3,tchän,tchän,tschän,rule_tibetan,tschän,confirmed,,True,30
+གྱུར,gyur:11; gjur:2,gyur,gyur,gyur,rule_tibetan,gyur,confirmed,,False,28
+བའི,wa:8; wä:7,wä,wä,wä,rule_tibetan,wä,confirmed,,False,26
+ཀྱི,kyi:8,kyi,kyi,kyi,rule_tibetan,kyi,confirmed,,False,25
+ནི,ni:3,ni,,ni,rule_tibetan,ni,confirmed,,False,22
+པོ,po:9; pa:1,po,,po,rule_tibetan,po,confirmed,,False,22
+སེམས,sem:11,sem,sem,sem,rule_tibetan,sem,confirmed,,False,22
+གཉིས,nyi:8; ni:1,nyi,nyi,nyi,rule_tibetan,nyi,confirmed,,False,21
+ལས,lä:3; la:2; IG:1; län:1,IG,IG,lä,rule_tibetan,lä,confirmed,,True,21
+སུ,su:8,su,,su,rule_tibetan,su,confirmed,,False,21
+ན,na:9,na,,na,rule_tibetan,na,confirmed,,False,20
+བཞི,schi:11,schi,schi,schi,rule_tibetan,schi,confirmed,,False,20
+རང,rang:6,rang,,rang,rule_tibetan,rang,confirmed,,False,20
+རྗེ,dsche:9,dsche,dsche,dsche,rule_tibetan,dsche,confirmed,,False,20
+ཕྱག,tschag:5,tschag,,tschag,rule_tibetan,tschag,confirmed,,False,19
+རུ,ru:4,ru,,ru,rule_tibetan,ru,confirmed,,False,19
+བདག,dag:8,dag,,dag,rule_tibetan,dag,confirmed,,False,18
+བར,war:8; bar:1,war,war,war,rule_tibetan,war,confirmed,,False,18
+འོད,ö:1,ö,,ö,rule_tibetan,ö,confirmed,,False,18
+ཧེ,he:5,he,,he,rule_tibetan,he,confirmed,,False,18
+གསུམ,sum:4,sum,sum,sum,rule_tibetan,sum,confirmed,,False,17
+ཐམས,tham:8; tam:2,tham,tham,tham,rule_tibetan,tham,confirmed,,False,17
+ནས,nä:2; na:1; nd:1,nä,nä,nä,rule_tibetan,nä,confirmed,OCR-like variants ignored: nd,False,17
+རྣམས,nam:5,nam,nam,nam,rule_tibetan,nam,confirmed,,False,17
+གིས,gi:8; gyi:1,gyi,gyi,gi,rule_tibetan,gi,confirmed,,True,16
+གྱི,gyi:5; gi:1; gji:1,gi,gi,gyi,rule_tibetan,gyi,confirmed,,True,16
+ཅད,tschä:9; tshä:1,tschä,tschä,tschä,rule_tibetan,tschä,confirmed,,False,16
+ཀ,ka:4,ka,,ka,rule_tibetan,ka,confirmed,,False,15
+པས,pa:3; pd:1; pä:1,pa,,pä,rule_tibetan,pä,confirmed,OCR-like variants ignored: pd,True,15
+མི,mi:8,mi,mi,mi,rule_tibetan,mi,confirmed,,False,15
+ཞལ,schäl:4; schdal:1; schdl:1,schäl,schäl,schäl,rule_tibetan,schäl,confirmed,OCR-like variants ignored: schdl,False,15
+ཡེ,ye:5,ye,ye,ye,rule_tibetan,ye,confirmed,,False,15
+གྱིས,gyi:4,gyi,gyi,gyi,rule_tibetan,gyi,confirmed,,False,14
+དབང,wang:6,wang,wang,wang,rule_tibetan,wang,confirmed,,False,14
+མཆོག,tschog:7,tschog,tschog,tschog,rule_tibetan,tschog,confirmed,,False,14
+མཆོད,tschö:1,tschö,,tschö,rule_tibetan,tschö,confirmed,,False,14
+མེད,me:6,me,me,me,rule_tibetan,me,confirmed,,False,14
+མོ,mo:6,mo,,mo,rule_tibetan,mo,confirmed,,False,14
+གི,gi:4,gi,,gi,rule_tibetan,gi,confirmed,,False,13
+དེ,de:9,de,de,de,rule_tibetan,de,confirmed,,False,13
+ས,sa:1,sa,,sa,rule_tibetan,sa,confirmed,,False,13
+སྟོང,tong:4,tong,,tong,rule_tibetan,tong,confirmed,,False,13
+ཀྱིས,kyi:6; gyi:1,kyi,kyi,kyi,rule_tibetan,kyi,confirmed,,False,12
+བཞིན,schin:4,schin,,schin,rule_tibetan,schin,confirmed,,False,12
+འཁོར,khor:6; kor:1,khor,,khor,rule_tibetan,khor,confirmed,,False,12
+ཡང,yang:3; jang:1,yang,,yang,rule_tibetan,yang,confirmed,,False,12
+ཤེས,sche:6,sche,sche,sche,rule_tibetan,sche,confirmed,,False,12
+གནས,nd:2; na:1; nä:1; nü:1,nd,nd,nä,rule_tibetan,nä,confirmed,OCR-like variants ignored: nd,True,11
+ཅིག,tschig:7; dschig:1,tschig,tschig,tschig,rule_tibetan,tschig,confirmed,,False,11
+ཆེན,tschen:5,tschen,tschen,tschen,rule_tibetan,tschen,confirmed,,False,11
+ཉིད,nyi:4; ni:1,nyi,,nyi,rule_tibetan,nyi,confirmed,,False,11
+བཅས,tschä:5; tscha:1; tschd:1,tschä,,tschä,rule_tibetan,tschä,confirmed,OCR-like variants ignored: tschd,False,11
+བདེ,de:8; dem:1,de,de,de,rule_tibetan,de,confirmed,,False,11
+བྱེད,dsche:1; tsche:1,tsche,tsche,dsche,rule_tibetan,dsche,confirmed,,True,11
+ཟེར,ser:3,ser,ser,ser,rule_tibetan,ser,confirmed,,False,11
+ལྡན,dan:4; dän:2; ddan:1; den:1,den,den,dän,rule_tibetan,dän,confirmed,,True,11
+ཐུགས,thug:2,thug,thug,thug,rule_tibetan,thug,confirmed,,False,10
+ཚོགས,zog:4; tshog:2,tshog,tshog,tshog,rule_tibetan,tshog,confirmed,,False,10
+འགྲོ,dro:4,dro,,dro,rule_tibetan,dro,confirmed,,False,10
+འཛིན,dzin:2; dsin:1,dzin,,dzin,rule_tibetan,dzin,confirmed,,False,10
+ཡབ,yab:2,yab,,yab,rule_tibetan,yab,confirmed,,False,10
+ཡི,yi:5; ji:1,yi,yi,yi,rule_tibetan,yi,confirmed,,False,10
+ཡུམ,yum:3,yum,,yum,rule_tibetan,yum,confirmed,,False,10
+རྣམ,nam:3; nal:1,nam,,nam,rule_tibetan,nam,confirmed,,False,10
+སྐུ,ku:4,ku,,ku,rule_tibetan,ku,confirmed,,False,10
+ཀུན,kün:5; kUn:1,kün,,kün,rule_tibetan,kün,confirmed,OCR-like variants ignored: kUn,False,9
+ཐོད,thé:2; tö:2; thd:1; tho:1; thö:1,thö,thö,thö,rule_tibetan,thö,confirmed,"OCR-like variants ignored: thé, thd",False,9
+ད,da:1,da,,da,rule_tibetan,da,confirmed,,False,9
+དམར,mar:2,mar,mar,mar,rule_tibetan,mar,confirmed,,False,9
+ནང,nang:1,nang,,nang,rule_tibetan,nang,confirmed,,False,9
+པོའི,pd:2; pö:2; po:1,pö,pö,pö,rule_tibetan,pö,confirmed,OCR-like variants ignored: pd,False,9
+བོ,wo:2; bo:1; po:1,wo,,wo,rule_tibetan,wo,confirmed,,False,9
+རེ,re:4; dsche:1,re,,re,rule_tibetan,re,confirmed,,False,9
+རོ,ro:3,ro,ro,ro,rule_tibetan,ro,confirmed,,False,9
+ཤིས,schi:2,schi,schi,schi,rule_tibetan,schi,confirmed,,False,9
+སྐྱེས,kye:4,kye,,kye,rule_tibetan,kye,confirmed,,False,9
+སྡུག,dug:5,dug,dug,dug,rule_tibetan,dug,confirmed,,False,9
+སྤྱན,tschän:3; tschin:1,tschän,tschän,tschän,rule_tibetan,tschän,confirmed,,False,9
+གཅིག,tschig:1,tschig,,tschig,rule_tibetan,tschig,confirmed,,False,8
+གཡོན,yön:5; yon:1,yön,yön,yön,rule_tibetan,yön,confirmed,,False,8
+གསོལ,söl:1,söl,,söl,rule_tibetan,söl,confirmed,,False,8
+ཆོས,tschö:4,tschö,tschö,tschö,rule_tibetan,tschö,confirmed,,False,8
+དབུས,U:4,U,,ü,rule_tibetan,ü,confirmed,,True,8
+ཕྱོགས,tschog:2,tschog,,tschog,rule_tibetan,tschog,confirmed,,False,8
+བཀྲ,tra:3; ta:1,ta,ta,tra,rule_tibetan,tra,confirmed,,True,8
+བཅོམ,tschom:4,tschom,,tschom,rule_tibetan,tschom,confirmed,,False,8
+བཞུགས,schug:5,schug,schug,schug,rule_tibetan,schug,confirmed,,False,8
+བསྔལ,ngäl:5,ngäl,ngäl,ngäl,rule_tibetan,ngäl,confirmed,,False,8
+ལྔ,nga:4,nga,,nga,rule_tibetan,nga,confirmed,,False,8
+གདན,dan:1; dän:1,dan,dan,dän,rule_tibetan,dän,confirmed,,True,7
+གཡས,yä:2; ya:1; ye:1,ye,ye,yä,rule_tibetan,yä,confirmed,,True,7
+ཉི,nyi:2; nji:1,nyi,nyi,nyi,rule_tibetan,nyi,confirmed,,False,7
+དོན,dön:4,dön,dön,dön,rule_tibetan,dön,confirmed,,False,7
+བྱིན,dschin:1,dschin,,dschin,rule_tibetan,dschin,confirmed,,False,7
+མགོ,go:5,go,,go,rule_tibetan,go,confirmed,,False,7
+མེ,me:3,me,me,me,rule_tibetan,me,confirmed,,False,7
+ཟླ,da:5,da,da,da,rule_tibetan,da,confirmed,,False,7
+ར,ra:1,ra,,ra,rule_tibetan,ra,confirmed,,False,7
+རིམ,rim:3,rim,,rim,rule_tibetan,rim,confirmed,,False,7
+རྒྱལ,gyal:2; gyäl:2,gyäl,,gyäl,rule_tibetan,gyäl,confirmed,,False,7
+གང,gang:3,gang,,gang,rule_tibetan,gang,confirmed,,False,6
+གསལ,säl:2,säl,,säl,rule_tibetan,säl,confirmed,,False,6
+ངང,ngang:1; nyang:1,nyang,,ngang,rule_tibetan,ngang,confirmed,,True,6
+ཆེ,tsche:2; ze:1,tsche,,tsche,rule_tibetan,tsche,confirmed,,False,6
+ཏུ,tu:3,tu,,tu,rule_tibetan,tu,confirmed,,False,6
+དཀར,kar:3,kar,,kar,rule_tibetan,kar,confirmed,,False,6
+དགེ,ge:2; gen:1,ge,ge,ge,rule_tibetan,ge,confirmed,,False,6
+དཔའ,pa:1,pa,,pa,rule_tibetan,pa,confirmed,,False,6
+དཔལ,pal:2; päl:1,päl,päl,päl,rule_tibetan,päl,confirmed,,False,6
+དྲུག,drug:4,drug,,drug,rule_tibetan,drug,confirmed,,False,6
+ཕག,pag:2; phag:2,phag,,phag,rule_tibetan,phag,confirmed,,False,6
+མཁའ,khan:2; ka:1,khan,,kha,rule_tibetan,kha,confirmed,,True,6
+མཛད,dzä:2,dzä,,dzä,rule_tibetan,dzä,confirmed,,False,6
+ཞིང,sching:4,sching,,sching,rule_tibetan,sching,confirmed,,False,6
+འབར,bar:5,bar,bar,bar,rule_tibetan,bar,confirmed,,False,6
+རྒྱས,gyG:1; gyda:1; gyä:1; gyü:1,gyda,gyda,gyä,rule_tibetan,gyä,confirmed,OCR-like variants ignored: gyG,True,6
+སོགས,sog:1,sog,,sog,rule_tibetan,sog,confirmed,,False,6
+སྟེ,te:2,te,te,te,rule_tibetan,te,confirmed,,False,6
+ཀའི,ka:2; kG:1; kd:1; kü:1,kd,kd,kä,rule_tibetan,kä,confirmed,"OCR-like variants ignored: kG, kd",True,5
+ཀར,kar:1,kar,,kar,rule_tibetan,kar,confirmed,,False,5
+གྲི,dri:3,dri,dri,dri,rule_tibetan,dri,confirmed,,False,5
+དཀྱིལ,kyil:2,kyil,,kyil,rule_tibetan,kyil,confirmed,,False,5
+དམ,dam:2,dam,dam,dam,rule_tibetan,dam,confirmed,,False,5
+དྲངས,drang:1,drang,drang,drang,rule_tibetan,drang,confirmed,,False,5
+ཕྲེང,threng:2,threng,threng,threng,rule_tibetan,threng,confirmed,,False,5
+བདུད,au:1; dU:1; du:1; dui:1,dui,,dü,rule_tibetan,dü,confirmed,OCR-like variants ignored: dU,True,5
+བཞིའི,schi:1,schi,,schi,rule_tibetan,schi,confirmed,,False,5
+བརྒྱད,gyG:1; gyä:1; gyü:1,gyü,,gyä,rule_tibetan,gyä,confirmed,OCR-like variants ignored: gyG,True,5
+བརྒྱན,gyän:3,gyän,gyän,gyän,rule_tibetan,gyän,confirmed,,False,5
+བསྒོམ,gom:1,gom,,gom,rule_tibetan,gom,confirmed,,False,5
+བྱང,dschang:2; dschung:1,dschung,dschung,dschang,rule_tibetan,dschang,confirmed,,True,5
+བྱས,dschä:2,dschä,,dschä,rule_tibetan,dschä,confirmed,,False,5
+བླ,la:1,la,,la,rule_tibetan,la,confirmed,,False,5
+མཚན,zän:2; tsen:1; zan:1,zän,,tshän,rule_tibetan,tshän,confirmed,,True,5
+མའི,ma:1; mä:1,mä,,mä,rule_tibetan,mä,confirmed,,False,5
+འཇིགས,dschig:1,dschig,,dschig,rule_tibetan,dschig,confirmed,,False,5
+འདས,dä:2,dä,,dä,rule_tibetan,dä,confirmed,,False,5
+འབྱོར,dschor:2,dschor,,dschor,rule_tibetan,dschor,confirmed,,False,5
+རྒྱ,gya:2,gya,,gya,rule_tibetan,gya,confirmed,,False,5
+རྒྱུ,gyu:3,gyu,gyu,gyu,rule_tibetan,gyu,confirmed,,False,5
+རྩེ,tse:1,tse,,tse,rule_tibetan,tse,confirmed,,False,5
+ལམ,lam:3,lam,,lam,rule_tibetan,lam,confirmed,,False,5
+ཤིང,sching:3; shing:1,sching,sching,sching,rule_tibetan,sching,confirmed,,False,5
+སོ,so:1,so,,so,rule_tibetan,so,confirmed,,False,5
+སྐྱབས,kyab:3,kyab,,kyab,rule_tibetan,kyab,confirmed,,False,5
+སྙིང,njing:1,njing,,nying,rule_tibetan,nying,confirmed,,True,5
+སྩོལ,tsdél:1; tsöl:1,tsöl,,tsöl,rule_tibetan,tsöl,confirmed,OCR-like variants ignored: tsdél,False,5
+ཁ,ka:1; kha:1,kha,,kha,rule_tibetan,kha,confirmed,,False,4
+གཟུགས,sug:1,sug,,sug,rule_tibetan,sug,confirmed,,False,4
+གུག,gug:2,gug,,gug,rule_tibetan,gug,confirmed,,False,4
+གྲུབ,drub:1,drub,,drub,rule_tibetan,drub,confirmed,,False,4
+ངེས,nge:1,nge,,nge,rule_tibetan,nge,confirmed,,False,4
+ཆུབ,tschub:2,tschub,,tschub,rule_tibetan,tschub,confirmed,,False,4
+ཉེ,nye:3,nye,nye,nye,rule_tibetan,nye,confirmed,,False,4
+ཏེ,te:3,te,,te,rule_tibetan,te,confirmed,,False,4
+ཐིམ,thim:1,thim,,thim,rule_tibetan,thim,confirmed,,False,4
+དག,dag:3,dag,,dag,rule_tibetan,dag,confirmed,,False,4
+དངོས,ngö:1,ngö,,ngö,rule_tibetan,ngö,confirmed,,False,4
+དོ,do:3,do,,do,rule_tibetan,do,confirmed,,False,4
+དྲག,dag:1; dra:1; drag:1,dag,dag,drag,rule_tibetan,drag,confirmed,,True,4
+དྲིལ,dril:1,dril,,dril,rule_tibetan,dril,confirmed,,False,4
+ནག,nag:3,nag,,nag,rule_tibetan,nag,confirmed,,False,4
+པགས,pag:4,pag,pag,pag,rule_tibetan,pag,confirmed,,False,4
+པདྨ,pema:1,pema,,pema,mantra_exception,pema,confirmed,,False,4
+བསྐྱེད,kye:1,kye,,kye,rule_tibetan,kye,confirmed,,False,4
+བསྡུ,du:2,du,du,du,rule_tibetan,du,confirmed,,False,4
+བུ,bu:2; wu:1,bu,,bu,rule_tibetan,bu,confirmed,,False,4
+བྲལ,dräl:1,dräl,dräl,dräl,rule_tibetan,dräl,confirmed,,False,4
+མཐར,tar:1; thar:1,thar,,thar,rule_tibetan,thar,confirmed,,False,4
+ཙ,tsa:1,tsa,tsa,tsa,rule_tibetan,tsa,confirmed,,False,4
+ཞུ,schu:1,schu,,schu,rule_tibetan,schu,confirmed,,False,4
+འགྲུབ,drub:2,drub,,drub,rule_tibetan,drub,confirmed,,False,4
+འདབ,dab:2,dab,,dab,rule_tibetan,dab,confirmed,,False,4
+འདེབས,deb:1,deb,,deb,rule_tibetan,deb,confirmed,,False,4
+རྟ,ta:2,ta,ta,ta,rule_tibetan,ta,confirmed,,False,4
+རྟག,tag:2,tag,,tag,rule_tibetan,tag,confirmed,,False,4
+རྩ,tsa:1,tsa,,tsa,rule_tibetan,tsa,confirmed,,False,4
+ལེགས,leg:1,leg,,leg,rule_tibetan,leg,confirmed,,False,4
+ལྟར,tar:4,tar,tar,tar,rule_tibetan,tar,confirmed,,False,4
+སྐམ,kam:4,kam,,kam,rule_tibetan,kam,confirmed,,False,4
+སྣ,na:2,na,,na,rule_tibetan,na,confirmed,,False,4
+སྦྱངས,dschang:1,dschang,,dschang,rule_tibetan,dschang,confirmed,,False,4
+ཁྲག,thrag:1,thrag,,thrag,rule_tibetan,thrag,confirmed,,False,3
+གཡེལ,jel:1; yel:1,yel,,yel,rule_tibetan,yel,confirmed,,False,3
+གར,gar:1,gar,,gar,rule_tibetan,gar,confirmed,,False,3
+གསུང,sung:2,sung,sung,sung,rule_tibetan,sung,confirmed,,False,3
+གོ,go:1,go,,go,rule_tibetan,go,confirmed,,False,3
+ཆུ,ru:1; tschu:1,tschu,,tschu,rule_tibetan,tschu,confirmed,,False,3
+ཉམས,nyam:1,nyam,,nyam,rule_tibetan,nyam,confirmed,,False,3
+ཉེར,nyer:1,nyer,,nyer,rule_tibetan,nyer,confirmed,,False,3
+དུས,dU:1; du:1,du,,dü,rule_tibetan,dü,confirmed,OCR-like variants ignored: dU,True,3
+དྲི,dri:3,dri,,dri,rule_tibetan,dri,confirmed,,False,3
+ནམ,nam:3,nam,,nam,rule_tibetan,nam,confirmed,,False,3
+ནུས,nU:2; nü:1,nU,,nü,rule_tibetan,nü,confirmed,OCR-like variants ignored: nU,True,3
+ཕྱིར,tschir:1,tschir,,tschir,rule_tibetan,tschir,confirmed,,False,3
+ཕྱུག,tschug:1,tschug,,tschug,rule_tibetan,tschug,confirmed,,False,3
+བརྗོད,dschö:1,dschö,,dschö,rule_tibetan,dschö,confirmed,,False,3
+བརྟན,dän:1; tan:1; tän:1,tän,tän,tän,rule_tibetan,tän,confirmed,,False,3
+བས,wä:2,wä,,wä,rule_tibetan,wä,confirmed,,False,3
+བསྐོར,kor:1,kor,,kor,rule_tibetan,kor,confirmed,,False,3
+བེ,be:1,be,be,be,rule_tibetan,be,confirmed,,False,3
+བྱུང,dschung:1,dschung,,dschung,rule_tibetan,dschung,confirmed,,False,3
+མངོན,ngön:2,ngön,,ngön,rule_tibetan,ngön,confirmed,,False,3
+མཆིས,tschi:3,tschi,,tschi,rule_tibetan,tschi,confirmed,,False,3
+མཛུབ,dzub:2,dzub,,dzub,rule_tibetan,dzub,confirmed,,False,3
+མཛེས,dze:2,dze,dze,dze,rule_tibetan,dze,confirmed,,False,3
+མོའི,mö:2; ms:1,mö,,mö,rule_tibetan,mö,confirmed,OCR-like variants ignored: ms,False,3
+ཚུལ,Zul:1; tshül:1; zül:1,tshül,tshül,tshül,rule_tibetan,tshül,confirmed,OCR-like variants ignored: Zul,False,3
+ཞབས,schab:1,schab,schab,schab,rule_tibetan,schab,confirmed,,False,3
+ཞུགས,schu:1; schug:1,schug,,schug,rule_tibetan,schug,confirmed,,False,3
+ཟུང,sung:2,sung,sung,sung,rule_tibetan,sung,confirmed,,False,3
+འཁྱུད,kyU:2; kyü:1,kyU,,khyü,rule_tibetan,khyü,confirmed,OCR-like variants ignored: kyU,True,3
+འཁྱེར,khyer:2,khyer,,khyer,rule_tibetan,khyer,confirmed,,False,3
+འཆང,tschang:1,tschang,,tschang,rule_tibetan,tschang,confirmed,,False,3
+འཆི,tschi:2,tschi,,tschi,rule_tibetan,tschi,confirmed,,False,3
+འཇུག,dschug:1,dschug,,dschug,rule_tibetan,dschug,confirmed,,False,3
+འདི,di:2,di,di,di,rule_tibetan,di,confirmed,,False,3
+འདིར,dir:2,dir,,dir,rule_tibetan,dir,confirmed,,False,3
+འཕང,pang:2; phang:1,pang,,phang,rule_tibetan,phang,confirmed,,True,3
+འཕྲོས,thrd:1; thrö:1,thrö,,thrö,rule_tibetan,thrö,confirmed,OCR-like variants ignored: thrd,False,3
+འབྲལ,dräl:2,dräl,dräl,dräl,rule_tibetan,dräl,confirmed,,False,3
+ཡོངས,yong:2,yong,,yong,rule_tibetan,yong,confirmed,,False,3
+རལ,ral:1; räl:1,räl,räl,räl,rule_tibetan,räl,confirmed,,False,3
+རྗེའི,dsche:1; dsche'i:1; dsche’i:1,dsche’i,,dsche,rule_tibetan,dsche,confirmed,"OCR-like variants ignored: dsche'i, dsche’i",True,3
+རྗེས,dsche:2,dsche,,dsche,rule_tibetan,dsche,confirmed,,False,3
+རྙེད,nje:1; nye:1,nye,,nye,rule_tibetan,nye,confirmed,,False,3
+རྣལ,nal:1,nal,,näl,rule_tibetan,näl,confirmed,,True,3
+སངས,sang:2,sang,sang,sang,rule_tibetan,sang,confirmed,,False,3
+སེར,ser:2,ser,,ser,rule_tibetan,ser,confirmed,,False,3
+སྐྱེ,kye:2,kye,,kye,rule_tibetan,kye,confirmed,,False,3
+སྐྱོང,kyong:1,kyong,,kyong,rule_tibetan,kyong,confirmed,,False,3
+སྔོན,ngön:1,ngön,,ngön,rule_tibetan,ngön,confirmed,,False,3
+སྟེང,teng:2,teng,teng,teng,rule_tibetan,teng,confirmed,,False,3
+སྣང,nang:1,nang,,nang,rule_tibetan,nang,confirmed,,False,3
+སྤྲོ,tro:2,tro,tro,tro,rule_tibetan,tro,confirmed,,False,3
+ཀོ,ko:1,ko,ko,ko,rule_tibetan,ko,confirmed,,False,2
+ཁམས,kham:2,kham,kham,kham,rule_tibetan,kham,confirmed,,False,2
+ཁྱད,kyä:2,kyä,,khyä,rule_tibetan,khyä,confirmed,,True,2
+ཁྱབ,khyab:1; kyab:1,kyab,,khyab,rule_tibetan,khyab,confirmed,,True,2
+ཁྲོ,thro:1,thro,thro,thro,rule_tibetan,thro,confirmed,,False,2
+ཁྲོད,thrö:1; trö:1,thrö,thrö,thrö,rule_tibetan,thrö,confirmed,,False,2
+གཅེར,tscher:2,tscher,,tscher,rule_tibetan,tscher,confirmed,,False,2
+གདུག,dug:2,dug,dug,dug,rule_tibetan,dug,confirmed,,False,2
+གཙོ,tso:1,tso,,tso,rule_tibetan,tso,confirmed,,False,2
+གཞན,schän:1,schän,,schän,rule_tibetan,schän,confirmed,,False,2
+གཞི,schi:2,schi,,schi,rule_tibetan,schi,confirmed,,False,2
+གཡོ,yo:1,yo,yo,yo,rule_tibetan,yo,confirmed,,False,2
+གུས,gu:1,gu,,gü,rule_tibetan,gü,confirmed,,True,2
+གོམས,gom:1,gom,,gom,rule_tibetan,gom,confirmed,,False,2
+གྲོགས,drog:1,drog,,drog,rule_tibetan,drog,confirmed,,False,2
+གྲོལ,dröl:2,dröl,,dröl,rule_tibetan,dröl,confirmed,,False,2
+གླང,lang:2,lang,lang,lang,rule_tibetan,lang,confirmed,,False,2
+ཅག,tschag:1; tschig:1,tschig,tschig,tschag,rule_tibetan,tschag,confirmed,,True,2
+ཅིང,tsching:1,tsching,,tsching,rule_tibetan,tsching,confirmed,,False,2
+ཅུང,tschung:2,tschung,,tschung,rule_tibetan,tschung,confirmed,,False,2
+ཐད,tha:1,tha,,thä,rule_tibetan,thä,confirmed,,True,2
+ཐུབ,thub:1,thub,,thub,rule_tibetan,thub,confirmed,,False,2
+དབྱིངས,ying:1,ying,ying,ying,rule_tibetan,ying,confirmed,,False,2
+དའི,dä:1,dä,,dä,rule_tibetan,dä,confirmed,,False,2
+དུར,dur:1,dur,,dur,rule_tibetan,dur,confirmed,,False,2
+དོག,dog:2,dog,,dog,rule_tibetan,dog,confirmed,,False,2
+དྲ,dra:1,dra,,dra,rule_tibetan,dra,confirmed,,False,2
+ཕོ,po:1,po,,pho,rule_tibetan,pho,confirmed,,True,2
+ཕྱིན,tschin:1,tschin,,tschin,rule_tibetan,tschin,confirmed,,False,2
+ཕྲག,trag:1,trag,,thrag,rule_tibetan,thrag,confirmed,,True,2
+བགྱི,gyi:1,gyi,,gyi,rule_tibetan,gyi,confirmed,,False,2
+བཅུ,tschu:1,tschu,,tschu,rule_tibetan,tschu,confirmed,,False,2
+བཅུའི,tscht:1; tschü:1,tschü,,tschü,rule_tibetan,tschü,confirmed,OCR-like variants ignored: tscht,False,2
+བཏང,dang:1; tang:1,tang,tang,tang,rule_tibetan,tang,confirmed,,False,2
+བཏབ,tab:1,tab,,tab,rule_tibetan,tab,confirmed,,False,2
+བཟའ,sa:1,sa,,sa,rule_tibetan,sa,confirmed,,False,2
+བཟུང,sung:1,sung,,sung,rule_tibetan,sung,confirmed,,False,2
+བརྐྱང,kyang:1,kyang,,kyang,rule_tibetan,kyang,confirmed,,False,2
+བརྟེན,ten:1,ten,,ten,rule_tibetan,ten,confirmed,,False,2
+བརྩེ,tse:2,tse,,tse,rule_tibetan,tse,confirmed,,False,2
+བསྐུར,kur:2,kur,,kur,rule_tibetan,kur,confirmed,,False,2
+བསྟེན,ten:1,ten,,ten,rule_tibetan,ten,confirmed,,False,2
+བསྡུས,dü:1,dü,dü,dü,rule_tibetan,dü,confirmed,,False,2
+བསྣམས,nam:2,nam,nam,nam,rule_tibetan,nam,confirmed,,False,2
+བོར,bor:1; wor:1,wor,,wor,rule_tibetan,wor,confirmed,,False,2
+མཆི,tschi:1,tschi,,tschi,rule_tibetan,tschi,confirmed,,False,2
+མཆེ,tsche:2,tsche,tsche,tsche,rule_tibetan,tsche,confirmed,,False,2
+མཉམ,nyam:1,nyam,,nyam,rule_tibetan,nyam,confirmed,,False,2
+མདངས,dang:2,dang,,dang,rule_tibetan,dang,confirmed,,False,2
+མདུང,dung:1,dung,,dung,rule_tibetan,dung,confirmed,,False,2
+མདོག,dog:2,dog,,dog,rule_tibetan,dog,confirmed,,False,2
+མཚམས,zam:1,zam,,tsham,rule_tibetan,tsham,confirmed,,True,2
+མར,mar:1,mar,,mar,rule_tibetan,mar,confirmed,,False,2
+ཚངས,zang:1,zang,,tshang,rule_tibetan,tshang,confirmed,,True,2
+ཚིག,zig:1,zig,,tshig,rule_tibetan,tshig,confirmed,,True,2
+ཚེ,ze:2,ze,,tshe,rule_tibetan,tshe,confirmed,,True,2
+ཞགས,schag:1,schag,,schag,rule_tibetan,schag,confirmed,,False,2
+ཟད,sa:1; sä:1,sä,,sä,rule_tibetan,sä,confirmed,,False,2
+འཆར,tschar:2,tschar,,tschar,rule_tibetan,tschar,confirmed,,False,2
+འདོད,dé:1; dö:1,dö,,dö,rule_tibetan,dö,confirmed,OCR-like variants ignored: dé,False,2
+འཕགས,pag:1; phag:1,phag,,phag,rule_tibetan,phag,confirmed,,False,2
+འཕྱང,tschang:1,tschang,,tschang,rule_tibetan,tschang,confirmed,,False,2
+འབྱུང,dschung:2,dschung,,dschung,rule_tibetan,dschung,confirmed,,False,2
+འབྲས,dra:1; drä:1,drä,,drä,rule_tibetan,drä,confirmed,,False,2
+འཚལ,zal:1,zal,,tshäl,rule_tibetan,tshäl,confirmed,,True,2
+འོག,og:2,og,,og,rule_tibetan,og,confirmed,,False,2
+ཡིག,yig:1,yig,,yig,rule_tibetan,yig,confirmed,,False,2
+ཡིད,ji:1; yi:1,yi,,yi,rule_tibetan,yi,confirmed,,False,2
+ཡིན,yin:1,yin,,yin,rule_tibetan,yin,confirmed,,False,2
+ཡིས,yi:1,yi,,yi,rule_tibetan,yi,confirmed,,False,2
+རབ,rab:2,rab,,rab,rule_tibetan,rab,confirmed,,False,2
+རི,ri:1,ri,,ri,rule_tibetan,ri,confirmed,,False,2
+རིང,ring:2,ring,ring,ring,rule_tibetan,ring,confirmed,,False,2
+རུང,rung:1,rung,,rung,rule_tibetan,rung,confirmed,,False,2
+རྟེན,ten:1,ten,,ten,rule_tibetan,ten,confirmed,,False,2
+རྨོངས,mong:1,mong,,mong,rule_tibetan,mong,confirmed,,False,2
+རྩིའི,tsi:2,tsi,,tsi,rule_tibetan,tsi,confirmed,,False,2
+རློན,lön:2,lön,lön,lön,rule_tibetan,lön,confirmed,,False,2
+ལང,lang:1,lang,,lang,rule_tibetan,lang,confirmed,,False,2
+ལུས,lü:1,lü,,lü,rule_tibetan,lü,confirmed,,False,2
+ལོ,lo:1,lo,,lo,rule_tibetan,lo,confirmed,,False,2
+ལོངས,long:1,long,,long,rule_tibetan,long,confirmed,,False,2
+ལྔའི,nga’i:1; ngä:1,ngä,,ngä,rule_tibetan,ngä,confirmed,OCR-like variants ignored: nga’i,False,2
+ལྟེ,te:1,te,,te,rule_tibetan,te,confirmed,,False,2
+ཤར,schar:1,schar,,schar,rule_tibetan,schar,confirmed,,False,2
+ཤལ,schäl:2,schäl,,schäl,rule_tibetan,schäl,confirmed,,False,2
+སོར,sor:1,sor,sor,sor,rule_tibetan,sor,confirmed,,False,2
+སྐད,kG:1; ka:1,ka,,kä,rule_tibetan,kä,confirmed,OCR-like variants ignored: kG,True,2
+སྐེམ,kem:1,kem,,kem,rule_tibetan,kem,confirmed,,False,2
+སྐྱོན,kjön:1; kyön:1,kyön,,kyön,rule_tibetan,kyön,confirmed,,False,2
+སྐྲ,tra:2,tra,,tra,rule_tibetan,tra,confirmed,,False,2
+སྒོ,go:2,go,go,go,rule_tibetan,go,confirmed,,False,2
+སྒྱུ,gyu:1,gyu,,gyu,rule_tibetan,gyu,confirmed,,False,2
+སྒྲུབ,drub:2,drub,drub,drub,rule_tibetan,drub,confirmed,,False,2
+སྔགས,ngag:1,ngag,ngag,ngag,rule_tibetan,ngag,confirmed,,False,2
+སྟ,ta:1,ta,,ta,rule_tibetan,ta,confirmed,,False,2
+སྟག,tag:2,tag,tag,tag,rule_tibetan,tag,confirmed,,False,2
+སྡང,dang:2,dang,dang,dang,rule_tibetan,dang,confirmed,,False,2
+སྡིག,dig:1,dig,,dig,rule_tibetan,dig,confirmed,,False,2
+སྡིགས,dig:1,dig,,dig,rule_tibetan,dig,confirmed,,False,2
+སྡོམ,dom:1,dom,,dom,rule_tibetan,dom,confirmed,,False,2
+སྤྱི,tschi:1,tschi,,tschi,rule_tibetan,tschi,confirmed,,False,2
+སྨད,ma:1,ma,,mä,rule_tibetan,mä,confirmed,,True,2
+སྨོན,mön:1,mön,,mön,rule_tibetan,mön,confirmed,,False,2
+སྲས,sa:1,sa,,sä,rule_tibetan,sä,confirmed,,True,2
+སློབ,lob:2,lob,,lob,rule_tibetan,lob,confirmed,,False,2
+ཀྱང,kyang:1,kyang,,kyang,rule_tibetan,kyang,confirmed,,False,1
+ཀླུ,lu:1,lu,,lu,rule_tibetan,lu,confirmed,,False,1
+ཁང,kang:1,kang,,khang,rule_tibetan,khang,confirmed,,True,1
+གཉེར,nyer:1,nyer,nyer,nyer,rule_tibetan,nyer,confirmed,,False,1
+གཏུམ,tum:1,tum,,tum,rule_tibetan,tum,confirmed,,False,1
+གདངས,dang:1,dang,dang,dang,rule_tibetan,dang,confirmed,,False,1
+གདམས,dam:1,dam,,dam,rule_tibetan,dam,confirmed,,False,1
+གདེངས,deng:1,deng,,deng,rule_tibetan,deng,confirmed,,False,1
+གདོང,dong:1,dong,,dong,rule_tibetan,dong,confirmed,,False,1
+གཞལ,schäl:1,schäl,,schäl,rule_tibetan,schäl,confirmed,,False,1
+གཞོན,schön:1,schön,,schön,rule_tibetan,schön,confirmed,,False,1
+གཤེགས,scheg:1,scheg,,scheg,rule_tibetan,scheg,confirmed,,False,1
+གུར,gur:1,gur,,gur,rule_tibetan,gur,confirmed,,False,1
+གྲུ,dru:1,dru,,dru,rule_tibetan,dru,confirmed,,False,1
+གླིང,ling:1,ling,,ling,rule_tibetan,ling,confirmed,,False,1
+ངན,ngän:1,ngän,,ngän,rule_tibetan,ngän,confirmed,,False,1
+ཅོག,tschog:1,tschog,,tschog,rule_tibetan,tschog,confirmed,,False,1
+ཅོན,tschön:1,tschön,tschön,tschön,rule_tibetan,tschön,confirmed,,False,1
+ཆགས,tschag:1,tschag,,tschag,rule_tibetan,tschag,confirmed,,False,1
+ཆུང,tschung:1,tschung,,tschung,rule_tibetan,tschung,confirmed,,False,1
+ཆེའི,tsche:1,tsche,,tsche,rule_tibetan,tsche,confirmed,,False,1
+ཐ,tha:1,tha,tha,tha,rule_tibetan,tha,confirmed,,False,1
+ཐབས,thab:1,thab,thab,thab,rule_tibetan,thab,confirmed,,False,1
+ཐལ,thal:1,thal,,thäl,rule_tibetan,thäl,confirmed,,True,1
+ཐོབ,thob:1,thob,,thob,rule_tibetan,thob,confirmed,,False,1
+ཐོར,thor:1,thor,,thor,rule_tibetan,thor,confirmed,,False,1
+དབུ,u:1,u,,u,rule_tibetan,u,confirmed,,False,1
+དབུའི,Ü:1,Ü,,ü,rule_tibetan,ü,confirmed,,True,1
+དབྱངས,yang:1,yang,,yang,rule_tibetan,yang,confirmed,,False,1
+དབྱེར,yer:1,yer,yer,yer,rule_tibetan,yer,confirmed,,False,1
+དལ,dal:1,dal,,däl,rule_tibetan,däl,confirmed,,True,1
+དུམ,dum:1,dum,,dum,rule_tibetan,dum,confirmed,,False,1
+ནུ,nu:1,nu,,nu,rule_tibetan,nu,confirmed,,False,1
+ནོ,no:1,no,,no,rule_tibetan,no,confirmed,,False,1
+པག,pag:1,pag,,pag,rule_tibetan,pag,confirmed,,False,1
+པད,pa:1,pa,pa,pä,rule_tibetan,pä,confirmed,,True,1
+པའོ,pa-o:1,pa-o,,pa-o,rule_tibetan,pa-o,confirmed,,False,1
+ཕན,phan:1,phan,phan,phän,rule_tibetan,phän,confirmed,,True,1
+ཕྱེད,tsche:1,tsche,,tsche,rule_tibetan,tsche,confirmed,,False,1
+བཀོད,kö:1,kö,,kö,rule_tibetan,kö,confirmed,,False,1
+བགེགས,geg:1,geg,,geg,rule_tibetan,geg,confirmed,,False,1
+བགྱིས,gyi:1,gyi,gyi,gyi,rule_tibetan,gyi,confirmed,,False,1
+བགྲང,drang:1,drang,,drang,rule_tibetan,drang,confirmed,,False,1
+བབས,bab:1,bab,,bab,rule_tibetan,bab,confirmed,,False,1
+བམ,bam:1,bam,bam,bam,rule_tibetan,bam,confirmed,,False,1
+བཙུན,tsün:1,tsün,,tsün,rule_tibetan,tsün,confirmed,,False,1
+བཞིར,schir:1,schir,,schir,rule_tibetan,schir,confirmed,,False,1
+བཟོད,sö:1,sö,,sö,rule_tibetan,sö,confirmed,,False,1
+བརྐྱངས,kyang:1,kyang,kyang,kyang,rule_tibetan,kyang,confirmed,,False,1
+བརྒྱངས,gyang:1,gyang,,gyang,rule_tibetan,gyang,confirmed,,False,1
+བརྩེགས,tseg:1,tseg,tseg,tseg,rule_tibetan,tseg,confirmed,,False,1
+བཤགས,schag:1,schag,schag,schag,rule_tibetan,schag,confirmed,,False,1
+བསགས,sag:1,sag,,sag,rule_tibetan,sag,confirmed,,False,1
+བསྐམ,kam:1,kam,kam,kam,rule_tibetan,kam,confirmed,,False,1
+བསྐུམས,kum:1,kum,kum,kum,rule_tibetan,kum,confirmed,,False,1
+བསྒོམས,gom:1,gom,,gom,rule_tibetan,gom,confirmed,,False,1
+བསྒྲེང,dreng:1,dreng,,dreng,rule_tibetan,dreng,confirmed,,False,1
+བསྟན,tan:1,tan,,tän,rule_tibetan,tän,confirmed,,True,1
+བུམ,bum:1,bum,,bum,rule_tibetan,bum,confirmed,,False,1
+བོའི,wö:1,wö,,wö,rule_tibetan,wö,confirmed,,False,1
+བྱུགས,dschug:1,dschug,,dschug,rule_tibetan,dschug,confirmed,,False,1
+མཁར,khar:1,khar,,khar,rule_tibetan,khar,confirmed,,False,1
+མགོན,gön:1,gön,,gön,rule_tibetan,gön,confirmed,,False,1
+མཉེས,nye:1,nye,,nye,rule_tibetan,nye,confirmed,,False,1
+མནན,nan:1,nan,,nän,rule_tibetan,nän,confirmed,,True,1
+མས,mä:1,mä,mä,mä,rule_tibetan,mä,confirmed,,False,1
+མིའི,mi:1,mi,,mi,rule_tibetan,mi,confirmed,,False,1
+མོངས,mong:1,mong,,mong,rule_tibetan,mong,confirmed,,False,1
+མོར,mor:1,mor,,mor,rule_tibetan,mor,confirmed,,False,1
+མྱུར,nyur:1,nyur,,nyur,rule_tibetan,nyur,confirmed,,False,1
+མྱོང,nyong:1,nyong,,nyong,rule_tibetan,nyong,confirmed,,False,1
+ཚེས,ze:1,ze,,tshe,rule_tibetan,tshe,confirmed,,True,1
+ཚོ,zo:1,zo,,tsho,rule_tibetan,tsho,confirmed,,True,1
+ཞག,schag:1,schag,schag,schag,rule_tibetan,schag,confirmed,,False,1
+ཞིག,schig:1,schig,,schig,rule_tibetan,schig,confirmed,,False,1
+ཟབ,sab:1,sab,,sab,rule_tibetan,sab,confirmed,,False,1
+ཟིན,sin:1,sin,,sin,rule_tibetan,sin,confirmed,,False,1
+འཁྱིལ,khyil:1,khyil,khyil,khyil,rule_tibetan,khyil,confirmed,,False,1
+འགྱུར,gyur:1,gyur,,gyur,rule_tibetan,gyur,confirmed,,False,1
+འགྲེང,dreng:1,dreng,,dreng,rule_tibetan,dreng,confirmed,,False,1
+འགྲོའི,drö:1,drö,,drö,rule_tibetan,drö,confirmed,,False,1
+འཇིག,dschig:1,dschig,,dschig,rule_tibetan,dschig,confirmed,,False,1
+འདུན,dun:1,dun,,dün,rule_tibetan,dün,confirmed,,True,1
+འདུས,du:1,du,,dü,rule_tibetan,dü,confirmed,,True,1
+འདོ,do:1,do,do,do,rule_tibetan,do,confirmed,,False,1
+འདྲ,dra:1,dra,,dra,rule_tibetan,dra,confirmed,,False,1
+འདྲའི,dra:1,dra,,drä,rule_tibetan,drä,confirmed,,True,1
+འདྲེན,dren:1,dren,,dren,rule_tibetan,dren,confirmed,,False,1
+འཕྲིན,thrin:1,thrin,,thrin,rule_tibetan,thrin,confirmed,,False,1
+འཕྲུལ,thrül:1,thrül,,thrül,rule_tibetan,thrül,confirmed,,False,1
+འཕྲེང,threng:1,threng,,threng,rule_tibetan,threng,confirmed,,False,1
+འབྱམས,dscham:1,dscham,,dscham,rule_tibetan,dscham,confirmed,,False,1
+འབྲེལ,drel:1,drel,,drel,rule_tibetan,drel,confirmed,,False,1
+འཛམ,dzam:1,dzam,,dzam,rule_tibetan,dzam,confirmed,,False,1
+འོང,ong:1,ong,,ong,rule_tibetan,ong,confirmed,,False,1
+འོངས,ong:1,ong,,ong,rule_tibetan,ong,confirmed,,False,1
+ཡངས,yang:1,yang,,yang,rule_tibetan,yang,confirmed,,False,1
+ཡས,ya:1,ya,,yä,rule_tibetan,yä,confirmed,,True,1
+ཡོ,yo:1,yo,,yo,rule_tibetan,yo,confirmed,,False,1
+རིག,rig:1,rig,,rig,rule_tibetan,rig,confirmed,,False,1
+རིགས,rig:1,rig,,rig,rule_tibetan,rig,confirmed,,False,1
+རོལ,röl:1,röl,,röl,rule_tibetan,röl,confirmed,,False,1
+རྐང,kang:1,kang,,kang,rule_tibetan,kang,confirmed,,False,1
+རྒྱུར,gyur:1,gyur,,gyur,rule_tibetan,gyur,confirmed,,False,1
+རྟོགས,tog:1,tog,,tog,rule_tibetan,tog,confirmed,,False,1
+རྨུག,mug:1,mug,,mug,rule_tibetan,mug,confirmed,,False,1
+རྩིས,tsi:1,tsi,,tsi,rule_tibetan,tsi,confirmed,,False,1
+རྫས,dzä:1,dzä,,dzä,rule_tibetan,dzä,confirmed,,False,1
+རླབས,lab:1,lab,,lab,rule_tibetan,lab,confirmed,,False,1
+ལགས,lag:1,lag,,lag,rule_tibetan,lag,confirmed,,False,1
+ལོར,lor:1,lor,,lor,rule_tibetan,lor,confirmed,,False,1
+ལྔས,nga:1,nga,,ngä,rule_tibetan,ngä,confirmed,,True,1
+ལྗགས,dschag:1,dschag,,dschag,rule_tibetan,dschag,confirmed,,False,1
+ལྟུང,tung:1,tung,tung,tung,rule_tibetan,tung,confirmed,,False,1
+ཤམ,scham:1,scham,scham,scham,rule_tibetan,scham,confirmed,,False,1
+ཤིགས,schig:1,schig,,schig,rule_tibetan,schig,confirmed,,False,1
+ཤུ,shu:1,shu,,schu,rule_tibetan,schu,confirmed,,True,1
+ཤུལ,schül:1,schül,,schül,rule_tibetan,schül,confirmed,,False,1
+སོའི,sö:1,sö,,sö,rule_tibetan,sö,confirmed,,False,1
+སྐུར,kur:1,kur,,kur,rule_tibetan,kur,confirmed,,False,1
+སྐྱོབ,kyob:1,kyob,,kyob,rule_tibetan,kyob,confirmed,,False,1
+སྐྲག,trag:1,trag,,trag,rule_tibetan,trag,confirmed,,False,1
+སྒྲས,dra:1,dra,,drä,rule_tibetan,drä,confirmed,,True,1
+སྙན,nyän:1,nyän,,nyän,rule_tibetan,nyän,confirmed,,False,1
+སྙོམས,nyom:1,nyom,,nyom,rule_tibetan,nyom,confirmed,,False,1
+སྟེར,ter:1,ter,,ter,rule_tibetan,ter,confirmed,,False,1
+སྟོབས,tob:1,tob,,tob,rule_tibetan,tob,confirmed,,False,1
+སྣོད,nö:1,nö,,nö,rule_tibetan,nö,confirmed,,False,1
+སྤྱོད,tschö:1,tschö,,tschö,rule_tibetan,tschö,confirmed,,False,1
+སྤྲིན,trin:1,trin,,trin,rule_tibetan,trin,confirmed,,False,1
+སྦྱིན,dschin:1,dschin,dschin,dschin,rule_tibetan,dschin,confirmed,,False,1
+སྦྱོར,dschor:1,dschor,,dschor,rule_tibetan,dschor,confirmed,,False,1
+སྨིན,min:1,min,,min,rule_tibetan,min,confirmed,,False,1
+སྩལ,tsäl:1,tsäl,tsäl,tsäl,rule_tibetan,tsäl,confirmed,,False,1
+སྲུང,sung:1,sung,,sung,rule_tibetan,sung,confirmed,,False,1
+སླ,la:1,la,,la,rule_tibetan,la,confirmed,,False,1
+རྡོ,dor:12; do:1,dor,,do,rule_tibetan,dor,observed_TZ,majority evidence overrides rule 'do' (1 agreeing),False,27
+ཤོག,scho:8; schog:1,schog,schog,schog,rule_tibetan,scho,observed_TZ,majority evidence overrides rule 'schog' (1 agreeing),True,19
+ཅི,dschi:2; tschi:1,dschi,,tschi,rule_tibetan,dschi,observed_TZ,majority evidence overrides rule 'tschi' (1 agreeing),False,6
+ལྷན,län:2; Ihän:1,län,,lhän,rule_tibetan,län,observed_TZ,OCR-like variants ignored: Ihän; majority evidence overrides rule 'lhän' (0 agreeing),False,5
+ཨོ,OM:3,OM,,o,rule_tibetan,OM,observed_TZ,majority evidence overrides rule 'o' (0 agreeing),False,4
+རྡེ,dsche:3,dsche,,de,rule_tibetan,dsche,observed_TZ,majority evidence overrides rule 'de' (0 agreeing),False,3
+གཅིགས,tsig:2,tsig,tsig,tschig,rule_tibetan,tsig,observed_TZ,majority evidence overrides rule 'tschig' (0 agreeing),False,2
+བཅུའེ,tschü:2,tschü,,tschu e,rule_tibetan,tschü,observed_TZ,majority evidence overrides rule 'tschu e' (0 agreeing),False,2
+སྟོམས,nyom:2,nyom,nyom,tom,rule_tibetan,nyom,observed_TZ,majority evidence overrides rule 'tom' (0 agreeing),False,2
+ལྷ,Iha:2,Iha,Iha,lha,rule_tibetan,lha,rule_contested,OCR-like variants ignored: Iha; single TZ observation(s) none plausible,True,7
+གཉེས,nyi:1,nyi,,nye,rule_tibetan,nye,rule_contested,single TZ observation(s) nyi:1,True,4
+གྱར,gyur:1,gyur,,gyar,rule_tibetan,gyar,rule_contested,single TZ observation(s) gyur:1,True,4
+ནེ,ni:1,ni,ni,ne,rule_tibetan,ne,rule_contested,single TZ observation(s) ni:1,True,4
+བསྟོད,dö:1,dö,,tö,rule_tibetan,tö,rule_contested,single TZ observation(s) dö:1,True,4
+མགྲིན,thrim:1; thrin:1; trin:1,trin,,drin,rule_tibetan,drin,rule_contested,"single TZ observation(s) thrim:1, thrin:1, trin:1",True,4
+ཚད,tsG:1,tsG,,tshä,rule_tibetan,tshä,rule_contested,OCR-like variants ignored: tsG; single TZ observation(s) none plausible,True,4
+བའེ,wa:1; wä:1,wä,,e,rule_tibetan,e,rule_contested,"single TZ observation(s) wa:1, wä:1",True,3
+ཚགས,tschag:1,tschag,,tshag,rule_tibetan,tshag,rule_contested,single TZ observation(s) tschag:1,True,3
+ཀའང,ka'ang:1,ka'ang,,ka-ang,rule_tibetan,ka-ang,rule_contested,OCR-like variants ignored: ka'ang; single TZ observation(s) none plausible,True,2
+ཐུན,thUn:1; thin:1,thin,,thün,rule_tibetan,thün,rule_contested,OCR-like variants ignored: thUn; single TZ observation(s) thin:1,True,2
+བཀའ,kan:1,kan,kan,ka,rule_tibetan,ka,rule_contested,single TZ observation(s) kan:1,True,2
+བསྒྲབས,drub:1,drub,drub,drab,rule_tibetan,drab,rule_contested,single TZ observation(s) drub:1,True,2
+འདུད,dU:1,dU,,dü,rule_tibetan,dü,rule_contested,OCR-like variants ignored: dU; single TZ observation(s) none plausible,True,2
+རྒྱད,gyü:1,gyü,,gyä,rule_tibetan,gyä,rule_contested,single TZ observation(s) gyü:1,True,2
+སྟོད,dé:1,dé,,tö,rule_tibetan,tö,rule_contested,OCR-like variants ignored: dé; single TZ observation(s) none plausible,True,2
+སྤྲལ,trül:1,trül,,träl,rule_tibetan,träl,rule_contested,single TZ observation(s) trül:1,True,2
+ཁོད,thrö:1,thrö,,khö,rule_tibetan,khö,rule_contested,single TZ observation(s) thrö:1,True,1
+གའི,gd:1,gd,,gä,rule_tibetan,gä,rule_contested,OCR-like variants ignored: gd; single TZ observation(s) none plausible,True,1
+ཅུད,dschä:1,dschä,,tschü,rule_tibetan,tschü,rule_contested,single TZ observation(s) dschä:1,True,1
+ཐག,trag:1,trag,,thag,rule_tibetan,thag,rule_contested,single TZ observation(s) trag:1,True,1
+ཐོ,tschig:1,tschig,,tho,rule_tibetan,tho,rule_contested,single TZ observation(s) tschig:1,True,1
+དཀའ,ga:1,ga,,ka,rule_tibetan,ka,rule_contested,single TZ observation(s) ga:1,True,1
+དབྱའོ,dscha-o:1,dscha-o,,ya-o,rule_tibetan,ya-o,rule_contested,single TZ observation(s) dscha-o:1,True,1
+དི,de:1,de,,di,rule_tibetan,di,rule_contested,single TZ observation(s) de:1,True,1
+དུད,dt:1,dt,,dü,rule_tibetan,dü,rule_contested,OCR-like variants ignored: dt; single TZ observation(s) none plausible,True,1
+དེའེ,ei:1,ei,,de e,rule_tibetan,de e,rule_contested,single TZ observation(s) ei:1,True,1
+དྲུན,darin:1,darin,darin,drün,rule_tibetan,drün,rule_contested,single TZ observation(s) darin:1,True,1
+བཀྲི,tra:1,tra,,tri,rule_tibetan,tri,rule_contested,single TZ observation(s) tra:1,True,1
+བསྐལ,kdl:1,kdl,,käl,rule_tibetan,käl,rule_contested,OCR-like variants ignored: kdl; single TZ observation(s) none plausible,True,1
+བསྡེགས,dig:1,dig,,deg,rule_tibetan,deg,rule_contested,single TZ observation(s) dig:1,True,1
+བསྡོ,ngo:1,ngo,ngo,do,rule_tibetan,do,rule_contested,single TZ observation(s) ngo:1,True,1
+བུས,wi:1,wi,,bü,rule_tibetan,bü,rule_contested,single TZ observation(s) wi:1,True,1
+བྱའེ,dschä:1,dschä,,dscha e,rule_tibetan,dscha e,rule_contested,single TZ observation(s) dschä:1,True,1
+བྱིད,dsche:1,dsche,,dschi,rule_tibetan,dschi,rule_contested,single TZ observation(s) dsche:1,True,1
+མགུལ,gil:1,gil,,gül,rule_tibetan,gül,rule_contested,single TZ observation(s) gil:1,True,1
+མདུན,din:1,din,,dün,rule_tibetan,dün,rule_contested,single TZ observation(s) din:1,True,1
+མའེ,mä:1,mä,,e,rule_tibetan,e,rule_contested,single TZ observation(s) mä:1,True,1
+ཚུ,tschu:1,tschu,,tshu,rule_tibetan,tshu,rule_contested,single TZ observation(s) tschu:1,True,1
+ཝས,lä:1,lä,,wä,rule_tibetan,wä,rule_contested,single TZ observation(s) lä:1,True,1
+ཝུ,aus:1,aus,,wu,rule_tibetan,wu,rule_contested,single TZ observation(s) aus:1,True,1
+འཁྲེལ,thril:1,thril,,threl,rule_tibetan,threl,rule_contested,single TZ observation(s) thril:1,True,1
+འགྲུན,drub:1,drub,,drün,rule_tibetan,drün,rule_contested,single TZ observation(s) drub:1,True,1
+འདོར,kor:1,kor,,dor,rule_tibetan,dor,rule_contested,single TZ observation(s) kor:1,True,1
+འབད,bd:1,bd,,bä,rule_tibetan,bä,rule_contested,OCR-like variants ignored: bd; single TZ observation(s) none plausible,True,1
+ཡུབ,yum:1,yum,,yub,rule_tibetan,yub,rule_contested,single TZ observation(s) yum:1,True,1
+རེའང,re’ang:1,re’ang,,re-ang,rule_tibetan,re-ang,rule_contested,OCR-like variants ignored: re’ang; single TZ observation(s) none plausible,True,1
+རྐམར,mar:1,mar,,ka mar,rule_tibetan,ka mar,rule_contested,single TZ observation(s) mar:1,True,1
+རྒྱན,gyGn:1,gyGn,gyGn,gyän,rule_tibetan,gyän,rule_contested,OCR-like variants ignored: gyGn; single TZ observation(s) none plausible,True,1
+རྗེའེ,dsche’i:1,dsche’i,,dsche e,rule_tibetan,dsche e,rule_contested,OCR-like variants ignored: dsche’i; single TZ observation(s) none plausible,True,1
+རྗོགས,dzog:1,dzog,,dschog,rule_tibetan,dschog,rule_contested,single TZ observation(s) dzog:1,True,1
+རྡེའི,dsche’i:1,dsche’i,,de,rule_tibetan,de,rule_contested,OCR-like variants ignored: dsche’i; single TZ observation(s) none plausible,True,1
+རྭུ,HUNG:1,HUNG,,ru,rule_tibetan,ru,rule_contested,single TZ observation(s) HUNG:1,True,1
+ལྡགས,dschag:1,dschag,dschag,dag,rule_tibetan,dag,rule_contested,single TZ observation(s) dschag:1,True,1
+ལྡང,dschang:1,dschang,,dang,rule_tibetan,dang,rule_contested,single TZ observation(s) dschang:1,True,1
+ལྷས,Ihä:1,Ihä,,lhä,rule_tibetan,lhä,rule_contested,OCR-like variants ignored: Ihä; single TZ observation(s) none plausible,True,1
+ལྷོར,Ihor:1,Ihor,,lhor,rule_tibetan,lhor,rule_contested,OCR-like variants ignored: Ihor; single TZ observation(s) none plausible,True,1
+སྐན,län:1,län,,kän,rule_tibetan,kän,rule_contested,single TZ observation(s) län:1,True,1
+སྐུའི,kU:1,kU,,kü,rule_tibetan,kü,rule_contested,OCR-like variants ignored: kU; single TZ observation(s) none plausible,True,1
+སྐོང,kyong:1,kyong,kyong,kong,rule_tibetan,kong,rule_contested,single TZ observation(s) kyong:1,True,1
+སྒྱེས,kye:1,kye,,gye,rule_tibetan,gye,rule_contested,single TZ observation(s) kye:1,True,1
+སྙུག,dug:1,dug,,nyug,rule_tibetan,nyug,rule_contested,single TZ observation(s) dug:1,True,1
+སྙེང,nying:1,nying,,nyeng,rule_tibetan,nyeng,rule_contested,single TZ observation(s) nying:1,True,1
+སྡུད,dU:1,dU,,dü,rule_tibetan,dü,rule_contested,OCR-like variants ignored: dU; single TZ observation(s) none plausible,True,1
+སྦྲལ,drül:1,drül,drül,dräl,rule_tibetan,dräl,rule_contested,single TZ observation(s) drül:1,True,1
+སྲང,sung:1,sung,sung,sang,rule_tibetan,sang,rule_contested,single TZ observation(s) sung:1,True,1
+ཧྲིར,HRIH:1,HRIH,HRIH,hrir,rule_tibetan,hrir,rule_contested,single TZ observation(s) HRIH:1,True,1
+ཧཱུཾ,HUNG:4,HUNG,,HUNG,rule_sanskrit,,skipped_sanskrit,,True,41
+ཨོཾ,OM:2,OM,,OM,rule_sanskrit,,skipped_sanskrit,,True,33
+ཕཊ,PHA:1,PHA,,PHAT,rule_sanskrit,,skipped_sanskrit,,True,21
+ཨཱ,AH:1,AH,,A,rule_sanskrit,,skipped_sanskrit,,True,12
+པའེ,pä:2; pa:1; pad:1; pd:1; pü:1,pä,,PAE,rule_sanskrit,,skipped_sanskrit,invalid Tibetan structure: invalid prefix 'པའེ',True,10
+ནཱ,na:1,na,,NA,rule_sanskrit,,skipped_sanskrit,,True,6
+ཌཱ,da:1,da,,DA,rule_sanskrit,,skipped_sanskrit,,True,5
+ཧྭུཾ,HUNG:2,HUNG,,HWUNG,rule_sanskrit,,skipped_sanskrit,,True,5
+ཧུཾ,HUNG:1,HUNG,,HUNG,rule_sanskrit,,skipped_sanskrit,,True,3
+ཀཾ,KAM:1,KAM,,KAM,rule_sanskrit,,skipped_sanskrit,,True,2
+ཕཾ,PHAM:1,PHAM,,PHAM,rule_sanskrit,,skipped_sanskrit,,True,2
+ཧཾ,ES:1,ES,,HAM,rule_sanskrit,,skipped_sanskrit,,True,2
+ཨཾ,OM:1,OM,,AM,rule_sanskrit,,skipped_sanskrit,,True,2
+ཀཱ,ka:1,ka,,KA,rule_sanskrit,,skipped_sanskrit,,True,1
+ཆློན,lön:1,lön,,TSCHLON,rule_sanskrit,,skipped_sanskrit,,True,1
+བྲའཾ,wä:1,wä,,BRAM,rule_sanskrit,,skipped_sanskrit,,True,1
+ཞྲུཾ,HUNG:1,HUNG,,SCHRUNG,rule_sanskrit,,skipped_sanskrit,,True,1
+རྩུཾ,HUNG:1,HUNG,,RTSUNG,rule_sanskrit,,skipped_sanskrit,,True,1
+རྱད,gyü:1,gyü,gyü,RYAD,rule_sanskrit,,skipped_sanskrit,,True,1
+ཨཱཿ,AH:1,AH,,AH,rule_sanskrit,,skipped_sanskrit,,True,1
+ོ,Om:1,Om,,,rule_sanskrit,,skipped_sanskrit,,True,1

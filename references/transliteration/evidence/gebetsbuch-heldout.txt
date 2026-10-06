@@ -1,0 +1,5 @@
+profile=hayagriva mapping=True: 522/566 TZ tokens identical (92.2%)
+profile=hayagriva mapping=False: 522/566 TZ tokens identical (92.2%)
+profile=gebetsbuch mapping=True: 551/566 TZ tokens identical (97.3%)
+  TZ -> generator: tschu->tschü x3  tschi->dschi x2  wa->war x2  sching->tsching x2  gyi->kyi  la->lha  tso->tsö  nab->na  jü->lü  pa->par
+profile=gebetsbuch mapping=False: 551/566 TZ tokens identical (97.3%)

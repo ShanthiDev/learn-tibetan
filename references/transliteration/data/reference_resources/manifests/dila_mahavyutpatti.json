@@ -1,0 +1,27 @@
+{
+  "resource_id": "dila:mahavyutpatti",
+  "title": "Mahāvyutpatti (DILA Buddhist Glossaries)",
+  "publisher": "Dharma Drum Institute of Liberal Arts (DILA)",
+  "resource_type": "terminology_database",
+  "canonical_source_url": "https://glossaries.dila.edu.tw/glossaries/MVP?locale=en",
+  "retrieval_url": "https://glossaries.dila.edu.tw/data/mahavyutpatti.dila.tei.p5.xml.zip",
+  "retrieval_method": "http_download",
+  "format": "tei_xml",
+  "parser": "tei_glossary_v1",
+  "version": "DDBC/DILA TEI P5 edition, retrieved 2026-08-30",
+  "expected_sha256": "571e35e4d8d109a582512b81d9a529e0366690e4446dc61079f129163130b773",
+  "license_id": "publisher-asserts-public-domain-belief",
+  "license_url": "https://glossaries.dila.edu.tw/glossaries/MVP?locale=en",
+  "redistribution_policy": "redistribution_not_assessed",
+  "tier": 1,
+  "ingestion_enabled": true,
+  "ingestion_disabled_reason": null,
+  "format_verified": true,
+  "notes": [
+    "Historical/normative Sanskrit-Tibetan Buddhist terminology, technical terms and names.",
+    "VERIFIED 2026-08-30: download URL, ZIP member and TEI shape confirmed; parser yields 9379 entries with 0 issues.",
+    "Licence statement observed verbatim on the glossary page: \"We believe this text is in the public domain.\" That is a hedged belief about the underlying TEXT, not an explicit licence grant for this digital edition, so redistribution stays unassessed.",
+    "Entry ids are the export's own @key values; language codes are ISO 639-3 + script (bod-Tibt, bod-Latn, san-Latn, san-Deva, zho-Hant)."
+  ],
+  "archive_member": "mahavyutpatti.dila.tei.p5.xml"
+}

@@ -1,0 +1,823 @@
+﻿tibetan_syllable,target_tz_hayagriva,hayagriva_mode,chakrasamvara_mode,overall_mode,inventory_total,inventory_hayagriva,inventory_chakrasamvara,aligned_observations,exact_observations,anchor_inferred_observations,variant_count,variants,cross_document_conflict,confidence,review_status,generic_rule_output,resolved_tz_phonetic,resolution_origin,resolution_confidence,resolution_note
+པ,pa,pa,pa,pa,92,4,88,46,46,0,1,pa:46,False,high,ok,pa,pa,observed_TZ,high,Kept from extracted TZ evidence corpus.
+དང,dang,dang,dang,dang,66,10,56,30,30,0,1,dang:30,False,high,ok,dang,dang,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བ,wa,wa,wa,wa,64,6,58,31,31,0,3,wa:28; ba:2; pa:1,False,high,review_variants,pa,wa,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ལ,la,la,la,la,61,5,56,23,23,0,1,la:23,False,high,ok,la,la,observed_TZ,high,Kept from extracted TZ evidence corpus.
+པའི,pa,pa,pa,pa,55,5,50,24,23,1,5,pa:15; pä:5; pd:2; pad:1; pda:1,False,medium,review_variants,pä,pa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+པར,par,par,par,par,42,4,38,12,12,0,1,par:12,False,high,ok,par,par,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཧཱུཾ,HUNG,,HUNG,HUNG,41,0,41,4,4,0,1,HUNG:4,False,high,ok,hung,HUNG,observed_TZ,high,Kept from extracted TZ evidence corpus.
+མ,ma,,ma,ma,36,4,32,7,7,0,1,ma:7,False,high,ok,ma,ma,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཨོཾ,OM,,OM,OM,33,0,33,2,2,0,1,OM:2,False,medium,ok,om,OM,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དུ,du,du,du,du,31,3,28,11,11,0,1,du:11,False,high,ok,du,du,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཅན,tchän,tchän,tschän,tschän,30,5,25,17,17,0,2,tschän:14; tchän:3,True,medium,review_cross_document,tschän,tchän,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གྱུར,gyur,gyur,gyur,gyur,28,4,24,13,13,0,2,gyur:11; gjur:2,False,high,review_variants,gyur,gyur,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རྡོ,dor,,dor,dor,27,0,27,13,12,1,2,dor:12; do:1,False,high,review_variants,do,dor,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བའི,wä,wä,wa,wa,26,5,21,15,15,0,2,wa:8; wä:7,True,low,review_cross_document,pä,wä,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཀྱི,kyi,kyi,kyi,kyi,25,3,22,8,8,0,1,kyi:8,False,high,ok,kyi,kyi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ནི,ni,,ni,ni,22,1,21,3,3,0,1,ni:3,False,high,ok,ni,ni,observed_TZ,high,Kept from extracted TZ evidence corpus.
+པོ,po,,po,po,22,3,19,10,10,0,2,po:9; pa:1,False,high,review_variants,po,po,observed_TZ,high,Kept from extracted TZ evidence corpus.
+སེམས,sem,sem,sem,sem,22,5,17,11,11,0,1,sem:11,False,high,ok,sem,sem,observed_TZ,high,Kept from extracted TZ evidence corpus.
+གཉིས,nyi,nyi,nyi,nyi,21,3,18,9,8,1,2,nyi:8; ni:1,False,high,review_variants,nyi,nyi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཕཊ,PHA,,PHA,PHA,21,0,21,1,1,0,1,PHA:1,False,medium,single_observation,pha,PHA,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལས,IG,IG,lä,lä,21,2,19,7,5,2,4,lä:3; la:2; IG:1; län:1,True,low,review_cross_document,lä,IG,observed_TZ,low,Kept from extracted TZ evidence corpus.
+སུ,su,,su,su,21,1,20,8,8,0,1,su:8,False,high,ok,su,su,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ན,na,,na,na,20,1,19,9,9,0,1,na:9,False,high,ok,na,na,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བཞི,schi,schi,schi,schi,20,3,17,11,11,0,1,schi:11,False,high,ok,schi,schi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རང,rang,,rang,rang,20,0,20,6,6,0,1,rang:6,False,high,ok,rang,rang,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རྗེ,dsche,dsche,dsche,dsche,20,1,19,9,9,0,1,dsche:9,False,high,ok,dsche,dsche,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཕྱག,tschag,,tschag,tschag,19,3,16,5,5,0,1,tschag:5,False,high,ok,tschag,tschag,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རུ,ru,,ru,ru,19,0,19,4,4,0,1,ru:4,False,high,ok,ru,ru,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཤོག,schog,schog,scho,scho,19,4,15,9,9,0,2,scho:8; schog:1,True,medium,review_cross_document,schog,schog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བདག,dag,,dag,dag,18,3,15,8,8,0,1,dag:8,False,high,ok,dag,dag,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བར,war,war,war,war,18,3,15,9,9,0,2,war:8; bar:1,False,high,review_variants,par,war,observed_TZ,high,Kept from extracted TZ evidence corpus.
+འོད,ö,,ö,ö,18,1,17,1,1,0,1,ö:1,False,medium,single_observation,ö,ö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཧེ,he,,he,he,18,0,18,5,5,0,1,he:5,False,high,ok,he,he,observed_TZ,high,Kept from extracted TZ evidence corpus.
+གསུམ,sum,sum,sum,sum,17,4,13,4,4,0,1,sum:4,False,high,ok,sum,sum,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཐམས,tham,tham,tham,tham,17,5,12,10,10,0,2,tham:8; tam:2,False,high,review_variants,tham,tham,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ནས,nä,nä,nä,nä,17,1,16,4,4,0,3,nä:2; na:1; nd:1,False,low,review_variants,nä,nä,observed_TZ,low,Kept from extracted TZ evidence corpus.
+རྣམས,nam,nam,nam,nam,17,5,12,5,5,0,1,nam:5,False,high,ok,nam,nam,observed_TZ,high,Kept from extracted TZ evidence corpus.
+གིས,gyi,gyi,gi,gi,16,2,14,9,8,1,2,gi:8; gyi:1,True,medium,review_cross_document,ki,gyi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གྱི,gi,gi,gyi,gyi,16,1,15,7,7,0,3,gyi:5; gi:1; gji:1,True,medium,review_cross_document,gyi,gi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཅད,tschä,tschä,tschä,tschä,16,5,11,10,9,1,2,tschä:9; tshä:1,False,high,review_variants,tschä,tschä,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཀ,ka,,ka,ka,15,0,15,4,4,0,1,ka:4,False,high,ok,ka,ka,observed_TZ,high,Kept from extracted TZ evidence corpus.
+པས,pa,,pa,pa,15,1,14,5,5,0,3,pa:3; pd:1; pä:1,False,medium,review_variants,pä,pa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མི,mi,mi,mi,mi,15,2,13,8,8,0,1,mi:8,False,high,ok,mi,mi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཞལ,schäl,schäl,schäl,schäl,15,3,12,6,6,0,3,schäl:4; schdal:1; schdl:1,False,medium,review_variants,schäl,schäl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡེ,ye,ye,ye,ye,15,2,13,5,5,0,1,ye:5,False,high,ok,ye,ye,observed_TZ,high,Kept from extracted TZ evidence corpus.
+གྱིས,gyi,gyi,gyi,gyi,14,4,10,4,4,0,1,gyi:4,False,high,ok,gyi,gyi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+དབང,wang,wang,wang,wang,14,2,12,6,6,0,1,wang:6,False,high,ok,wang,wang,observed_TZ,high,Kept from extracted TZ evidence corpus.
+མཆོག,tschog,tschog,tschog,tschog,14,3,11,7,7,0,1,tschog:7,False,high,ok,tschog,tschog,observed_TZ,high,Kept from extracted TZ evidence corpus.
+མཆོད,tschö,,tschö,tschö,14,1,13,1,1,0,1,tschö:1,False,medium,single_observation,tschö,tschö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མེད,me,me,me,me,14,3,11,6,6,0,1,me:6,False,high,ok,me,me,observed_TZ,high,Kept from extracted TZ evidence corpus.
+མོ,mo,,mo,mo,14,0,14,6,6,0,1,mo:6,False,high,ok,mo,mo,observed_TZ,high,Kept from extracted TZ evidence corpus.
+གི,gi,,gi,gi,13,1,12,4,4,0,1,gi:4,False,high,ok,ki,gi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+དེ,de,de,de,de,13,1,12,9,9,0,1,de:9,False,high,ok,de,de,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ས,sa,,sa,sa,13,0,13,1,1,0,1,sa:1,False,medium,single_observation,sa,sa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟོང,tong,,tong,tong,13,0,13,4,4,0,1,tong:4,False,high,ok,tong,tong,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཀྱིས,kyi,kyi,kyi,kyi,12,4,8,7,6,1,2,kyi:6; gyi:1,False,high,review_variants,kyi,kyi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བཞིན,schin,,schin,schin,12,0,12,4,4,0,1,schin:4,False,high,ok,schin,schin,observed_TZ,high,Kept from extracted TZ evidence corpus.
+འཁོར,khor,,khor,khor,12,1,11,7,7,0,2,khor:6; kor:1,False,high,review_variants,khor,khor,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཡང,yang,,yang,yang,12,1,11,4,4,0,2,yang:3; jang:1,False,medium,review_variants,yang,yang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཤེས,sche,sche,sche,sche,12,1,11,6,6,0,1,sche:6,False,high,ok,sche,sche,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཨཱ,AH,,AH,AH,12,0,12,1,1,0,1,AH:1,False,medium,single_observation,a,AH,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གནས,nd,nd,nü,nd,11,2,9,5,1,4,4,nd:2; na:1; nä:1; nü:1,True,low,review_cross_document,nä,nd,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཅིག,tschig,tschig,tschig,tschig,11,3,8,8,7,1,2,tschig:7; dschig:1,False,high,review_variants,tschig,tschig,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཆེན,tschen,tschen,tschen,tschen,11,4,7,5,5,0,1,tschen:5,False,high,ok,tschen,tschen,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཉིད,nyi,,nyi,nyi,11,0,11,5,4,1,2,nyi:4; ni:1,False,high,review_variants,nyi,nyi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བཅས,tschä,,tschä,tschä,11,0,11,7,7,0,3,tschä:5; tscha:1; tschd:1,False,medium,review_variants,tschä,tschä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བདེ,de,de,de,de,11,3,8,9,9,0,2,de:8; dem:1,False,high,review_variants,de,de,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བྱེད,tsche,tsche,dsche,tsche,11,1,10,2,2,0,2,dsche:1; tsche:1,True,low,review_cross_document,dsche,tsche,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཟེར,ser,ser,ser,ser,11,3,8,3,3,0,1,ser:3,False,high,ok,ser,ser,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ལྡན,den,den,dan,dan,11,2,9,8,6,2,4,dan:4; dän:2; ddan:1; den:1,True,low,review_cross_document,dän,den,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཐུགས,thug,thug,thug,thug,10,2,8,2,2,0,1,thug:2,False,medium,ok,thug,thug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+པའེ,pä,,pä,pä,10,0,10,6,5,1,5,pä:2; pa:1; pad:1; pd:1; pü:1,False,low,review_variants,e,pä,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཚོགས,tshog,tshog,zog,zog,10,5,5,6,6,0,2,zog:4; tshog:2,True,medium,review_cross_document,tshog,tshog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འགྲོ,dro,,dro,dro,10,3,7,4,4,0,1,dro:4,False,high,ok,dro,dro,observed_TZ,high,Kept from extracted TZ evidence corpus.
+འཛིན,dzin,,dzin,dzin,10,2,8,3,3,0,2,dzin:2; dsin:1,False,medium,review_variants,dsin,dzin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡབ,yab,,yab,yab,10,1,9,2,2,0,1,yab:2,False,medium,ok,yab,yab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡི,yi,yi,yi,yi,10,3,7,6,6,0,2,yi:5; ji:1,False,high,review_variants,yi,yi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཡུམ,yum,,yum,yum,10,1,9,3,3,0,1,yum:3,False,high,ok,yum,yum,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རྣམ,nam,,nam,nam,10,0,10,4,4,0,2,nam:3; nal:1,False,medium,review_variants,nam,nam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐུ,ku,,ku,ku,10,1,9,4,4,0,1,ku:4,False,high,ok,ku,ku,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཀུན,kün,,kün,kün,9,1,8,6,6,0,2,kün:5; kUn:1,False,high,review_variants,kün,kün,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཐོད,thö,thö,tö,tö,9,2,7,7,4,3,5,thé:2; tö:2; thd:1; tho:1; thö:1,True,low,review_cross_document,thö,thö,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ད,da,,da,da,9,1,8,1,1,0,1,da:1,False,medium,single_observation,da,da,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དམར,mar,mar,mar,mar,9,1,8,2,2,0,1,mar:2,False,medium,ok,mar,mar,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ནང,nang,,nang,nang,9,0,9,1,1,0,1,nang:1,False,medium,single_observation,nang,nang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+པོའི,pö,pö,pd,pö,9,2,7,5,2,3,3,pd:2; pö:2; po:1,True,low,review_cross_document,pö,pö,observed_TZ,low,Kept from extracted TZ evidence corpus.
+བོ,wo,,wo,wo,9,0,9,4,3,1,3,wo:2; bo:1; po:1,False,low,review_variants,po,wo,observed_TZ,low,Kept from extracted TZ evidence corpus.
+རེ,re,,re,re,9,0,9,5,4,1,2,re:4; dsche:1,False,high,review_variants,re,re,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རོ,ro,ro,ro,ro,9,2,7,3,3,0,1,ro:3,False,high,ok,ro,ro,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཤིས,schi,schi,schi,schi,9,4,5,2,2,0,1,schi:2,False,medium,ok,schi,schi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐྱེས,kye,,kye,kye,9,0,9,4,4,0,1,kye:4,False,high,ok,kye,kye,observed_TZ,high,Kept from extracted TZ evidence corpus.
+སྡུག,dug,dug,dug,dug,9,3,6,5,5,0,1,dug:5,False,high,ok,dug,dug,observed_TZ,high,Kept from extracted TZ evidence corpus.
+སྤྱན,tschän,tschän,tschän,tschän,9,2,7,4,4,0,2,tschän:3; tschin:1,False,medium,review_variants,tschän,tschän,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཅིག,tschig,,tschig,tschig,8,2,6,1,1,0,1,tschig:1,False,medium,single_observation,tschig,tschig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཡོན,yön,yön,yön,yön,8,1,7,6,5,1,2,yön:5; yon:1,False,high,review_variants,yön,yön,observed_TZ,high,Kept from extracted TZ evidence corpus.
+གསོལ,söl,,söl,söl,8,3,5,1,1,0,1,söl:1,False,medium,single_observation,söl,söl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཆོས,tschö,tschö,tschö,tschö,8,4,4,4,4,0,1,tschö:4,False,high,ok,tschö,tschö,observed_TZ,high,Kept from extracted TZ evidence corpus.
+དབུས,U,,U,U,8,1,7,4,4,0,1,U:4,False,high,ok,ü,U,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཕྱོགས,tschog,,tschog,tschog,8,0,8,2,2,0,1,tschog:2,False,medium,ok,tschog,tschog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཀྲ,ta,ta,tra,tra,8,4,4,4,1,3,2,tra:3; ta:1,True,medium,review_cross_document,tra,ta,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཅོམ,tschom,,tschom,tschom,8,0,8,4,4,0,1,tschom:4,False,high,ok,tschom,tschom,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བཞུགས,schug,schug,schug,schug,8,4,4,5,5,0,1,schug:5,False,high,ok,schug,schug,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བསྔལ,ngäl,ngäl,ngäl,ngäl,8,3,5,5,5,0,1,ngäl:5,False,high,ok,ngäl,ngäl,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ལྔ,nga,,nga,nga,8,0,8,4,4,0,1,nga:4,False,high,ok,nga,nga,observed_TZ,high,Kept from extracted TZ evidence corpus.
+གདན,dan,dan,dän,dän,7,1,6,2,2,0,2,dan:1; dän:1,True,low,review_cross_document,dän,dan,observed_TZ,low,Kept from extracted TZ evidence corpus.
+གཡས,ye,ye,yä,yä,7,1,6,4,4,0,3,yä:2; ya:1; ye:1,True,low,review_cross_document,yä,ye,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཉི,nyi,nyi,nyi,nyi,7,1,6,3,3,0,2,nyi:2; nji:1,False,medium,review_variants,nyi,nyi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དོན,dön,dön,dön,dön,7,1,6,4,4,0,1,dön:4,False,high,ok,dön,dön,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བྱིན,dschin,,dschin,dschin,7,0,7,1,1,0,1,dschin:1,False,medium,single_observation,dschin,dschin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མགོ,go,,go,go,7,0,7,5,5,0,1,go:5,False,high,ok,go,go,observed_TZ,high,Kept from extracted TZ evidence corpus.
+མེ,me,me,me,me,7,1,6,3,3,0,1,me:3,False,high,ok,me,me,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཟླ,da,da,da,da,7,1,6,5,5,0,1,da:5,False,high,ok,da,da,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ར,ra,,ra,ra,7,0,7,1,1,0,1,ra:1,False,medium,single_observation,ra,ra,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རིམ,rim,,rim,rim,7,0,7,3,3,0,1,rim:3,False,high,ok,rim,rim,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རྒྱལ,gyäl,,gyäl,gyäl,7,0,7,4,4,0,2,gyal:2; gyäl:2,False,low,review_variants,gyäl,gyäl,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ལྷ,Iha,Iha,Iha,Iha,7,1,6,2,2,0,1,Iha:2,False,medium,ok,lha,Iha,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གང,gang,,gang,gang,6,3,3,3,3,0,1,gang:3,False,high,ok,kang,gang,observed_TZ,high,Kept from extracted TZ evidence corpus.
+གསལ,säl,,säl,säl,6,0,6,2,2,0,1,säl:2,False,medium,ok,säl,säl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ངང,nyang,,nyang,nyang,6,1,5,2,1,1,2,ngang:1; nyang:1,False,low,ok,ngang,nyang,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཅི,dschi,,dschi,dschi,6,1,5,3,3,0,2,dschi:2; tschi:1,False,medium,review_variants,tschi,dschi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཆེ,tsche,,tsche,tsche,6,1,5,3,3,0,2,tsche:2; ze:1,False,medium,review_variants,tsche,tsche,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཏུ,tu,,tu,tu,6,0,6,3,3,0,1,tu:3,False,high,ok,tu,tu,observed_TZ,high,Kept from extracted TZ evidence corpus.
+དཀར,kar,,kar,kar,6,0,6,3,3,0,1,kar:3,False,high,ok,kar,kar,observed_TZ,high,Kept from extracted TZ evidence corpus.
+དགེ,ge,ge,gen,ge,6,3,3,3,3,0,2,ge:2; gen:1,True,medium,review_cross_document,ge,ge,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དཔའ,pa,,pa,pa,6,0,6,1,1,0,1,pa:1,False,medium,single_observation,pa,pa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དཔལ,päl,päl,pal,pal,6,2,4,3,3,0,2,pal:2; päl:1,True,medium,review_cross_document,päl,päl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དྲུག,drug,,drug,drug,6,2,4,4,4,0,1,drug:4,False,high,ok,drug,drug,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ནཱ,na,,na,na,6,0,6,1,1,0,1,na:1,False,medium,single_observation,na,na,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕག,phag,,phag,phag,6,0,6,4,4,0,2,pag:2; phag:2,False,low,review_variants,phag,phag,observed_TZ,low,Kept from extracted TZ evidence corpus.
+མཁའ,khan,,khan,khan,6,1,5,3,3,0,2,khan:2; ka:1,False,medium,review_variants,kha,khan,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཛད,dzä,,dzä,dzä,6,0,6,2,2,0,1,dzä:2,False,medium,ok,dsä,dzä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཞིང,sching,,sching,sching,6,0,6,4,4,0,1,sching:4,False,high,ok,sching,sching,observed_TZ,high,Kept from extracted TZ evidence corpus.
+འབར,bar,bar,bar,bar,6,3,3,5,5,0,1,bar:5,False,high,ok,bar,bar,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རྒྱས,gyda,gyda,gyü,gyü,6,2,4,4,4,0,4,gyG:1; gyda:1; gyä:1; gyü:1,True,low,review_cross_document,gyä,gyda,observed_TZ,low,Kept from extracted TZ evidence corpus.
+སོགས,sog,,sog,sog,6,1,5,1,1,0,1,sog:1,False,medium,single_observation,sog,sog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟེ,te,te,te,te,6,1,5,2,2,0,1,te:2,False,medium,ok,te,te,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཀའི,kd,kd,ka,ka,5,1,4,5,2,3,4,ka:2; kG:1; kd:1; kü:1,True,low,review_cross_document,kä,kd,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཀར,kar,,kar,kar,5,0,5,1,1,0,1,kar:1,False,medium,single_observation,kar,kar,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གྲི,dri,dri,dri,dri,5,1,4,3,3,0,1,dri:3,False,high,ok,dri,dri,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ཌཱ,da,,da,da,5,0,5,1,0,1,1,da:1,False,medium,single_observation,da,da,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དཀྱིལ,kyil,,kyil,kyil,5,0,5,2,2,0,1,kyil:2,False,medium,ok,kyil,kyil,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དམ,dam,dam,dam,dam,5,1,4,2,2,0,1,dam:2,False,medium,ok,dam,dam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དྲངས,drang,drang,,drang,5,1,4,1,1,0,1,drang:1,False,medium,single_observation,drang,drang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕྲེང,threng,threng,threng,threng,5,1,4,2,2,0,1,threng:2,False,medium,ok,threng,threng,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བདུད,dui,,dui,dui,5,0,5,4,3,1,4,au:1; dU:1; du:1; dui:1,False,low,review_variants,dü,dui,observed_TZ,low,Kept from extracted TZ evidence corpus.
+བཞིའི,schi,,schi,schi,5,0,5,1,1,0,1,schi:1,False,medium,single_observation,schi,schi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བརྒྱད,gyü,,gyü,gyü,5,1,4,3,1,2,3,gyG:1; gyä:1; gyü:1,False,low,review_variants,gyä,gyü,observed_TZ,low,Kept from extracted TZ evidence corpus.
+བརྒྱན,gyän,gyän,gyän,gyän,5,1,4,3,3,0,1,gyän:3,False,high,ok,gyän,gyän,observed_TZ,high,Kept from extracted TZ evidence corpus.
+བསྒོམ,gom,,gom,gom,5,1,4,1,0,1,1,gom:1,False,medium,single_observation,gom,gom,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བྱང,dschung,dschung,dschang,dschang,5,2,3,3,3,0,2,dschang:2; dschung:1,True,medium,review_cross_document,dschang,dschung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བྱས,dschä,,dschä,dschä,5,0,5,2,2,0,1,dschä:2,False,medium,ok,dschä,dschä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བླ,la,,la,la,5,2,3,1,1,0,1,la:1,False,medium,single_observation,la,la,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཚན,zän,,zän,zän,5,0,5,4,2,2,3,zän:2; tsen:1; zan:1,False,low,review_variants,tshän,zän,observed_TZ,low,Kept from extracted TZ evidence corpus.
+མའི,mä,,mä,mä,5,0,5,2,1,1,2,ma:1; mä:1,False,low,ok,mä,mä,observed_TZ,low,Kept from extracted TZ evidence corpus.
+འཇིགས,dschig,,dschig,dschig,5,0,5,1,1,0,1,dschig:1,False,medium,single_observation,dschig,dschig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདས,dä,,dä,dä,5,0,5,2,2,0,1,dä:2,False,medium,ok,dä,dä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འབྱོར,dschor,,dschor,dschor,5,0,5,2,2,0,1,dschor:2,False,medium,ok,dschor,dschor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྒྱ,gya,,gya,gya,5,0,5,2,2,0,1,gya:2,False,medium,ok,gya,gya,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྒྱུ,gyu,gyu,gyu,gyu,5,2,3,3,3,0,1,gyu:3,False,high,ok,gyu,gyu,observed_TZ,high,Kept from extracted TZ evidence corpus.
+རྩེ,tse,,tse,tse,5,1,4,1,1,0,1,tse:1,False,medium,single_observation,tse,tse,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལམ,lam,,lam,lam,5,0,5,3,3,0,1,lam:3,False,high,ok,lam,lam,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ལྷན,län,,län,län,5,0,5,3,3,0,2,län:2; Ihän:1,False,medium,review_variants,lhän,län,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཤིང,sching,sching,sching,sching,5,2,3,4,3,1,2,sching:3; shing:1,False,medium,review_variants,sching,sching,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སོ,so,,so,so,5,1,4,1,1,0,1,so:1,False,medium,single_observation,so,so,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐྱབས,kyab,,kyab,kyab,5,1,4,3,3,0,1,kyab:3,False,high,ok,kyab,kyab,observed_TZ,high,Kept from extracted TZ evidence corpus.
+སྙིང,njing,,njing,njing,5,0,5,1,1,0,1,njing:1,False,medium,single_observation,nying,njing,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྩོལ,tsöl,,tsöl,tsöl,5,0,5,2,1,1,2,tsdél:1; tsöl:1,False,low,ok,tsöl,tsöl,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཧྭུཾ,HUNG,,HUNG,HUNG,5,0,5,2,0,2,1,HUNG:2,False,medium,ok,hung,HUNG,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཁ,kha,,kha,kha,4,0,4,2,2,0,2,ka:1; kha:1,False,low,ok,kha,kha,observed_TZ,low,Kept from extracted TZ evidence corpus.
+གཉེས,nyi,,nyi,nyi,4,0,4,1,1,0,1,nyi:1,False,medium,single_observation,nye,nyi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཟུགས,sug,,sug,sug,4,1,3,1,1,0,1,sug:1,False,medium,single_observation,sug,sug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གུག,gug,,gug,gug,4,0,4,2,2,0,1,gug:2,False,medium,ok,kug,gug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གྱར,gyur,,gyur,gyur,4,0,4,1,1,0,1,gyur:1,False,medium,single_observation,gyar,gyur,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གྲུབ,drub,,drub,drub,4,1,3,1,1,0,1,drub:1,False,medium,single_observation,drub,drub,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ངེས,nge,,nge,nge,4,1,3,1,1,0,1,nge:1,False,medium,single_observation,nge,nge,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཆུབ,tschub,,tschub,tschub,4,1,3,2,2,0,1,tschub:2,False,medium,ok,tschub,tschub,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཉེ,nye,nye,nye,nye,4,2,2,3,0,3,1,nye:3,False,medium,ok,nye,nye,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཏེ,te,,te,te,4,0,4,3,0,3,1,te:3,False,medium,ok,te,te,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐིམ,thim,,thim,thim,4,0,4,1,1,0,1,thim:1,False,medium,single_observation,thim,thim,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དག,dag,,dag,dag,4,0,4,3,3,0,1,dag:3,False,high,ok,dag,dag,observed_TZ,high,Kept from extracted TZ evidence corpus.
+དངོས,ngö,,ngö,ngö,4,1,3,1,1,0,1,ngö:1,False,medium,single_observation,ngö,ngö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དོ,do,,do,do,4,0,4,3,3,0,1,do:3,False,high,ok,do,do,observed_TZ,high,Kept from extracted TZ evidence corpus.
+དྲག,dag,dag,drag,drag,4,1,3,3,1,2,3,dag:1; dra:1; drag:1,True,low,review_cross_document,drag,dag,observed_TZ,low,Kept from extracted TZ evidence corpus.
+དྲིལ,dril,,dril,dril,4,0,4,1,1,0,1,dril:1,False,medium,single_observation,dril,dril,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ནག,nag,,nag,nag,4,1,3,3,0,3,1,nag:3,False,medium,ok,nag,nag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ནེ,ni,ni,,ni,4,1,3,1,0,1,1,ni:1,False,medium,single_observation,ne,ni,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+པགས,pag,pag,pag,pag,4,1,3,4,4,0,1,pag:4,False,high,ok,pag,pag,observed_TZ,high,Kept from extracted TZ evidence corpus.
+པདྨ,pema,,pema,pema,4,1,3,1,1,0,1,pema:1,False,medium,single_observation,ma,pema,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྐྱེད,kye,,kye,kye,4,1,3,1,0,1,1,kye:1,False,medium,single_observation,kye,kye,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྟོད,dö,,dö,dö,4,0,4,1,1,0,1,dö:1,False,medium,single_observation,tö,dö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྡུ,du,du,du,du,4,1,3,2,2,0,1,du:2,False,medium,ok,du,du,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བུ,bu,,bu,bu,4,0,4,3,1,2,2,bu:2; wu:1,False,medium,review_variants,pu,bu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བྲལ,dräl,dräl,,dräl,4,2,2,1,1,0,1,dräl:1,False,medium,single_observation,dräl,dräl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མགྲིན,trin,,trin,trin,4,1,3,3,1,2,3,thrim:1; thrin:1; trin:1,False,low,review_variants,drin,trin,observed_TZ,low,Kept from extracted TZ evidence corpus.
+མཐར,thar,,thar,thar,4,1,3,2,0,2,2,tar:1; thar:1,False,low,ok,thar,thar,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཙ,tsa,tsa,,tsa,4,1,3,1,0,1,1,tsa:1,False,medium,single_observation,tsa,tsa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚད,tsG,,tsG,tsG,4,0,4,1,0,1,1,tsG:1,False,medium,single_observation,tshä,tsG,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཞུ,schu,,schu,schu,4,0,4,1,1,0,1,schu:1,False,medium,single_observation,schu,schu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འགྲུབ,drub,,drub,drub,4,1,3,2,2,0,1,drub:2,False,medium,ok,drub,drub,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདབ,dab,,dab,dab,4,0,4,2,2,0,1,dab:2,False,medium,ok,dab,dab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདེབས,deb,,deb,deb,4,1,3,1,1,0,1,deb:1,False,medium,single_observation,deb,deb,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྟ,ta,ta,ta,ta,4,3,1,2,2,0,1,ta:2,False,medium,ok,ta,ta,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྟག,tag,,tag,tag,4,0,4,2,2,0,1,tag:2,False,medium,ok,tag,tag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྩ,tsa,,tsa,tsa,4,1,3,1,1,0,1,tsa:1,False,medium,single_observation,tsa,tsa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལེགས,leg,,leg,leg,4,0,4,1,1,0,1,leg:1,False,medium,single_observation,leg,leg,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྟར,tar,tar,tar,tar,4,3,1,4,4,0,1,tar:4,False,high,ok,tar,tar,observed_TZ,high,Kept from extracted TZ evidence corpus.
+སྐམ,kam,,kam,kam,4,0,4,4,4,0,1,kam:4,False,high,ok,kam,kam,observed_TZ,high,Kept from extracted TZ evidence corpus.
+སྣ,na,,na,na,4,0,4,2,2,0,1,na:2,False,medium,ok,na,na,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྦྱངས,dschang,,dschang,dschang,4,0,4,1,1,0,1,dschang:1,False,medium,single_observation,dschang,dschang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཨོ,OM,,OM,OM,4,0,4,3,0,3,1,OM:3,False,medium,ok,o,OM,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཁྲག,thrag,,thrag,thrag,3,2,1,1,1,0,1,thrag:1,False,medium,single_observation,thrag,thrag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཡེལ,yel,,yel,yel,3,0,3,2,0,2,2,jel:1; yel:1,False,low,ok,yel,yel,observed_TZ,low,Kept from extracted TZ evidence corpus.
+གར,gar,,gar,gar,3,0,3,1,0,1,1,gar:1,False,medium,single_observation,kar,gar,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གསུང,sung,sung,sung,sung,3,1,2,2,0,2,1,sung:2,False,medium,ok,sung,sung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གོ,go,,go,go,3,0,3,1,1,0,1,go:1,False,medium,single_observation,ko,go,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཆུ,tschu,,tschu,tschu,3,0,3,2,2,0,2,ru:1; tschu:1,False,low,ok,tschu,tschu,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཉམས,nyam,,nyam,nyam,3,1,2,1,1,0,1,nyam:1,False,medium,single_observation,nyam,nyam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཉེར,nyer,,nyer,nyer,3,0,3,1,0,1,1,nyer:1,False,medium,single_observation,nyer,nyer,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དུས,du,,du,du,3,0,3,2,1,1,2,dU:1; du:1,False,low,ok,dü,du,observed_TZ,low,Kept from extracted TZ evidence corpus.
+དྲི,dri,,dri,dri,3,0,3,3,3,0,1,dri:3,False,high,ok,dri,dri,observed_TZ,high,Kept from extracted TZ evidence corpus.
+ནམ,nam,,nam,nam,3,0,3,3,0,3,1,nam:3,False,medium,ok,nam,nam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ནུས,nU,,nU,nU,3,0,3,3,3,0,2,nU:2; nü:1,False,medium,review_variants,nü,nU,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕྱིར,tschir,,tschir,tschir,3,1,2,1,1,0,1,tschir:1,False,medium,single_observation,tschir,tschir,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕྱུག,tschug,,tschug,tschug,3,0,3,1,1,0,1,tschug:1,False,medium,single_observation,tschug,tschug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བའེ,wä,,wä,wä,3,1,2,2,1,1,2,wa:1; wä:1,False,low,ok,e,wä,observed_TZ,low,Kept from extracted TZ evidence corpus.
+བརྗོད,dschö,,dschö,dschö,3,1,2,1,1,0,1,dschö:1,False,medium,single_observation,dschö,dschö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བརྟན,tän,tän,tan,tän,3,1,2,3,1,2,3,dän:1; tan:1; tän:1,True,low,review_cross_document,tän,tän,observed_TZ,low,Kept from extracted TZ evidence corpus.
+བས,wä,,wä,wä,3,0,3,2,2,0,1,wä:2,False,medium,ok,pä,wä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྐོར,kor,,kor,kor,3,1,2,1,1,0,1,kor:1,False,medium,single_observation,kor,kor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བེ,be,be,,be,3,1,2,1,1,0,1,be:1,False,medium,single_observation,pe,be,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བྱུང,dschung,,dschung,dschung,3,0,3,1,1,0,1,dschung:1,False,medium,single_observation,dschung,dschung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མངོན,ngön,,ngön,ngön,3,0,3,2,2,0,1,ngön:2,False,medium,ok,ngön,ngön,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཆིས,tschi,,tschi,tschi,3,0,3,3,3,0,1,tschi:3,False,high,ok,tschi,tschi,observed_TZ,high,Kept from extracted TZ evidence corpus.
+མཛུབ,dzub,,dzub,dzub,3,0,3,2,2,0,1,dzub:2,False,medium,ok,dsub,dzub,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཛེས,dze,dze,dze,dze,3,2,1,2,0,2,1,dze:2,False,medium,ok,dse,dze,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མོའི,mö,,mö,mö,3,0,3,3,1,2,2,mö:2; ms:1,False,medium,review_variants,mö,mö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚགས,tschag,,tschag,tschag,3,1,2,1,1,0,1,tschag:1,False,medium,single_observation,tshag,tschag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚུལ,tshül,tshül,zül,zül,3,1,2,3,2,1,3,Zul:1; tshül:1; zül:1,True,low,review_cross_document,tshül,tshül,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཞབས,schab,schab,,schab,3,2,1,1,1,0,1,schab:1,False,medium,single_observation,schab,schab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཞུགས,schug,,schug,schug,3,0,3,2,2,0,2,schu:1; schug:1,False,low,ok,schug,schug,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཟུང,sung,sung,sung,sung,3,1,2,2,2,0,1,sung:2,False,medium,ok,sung,sung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཁྱུད,kyU,,kyU,kyU,3,0,3,3,0,3,2,kyU:2; kyü:1,False,medium,review_variants,khyü,kyU,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཁྱེར,khyer,,khyer,khyer,3,1,2,2,2,0,1,khyer:2,False,medium,ok,khyer,khyer,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཆང,tschang,,tschang,tschang,3,0,3,1,1,0,1,tschang:1,False,medium,single_observation,tschang,tschang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཆི,tschi,,tschi,tschi,3,0,3,2,2,0,1,tschi:2,False,medium,ok,tschi,tschi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཇུག,dschug,,dschug,dschug,3,0,3,1,1,0,1,dschug:1,False,medium,single_observation,dschug,dschug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདི,di,di,di,di,3,1,2,2,0,2,1,di:2,False,medium,ok,di,di,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདིར,dir,,dir,dir,3,0,3,2,2,0,1,dir:2,False,medium,ok,dir,dir,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཕང,pang,,pang,pang,3,0,3,3,1,2,2,pang:2; phang:1,False,medium,review_variants,phang,pang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཕྲོས,thrö,,thrö,thrö,3,0,3,2,1,1,2,thrd:1; thrö:1,False,low,ok,thrö,thrö,observed_TZ,low,Kept from extracted TZ evidence corpus.
+འབྲལ,dräl,dräl,dräl,dräl,3,1,2,2,2,0,1,dräl:2,False,medium,ok,dräl,dräl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡོངས,yong,,yong,yong,3,0,3,2,2,0,1,yong:2,False,medium,ok,yong,yong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རལ,räl,räl,ral,räl,3,2,1,2,2,0,2,ral:1; räl:1,True,low,review_cross_document,räl,räl,observed_TZ,low,Kept from extracted TZ evidence corpus.
+རྗེའི,dsche’i,,dsche’i,dsche’i,3,0,3,3,3,0,3,dsche:1; dsche'i:1; dsche’i:1,False,low,review_variants,dsche,dsche’i,observed_TZ,low,Kept from extracted TZ evidence corpus.
+རྗེས,dsche,,dsche,dsche,3,1,2,2,2,0,1,dsche:2,False,medium,ok,dsche,dsche,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྙེད,nye,,nye,nye,3,0,3,2,2,0,2,nje:1; nye:1,False,low,ok,nye,nye,observed_TZ,low,Kept from extracted TZ evidence corpus.
+རྡེ,dsche,,dsche,dsche,3,0,3,3,0,3,1,dsche:3,False,medium,ok,de,dsche,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྣལ,nal,,nal,nal,3,0,3,1,0,1,1,nal:1,False,medium,single_observation,näl,nal,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སངས,sang,sang,sang,sang,3,2,1,2,2,0,1,sang:2,False,medium,ok,sang,sang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སེར,ser,,ser,ser,3,1,2,2,2,0,1,ser:2,False,medium,ok,ser,ser,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐྱེ,kye,,kye,kye,3,0,3,2,2,0,1,kye:2,False,medium,ok,kye,kye,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐྱོང,kyong,,kyong,kyong,3,0,3,1,1,0,1,kyong:1,False,medium,single_observation,kyong,kyong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྔོན,ngön,,ngön,ngön,3,0,3,1,0,1,1,ngön:1,False,medium,single_observation,ngön,ngön,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟེང,teng,teng,teng,teng,3,1,2,2,2,0,1,teng:2,False,medium,ok,teng,teng,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྣང,nang,,nang,nang,3,0,3,1,1,0,1,nang:1,False,medium,single_observation,nang,nang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྤྲོ,tro,tro,tro,tro,3,1,2,2,2,0,1,tro:2,False,medium,ok,tro,tro,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཧུཾ,HUNG,,HUNG,HUNG,3,0,3,1,0,1,1,HUNG:1,False,medium,single_observation,hung,HUNG,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཀའང,ka'ang,,ka'ang,ka'ang,2,0,2,1,1,0,1,ka'ang:1,False,medium,single_observation,ka'ang,ka'ang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཀོ,ko,ko,,ko,2,1,1,1,1,0,1,ko:1,False,medium,single_observation,ko,ko,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཀཾ,KAM,,KAM,KAM,2,0,2,1,0,1,1,KAM:1,False,medium,single_observation,kam,KAM,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཁམས,kham,kham,kham,kham,2,1,1,2,0,2,1,kham:2,False,medium,ok,kham,kham,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཁྱད,kyä,,kyä,kyä,2,0,2,2,0,2,1,kyä:2,False,medium,ok,khyä,kyä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཁྱབ,kyab,,kyab,kyab,2,0,2,2,1,1,2,khyab:1; kyab:1,False,low,ok,khyab,kyab,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཁྲོ,thro,thro,,thro,2,1,1,1,1,0,1,thro:1,False,medium,single_observation,thro,thro,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཁྲོད,thrö,thrö,trö,trö,2,1,1,2,0,2,2,thrö:1; trö:1,True,low,review_cross_document,thrö,thrö,observed_TZ,low,Kept from extracted TZ evidence corpus.
+གཅིགས,tsig,tsig,tsig,tsig,2,1,1,2,2,0,1,tsig:2,False,medium,ok,tschig,tsig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཅེར,tscher,,tscher,tscher,2,0,2,2,2,0,1,tscher:2,False,medium,ok,tscher,tscher,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གདུག,dug,dug,dug,dug,2,1,1,2,2,0,1,dug:2,False,medium,ok,dug,dug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཙོ,tso,,tso,tso,2,0,2,1,1,0,1,tso:1,False,medium,single_observation,tso,tso,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཞན,schän,,schän,schän,2,0,2,1,0,1,1,schän:1,False,medium,single_observation,schän,schän,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཞི,schi,,schi,schi,2,0,2,2,2,0,1,schi:2,False,medium,ok,schi,schi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཡོ,yo,yo,,yo,2,1,1,1,1,0,1,yo:1,False,medium,single_observation,yo,yo,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གུས,gu,,gu,gu,2,0,2,1,0,1,1,gu:1,False,medium,single_observation,kü,gu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གོམས,gom,,gom,gom,2,0,2,1,1,0,1,gom:1,False,medium,single_observation,kom,gom,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གྲོགས,drog,,drog,drog,2,0,2,1,0,1,1,drog:1,False,medium,single_observation,drog,drog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གྲོལ,dröl,,dröl,dröl,2,0,2,2,2,0,1,dröl:2,False,medium,ok,dröl,dröl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གླང,lang,lang,lang,lang,2,1,1,2,2,0,1,lang:2,False,medium,ok,lang,lang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཅག,tschig,tschig,tschag,tschig,2,1,1,2,2,0,2,tschag:1; tschig:1,True,low,review_cross_document,tschag,tschig,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཅིང,tsching,,tsching,tsching,2,0,2,1,0,1,1,tsching:1,False,medium,single_observation,tsching,tsching,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཅུང,tschung,,tschung,tschung,2,0,2,2,2,0,1,tschung:2,False,medium,ok,tschung,tschung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐད,tha,,tha,tha,2,1,1,1,0,1,1,tha:1,False,medium,single_observation,thä,tha,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐུན,thin,,thin,thin,2,0,2,2,2,0,2,thUn:1; thin:1,False,low,ok,thün,thin,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཐུབ,thub,,thub,thub,2,0,2,1,0,1,1,thub:1,False,medium,single_observation,thub,thub,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དབྱིངས,ying,ying,,ying,2,1,1,1,0,1,1,ying:1,False,medium,single_observation,ying,ying,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དའི,dä,,dä,dä,2,0,2,1,0,1,1,dä:1,False,medium,single_observation,dä,dä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དུར,dur,,dur,dur,2,0,2,1,1,0,1,dur:1,False,medium,single_observation,dur,dur,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དོག,dog,,dog,dog,2,0,2,2,2,0,1,dog:2,False,medium,ok,dog,dog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དྲ,dra,,dra,dra,2,0,2,1,0,1,1,dra:1,False,medium,single_observation,dra,dra,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕོ,po,,po,po,2,0,2,1,1,0,1,po:1,False,medium,single_observation,pho,po,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕཾ,PHAM,,PHAM,PHAM,2,0,2,1,0,1,1,PHAM:1,False,medium,single_observation,pham,PHAM,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕྱིན,tschin,,tschin,tschin,2,0,2,1,1,0,1,tschin:1,False,medium,single_observation,tschin,tschin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕྲག,trag,,trag,trag,2,0,2,1,1,0,1,trag:1,False,medium,single_observation,thrag,trag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཀའ,kan,kan,,kan,2,1,1,1,1,0,1,kan:1,False,medium,single_observation,ka,kan,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བགྱི,gyi,,gyi,gyi,2,0,2,1,1,0,1,gyi:1,False,medium,single_observation,gyi,gyi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཅུ,tschu,,tschu,tschu,2,0,2,1,1,0,1,tschu:1,False,medium,single_observation,tschu,tschu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཅུའི,tschü,,tschü,tschü,2,0,2,2,1,1,2,tscht:1; tschü:1,False,low,ok,tschü,tschü,observed_TZ,low,Kept from extracted TZ evidence corpus.
+བཅུའེ,tschü,,tschü,tschü,2,0,2,2,2,0,1,tschü:2,False,medium,ok,tschu,tschü,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཏང,tang,tang,dang,tang,2,1,1,2,0,2,2,dang:1; tang:1,True,low,review_cross_document,tang,tang,observed_TZ,low,Kept from extracted TZ evidence corpus.
+བཏབ,tab,,tab,tab,2,0,2,1,1,0,1,tab:1,False,medium,single_observation,tab,tab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཟའ,sa,,sa,sa,2,0,2,1,1,0,1,sa:1,False,medium,single_observation,sa,sa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཟུང,sung,,sung,sung,2,0,2,1,1,0,1,sung:1,False,medium,single_observation,sung,sung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བརྐྱང,kyang,,kyang,kyang,2,0,2,1,1,0,1,kyang:1,False,medium,single_observation,kyang,kyang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བརྟེན,ten,,ten,ten,2,0,2,1,1,0,1,ten:1,False,medium,single_observation,ten,ten,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བརྩེ,tse,,tse,tse,2,0,2,2,2,0,1,tse:2,False,medium,ok,tse,tse,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྐུར,kur,,kur,kur,2,0,2,2,2,0,1,kur:2,False,medium,ok,kur,kur,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྒྲབས,drub,drub,,drub,2,1,1,1,1,0,1,drub:1,False,medium,single_observation,drab,drub,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྟེན,ten,,ten,ten,2,0,2,1,1,0,1,ten:1,False,medium,single_observation,ten,ten,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྡུས,dü,dü,,dü,2,1,1,1,1,0,1,dü:1,False,medium,single_observation,dü,dü,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྣམས,nam,nam,nam,nam,2,1,1,2,2,0,1,nam:2,False,medium,ok,nam,nam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བོར,wor,,wor,wor,2,0,2,2,1,1,2,bor:1; wor:1,False,low,ok,por,wor,observed_TZ,low,Kept from extracted TZ evidence corpus.
+མཆི,tschi,,tschi,tschi,2,1,1,1,1,0,1,tschi:1,False,medium,single_observation,tschi,tschi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཆེ,tsche,tsche,tsche,tsche,2,1,1,2,2,0,1,tsche:2,False,medium,ok,tsche,tsche,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཉམ,nyam,,nyam,nyam,2,0,2,1,1,0,1,nyam:1,False,medium,single_observation,nyam,nyam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མདངས,dang,,dang,dang,2,0,2,2,0,2,1,dang:2,False,medium,ok,dang,dang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མདུང,dung,,dung,dung,2,0,2,1,1,0,1,dung:1,False,medium,single_observation,dung,dung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མདོག,dog,,dog,dog,2,0,2,2,0,2,1,dog:2,False,medium,ok,dog,dog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཚམས,zam,,zam,zam,2,0,2,1,1,0,1,zam:1,False,medium,single_observation,tsham,zam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མར,mar,,mar,mar,2,0,2,1,1,0,1,mar:1,False,medium,single_observation,mar,mar,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚངས,zang,,zang,zang,2,0,2,1,1,0,1,zang:1,False,medium,single_observation,tshang,zang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚིག,zig,,zig,zig,2,0,2,1,1,0,1,zig:1,False,medium,single_observation,tshig,zig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚེ,ze,,ze,ze,2,0,2,2,2,0,1,ze:2,False,medium,ok,tshe,ze,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཞགས,schag,,schag,schag,2,0,2,1,1,0,1,schag:1,False,medium,single_observation,schag,schag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཟད,sä,,sä,sä,2,0,2,2,2,0,2,sa:1; sä:1,False,low,ok,sä,sä,observed_TZ,low,Kept from extracted TZ evidence corpus.
+འཆར,tschar,,tschar,tschar,2,0,2,2,2,0,1,tschar:2,False,medium,ok,tschar,tschar,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདུད,dU,,dU,dU,2,0,2,1,0,1,1,dU:1,False,medium,single_observation,dü,dU,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདོད,dö,,dö,dö,2,0,2,2,1,1,2,dé:1; dö:1,False,low,ok,dö,dö,observed_TZ,low,Kept from extracted TZ evidence corpus.
+འཕགས,phag,,phag,phag,2,0,2,2,0,2,2,pag:1; phag:1,False,low,ok,phag,phag,observed_TZ,low,Kept from extracted TZ evidence corpus.
+འཕྱང,tschang,,tschang,tschang,2,0,2,1,1,0,1,tschang:1,False,medium,single_observation,tschang,tschang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འབྱུང,dschung,,dschung,dschung,2,0,2,2,0,2,1,dschung:2,False,medium,ok,dschung,dschung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འབྲས,drä,,drä,drä,2,0,2,2,1,1,2,dra:1; drä:1,False,low,ok,drä,drä,observed_TZ,low,Kept from extracted TZ evidence corpus.
+འཚལ,zal,,zal,zal,2,0,2,1,0,1,1,zal:1,False,medium,single_observation,tshäl,zal,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འོག,og,,og,og,2,0,2,2,2,0,1,og:2,False,medium,ok,og,og,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡིག,yig,,yig,yig,2,0,2,1,1,0,1,yig:1,False,medium,single_observation,yig,yig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡིད,yi,,yi,yi,2,0,2,2,1,1,2,ji:1; yi:1,False,low,ok,yi,yi,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ཡིན,yin,,yin,yin,2,0,2,1,0,1,1,yin:1,False,medium,single_observation,yin,yin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡིས,yi,,yi,yi,2,1,1,1,0,1,1,yi:1,False,medium,single_observation,yi,yi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རབ,rab,,rab,rab,2,0,2,2,2,0,1,rab:2,False,medium,ok,rab,rab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རི,ri,,ri,ri,2,0,2,1,0,1,1,ri:1,False,medium,single_observation,ri,ri,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རིང,ring,ring,ring,ring,2,1,1,2,0,2,1,ring:2,False,medium,ok,ring,ring,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རུང,rung,,rung,rung,2,0,2,1,1,0,1,rung:1,False,medium,single_observation,rung,rung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྒྱད,gyü,,gyü,gyü,2,1,1,1,1,0,1,gyü:1,False,medium,single_observation,gyä,gyü,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྟེན,ten,,ten,ten,2,0,2,1,1,0,1,ten:1,False,medium,single_observation,ten,ten,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྨོངས,mong,,mong,mong,2,0,2,1,0,1,1,mong:1,False,medium,single_observation,mong,mong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྩིའི,tsi,,tsi,tsi,2,0,2,2,2,0,1,tsi:2,False,medium,ok,tsi,tsi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རློན,lön,lön,,lön,2,2,0,2,2,0,1,lön:2,False,medium,ok,lön,lön,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལང,lang,,lang,lang,2,0,2,1,1,0,1,lang:1,False,medium,single_observation,lang,lang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལུས,lü,,lü,lü,2,0,2,1,0,1,1,lü:1,False,medium,single_observation,lü,lü,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལོ,lo,,lo,lo,2,0,2,1,1,0,1,lo:1,False,medium,single_observation,lo,lo,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལོངས,long,,long,long,2,0,2,1,1,0,1,long:1,False,medium,single_observation,long,long,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྔའི,ngä,,ngä,ngä,2,0,2,2,2,0,2,nga’i:1; ngä:1,False,low,ok,ngä,ngä,observed_TZ,low,Kept from extracted TZ evidence corpus.
+ལྟེ,te,,te,te,2,0,2,1,1,0,1,te:1,False,medium,single_observation,te,te,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཤར,schar,,schar,schar,2,0,2,1,0,1,1,schar:1,False,medium,single_observation,schar,schar,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཤལ,schäl,,schäl,schäl,2,0,2,2,2,0,1,schäl:2,False,medium,ok,schäl,schäl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སོར,sor,sor,,sor,2,1,1,1,0,1,1,sor:1,False,medium,single_observation,sor,sor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐད,ka,,ka,ka,2,0,2,2,2,0,2,kG:1; ka:1,False,low,ok,kä,ka,observed_TZ,low,Kept from extracted TZ evidence corpus.
+སྐེམ,kem,,kem,kem,2,0,2,1,0,1,1,kem:1,False,medium,single_observation,kem,kem,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐྱོན,kyön,,kyön,kyön,2,0,2,2,2,0,2,kjön:1; kyön:1,False,low,ok,kyön,kyön,observed_TZ,low,Kept from extracted TZ evidence corpus.
+སྐྲ,tra,,tra,tra,2,0,2,2,2,0,1,tra:2,False,medium,ok,tra,tra,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྒོ,go,go,go,go,2,1,1,2,2,0,1,go:2,False,medium,ok,go,go,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྒྱུ,gyu,,gyu,gyu,2,0,2,1,0,1,1,gyu:1,False,medium,single_observation,gyu,gyu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྒྲུབ,drub,drub,drub,drub,2,1,1,2,2,0,1,drub:2,False,medium,ok,drub,drub,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྔགས,ngag,ngag,,ngag,2,1,1,1,1,0,1,ngag:1,False,medium,single_observation,ngag,ngag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟ,ta,,ta,ta,2,0,2,1,1,0,1,ta:1,False,medium,single_observation,ta,ta,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟག,tag,tag,tag,tag,2,1,1,2,2,0,1,tag:2,False,medium,ok,tag,tag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟོད,dé,,dé,dé,2,0,2,1,0,1,1,dé:1,False,medium,single_observation,tö,dé,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟོམས,nyom,nyom,nyom,nyom,2,1,1,2,0,2,1,nyom:2,False,medium,ok,tom,nyom,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྡང,dang,dang,dang,dang,2,1,1,2,0,2,1,dang:2,False,medium,ok,dang,dang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྡིག,dig,,dig,dig,2,1,1,1,1,0,1,dig:1,False,medium,single_observation,dig,dig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྡིགས,dig,,dig,dig,2,0,2,1,1,0,1,dig:1,False,medium,single_observation,dig,dig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྡོམ,dom,,dom,dom,2,0,2,1,1,0,1,dom:1,False,medium,single_observation,dom,dom,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྤྱི,tschi,,tschi,tschi,2,0,2,1,1,0,1,tschi:1,False,medium,single_observation,tschi,tschi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྤྲལ,trül,,trül,trül,2,0,2,1,1,0,1,trül:1,False,medium,single_observation,träl,trül,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྨད,ma,,ma,ma,2,0,2,1,0,1,1,ma:1,False,medium,single_observation,mä,ma,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྨོན,mön,,mön,mön,2,0,2,1,0,1,1,mön:1,False,medium,single_observation,mön,mön,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྲས,sa,,sa,sa,2,0,2,1,0,1,1,sa:1,False,medium,single_observation,sä,sa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སློབ,lob,,lob,lob,2,0,2,2,2,0,1,lob:2,False,medium,ok,lob,lob,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཧཾ,ES,,ES,ES,2,0,2,1,0,1,1,ES:1,False,medium,single_observation,hang,ES,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཨཾ,OM,,OM,OM,2,0,2,1,0,1,1,OM:1,False,medium,single_observation,am,OM,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཀཱ,ka,,ka,ka,1,0,1,1,1,0,1,ka:1,False,medium,single_observation,ka,ka,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཀྱང,kyang,,kyang,kyang,1,0,1,1,1,0,1,kyang:1,False,medium,single_observation,kyang,kyang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཀླུ,lu,,lu,lu,1,0,1,1,1,0,1,lu:1,False,medium,single_observation,lu,lu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཁང,kang,,kang,kang,1,0,1,1,1,0,1,kang:1,False,medium,single_observation,khang,kang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཁོད,thrö,,thrö,thrö,1,0,1,1,1,0,1,thrö:1,False,medium,single_observation,khö,thrö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཉེར,nyer,nyer,,nyer,1,1,0,1,1,0,1,nyer:1,False,medium,single_observation,nyer,nyer,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཏུམ,tum,,tum,tum,1,0,1,1,0,1,1,tum:1,False,medium,single_observation,tum,tum,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གདངས,dang,dang,,dang,1,1,0,1,1,0,1,dang:1,False,medium,single_observation,dang,dang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གདམས,dam,,dam,dam,1,0,1,1,0,1,1,dam:1,False,medium,single_observation,dam,dam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གདེངས,deng,,deng,deng,1,0,1,1,0,1,1,deng:1,False,medium,single_observation,deng,deng,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གདོང,dong,,dong,dong,1,0,1,1,1,0,1,dong:1,False,medium,single_observation,dong,dong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཞལ,schäl,,schäl,schäl,1,0,1,1,1,0,1,schäl:1,False,medium,single_observation,schäl,schäl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཞོན,schön,,schön,schön,1,0,1,1,1,0,1,schön:1,False,medium,single_observation,schön,schön,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གའི,gd,,gd,gd,1,0,1,1,1,0,1,gd:1,False,medium,single_observation,kä,gd,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གཤེགས,scheg,,scheg,scheg,1,0,1,1,0,1,1,scheg:1,False,medium,single_observation,scheg,scheg,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གུར,gur,,gur,gur,1,0,1,1,1,0,1,gur:1,False,medium,single_observation,kur,gur,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གྲུ,dru,,dru,dru,1,0,1,1,1,0,1,dru:1,False,medium,single_observation,dru,dru,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+གླིང,ling,,ling,ling,1,0,1,1,1,0,1,ling:1,False,medium,single_observation,ling,ling,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ངན,ngän,,ngän,ngän,1,0,1,1,0,1,1,ngän:1,False,medium,single_observation,ngän,ngän,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཅུད,dschä,,dschä,dschä,1,0,1,1,0,1,1,dschä:1,False,medium,single_observation,tschü,dschä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཅོག,tschog,,tschog,tschog,1,0,1,1,1,0,1,tschog:1,False,medium,single_observation,tschog,tschog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཅོན,tschön,tschön,,tschön,1,1,0,1,1,0,1,tschön:1,False,medium,single_observation,tschön,tschön,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཆགས,tschag,,tschag,tschag,1,0,1,1,1,0,1,tschag:1,False,medium,single_observation,tschag,tschag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཆུང,tschung,,tschung,tschung,1,0,1,1,0,1,1,tschung:1,False,medium,single_observation,tschung,tschung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཆེའི,tsche,,tsche,tsche,1,0,1,1,1,0,1,tsche:1,False,medium,single_observation,tsche,tsche,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཆློན,lön,,lön,lön,1,0,1,1,0,1,1,lön:1,False,medium,single_observation,lön,lön,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐ,tha,tha,,tha,1,1,0,1,1,0,1,tha:1,False,medium,single_observation,tha,tha,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐག,trag,,trag,trag,1,0,1,1,1,0,1,trag:1,False,medium,single_observation,thag,trag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐབས,thab,thab,,thab,1,1,0,1,1,0,1,thab:1,False,medium,single_observation,thab,thab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐལ,thal,,thal,thal,1,0,1,1,0,1,1,thal:1,False,medium,single_observation,thäl,thal,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐོ,tschig,,tschig,tschig,1,0,1,1,0,1,1,tschig:1,False,medium,single_observation,tho,tschig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐོབ,thob,,thob,thob,1,0,1,1,1,0,1,thob:1,False,medium,single_observation,thob,thob,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཐོར,thor,,thor,thor,1,0,1,1,1,0,1,thor:1,False,medium,single_observation,thor,thor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དཀའ,ga,,ga,ga,1,0,1,1,1,0,1,ga:1,False,medium,single_observation,ka,ga,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དབུ,u,,u,u,1,0,1,1,0,1,1,u:1,False,medium,single_observation,u,u,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དབུའི,Ü,,Ü,Ü,1,0,1,1,1,0,1,Ü:1,False,medium,single_observation,ü,Ü,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དབྱངས,yang,,yang,yang,1,0,1,1,1,0,1,yang:1,False,medium,single_observation,yang,yang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དབྱའོ,dscha-o,,dscha-o,dscha-o,1,0,1,1,0,1,1,dscha-o:1,False,medium,single_observation,ya-o,dscha-o,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དབྱེར,yer,yer,,yer,1,1,0,1,1,0,1,yer:1,False,medium,single_observation,yer,yer,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དལ,dal,,dal,dal,1,0,1,1,1,0,1,dal:1,False,medium,single_observation,däl,dal,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དི,de,,de,de,1,0,1,1,0,1,1,de:1,False,medium,single_observation,di,de,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དུད,dt,,dt,dt,1,0,1,1,0,1,1,dt:1,False,medium,single_observation,dü,dt,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དུམ,dum,,dum,dum,1,0,1,1,1,0,1,dum:1,False,medium,single_observation,dum,dum,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དེའེ,ei,,ei,ei,1,0,1,1,1,0,1,ei:1,False,medium,single_observation,de,ei,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+དྲུན,darin,darin,,darin,1,1,0,1,1,0,1,darin:1,False,medium,single_observation,drün,darin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ནུ,nu,,nu,nu,1,0,1,1,1,0,1,nu:1,False,medium,single_observation,nu,nu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ནོ,no,,no,no,1,0,1,1,0,1,1,no:1,False,medium,single_observation,no,no,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+པག,pag,,pag,pag,1,0,1,1,1,0,1,pag:1,False,medium,single_observation,pag,pag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+པད,pa,pa,,pa,1,1,0,1,1,0,1,pa:1,False,medium,single_observation,pä,pa,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+པའོ,pa-o,,pa-o,pa-o,1,0,1,1,0,1,1,pa-o:1,False,medium,single_observation,pa-o,pa-o,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕན,phan,phan,,phan,1,1,0,1,0,1,1,phan:1,False,medium,single_observation,phän,phan,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཕྱེད,tsche,,tsche,tsche,1,0,1,1,1,0,1,tsche:1,False,medium,single_observation,tsche,tsche,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཀོད,kö,,kö,kö,1,0,1,1,0,1,1,kö:1,False,medium,single_observation,kö,kö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཀྲི,tra,,tra,tra,1,0,1,1,1,0,1,tra:1,False,medium,single_observation,tri,tra,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བགེགས,geg,,geg,geg,1,0,1,1,0,1,1,geg:1,False,medium,single_observation,geg,geg,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བགྱིས,gyi,gyi,,gyi,1,1,0,1,0,1,1,gyi:1,False,medium,single_observation,gyi,gyi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བགྲང,drang,,drang,drang,1,0,1,1,0,1,1,drang:1,False,medium,single_observation,drang,drang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བབས,bab,,bab,bab,1,0,1,1,1,0,1,bab:1,False,medium,single_observation,pab,bab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བམ,bam,bam,,bam,1,1,0,1,1,0,1,bam:1,False,medium,single_observation,pam,bam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཙུན,tsün,,tsün,tsün,1,0,1,1,1,0,1,tsün:1,False,medium,single_observation,tsün,tsün,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཞིར,schir,,schir,schir,1,0,1,1,1,0,1,schir:1,False,medium,single_observation,schir,schir,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཟོད,sö,,sö,sö,1,0,1,1,1,0,1,sö:1,False,medium,single_observation,sö,sö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བརྐྱངས,kyang,kyang,,kyang,1,1,0,1,1,0,1,kyang:1,False,medium,single_observation,kyang,kyang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བརྒྱངས,gyang,,gyang,gyang,1,0,1,1,0,1,1,gyang:1,False,medium,single_observation,gyang,gyang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བརྩེགས,tseg,tseg,,tseg,1,1,0,1,1,0,1,tseg:1,False,medium,single_observation,tseg,tseg,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཤགས,schag,schag,,schag,1,1,0,1,0,1,1,schag:1,False,medium,single_observation,schag,schag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསགས,sag,,sag,sag,1,0,1,1,1,0,1,sag:1,False,medium,single_observation,sag,sag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྐམ,kam,kam,,kam,1,1,0,1,1,0,1,kam:1,False,medium,single_observation,kam,kam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྐལ,kdl,,kdl,kdl,1,0,1,1,0,1,1,kdl:1,False,medium,single_observation,käl,kdl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྐུམས,kum,kum,,kum,1,1,0,1,1,0,1,kum:1,False,medium,single_observation,kum,kum,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྒོམས,gom,,gom,gom,1,0,1,1,1,0,1,gom:1,False,medium,single_observation,gom,gom,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྒྲེང,dreng,,dreng,dreng,1,0,1,1,1,0,1,dreng:1,False,medium,single_observation,dreng,dreng,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྟན,tan,,tan,tan,1,0,1,1,0,1,1,tan:1,False,medium,single_observation,tän,tan,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྡེགས,dig,,dig,dig,1,0,1,1,1,0,1,dig:1,False,medium,single_observation,deg,dig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བསྡོ,ngo,ngo,,ngo,1,1,0,1,0,1,1,ngo:1,False,medium,single_observation,do,ngo,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བུམ,bum,,bum,bum,1,0,1,1,1,0,1,bum:1,False,medium,single_observation,pum,bum,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བུས,wi,,wi,wi,1,0,1,1,1,0,1,wi:1,False,medium,single_observation,pü,wi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བོའི,wö,,wö,wö,1,0,1,1,0,1,1,wö:1,False,medium,single_observation,pö,wö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བྱའེ,dschä,,dschä,dschä,1,0,1,1,0,1,1,dschä:1,False,medium,single_observation,dsche,dschä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བྱིད,dsche,,dsche,dsche,1,0,1,1,1,0,1,dsche:1,False,medium,single_observation,dschi,dsche,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བྱུགས,dschug,,dschug,dschug,1,0,1,1,0,1,1,dschug:1,False,medium,single_observation,dschug,dschug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བྲའཾ,wä,,wä,wä,1,0,1,1,1,0,1,wä:1,False,medium,single_observation,dram,wä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཁར,khar,,khar,khar,1,0,1,1,0,1,1,khar:1,False,medium,single_observation,khar,khar,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མགུལ,gil,,gil,gil,1,0,1,1,0,1,1,gil:1,False,medium,single_observation,gül,gil,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མགོན,gön,,gön,gön,1,0,1,1,1,0,1,gön:1,False,medium,single_observation,gön,gön,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མཉེས,nye,,nye,nye,1,0,1,1,0,1,1,nye:1,False,medium,single_observation,nye,nye,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མདུན,din,,din,din,1,0,1,1,0,1,1,din:1,False,medium,single_observation,dün,din,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མནན,nan,,nan,nan,1,0,1,1,0,1,1,nan:1,False,medium,single_observation,nän,nan,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མའེ,mä,,mä,mä,1,0,1,1,0,1,1,mä:1,False,medium,single_observation,e,mä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མས,mä,mä,,mä,1,1,0,1,1,0,1,mä:1,False,medium,single_observation,mä,mä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མིའི,mi,,mi,mi,1,0,1,1,0,1,1,mi:1,False,medium,single_observation,mi,mi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མོངས,mong,,mong,mong,1,0,1,1,1,0,1,mong:1,False,medium,single_observation,mong,mong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མོར,mor,,mor,mor,1,0,1,1,1,0,1,mor:1,False,medium,single_observation,mor,mor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མྱུར,nyur,,nyur,nyur,1,0,1,1,1,0,1,nyur:1,False,medium,single_observation,nyur,nyur,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+མྱོང,nyong,,nyong,nyong,1,0,1,1,1,0,1,nyong:1,False,medium,single_observation,nyong,nyong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚུ,tschu,,tschu,tschu,1,0,1,1,1,0,1,tschu:1,False,medium,single_observation,tshu,tschu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚེས,ze,,ze,ze,1,0,1,1,1,0,1,ze:1,False,medium,single_observation,tshe,ze,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཚོ,zo,,zo,zo,1,0,1,1,1,0,1,zo:1,False,medium,single_observation,tsho,zo,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཝས,lä,,lä,lä,1,0,1,1,1,0,1,lä:1,False,medium,single_observation,wä,lä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཝུ,aus,,aus,aus,1,0,1,1,1,0,1,aus:1,False,medium,single_observation,wu,aus,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཞག,schag,schag,,schag,1,1,0,1,0,1,1,schag:1,False,medium,single_observation,schag,schag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཞིག,schig,,schig,schig,1,0,1,1,0,1,1,schig:1,False,medium,single_observation,schig,schig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཞྲུཾ,HUNG,,HUNG,HUNG,1,0,1,1,0,1,1,HUNG:1,False,medium,single_observation,schum,HUNG,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཟབ,sab,,sab,sab,1,0,1,1,0,1,1,sab:1,False,medium,single_observation,sab,sab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཟིན,sin,,sin,sin,1,0,1,1,1,0,1,sin:1,False,medium,single_observation,sin,sin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཁྱིལ,khyil,khyil,,khyil,1,1,0,1,0,1,1,khyil:1,False,medium,single_observation,khyil,khyil,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཁྲེལ,thril,,thril,thril,1,0,1,1,0,1,1,thril:1,False,medium,single_observation,threl,thril,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འགྱུར,gyur,,gyur,gyur,1,0,1,1,1,0,1,gyur:1,False,medium,single_observation,gyur,gyur,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འགྲུན,drub,,drub,drub,1,0,1,1,0,1,1,drub:1,False,medium,single_observation,drün,drub,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འགྲེང,dreng,,dreng,dreng,1,0,1,1,0,1,1,dreng:1,False,medium,single_observation,dreng,dreng,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འགྲོའི,drö,,drö,drö,1,0,1,1,0,1,1,drö:1,False,medium,single_observation,drö,drö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཇིག,dschig,,dschig,dschig,1,0,1,1,1,0,1,dschig:1,False,medium,single_observation,dschig,dschig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདུན,dun,,dun,dun,1,0,1,1,1,0,1,dun:1,False,medium,single_observation,dün,dun,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདུས,du,,du,du,1,0,1,1,1,0,1,du:1,False,medium,single_observation,dü,du,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདོ,do,do,,do,1,1,0,1,1,0,1,do:1,False,medium,single_observation,do,do,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདོར,kor,,kor,kor,1,0,1,1,0,1,1,kor:1,False,medium,single_observation,dor,kor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདྲ,dra,,dra,dra,1,0,1,1,0,1,1,dra:1,False,medium,single_observation,dra,dra,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདྲའི,dra,,dra,dra,1,0,1,1,0,1,1,dra:1,False,medium,single_observation,drä,dra,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འདྲེན,dren,,dren,dren,1,0,1,1,0,1,1,dren:1,False,medium,single_observation,dren,dren,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཕྲིན,thrin,,thrin,thrin,1,0,1,1,0,1,1,thrin:1,False,medium,single_observation,thrin,thrin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཕྲུལ,thrül,,thrül,thrül,1,0,1,1,0,1,1,thrül:1,False,medium,single_observation,thrül,thrül,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཕྲེང,threng,,threng,threng,1,0,1,1,0,1,1,threng:1,False,medium,single_observation,threng,threng,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འབད,bd,,bd,bd,1,0,1,1,1,0,1,bd:1,False,medium,single_observation,bä,bd,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འབྱམས,dscham,,dscham,dscham,1,0,1,1,1,0,1,dscham:1,False,medium,single_observation,dscham,dscham,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འབྲེལ,drel,,drel,drel,1,0,1,1,1,0,1,drel:1,False,medium,single_observation,drel,drel,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འཛམ,dzam,,dzam,dzam,1,0,1,1,1,0,1,dzam:1,False,medium,single_observation,dsam,dzam,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འོང,ong,,ong,ong,1,0,1,1,1,0,1,ong:1,False,medium,single_observation,ong,ong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+འོངས,ong,,ong,ong,1,0,1,1,1,0,1,ong:1,False,medium,single_observation,ong,ong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡངས,yang,,yang,yang,1,0,1,1,0,1,1,yang:1,False,medium,single_observation,yang,yang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡས,ya,,ya,ya,1,0,1,1,1,0,1,ya:1,False,medium,single_observation,yä,ya,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡུབ,yum,,yum,yum,1,0,1,1,1,0,1,yum:1,False,medium,single_observation,yub,yum,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཡོ,yo,,yo,yo,1,0,1,1,1,0,1,yo:1,False,medium,single_observation,yo,yo,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རིག,rig,,rig,rig,1,0,1,1,0,1,1,rig:1,False,medium,single_observation,rig,rig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རིགས,rig,,rig,rig,1,0,1,1,1,0,1,rig:1,False,medium,single_observation,rig,rig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རེའང,re’ang,,re’ang,re’ang,1,0,1,1,1,0,1,re’ang:1,False,medium,single_observation,re'ang,re’ang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རོལ,röl,,röl,röl,1,0,1,1,1,0,1,röl:1,False,medium,single_observation,röl,röl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྐང,kang,,kang,kang,1,0,1,1,1,0,1,kang:1,False,medium,single_observation,kang,kang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྐམར,mar,,mar,mar,1,0,1,1,1,0,1,mar:1,False,medium,single_observation,kam,mar,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྒྱན,gyGn,gyGn,,gyGn,1,1,0,1,1,0,1,gyGn:1,False,medium,single_observation,gyän,gyGn,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྒྱུར,gyur,,gyur,gyur,1,0,1,1,1,0,1,gyur:1,False,medium,single_observation,gyur,gyur,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྗེའེ,dsche’i,,dsche’i,dsche’i,1,0,1,1,1,0,1,dsche’i:1,False,medium,single_observation,dsche,dsche’i,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྗོགས,dzog,,dzog,dzog,1,0,1,1,0,1,1,dzog:1,False,medium,single_observation,dschog,dzog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྟོགས,tog,,tog,tog,1,0,1,1,1,0,1,tog:1,False,medium,single_observation,tog,tog,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྡེའི,dsche’i,,dsche’i,dsche’i,1,0,1,1,1,0,1,dsche’i:1,False,medium,single_observation,de,dsche’i,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྨུག,mug,,mug,mug,1,0,1,1,0,1,1,mug:1,False,medium,single_observation,mug,mug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྩིས,tsi,,tsi,tsi,1,0,1,1,1,0,1,tsi:1,False,medium,single_observation,tsi,tsi,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྩུཾ,HUNG,,HUNG,HUNG,1,0,1,1,0,1,1,HUNG:1,False,medium,single_observation,tsum,HUNG,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྫས,dzä,,dzä,dzä,1,0,1,1,0,1,1,dzä:1,False,medium,single_observation,dsä,dzä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྭུ,HUNG,,HUNG,HUNG,1,0,1,1,0,1,1,HUNG:1,False,medium,single_observation,ru,HUNG,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རྱད,gyü,gyü,,gyü,1,1,0,1,0,1,1,gyü:1,False,medium,single_observation,rä,gyü,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+རླབས,lab,,lab,lab,1,0,1,1,1,0,1,lab:1,False,medium,single_observation,lab,lab,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལགས,lag,,lag,lag,1,0,1,1,0,1,1,lag:1,False,medium,single_observation,lag,lag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལོར,lor,,lor,lor,1,0,1,1,1,0,1,lor:1,False,medium,single_observation,lor,lor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྔས,nga,,nga,nga,1,0,1,1,1,0,1,nga:1,False,medium,single_observation,ngä,nga,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྗགས,dschag,,dschag,dschag,1,0,1,1,0,1,1,dschag:1,False,medium,single_observation,dschag,dschag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྟུང,tung,tung,,tung,1,1,0,1,0,1,1,tung:1,False,medium,single_observation,tung,tung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྡགས,dschag,dschag,,dschag,1,1,0,1,1,0,1,dschag:1,False,medium,single_observation,dag,dschag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྡང,dschang,,dschang,dschang,1,0,1,1,1,0,1,dschang:1,False,medium,single_observation,dang,dschang,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྷས,Ihä,,Ihä,Ihä,1,0,1,1,1,0,1,Ihä:1,False,medium,single_observation,lhä,Ihä,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ལྷོར,Ihor,,Ihor,Ihor,1,0,1,1,1,0,1,Ihor:1,False,medium,single_observation,lhor,Ihor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཤམ,scham,scham,,scham,1,1,0,1,1,0,1,scham:1,False,medium,single_observation,scham,scham,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཤིགས,schig,,schig,schig,1,0,1,1,1,0,1,schig:1,False,medium,single_observation,schig,schig,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཤུ,shu,,shu,shu,1,0,1,1,1,0,1,shu:1,False,medium,single_observation,schu,shu,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཤུལ,schül,,schül,schül,1,0,1,1,0,1,1,schül:1,False,medium,single_observation,schül,schül,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སོའི,sö,,sö,sö,1,0,1,1,0,1,1,sö:1,False,medium,single_observation,sö,sö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐན,län,,län,län,1,0,1,1,0,1,1,län:1,False,medium,single_observation,kän,län,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐུའི,kU,,kU,kU,1,0,1,1,1,0,1,kU:1,False,medium,single_observation,kü,kU,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐུར,kur,,kur,kur,1,0,1,1,1,0,1,kur:1,False,medium,single_observation,kur,kur,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐོང,kyong,kyong,,kyong,1,1,0,1,0,1,1,kyong:1,False,medium,single_observation,kong,kyong,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐྱོབ,kyob,,kyob,kyob,1,0,1,1,1,0,1,kyob:1,False,medium,single_observation,kyob,kyob,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྐྲག,trag,,trag,trag,1,0,1,1,0,1,1,trag:1,False,medium,single_observation,trag,trag,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྒྱེས,kye,,kye,kye,1,0,1,1,0,1,1,kye:1,False,medium,single_observation,gye,kye,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྒྲས,dra,,dra,dra,1,0,1,1,1,0,1,dra:1,False,medium,single_observation,drä,dra,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྙན,nyän,,nyän,nyän,1,0,1,1,1,0,1,nyän:1,False,medium,single_observation,nyän,nyän,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྙུག,dug,,dug,dug,1,0,1,1,1,0,1,dug:1,False,medium,single_observation,nyug,dug,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྙེང,nying,,nying,nying,1,0,1,1,1,0,1,nying:1,False,medium,single_observation,nyeng,nying,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྙོམས,nyom,,nyom,nyom,1,0,1,1,0,1,1,nyom:1,False,medium,single_observation,nyom,nyom,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟེར,ter,,ter,ter,1,0,1,1,0,1,1,ter:1,False,medium,single_observation,ter,ter,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྟོབས,tob,,tob,tob,1,0,1,1,1,0,1,tob:1,False,medium,single_observation,tob,tob,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྡུད,dU,,dU,dU,1,0,1,1,0,1,1,dU:1,False,medium,single_observation,dü,dU,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྣོད,nö,,nö,nö,1,0,1,1,1,0,1,nö:1,False,medium,single_observation,nö,nö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྤྱོད,tschö,,tschö,tschö,1,0,1,1,1,0,1,tschö:1,False,medium,single_observation,tschö,tschö,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྤྲིན,trin,,trin,trin,1,0,1,1,1,0,1,trin:1,False,medium,single_observation,trin,trin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྦྱིན,dschin,dschin,,dschin,1,1,0,1,0,1,1,dschin:1,False,medium,single_observation,dschin,dschin,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྦྱོར,dschor,,dschor,dschor,1,0,1,1,0,1,1,dschor:1,False,medium,single_observation,dschor,dschor,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྦྲལ,drül,drül,,drül,1,1,0,1,1,0,1,drül:1,False,medium,single_observation,dräl,drül,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྨིན,min,,min,min,1,0,1,1,0,1,1,min:1,False,medium,single_observation,min,min,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྩལ,tsäl,tsäl,,tsäl,1,1,0,1,0,1,1,tsäl:1,False,medium,single_observation,tsäl,tsäl,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྲང,sung,sung,,sung,1,1,0,1,0,1,1,sung:1,False,medium,single_observation,sang,sung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སྲུང,sung,,sung,sung,1,0,1,1,1,0,1,sung:1,False,medium,single_observation,sung,sung,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+སླ,la,,la,la,1,0,1,1,0,1,1,la:1,False,medium,single_observation,la,la,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཧྲིར,HRIH,HRIH,,HRIH,1,1,0,1,1,0,1,HRIH:1,False,medium,single_observation,hrir,HRIH,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ཨཱཿ,AH,,AH,AH,1,0,1,1,0,1,1,AH:1,False,medium,single_observation,a,AH,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+ོ,Om,,Om,Om,1,0,1,1,0,1,1,Om:1,False,medium,single_observation,,Om,observed_TZ,medium,Kept from extracted TZ evidence corpus.
+བཛྲ,,,,,10,0,10,0,0,0,0,,False,none,unmapped,dsa,BENDSA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཞེས,,,,,10,1,9,0,0,0,0,,False,none,unmapped,sche,sche,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧཱ,,,,,9,0,9,0,0,0,0,,False,none,unmapped,ha,HA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཅེས,,,,,8,1,7,0,0,0,0,,False,none,unmapped,tsche,tsche,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འབུལ,,,,,8,1,7,0,0,0,0,,False,none,unmapped,bül,bül,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཕྲ,,,,,7,1,6,0,0,0,0,,False,none,unmapped,thra,thra,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གནྡྷེ,,,,,5,0,5,0,0,0,0,,False,none,unmapped,de,GHÄNDE,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+བརླབ,,,,,5,0,5,0,0,0,0,,False,none,unmapped,lab,lab,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལན,,,,,5,2,3,0,0,0,0,,False,none,unmapped,län,län,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཤཔྟ,,,,,5,0,5,0,0,0,0,,False,none,unmapped,ta,SHAPTA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཀི,,,,,4,0,4,0,0,0,0,,False,none,unmapped,ki,ki,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ག,,,,,4,0,4,0,0,0,0,,False,none,unmapped,ka,ka,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཡ,,,,,4,0,4,0,0,0,0,,False,none,unmapped,ya,ya,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྭ,,,,,4,0,4,0,0,0,0,,False,none,unmapped,sa,SWA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+སྭཱ,,,,,4,0,4,0,0,0,0,,False,none,unmapped,sa,SWA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཧཱཾ,,,,,4,0,4,0,0,0,0,,False,none,unmapped,hang,HANG,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཧི,,,,,4,0,4,0,0,0,0,,False,none,unmapped,hi,HI,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+གསང,,,,,3,2,1,0,0,0,0,,False,none,unmapped,sang,sang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏཱ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,ta,TA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+དཱིཔེ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,di,DIPE,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+པྲ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,tra,PRA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+བཟླས,,,,,3,1,2,0,0,0,0,,False,none,unmapped,dä,dä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བསྔོ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,ngo,ngo,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བྱ,,,,,3,1,2,0,0,0,0,,False,none,unmapped,dscha,dscha,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཚར,,,,,3,0,3,0,0,0,0,,False,none,unmapped,tshar,tshar,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཝིདྱ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,di,WIDYÄ,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ལི,,,,,3,0,3,0,0,0,0,,False,none,unmapped,li,li,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སས,,,,,3,0,3,0,0,0,0,,False,none,unmapped,sä,sä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྭཱཧཱ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,sa,SOHA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཧོ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,ho,HO,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཨ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,a,A,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཨརྒཾ,,,,,3,0,3,0,0,0,0,,False,none,unmapped,gam,ARGHAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+གཏོར,,,,,2,0,2,0,0,0,0,,False,none,unmapped,tor,tor,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏིང,,,,,2,1,1,0,0,0,0,,False,none,unmapped,ting,ting,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དླ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,la,la,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ནཱི,,,,,2,0,2,0,0,0,0,,False,none,unmapped,ni,NI,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+པཱདྲཾ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,dram,PADYAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+པོས,,,,,2,0,2,0,0,0,0,,False,none,unmapped,pö,pö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བསངས,,,,,2,0,2,0,0,0,0,,False,none,unmapped,sang,sang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བྷ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,ha,BHA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+བྷཱ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,ha,BHA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+མང,,,,,2,1,1,0,0,0,0,,False,none,unmapped,mang,mang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+མུ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,mu,mu,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཛཱ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,dsa,DSA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཝ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,wa,wa,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རམ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,ram,ram,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རཾ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,ram,RAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+རྒྱུན,,,,,2,1,1,0,0,0,0,,False,none,unmapped,gyün,gyün,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལུ,,,,,2,2,0,0,0,0,0,,False,none,unmapped,lu,lu,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཤི,,,,,2,0,2,0,0,0,0,,False,none,unmapped,schi,schi,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཤཾ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,scham,SHAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཧཱུ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,hu,hu,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧུ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,hu,hu,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧྲུཾ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,hrung,HRUNG,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ྨ,,,,,2,0,2,0,0,0,0,,False,none,unmapped,ma,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+ྲ,,,,,2,2,0,0,0,0,0,,False,none,unmapped,,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+(ཐུན,,,,,1,0,1,0,0,0,0,,False,none,unmapped,thün,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+0ྲ§༡,,,,,1,0,1,0,0,0,0,,False,none,unmapped,,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+9ྱ0,,,,,1,0,1,0,0,0,0,,False,none,unmapped,,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+[ཁུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,khu,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+"༠""ཇཇང",,,,,1,0,1,0,0,0,0,,False,none,unmapped,,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+༩/ཌི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,di,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+ཀག,,,,,1,0,1,0,0,0,0,,False,none,unmapped,kag,kag,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཀམ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,kam,kam,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཀའ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ka,ka,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཀུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ku,ku,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཀྭི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ki,ki,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཀྲིས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tri,tri,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཀྲུན,,,,,1,0,1,0,0,0,0,,False,none,unmapped,trün,trün,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཁནྟ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ta,ta,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གཉེན,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nyen,nyen,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གཡེང,,,,,1,1,0,0,0,0,0,,False,none,unmapped,yeng,yeng,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གསེང,,,,,1,1,0,0,0,0,0,,False,none,unmapped,seng,seng,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ke,ke,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གེའེ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,ke,ke,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གྱརཔའི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,gyä,gyä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གྱེན,,,,,1,0,1,0,0,0,0,,False,none,unmapped,gyen,gyen,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གྲང,,,,,1,0,1,0,0,0,0,,False,none,unmapped,drang,drang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+གླུར,,,,,1,0,1,0,0,0,0,,False,none,unmapped,lur,lur,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ང,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nga,nga,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ངར,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ngar,ngar,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ངལ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ngäl,ngäl,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ངོ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ngo,ngo,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ངཿ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nga,nga,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཅ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tscha,tscha,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཅོ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,tscho,tscho,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཆད,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tschä,tschä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཉཧཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nyam,nyam,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཉུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nyu,nyu,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཉེི,,,,,1,1,0,0,0,0,0,,False,none,unmapped,nye,nye,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཊཱཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tam,TAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཊོཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tom,TOM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཊཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tam,TAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཌ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,da,da,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,ta,ta,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏཱི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ti,ti,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏཱིྫ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dsi,dsi,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ti,ti,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏིྫ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dsi,dsi,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏུཁྲབ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,thru,thru,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏེནོ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ten,ten,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཏྱ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,ta,ta,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཐམ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tham,tham,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དགོས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,gö,gö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དངའདྲས,,,,,1,1,0,0,0,0,0,,False,none,unmapped,drä,drä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དངས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dang,dang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དད,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dä,dä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དབྱིརྲས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,yir,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+དཱཔེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,pe,DIPE,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+དེས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,de,de,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དོང,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dong,dong,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དོའི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dö,dö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དཿ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,da,da,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དྱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,da,da,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དྷ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,ha,ha,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དྷུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hu,hu,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དྷུཔེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hu,hu,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+དྷྱུཔེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hu,hu,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ནམས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nam,nam,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ནུབ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nub,nub,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ནེཁིདྱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,de,de,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ནྭུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nu,nu,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ནྱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,na,na,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+པདྱཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dam,PADYAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+པཛྙཱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nya,nya,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+པཱདྱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,da,PADYA,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+པུངྲེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ngung,ngung,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+པེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,pe,pe,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཕུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,phu,phu,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བཅུད,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tschü,tschü,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བདེན,,,,,1,0,1,0,0,0,0,,False,none,unmapped,den,den,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བདོའི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dö,dö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བཛྡ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,da,da,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བཞག),,,,,1,0,1,0,0,0,0,,False,none,unmapped,schag,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+བཟང,,,,,1,0,1,0,0,0,0,,False,none,unmapped,sang,sang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བཟླ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,da,da,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བརྟག,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tag,tag,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བརླའི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,lä,lä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བཤང,,,,,1,0,1,0,0,0,0,,False,none,unmapped,schang,schang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བཤེས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,sche,sche,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བསམ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,sam,sam,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བསུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,su,su,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བསོད,,,,,1,0,1,0,0,0,0,,False,none,unmapped,sö,sö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བསྐྲེད,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tre,tre,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བསྒོས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,gö,gö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བྱའོ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dscha-o,dscha-o,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བྲ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dra,dra,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བྲང,,,,,1,0,1,0,0,0,0,,False,none,unmapped,drang,drang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བྲངཧེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dre,dre,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+བྷན,,,,,1,1,0,0,0,0,0,,False,none,unmapped,hän,hän,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+མགོས,,,,,1,1,0,0,0,0,0,,False,none,unmapped,gö,gö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+མངྒ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,ga,ga,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+མཐེང,,,,,1,1,0,0,0,0,0,,False,none,unmapped,theng,theng,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+མཚར,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tshar,tshar,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+མཧཱཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,mam,mam,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+མྭ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ma,ma,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཙྩ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tsa,tsa,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཙྭཏ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tsa,tsa,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཚ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tsha,tsha,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཛཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dsam,dsam,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཛྙ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nya,nya,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཝན,,,,,1,0,1,0,0,0,0,,False,none,unmapped,wän,wän,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཝི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,wi,wi,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཝིངྱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nging,nging,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཝེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,we,we,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཞི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,schi,schi,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཟུགས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,sug,sug,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འཁོད,,,,,1,0,1,0,0,0,0,,False,none,unmapped,khö,khö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འཁྲུད,,,,,1,1,0,0,0,0,0,,False,none,unmapped,thrü,thrü,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འཁྲུལ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,thrül,thrül,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འཁྲེར,,,,,1,0,1,0,0,0,0,,False,none,unmapped,threr,threr,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འགོད,,,,,1,0,1,0,0,0,0,,False,none,unmapped,gö,gö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འཇོམས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dschom,dschom,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འབྲུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dru,dru,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+འའ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,a,a,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཡུལ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,yül,yül,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཡཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,yam,YAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+རངས,,,,,1,1,0,0,0,0,0,,False,none,unmapped,rang,rang,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རར,,,,,1,0,1,0,0,0,0,,False,none,unmapped,rar,rar,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རིན,,,,,1,1,0,0,0,0,0,,False,none,unmapped,rin,rin,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རུས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,rü,rü,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རེངས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,reng,reng,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རོའི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,rö,rö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རཿ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ra,ra,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རྒོད,,,,,1,0,1,0,0,0,0,,False,none,unmapped,gö,gö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རྒྱབ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,gyab,gyab,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རྔ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nga,nga,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རྡོར,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dor,dor,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རྡོརྲསྔོ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ror,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+རྩས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tsä,tsä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རྩུཔེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tsu,tsu,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+རྫ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dsa,dsa,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལར,,,,,1,0,1,0,0,0,0,,False,none,unmapped,lar,lar,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལཱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,la,la,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལེན,,,,,1,1,0,0,0,0,0,,False,none,unmapped,len,len,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལཾ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,lam,LAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ལྟས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,tä,tä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལྡཇཁ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,da,da,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལྡས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dä,dä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ལྭ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,la,la,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཤ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,scha,scha,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཤཱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,scha,scha,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཤཱི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,schi,schi,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཤཱཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,scham,scham,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཤྲི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,schi,SHRI,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+སཏྭ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ta,ta,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སུང,,,,,1,0,1,0,0,0,0,,False,none,unmapped,sung,sung,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སེམ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,sem,sem,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྐུའེ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ku,ku,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྐྱ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,kya,kya,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྔ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nga,nga,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྙེགས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,nyeg,nyeg,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྟོ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,to,to,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྤརྦ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,par,par,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྤྲོས,,,,,1,0,1,0,0,0,0,,False,none,unmapped,trö,trö,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྦྱན,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dschän,dschän,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྦྲ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dra,dra,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྨ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ma,ma,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྨྱབས,,,,,1,1,0,0,0,0,0,,False,none,unmapped,nyab,nyab,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྲར,,,,,1,0,1,0,0,0,0,,False,none,unmapped,sar,sar,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྲིད,,,,,1,1,0,0,0,0,0,,False,none,unmapped,si,si,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+སྲིན,,,,,1,1,0,0,0,0,0,,False,none,unmapped,sin,sin,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ha,ha,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧའི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hä,hä,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧཱི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hi,hi,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧཱུཾཧུཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hung,hung,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧིཧི,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hi,hi,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧོབཛྲ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,dsob,dsob,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧྭུ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hu,hu,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧྭོཿ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ho,ho,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཧྲཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hrang,HRAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཧྷུཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hung,hung,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཨརྒྷཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,gam,ARGHAM,inferred_exception,medium,Curated mantra/Sanskrit or high-frequency exception; approximate TZ-style spelling.
+ཨཱཏྒ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ga,ga,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཨཱཿཧཱུཾ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,hung,hung,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ི,,,,,1,1,0,0,0,0,0,,False,none,unmapped,,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+ུབླ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,lub,lub,inferred_rule_tibetan,medium,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ཿ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.
+ྟརྷ,,,,,1,0,1,0,0,0,0,,False,none,unmapped,ra,ra,inferred_rule_sanskrit,low,Rule-based approximation from Tibetan orthographic structure; not directly observed in the two TZ source documents.
+ྦ,,,,,1,1,0,0,0,0,0,,False,none,unmapped,pa,,ocr_noise,none,Likely OCR artefact; deliberately not promoted to a production mapping.

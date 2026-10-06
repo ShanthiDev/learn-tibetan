@@ -1,0 +1,122 @@
+[
+ {
+  "passage": "r01-u01",
+  "tibetan": "༄༅། །པདྨ་ཡང་གསང་ཁྲོས་པའི་ལས་བྱང་སྙིང་པོ་བཅུད་བསྡུས་",
+  "reader_example": "pema yang sang tröp pä lä dschang nying po tschü dü",
+  "generator": "pema yang sang thrö pä lä dschang nying po tschü dü"
+ },
+ {
+  "passage": "r01-u01",
+  "tibetan": "དབང་ཆེན་བཞད་པའི་སྒྲ་དབྱངས་",
+  "reader_example": "wang tschen schä pä dra yang",
+  "generator": "wang tschen schä pä dra yang"
+ },
+ {
+  "passage": "r01-u01",
+  "tibetan": "ཞེས་བྱ་བ་བཞུགས་སོ།།",
+  "reader_example": "sche dscha wa schug so",
+  "generator": "sche dscha wa schug so"
+ },
+ {
+  "passage": "r04-u01",
+  "tibetan": "བདག་ནི་དེང་ནས་\nཚེ་རབས་ཐམས་ཅད་དུ། །",
+  "reader_example": "dag ni deng nä tse rab tham tschä du",
+  "generator": "dag ni deng nä tshe rab tham tschä du"
+ },
+ {
+  "passage": "r04-u01",
+  "tibetan": "མཚན་ལྡན་བླ་མ་དམ་པས་རྗེས་\nབཟུང་ཞིང་། །",
+  "reader_example": "tshän dän la ma dam pä dsche sung sching",
+  "generator": "tshän dän la ma dam pä dsche sung sching"
+ },
+ {
+  "passage": "r04-u01",
+  "tibetan": "ཡང་གསང་ཁྲོས་པའི་རྣལ་འབྱོར་བསྒོམ་པའི་\nམཐུས། །",
+  "reader_example": "yang sang tröp pä näl dschor gom pä thü",
+  "generator": "yang sang thrö pä näl dschor gom pä thü"
+ },
+ {
+  "passage": "r04-u01",
+  "tibetan": "ཁྲག་འཐུང་རྒྱལ་པོ་མྱུར་དུ་འགྲུབ་པར་ཤོག །",
+  "reader_example": "thrag thung gyäl po nyur du drub par schog",
+  "generator": "thrag thung gyäl po nyur du drub par scho"
+ },
+ {
+  "passage": "r04-u05",
+  "tibetan": "དེ་ལྟར་སྣང་བའི་བསྐྱེད་རིམ་ཐམས་ཅད་ཀུན། །",
+  "reader_example": "de tar nang wä kye rim tham tschä kün",
+  "generator": "de tar nang wä kye rim tham tschä kün"
+ },
+ {
+  "passage": "r04-u05",
+  "tibetan": "ལེགས་\nཔར་རྟགས་ཚེ་སྐྱེ་འགག་གནས་གསུམ་དང་། །",
+  "reader_example": "leg par tag tse kye gag nä sum dang",
+  "generator": "leg par tag tshe kye gag nä sum dang"
+ },
+ {
+  "passage": "r04-u05",
+  "tibetan": "གདོད་ནས་\nབྲལ་བའི་སེམས་ཉིད་རིག་པའི་རྩལ། །",
+  "reader_example": "dö nä dräl wä sem nyi rig pä tsäl",
+  "generator": "dö nä dräl wä sem nyi rig pä tsäl"
+ },
+ {
+  "passage": "r04-u05",
+  "tibetan": "སྟོང་ཉིད་རྫོགས་པའི་\nརིམ་པ་རྟོགས་པར་ཤོག །",
+  "reader_example": "tong nyi dsog pä rim pa tog par schog",
+  "generator": "tong nyi dzog pä rim pa tog par scho"
+ },
+ {
+  "passage": "r04-u06",
+  "tibetan": "དེ་ནས་ཆུ་ཟླ་བར་སྣང་འཇའ་འཚོན་\nལྟར། །",
+  "reader_example": "de nä tschu da bar nang dscha tshön tar",
+  "generator": "de nä tschu da war nang dscha tshön tar"
+ },
+ {
+  "passage": "r04-u06",
+  "tibetan": "སྣང་ཞིང་བརྟགས་ན་བདེན་པར་མ་གྲུབ་ཅིང་། །",
+  "reader_example": "nang sching tag na den par ma drub tsching",
+  "generator": "nang sching tag na den par ma drub tsching"
+ },
+ {
+  "passage": "r04-u06",
+  "tibetan": "མེད་ཅིང་\nསྣང་བ་མི་འགག་གདོད་མའི་གཤིས། །",
+  "reader_example": "me tsching nang wa mi gag dö mä schi",
+  "generator": "me tsching nang wa mi gag dö mä schi"
+ },
+ {
+  "passage": "r04-u06",
+  "tibetan": "ཟུང་འཇུག་ངང་ནས་སྐུ་\nགཉིས་མངོན་འགྱུར་ཤོག །",
+  "reader_example": "sung dschug ngang nä ku nyi ngön gyur schog",
+  "generator": "sung dschug ngang nä ku nyi ngön gyur scho"
+ },
+ {
+  "passage": "r10-u01",
+  "tibetan": "སྙན་གསན་ནི།",
+  "reader_example": "nyän sän ni",
+  "generator": "nyän sän ni"
+ },
+ {
+  "passage": "r10-u01",
+  "tibetan": "ཨོཾ་བཛྲ་ས་མ་\nཡ་ཛཿ",
+  "reader_example": "om bendza samaya dsa",
+  "generator": "OM BENDSA SA MA YA DZA"
+ },
+ {
+  "passage": "r10-u03",
+  "tibetan": "བཞུགས་སུ་གསོལ་བ་ནི།",
+  "reader_example": "schug su söl wa ni",
+  "generator": "schug su söl wa ni"
+ },
+ {
+  "passage": "r10-u03",
+  "tibetan": "ཛཿཧཱུཾ་བཾ་ཧོ།",
+  "reader_example": "dsa hung bam ho",
+  "generator": "DZA HUNG BAM HO"
+ },
+ {
+  "passage": "r10-u03",
+  "tibetan": "ས་མ་ཡ་སྟྭཾ།",
+  "reader_example": "samaya stom",
+  "generator": "SA MA YA STWAM"
+ }
+]
