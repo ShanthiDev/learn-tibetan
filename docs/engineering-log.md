@@ -44,3 +44,17 @@ Datenmodell vorbereitet (im Plan als Annahme 1 markiert, Owner bestätigt bei Fr
 **Probleme:** DNS/Netz in WSL instabil. Für M2 (npm install) wird funktionierendes Netz gebraucht.
 
 **Nächster Schritt:** Freigabe durch den Owner, dann M1 (Content-Pipeline).
+
+## 2026-10-06 — Sitzung 1 (Fortsetzung): UI-Vorlage, DNS
+
+**UI-Vorlage:** Der Owner hat `references/UI/Tibetan_Consonants_Screenshot.jpeg` ergänzt; der Ordner
+heißt jetzt kleingeschrieben `references/ui/`, wie im Initial-Prompt. Inhalt: Android-App, Kopfzeile
+„Home“ + „Quiz“-Button, Raster mit 4 Spalten über die volle Breite (eine Reihe pro Zeile), sehr große
+Glyphen mit Tsheg, schwarzes Label-Band mit englischer Pseudo-Lautschrift in Großbuchstaben (KA, CHA,
+CHHA …), Papiertextur. Für die Spec übernommen: Raster, Größe, Klarheit. Abweichend: Wylie statt
+Pseudo-Lautschrift (die Vorlage nennt ཅ „CHA“, in Wylie ist das `cha` = ཆ, genau die Verwechslung,
+die wir vermeiden wollen), Palette statt Schwarz, Gruppen-Header. Spec 01_02 §8/§12 aktualisiert.
+
+**DNS:** Ursache bestätigt per Roh-DNS-Abfrage aus Python: `1.1.1.1` antwortet, der WSL-Resolver
+`10.255.255.254` (DNS-Tunneling) läuft in einen Timeout. Zum Umstellen von `/etc/resolv.conf` braucht
+es sudo mit Passwort; das macht der Owner. Befehle siehe Antwort an den Owner bzw. Memory.

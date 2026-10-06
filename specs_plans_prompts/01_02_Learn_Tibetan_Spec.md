@@ -202,9 +202,15 @@ nie zusammen in einer Frage, ohne Sonderfälle.
   Tastatur: 1–4 / Pfeile + Enter, Leertaste spielt Audio erneut.
 - **Intro-Karte:** die neue Reihe (4 Glyphen, Wylie, Gruppenlabel, optional Devanagari/TZ, Audio),
   ein Button „Los“.
-- **Alphabet-Referenz:** 8 Reihen als Raster wie in der Screenshot-Vorlage, pro Zelle Glyphe +
-  Wylie, optional TZ/Devanagari (Settings), Antippen öffnet ein kleines Detail (Gruppe, Notiz,
-  Audio). Darunter die Vokalzeichen auf ཀ.
+- **Alphabet-Referenz:** orientiert an `references/ui/Tibetan_Consonants_Screenshot.jpeg`:
+  volle Breite, **4 Spalten = eine traditionelle Reihe**, Glyphe füllt die Zelle fast aus
+  (mit Tsheg ་ wie in der Vorlage), darunter ein dunkles Label-Band. Übernommen: Klarheit, Größe,
+  Raster, ruhige Creme-Fläche. Geändert: Label ist **Wylie in Kleinbuchstaben** (`ca`, `cha`), nicht
+  die englische Pseudo-Lautschrift der Vorlage (CHA/CHHA); Label-Band in Dunkelbraun/Robenrot statt
+  Schwarz; zwischen den Reihen ein schmaler Gruppen-Header (z. B. „Gaumenlaute · palatal“); keine
+  Papiertextur, kein Android-Stil; Quiz-Zugang über Home statt Kopfzeilen-Button. Optional pro
+  Zelle TZ/Devanagari (Settings). Antippen öffnet ein kleines Detail (Gruppe, Notiz, Audio).
+  Darunter die Vokalzeichen auf ཀ.
 - **Einstellungen:** Devanagari-Parallelen zeigen, TZ-Aussprache in Referenzansichten zeigen, Audio
   automatisch abspielen, Lautstärke, alle Lektionen freischalten, Fortschritt zurücksetzen
   (mit Bestätigung).
@@ -242,4 +248,5 @@ nicht migriert (Prototyp, siehe AGENTS.md).
 4. TZ wird im MVP nur angezeigt (Referenz/Intro), nicht abgefragt.
 5. Audio-Zielvarietät: Zentraltibetisch (Lhasa-nah), wie sie MMS `bod` liefert, sofern
    bestätigt. Abweichungen werden pro Clip im Manifest vermerkt.
-6. Es gibt keine UI-Referenzgrafik unter `references/ui/`; das Design folgt der Textbeschreibung.
+6. UI-Vorlage: `references/ui/Tibetan_Consonants_Screenshot.jpeg` (Alphabet-Raster einer
+   bestehenden Android-App); Übernahmen und Abweichungen siehe §8.
