@@ -178,3 +178,29 @@ stimmhafter Segmente. Fazit D-013. Wikimedia-Commons-Suche: nichts Passendes.
 Aufnahmen machen bzw. besorgen, `audio_equivalent` nach dem Anhören füllen.
 
 **Nächster Schritt:** M6 README/Abschlussdoku.
+
+## 2026-10-06 — Sitzung 2: M6 Abschlussdoku und Retrospektive
+
+**Vorgehen:** README komplett (Schnellstart, Tests, Content-Modell, Engine, Audio-Workflows, PWA
+inkl. HTTPS-Hinweis fürs Handy, Struktur, Rechte). Gesamtsuite einmal: Python 65 passed, Vitest 9
+passed, Build ok (46 Precache-Einträge, 717 KiB). Roadmap 01_03 um den Stand ergänzt.
+
+**Retrospektive:**
+- *Gut:* Content-Pipeline mit generiertem Wylie/TZ hat sich gelohnt; Vokallektionen kosteten fast
+  nichts zusätzlich. Die allgemeine P/A-Mehrdeutigkeitsregel deckt Audio-Gleichklang ohne
+  Sonderfälle ab. Screenshots per Headless-Chrome (`tools/shot.mjs`) haben fünf echte UI-Fehler
+  gefunden (Tofu ×2, Tsheg-Umbruch, Glyphengröße, Bandhöhen), die Unit-Tests nie gesehen hätten.
+- *Lehre:* Font-Fallback für eine Schrift, die Systemfonts nicht haben, braucht `font-display: block`
+  und den Font vorn in der Kette (mit `unicode-range`). Meisterungsschwellen vor dem Bauen
+  durchrechnen (v2/v3 wären sonst endlos gewesen).
+- *Grenze:* Audioqualität kann der Agent nicht beurteilen; dort ist der Owner im Loop (Prüfansicht).
+
+**Offene Punkte / nächste Planungsgrundlage (Kapitel 6/7):**
+1. Owner: Offline-/Installationstest auf dem Handy (HTTPS-Host), Haptik, Lesbarkeit der Glyphen.
+2. Owner: echte Audioaufnahmen (34 Clips), danach `audio_equivalent` füllen.
+3. Owner: visuelle Verwechslungspaare in `content/curriculum.toml` fachlich prüfen.
+4. Kapitel 6: Silben-Items (`kind: 'syllable'`) aus einer kleinen Silbenliste; `analysis` ist schon
+   generiert. Neue Ansicht „Silbe zerlegen“ (Positionen farbig) und Quizmodus „Wurzelbuchstabe finden“.
+   Distraktor-Scope `syllables` erweitern (gleiche Wurzel/anderer Präfix usw.).
+5. Kapitel 7: einfache Wörter mit Kontrast Schreibung / Wylie / TZ; hier wird die TZ-Anzeige im
+   Quiz relevant (TZ → Zeichen nur mit der Mehrdeutigkeitsregel).

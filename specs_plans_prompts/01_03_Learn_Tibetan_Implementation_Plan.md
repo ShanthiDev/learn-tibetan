@@ -79,3 +79,17 @@ offene Punkte für Kapitel 6/7 als nächste Planungsgrundlage.
 | MMS-TTS ungeeignet für Einzelbuchstaben oder Lizenz unpassend | Trägersilben, manuelle Aufnahmen; Audio-Kapitel nicht blockierend für M1–M4 |
 | Tibetan-Font rendert Stapel/Vokale schlecht | Font-Vergleich in M2 mit Vokalformen und einem Stapel (བསྒྲུབས) |
 | Verwechslungslisten fachlich ungenau | vorläufig, in Daten, leicht korrigierbar |
+
+---
+
+## Stand nach Umsetzung (2026-10-06)
+
+M0–M6 erledigt (v0.2.0). Bewusste Abweichungen von 01_02, jeweils in `docs/decisions.md`:
+
+- Font Jomolhari statt Noto Serif Tibetan, selbst gehostet (D-007, D-009, D-012).
+- v2/v3 (Vokal-Verallgemeinerung) nur Leserichtung mit leichterer Meisterung (D-011).
+- Audio: Lernen nur mit `approved`-Clips; MMS-TTS für Einzelbuchstaben untauglich, echte Clips
+  über eigene Aufnahmen (D-013, D-014).
+- `meta.generatedAt` entfällt (deterministischer Build).
+
+Offen beim Owner: Offline-Test auf dem Handy, Audio-Aufnahmen, Prüfung der Verwechslungslisten.

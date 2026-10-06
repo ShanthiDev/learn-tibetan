@@ -6,6 +6,10 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ## [Unreleased]
 
+### Added
+
+- README: Starten, Tests, Content-Repräsentation, Transliteration, Audio, PWA-Installation.
+
 ## [0.2.0] — 2026-10-06
 
 Kapitel 4 (Vokale) und 5 (Hören, Infrastruktur).
