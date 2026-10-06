@@ -87,3 +87,26 @@ es sudo mit Passwort; das macht der Owner. Befehle siehe Antwort an den Owner bz
 **Ergebnis:** `curriculum.json` 66 KB, 150 Items, 22 Lektionen.
 
 **Nächster Schritt:** M2 Web-Gerüst.
+
+## 2026-10-06 — Sitzung 2: M2 Web-Gerüst, Alphabet, PWA
+
+**Vorgehen:**
+- `web/` von Hand aufgesetzt (kein interaktives `create-vite`): `package.json` mit Skripten `dev`,
+  `build` (tsc + vite), `preview`, `test`, `content` (ruft die Python-Pipeline).
+- Font-Vergleich Noto Serif Tibetan vs. Jomolhari per Headless-Chrome-Screenshot → Jomolhari (D-007).
+- Struktur: `content/index.ts` (Typen + Lookups über das generierte JSON), `storage.ts` (versionierte
+  localStorage-Helfer), `settings.tsx` (Context), `router.ts` (Hash-Router, ~20 Zeilen), `ui.tsx`
+  (TopBar, `Tib` mit optionalem Tsheg), Screens Home (vorläufig), Alphabet, Settings.
+- Alphabet nach UI-Vorlage: 4er-Raster pro Reihe, Glyphe mit Tsheg, dunkles Label-Band mit Wylie
+  (Mono), darunter optional TZ/Devanagari; Gruppen-Header in Robenrot; Detail-Sheet mit Escape/Backdrop.
+- Icons per Headless-Chrome aus der Font gerendert (192/512/Favicon), 3 Iterationen bis zur Zentrierung.
+- PWA-Build: `precache 12 entries (637 KiB)`, `sw.js` erzeugt.
+
+**Befunde/Probleme:**
+- Erster Screenshot: Tsheg brach unter die Glyphe, weil `.cell-glyph` ein Grid war (Text und Tsheg
+  wurden zwei Grid-Items) → Flex mit `align-items: baseline`. Jomolhari-Glyphen sind klein im em →
+  Rastergröße von 15vw auf 22vw erhöht.
+- Offline-Test im Headless-Chrome nicht trivial (bräuchte CDP); Workbox-Precache ist erzeugt,
+  **manuelle Bestätigung auf dem Handy steht aus** (Owner).
+
+**Nächster Schritt:** M3 Quiz-Engine + Kapitel 2/3.

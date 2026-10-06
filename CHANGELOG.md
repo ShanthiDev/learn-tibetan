@@ -8,6 +8,11 @@ Alle nennenswerten Änderungen an diesem Projekt. Format nach
 
 ### Added
 
+- Web-App-Gerüst (`web/`): Vite + React + TypeScript, PWA (Manifest, Icons, Service Worker mit
+  Precache inkl. Font), Theme in Roben-/Safran-Palette, Font Jomolhari.
+- Alphabet-Referenz (Kapitel 1): 8 traditionelle Reihen im 4er-Raster, Wylie-Label, optional
+  TZ/Devanagari, Detailansicht pro Zeichen, Vokalzeichen auf ཀ, Hinweis zur indischen Herkunft.
+- Einstellungen (Devanagari, TZ, Audio, Lautstärke, alle Lektionen freischalten, Reset).
 - Content-Pipeline: `content/curriculum.toml` (8 traditionelle Reihen, 30 Buchstaben,
   Devanagari-Parallelen/-Notizen, Vokalzeichen, vorläufige Verwechslungslisten) und
   `content/audio.toml` → `uv run learn-tibetan build-content` → `web/src/content/curriculum.json`

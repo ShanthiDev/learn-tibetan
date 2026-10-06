@@ -49,6 +49,26 @@ Sackgassen (gescheiterte Wege) stehen gesammelt am Ende, damit sie nicht erneut 
 - **Begründung:** frühere bidirektionale Festigung (`ཅ ↔ ca`), kleine Gruppen, kumulative Wiederholung.
 - **Alternative:** erst alle 30 in Richtung 1, dann alle in Richtung 2 (längere Durststrecke).
 
+## D-007 — Tibetan-Font: Jomolhari (2026-10-06)
+
+- **Kontext:** Spec nannte Noto Serif Tibetan als erste Wahl, Jomolhari als Alternative.
+- **Vergleich:** beide via `@fontsource/*` (OFL-1.1), Headless-Chrome-Rendering von ཀ ཅ ཉ, Reihen,
+  Vokalformen und dem Stapel བསྒྲུབས: beide setzen Stapel und Vokale korrekt.
+- **Entscheidung:** **Jomolhari** (Christopher Fynn, SIL OFL 1.1), eingebunden über
+  `@fontsource/jomolhari/tibetan-400.css`, woff2 362 KB, vom Service Worker precacht.
+- **Begründung:** kalligrafischer, kräftiger Uchen-Duktus nah an Pecha-Drucken und an der
+  UI-Vorlage; Noto (160 KB) wirkt dünner/technischer. Die Größe ist für eine PWA vertretbar.
+- **Folge:** Jomolhari-Glyphen sind relativ zum em klein → Schriftgrößen entsprechend höher
+  (Raster `min(22vw, 112px)`). Lizenztext liegt im npm-Paket (`node_modules/@fontsource/jomolhari/LICENSE`).
+
+## D-008 — Stack-Versionen und Werkzeuge (2026-10-06)
+
+- Vite 8, React 19, TypeScript 7, Vitest 5, vite-plugin-pwa 2 (generateSW). Kein Router-/State-Paket.
+- App-Icons (ཨ in Safran auf Robenrot) und Screenshots werden mit dem lokal vorhandenen
+  Playwright-Headless-Chromium (`~/.cache/ms-playwright/chromium_headless_shell-1234/…`)
+  gerendert, ohne zusätzliche npm-Abhängigkeit. Aufruf:
+  `chrome-headless-shell --no-sandbox --window-size=390,700 --virtual-time-budget=3000 --screenshot=out.png URL`.
+
 ## Sackgassen
 
 - *(noch keine)*
